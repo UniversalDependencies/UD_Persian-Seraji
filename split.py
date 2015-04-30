@@ -7,16 +7,20 @@ import os
 SCRIPTDIR=os.path.dirname(os.path.abspath(__file__))
 out8=codecs.getwriter("utf-8")(sys.stdout)
 
-
-pron_re=re.compile(u'^(م|ت|ش|مان|تان|شان|م|ام|ی|ای|ه|ست|یم|ایم|ید|اید|ند|اند)',re.U)
+clitics=u"م|ت|ش|مان|تان|شان|م|ام|ی|ای|ه|ست|یم|ایم|ید|اید|ند|اند".split(u"|")
+for i in range(len(clitics)):
+    clitics[i]=clitics[i][::-1]
+pron_re=re.compile(u'^(%s)'%(u"|".join(clitics)),re.U)
 
 def cut_clitic(s):
-    match=pron_re.match(s)
+    s_rev=s[::-1]
+    match=pron_re.match(s_rev)
     if match==None:
         return s,u"???"
     else:
-        assert len(s[match.end():])+len(s[:match.end()])==len(s)
-        return s[match.end():],s[:match.end()]
+        assert len(s_rev[match.end():])+len(s_rev[:match.end()])==len(s)
+        #print >> sys.stderr, "match",match.start(),match.end(), match.group(1).encode("utf-8"),"    ",s[::-1].encode("utf-8"),"       ",s.encode("utf-8")
+        return (s_rev[match.end():])[::-1],(s_rev[:match.end()])[::-1]
 
 def read_conll(inp,maxsent):
     """ Read conll format file and yield one sentence at a time as a list of lists of columns. If inp is a string it will be interpreted as filename, otherwise as open file for reading in unicode"""
@@ -92,13 +96,16 @@ def split_clitics(sent,comments):
             
             #Now add the original token (sans the clitic: todo)
             new_sent.append(line[:])
+            new_sent[-1][FORM]=tok
+            new_sent[-1][LEMMA]=u"CHECK"
+            new_sent[-1][DEPREL]=deps[1]
             #And now decide on the heads
             if deps[2]==u"LEFT": #The left is the head (ie the newly created token)
                 headmap[sent_idx]=-1
                 new_sent[-1][HEAD]=unicode(sent_idx+1)
-                new_sent[-1][DEPREL]=u"SPLTL:"+deps[1]
+                new_sent[-1][DEPREL]=u"SPLTL:"+new_sent[-1][DEPREL]
             elif deps[2]=="RIGHT":
-                new_sent[-2][DEPREL]=u"SPLTR:"+deps[1]
+                new_sent[-2][DEPREL]=u"SPLTR:"+new_sent[-2][DEPREL]
                 new_sent[-2][HEAD]=unicode(sent_idx+1)
 
     #Renumber all heads
