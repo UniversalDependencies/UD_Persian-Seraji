@@ -7,12 +7,24 @@ import os
 SCRIPTDIR=os.path.dirname(os.path.abspath(__file__))
 out8=codecs.getwriter("utf-8")(sys.stdout)
 
-clitics=u"م|ت|ش|مان|تان|شان|م|ام|ی|ای|ه|ست|یم|ایم|ید|اید|ند|اند".split(u"|")
-for i in range(len(clitics)):
-    clitics[i]=clitics[i][::-1]
-pron_re=re.compile(u'^(%s)'%(u"|".join(clitics)),re.U)
+clitics=u"م|ت|ش|اش|مان|تان|شان|م|ام|ی|ای|ه|ست|یم|ایم|ید|اید|ند|اند".split(u"|")
+# for i in range(len(clitics)):
+#     clitics[i]=clitics[i][::-1]
+# pron_re=re.compile(u'^(%s)'%(u"|".join(clitics)),re.U)
+clitics=sorted(clitics,key=lambda c: len(c), reverse=True) #sort by length
 
 def cut_clitic(s):
+    for c in clitics:
+        if s.endswith(c):
+            print >> sys.stderr, "match", len(c)
+            if len(c)>1:
+                print >> sys.stderr, (u"   ".join((s,c,s[len(c):],s[:len(c)]))).encode("utf-8")
+            return s[:-len(c)],s[-len(c):]
+    else:
+        return s,u"???"
+
+
+def cut_clitic_old(s):
     s_rev=s[::-1]
     match=pron_re.match(s_rev)
     if match==None:

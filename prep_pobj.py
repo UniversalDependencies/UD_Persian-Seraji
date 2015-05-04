@@ -9,25 +9,28 @@ ID,FORM,LEMMA,CPOS,POS,FEAT,HEAD,DEPREL,DEPS,MISC=range(10)
 SCRIPTDIR=os.path.dirname(os.path.abspath(__file__))
 out8=codecs.getwriter("utf-8")(sys.stdout)
 
+preps=(u"prep",u"prep-lvc")
+pobjs=(u"pobj",u"SPLTL:pc",u"SPLTR:pc")
+
 def prep_pobj(tree):
     prep_heads={} #key: prep_token_id  value: its head
     new_prep_heads={}
     for line in tree:
-        if line[DEPREL]==u"prep":
+        if line[DEPREL] in preps:
             prep_heads[line[ID]]=line[HEAD]
     for line in tree:
-        if line[DEPREL]==u"pobj":
+        if line[DEPREL] in pobjs:
             #If this hangs on prep, rehang and rename
             if line[HEAD] in prep_heads:
                 assert line[HEAD] not in new_prep_heads
                 new_prep_heads[line[HEAD]]=line[ID]
                 line[HEAD]=prep_heads[line[HEAD]]
-                line[DEPREL]=u"pobj-ra"
+                line[DEPREL]+=u"-ra"
     for line in tree:
         if line[ID] in new_prep_heads:
-            assert line[DEPREL]==u"prep"
+            assert line[DEPREL] in preps
             line[HEAD]=new_prep_heads[line[ID]]
-            line[DEPREL]=u"prep-ra"
+            line[DEPREL]+=u"-ra"
     return tree
 
 def read_conll(inp,maxsent):
