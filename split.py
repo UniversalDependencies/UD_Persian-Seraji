@@ -90,7 +90,7 @@ def split_clitics(sent,comments):
             new_sent[-1][FEAT]=u"_"
             new_sent[-1][POS]=u"_"
             new_sent[-1][CPOS]=u"CHECK"
-            new_sent[-1][DEPREL]=deps[0]
+            new_sent[-1][DEPREL]=deps[1]
             for idx in range(sent_idx,len(sent)):
                 offsets[idx]+=1
             
@@ -98,7 +98,7 @@ def split_clitics(sent,comments):
             new_sent.append(line[:])
             new_sent[-1][FORM]=tok
             new_sent[-1][LEMMA]=u"CHECK"
-            new_sent[-1][DEPREL]=deps[1]
+            new_sent[-1][DEPREL]=deps[0]
             #And now decide on the heads
             if deps[2]==u"LEFT": #The left is the head (ie the newly created token)
                 headmap[sent_idx]=-1
