@@ -1,1 +1,44 @@
-prep -> case
+acc -> case
+
+acomp -> xcomp
+
+acomp-lvc -> compound:lvc
+
+complm ->mark
+
+#cpobj -> pobj(-ra)
+
+#cprep -> prep(-ra)
+
+dep-top -> dislocated
+
+dep-voc -> vocative
+
+fw -> foreign
+
+nn -> name
+
+npadvmod -> noun
+
+number -> compound
+
+#pobj -------------------------------> to related label = must be checked manually
+
+pobj.NOUN -> nmod
+
+poss -> nmod:poss
+
+preconj -> conj:preconj
+
+predet -> det:predet
+
+prt -> compound:prt
+
+quantmod -> advmod
+
+rcmod -> acl:relcl
+
+rel -> mark
+
+tmod -> advmod
+

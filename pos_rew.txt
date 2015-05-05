@@ -1,0 +1,40 @@
+ADJ_CMPR -> ADJ
+ADJ_INO -> ADJ
+ADJ_SUP -> ADJ
+ADJ_VOC -> ADJ
+
+
+ADV_COMP -> ADV
+ADV_I -> ADV
+ADV_LOC -> ADV
+ADV_NEG -> ADV
+ADV_TIME -> ADV
+
+CLITIC -> PART
+
+CON.cc -> CONJ 
+CON.mark -> SCONJ
+CON.complm -> SCONJ
+
+DELM -> PUNCT
+
+FW -> X
+
+INT -> INTJ
+
+N_PL -> NOUN
+N_SING -> NOUN
+N_VOC -> NOUN
+
+P -> ADP
+PREV -> ADP
+
+PRO -> PRON
+
+V_AUX -> AUX
+
+V_IMP -> VERB
+V_PA -> VERB
+V_PP -> VERB
+V_PRS -> VERB
+V_SUB -> VERB
