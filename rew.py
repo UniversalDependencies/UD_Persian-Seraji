@@ -56,24 +56,33 @@ def read_replacements(f_name):
                 orig,c=orig.rsplit(u".",1)
             else:
                 c=None
+            if u"&" in new:
+                new,f=new.split(u"&")
+                new,f=new.strip(),f.strip()
+            else:
+                f=None
             assert (orig,c) not in reps
-            reps[(orig,c)]=new
+            reps[(orig,c)]=(new,f)
     return reps
 
 
 def repl_pos(line,pos_reps):
-    if (line[POS],line[DEPREL]) in pos_reps:
-        line[CPOS]=pos_reps[(line[POS],line[DEPREL])]
-    elif (line[POS],None) in pos_reps:
-        line[CPOS]=pos_reps[(line[POS],None)]
+    new_pos,new_feat=pos_reps.get((line[POS],line[DEPREL]),(None,None))
+    if new_pos is None:
+        new_pos,new_feat=pos_reps.get((line[POS],None),(None,None))
+    if new_pos is not None:
+        line[CPOS]=new_pos
+        if new_feat is not None:
+            line[FEAT]=new_feat
     else:
         print >> sys.stderr, "Warning: no POS rule for", line[POS], line[DEPREL]
 
 def repl_deprel(line,deprel_reps):
-    if (line[DEPREL],line[CPOS]) in deprel_reps:
-        line[DEPREL]=deprel_reps[(line[DEPREL],line[CPOS])]
-    elif (line[DEPREL],None) in deprel_reps:
-        line[DEPREL]=deprel_reps[(line[DEPREL],None)]
+    new_deprel,_=deprel_reps.get((line[DEPREL],line[CPOS]),(None,None))
+    if new_deprel is None:
+        new_deprel,_=deprel_reps.get((line[DEPREL],None),(None,None))
+    if new_deprel is not None:
+        line[DEPREL]=new_deprel
     else:
         print >> sys.stderr, "Warning: no deprel rule for", line[DEPREL], line[CPOS]
 
