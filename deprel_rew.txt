@@ -4,23 +4,67 @@ acomp -> xcomp
 
 acomp-lvc -> compound:lvc
 
+advcl -> advcl
+
+advmod -> advmod
+
+amod -> amod 
+
+appos -> appos
+
+aux -> aux 
+
+auxpass -> auxpass
+
+cc -> cc
+
+ccomp -> ccomp
+
 complm ->mark
+
+conj -> conj
+
+cop -> cop
 
 #cpobj -> pobj(-ra)
 
 #cprep -> prep(-ra)
 
+dep -> dep 
+
 dep-top -> dislocated
 
 dep-voc -> vocative
 
+det -> det 
+
+dobj -> dobj
+
+dobj-lvc -> compound:lvc
+
 fw -> foreign
+
+mark -> mark 
+
+mwe -> mwe
+
+neg -> neg 
 
 nn -> name
 
 npadvmod -> noun
 
+nsubj -> nsubj 
+
+nsubj-lvc -> compound:lvc 
+
+nsubjpass -> nsubjpass
+
+num -> num
+
 number -> compound
+
+parataxis -> parataxis
 
 #pobj -------------------------------> to related label = must be checked manually
 
@@ -32,7 +76,13 @@ preconj -> conj:preconj
 
 predet -> det:predet
 
+prep -> case 
+
+prep-lvc -> compound:lvc
+
 prt -> compound:prt
+
+punct -> punct
 
 quantmod -> advmod
 
@@ -40,7 +90,11 @@ rcmod -> acl:relcl
 
 rel -> mark
 
+root -> root
+
 tmod -> advmod
 
-nsubj -> nsubj
+xcomp -> xcomp
+
+
 
