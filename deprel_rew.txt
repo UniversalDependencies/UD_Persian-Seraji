@@ -42,3 +42,5 @@ rel -> mark
 
 tmod -> advmod
 
+nsubj -> nsubj
+

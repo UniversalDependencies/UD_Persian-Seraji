@@ -62,7 +62,6 @@ def read_replacements(f_name):
 
 
 def repl_pos(line,pos_reps):
-    line[POS]=line[CPOS]
     if (line[POS],line[DEPREL]) in pos_reps:
         line[CPOS]=pos_reps[(line[POS],line[DEPREL])]
     elif (line[POS],None) in pos_reps:
