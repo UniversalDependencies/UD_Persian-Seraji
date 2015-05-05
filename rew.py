@@ -41,22 +41,53 @@ def read_conll(inp,maxsent):
     if isinstance(inp,basestring):
         f.close() #Close it if you opened it
 
-if __name__=="__main__":
+
+def read_replacements(f_name):
     reps={}
     #Read the replacements
-    with codecs.open(os.path.join(SCRIPTDIR,"deprel_rew.txt"),"r","utf-8") as f:
+    with codecs.open(f_name,"r","utf-8") as f:
         for line in f:
             line=line.strip()
             if not line or line.startswith(u"#"):
                 continue
             orig,new=line.split(u"->")
             orig,new=orig.strip(),new.strip()
-            assert orig not in reps
-            reps[orig]=new
+            if u"." in orig: #specifies a condition
+                orig,c=orig.rsplit(u".",1)
+            else:
+                c=None
+            assert (orig,c) not in reps
+            reps[(orig,c)]=new
+    return reps
+
+
+def repl_pos(line,pos_reps):
+    line[POS]=line[CPOS]
+    if (line[POS],line[DEPREL]) in pos_reps:
+        line[CPOS]=pos_reps[(line[POS],line[DEPREL])]
+    elif (line[POS],None) in pos_reps:
+        line[CPOS]=pos_reps[(line[POS],None)]
+    else:
+        print >> sys.stderr, "Warning: no POS rule for", line[POS], line[DEPREL]
+
+def repl_deprel(line,deprel_reps):
+    if (line[DEPREL],line[CPOS]) in deprel_reps:
+        line[DEPREL]=deprel_reps[(line[DEPREL],line[CPOS])]
+    elif (line[DEPREL],None) in deprel_reps:
+        line[DEPREL]=deprel_reps[(line[DEPREL],None)]
+    else:
+        print >> sys.stderr, "Warning: no deprel rule for", line[DEPREL], line[CPOS]
+
+
+if __name__=="__main__":
+
+    pos_reps=read_replacements(os.path.join(SCRIPTDIR,"pos_rew.txt"))
+    deprel_reps=read_replacements(os.path.join(SCRIPTDIR,"deprel_rew.txt"))
 
     for sent,comments in read_conll(sys.stdin,0):
         for line in sent:
-            line[DEPREL]=reps.get(line[DEPREL],line[DEPREL])
+            repl_pos(line,pos_reps)
+            repl_deprel(line,deprel_reps)
         if comments:
             print >> out8, u"\n".join(comments)
         print >> out8, u"\n".join(u"\t".join(l) for l in sent)
