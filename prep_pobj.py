@@ -9,8 +9,8 @@ ID,FORM,LEMMA,CPOS,POS,FEAT,HEAD,DEPREL,DEPS,MISC=range(10)
 SCRIPTDIR=os.path.dirname(os.path.abspath(__file__))
 out8=codecs.getwriter("utf-8")(sys.stdout)
 
-preps=(u"prep",u"prep-lvc")
-pobjs=(u"pobj",u"SPLTL:pc",u"SPLTR:pc")
+preps=(u"cprep",u"prep",u"prep-lvc")
+pobjs=(u"cpobj",u"pobj",u"SPLTL:pc",u"SPLTR:pc")
 
 def prep_pobj(tree):
     prep_heads={} #key: prep_token_id  value: its head
