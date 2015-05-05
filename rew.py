@@ -78,6 +78,15 @@ def repl_deprel(line,deprel_reps):
         print >> sys.stderr, "Warning: no deprel rule for", line[DEPREL], line[CPOS]
 
 
+def pobj_ra(sent):
+    prep_lvc_ra_heads=set()
+    for line in sent:
+        if line[DEPREL]==u"prep-lvc-ra":
+            prep_lvc_ra_heads.add(line[HEAD])
+    for line in sent:
+        if line[ID] in prep_lvc_ra_heads and line[DEPREL]==u"pobj-ra":
+            line[DEPREL]=u"compound:lvc"
+        
 if __name__=="__main__":
 
     pos_reps=read_replacements(os.path.join(SCRIPTDIR,"pos_rew.txt"))
@@ -86,6 +95,8 @@ if __name__=="__main__":
     for sent,comments in read_conll(sys.stdin,0):
         for line in sent:
             repl_pos(line,pos_reps)
+        pobj_ra(sent)
+        for line in sent:
             repl_deprel(line,deprel_reps)
         if comments:
             print >> out8, u"\n".join(comments)
