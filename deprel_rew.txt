@@ -50,6 +50,8 @@ mwe -> mwe
 
 neg -> neg 
 
+#nn -> compound
+
 nn -> name
 
 npadvmod -> noun
@@ -78,7 +80,11 @@ predet -> det:predet
 
 prep -> case 
 
-prep-lvc -> compound:lvc
+prep-ra -> case
+
+prep-lvc -> case
+
+prep-lvc-ra -> case
 
 prt -> compound:prt
 

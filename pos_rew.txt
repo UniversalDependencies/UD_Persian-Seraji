@@ -1,9 +1,10 @@
+ADJ -> ADJ
 ADJ_CMPR -> ADJ
 ADJ_INO -> ADJ
 ADJ_SUP -> ADJ
 ADJ_VOC -> ADJ
 
-
+ADV -> ADV
 ADV_COMP -> ADV
 ADV_I -> ADV
 ADV_LOC -> ADV
@@ -13,12 +14,15 @@ ADV_TIME -> ADV
 CLITIC -> PART
 
 CON.cc -> CONJ 
+CON.mwe -> CONJ
 CON.mark -> SCONJ
 CON.complm -> SCONJ
 CON.rel -> SCONJ
-
+CON.advmod -> SCONJ
 
 DELM -> PUNCT
+
+DET -> DET
 
 FW -> X
 
@@ -28,10 +32,14 @@ N_PL -> NOUN
 N_SING -> NOUN
 N_VOC -> NOUN
 
+NUM -> NUM
+
 P -> ADP
 PREV -> ADP
 
 PRO -> PRON
+
+SYM -> SYM
 
 V_AUX -> AUX
 
