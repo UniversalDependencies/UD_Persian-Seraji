@@ -1,42 +1,50 @@
-ADJ_CMPR -> ADJ
-ADJ_INO -> ADJ
-ADJ_SUP -> ADJ
-ADJ_VOC -> ADJ
+ADJ -> ADJ
+ADJ_CMPR -> ADJ & Degree=Cmp
+ADJ_INO -> ADJ & VerbForm=Part
+ADJ_SUP -> ADJ & Degree=Sup
+ADJ_VOC -> ADJ & Case=Voc
 
-
-ADV_COMP -> ADV
-ADV_I -> ADV
-ADV_LOC -> ADV
-ADV_NEG -> ADV
-ADV_TIME -> ADV
+ADV -> ADV
+ADV_COMP -> ADV & AB
+ADV_I -> ADV & PronType= Int
+ADV_LOC -> ADV & Case=Loc
+ADV_NEG -> ADV & Negative=Neg
+ADV_TIME -> ADV & Case=Tem
 
 CLITIC -> PART
 
 CON.cc -> CONJ 
+CON.mwe -> CONJ
 CON.mark -> SCONJ
 CON.complm -> SCONJ
 CON.rel -> SCONJ
-
+CON.advmod -> SCONJ
 
 DELM -> PUNCT
+
+DET -> DET
 
 FW -> X
 
 INT -> INTJ
 
-N_PL -> NOUN
-N_SING -> NOUN
-N_VOC -> NOUN
+N_PL -> NOUN & Number=Plur
+N_SING -> NOUN & Number=Sing
+N_VOC -> NOUN & Case=Voc
+
+NUM -> NUM
 
 P -> ADP
 PREV -> ADP
 
 PRO -> PRON
 
+SYM -> SYM
+
 V_AUX -> AUX
 
-V_IMP -> VERB
-V_PA -> VERB
-V_PP -> VERB
-V_PRS -> VERB
-V_SUB -> VERB
+V_IMP -> VERB & Mood=Imp
+V_PA -> VERB & Tense=Past
+V_PP -> VERB & VerbForm=Part
+V_PRS -> VERB & Tense=Pres
+V_SUB -> VERB & Mood=Sub
