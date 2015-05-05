@@ -4,6 +4,8 @@ acomp -> xcomp
 
 acomp-lvc -> compound:lvc
 
+compound:lvc -> compound:lvc
+
 advcl -> advcl
 
 advmod -> advmod
@@ -68,9 +70,9 @@ number -> compound
 
 parataxis -> parataxis
 
-#pobj -------------------------------> to related label = must be checked manually
+#pobj ------------------------------->  must be checked manually
 
-pobj.NOUN -> nmod
+pobj.NOUN -> nmod 
 
 poss -> nmod:poss
 
