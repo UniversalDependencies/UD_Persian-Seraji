@@ -9,13 +9,14 @@ ID,FORM,LEMMA,CPOS,POS,FEAT,HEAD,DEPREL,DEPS,MISC=range(10)
 SCRIPTDIR=os.path.dirname(os.path.abspath(__file__))
 out8=codecs.getwriter("utf-8")(sys.stdout)
 
+preps=(u"cprep",u"prep",u"prep-lvc")
 pobjs=(u"cpobj",u"pobj",u"SPLTL:pc",u"SPLTR:pc")
 
 def prep_pobj(tree):
     prep_heads={} #key: prep_token_id  value: its head
     new_prep_heads={}
     for line in tree:
-        if line[POS]==u"P":
+        if line[POS]==u"P" or line[DEPREL] in preps:
             prep_heads[line[ID]]=line[HEAD]
     for line in tree:
         if line[DEPREL] in pobjs:
@@ -27,7 +28,7 @@ def prep_pobj(tree):
                 line[DEPREL]+=u"-ra"
     for line in tree:
         if line[ID] in new_prep_heads:
-            assert line[POS]==u"P"
+            assert line[POS]==u"P" or line[DEPREL] in preps
             line[HEAD]=new_prep_heads[line[ID]]
             line[DEPREL]+=u"-ra"
     return tree
