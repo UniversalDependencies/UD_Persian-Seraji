@@ -67,6 +67,7 @@ def read_replacements(f_name):
 
 
 def repl_pos(line,pos_reps):
+    global line_counter
     new_pos,new_feat=pos_reps.get((line[POS],line[DEPREL]),(None,None))
     if new_pos is None:
         new_pos,new_feat=pos_reps.get((line[POS],None),(None,None))
@@ -75,7 +76,7 @@ def repl_pos(line,pos_reps):
         if new_feat is not None:
             line[FEAT]=new_feat
     else:
-        print >> sys.stderr, "Warning: no POS rule for", line[POS], line[DEPREL]
+        print >> sys.stderr, "Warning line", line_counter, ": no POS rule for", line[POS], line[DEPREL]
 
 def repl_deprel(line,deprel_reps):
     new_deprel,_=deprel_reps.get((line[DEPREL],line[CPOS]),(None,None))
@@ -101,8 +102,11 @@ if __name__=="__main__":
     pos_reps=read_replacements(os.path.join(SCRIPTDIR,"pos_rew.txt"))
     deprel_reps=read_replacements(os.path.join(SCRIPTDIR,"deprel_rew.txt"))
 
+    line_counter=0
     for sent,comments in read_conll(sys.stdin,0):
+        line_counter+=len(comments)
         for line in sent:
+            line_counter+=1
             repl_pos(line,pos_reps)
         pobj_ra(sent)
         for line in sent:
@@ -111,4 +115,5 @@ if __name__=="__main__":
             print >> out8, u"\n".join(comments)
         print >> out8, u"\n".join(u"\t".join(l) for l in sent)
         print >> out8
+        line_counter+=1
 
