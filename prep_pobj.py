@@ -13,11 +13,14 @@ preps=(u"cprep",u"prep",u"prep-lvc")
 pobjs=(u"cpobj",u"pobj",u"SPLTL:pc",u"SPLTR:pc")
 
 def prep_pobj(tree):
+    conj_prep_heads=set()
     prep_heads={} #key: prep_token_id  value: its head
     new_prep_heads={}
     for line in tree:
         if line[POS]==u"P" or line[DEPREL] in preps:
             prep_heads[line[ID]]=line[HEAD]
+            if line[POS]==u"P" and line[DEPREL]==u"conj":
+                conj_prep_heads.add(line[HEAD])
     for line in tree:
         if line[DEPREL] in pobjs:
             #If this hangs on prep, rehang and rename
@@ -26,6 +29,8 @@ def prep_pobj(tree):
                 new_prep_heads[line[HEAD]]=line[ID]
                 line[HEAD]=prep_heads[line[HEAD]]
                 line[DEPREL]+=u"-ra"
+                if line[HEAD] in conj_prep_heads:
+                    line[DEPREL]+="-conj"
     for line in tree:
         if line[ID] in new_prep_heads:
             assert line[POS]==u"P" or line[DEPREL] in preps
