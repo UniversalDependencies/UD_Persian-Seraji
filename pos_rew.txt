@@ -15,10 +15,13 @@ CLITIC -> PART
 
 CON.cc -> CONJ 
 CON.mwe -> CONJ
+CON.conj:preconj -> CONJ
+CON.pobj-ra -> CONJ
 CON.mark -> SCONJ
 CON.complm -> SCONJ
 CON.rel -> SCONJ
 CON.advmod -> SCONJ
+CON.preconj -> SCONJ
 
 DELM -> PUNCT
 
@@ -31,6 +34,15 @@ INT -> INTJ
 N_PL -> NOUN & Number=Plur
 N_SING -> NOUN & Number=Sing
 N_VOC -> NOUN & Case=Voc
+N_SING.poss -> NOUN
+N.nmod:poss -> NOUN
+N.conj -> NOUN
+N.parataxis -> NOUN
+N.root -> NOUN
+N.name -> NOUN
+N.pobj-ra -> NOUN
+N.nsubj -> NOUN
+N.dobj -> NOUN
 
 NUM -> NUM
 

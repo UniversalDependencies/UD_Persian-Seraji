@@ -26,11 +26,27 @@ complm ->mark
 
 conj -> conj
 
+conj-ra -> case
+
 cop -> cop
 
 #cpobj -> pobj(-ra)
 
 #cprep -> prep(-ra)
+
+cpobj-ra.NOUN -> nmod 
+
+cpobj.NOUN -> nmod
+
+cpobj-ra.PRON -> nmod
+
+cpobj-ra.ADJ -> advcl
+
+cpobj-ra.ADV -> advcl
+
+cprep-ra -> case
+
+cprep.ADV -> case
 
 dep -> dep 
 
@@ -74,7 +90,47 @@ parataxis -> parataxis
 
 pobj.NOUN -> nmod 
 
+pobj-ra.NOUN -> nmod
+
+pobj-ra.PRON -> nmod
+
+pobj-ra.ADJ -> advcl
+
+pobj-ra.ADV -> advcl
+
+pobj-ra.VERB -> nmod
+
+pobj-ra.NUM -> nmod
+
+pobj-ra.INTJ -> nmod
+
+pobj-ra.X -> nmod
+
+pobj-ra.CON -> advmod
+
+#pobj-ra.DET ->
+
+#pobj-ra.N ->
+
+pobj-ra-conj.NUM -> conj
+
+pobj-ra-conj.DET -> conj
+
+pobj-ra-conj.NOUN -> conj
+
+pobj-ra-conj.CON -> conj
+
+pobj-ra-conj.PRON -> conj
+
+pobj-ra-conj.X -> conj
+
+pobj-ra-conj.ADJ -> conj
+
+pobj-ra-conj.ADV -> conj
+
 poss -> nmod:poss
+
+poss-ra.ADP -> nmod:poss
 
 preconj -> conj:preconj
 
