@@ -76,7 +76,8 @@ def repl_pos(line,pos_reps):
         if new_feat is not None:
             line[FEAT]=new_feat
     else:
-        print >> sys.stderr, "Warning line", line_counter, ": no POS rule for", line[POS], line[DEPREL]
+        print >> sys.stderr, "Warning line", line_counter, ": no POS rule for", repr(line[POS]), repr(line[DEPREL])
+
 
 def repl_deprel(line,deprel_reps):
     new_deprel,_=deprel_reps.get((line[DEPREL],line[CPOS]),(None,None))
@@ -85,7 +86,7 @@ def repl_deprel(line,deprel_reps):
     if new_deprel is not None:
         line[DEPREL]=new_deprel
     else:
-        print >> sys.stderr, "Warning: no deprel rule for", line[DEPREL], line[CPOS]
+        print >> sys.stderr, "Warning: no deprel rule for", repr(line[DEPREL]), repr(line[CPOS])
 
 
 def pobj_ra(sent):
@@ -100,6 +101,7 @@ def pobj_ra(sent):
 if __name__=="__main__":
 
     pos_reps=read_replacements(os.path.join(SCRIPTDIR,"pos_rew.txt"))
+    print >> sys.stderr, pos_reps
     deprel_reps=read_replacements(os.path.join(SCRIPTDIR,"deprel_rew.txt"))
 
     line_counter=0
