@@ -17,6 +17,8 @@ CON.cc -> CONJ
 CON.mwe -> CONJ
 CON.conj:preconj -> CONJ
 CON.pobj-ra -> CONJ
+CON.root -> CONJ
+CON.dep -> SCONJ
 CON.mark -> SCONJ
 CON.complm -> SCONJ
 CON.rel -> SCONJ
@@ -35,6 +37,10 @@ N_PL -> NOUN & Number=Plur
 N_SING -> NOUN & Number=Sing
 N_VOC -> NOUN & Case=Voc
 N_SING.poss -> NOUN
+N_SING.conj -> NOUN
+N_SING.nn -> NOUN
+N_SING.dobj -> NOUN
+N_SING.pobj-ra -> NOUN
 N.nmod:poss -> NOUN
 N.conj -> NOUN
 N.parataxis -> NOUN

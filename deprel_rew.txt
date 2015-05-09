@@ -54,9 +54,15 @@ dep-top -> dislocated
 
 dep-voc -> vocative
 
+dep-ra.ADP -> case
+
 det -> det 
 
 dobj -> dobj
+
+# when -rA is included in preposition phrases:
+
+dobj-ra.ADP -> dobj    
 
 dobj-lvc -> compound:lvc
 
@@ -86,6 +92,8 @@ number -> compound
 
 parataxis -> parataxis
 
+parataxis-ra.ADP -> case
+
 #pobj ------------------------------->  must be checked manually
 
 pobj.NOUN -> nmod 
@@ -106,11 +114,13 @@ pobj-ra.INTJ -> nmod
 
 pobj-ra.X -> nmod
 
-pobj-ra.CON -> advmod
+#pobj-ra.CON -> advmod
+
+pobj-ra.CONJ -> advcl
 
 #pobj-ra.DET ->
 
-#pobj-ra.N ->
+pobj-ra.N -> nmod
 
 pobj-ra-conj.NUM -> conj
 
@@ -127,6 +137,8 @@ pobj-ra-conj.X -> conj
 pobj-ra-conj.ADJ -> conj
 
 pobj-ra-conj.ADV -> conj
+
+pobj-ra-parataxis.NOUN -> parataxis
 
 poss -> nmod:poss
 
