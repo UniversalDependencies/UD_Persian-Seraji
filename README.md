@@ -28,13 +28,13 @@ the rest of the morphological features, as well as lemmas, remain as future work
 thankful to Filip Ginter for his help in developing the conversion scripts for Persian.
 
 
-Statistical overview of the Persian UD
----------------------------------------
-Sentences           6000
-Tokens              152,916
-Types               15,222 
-PoS tags            29
-Dependency labels   37
+STATISTICAL OVERVIEW OF THE PERSIAN UD
+Sentences           6000 #
+Tokens              152,916 #
+Types               15,222 #
+PoS tags            29 #
+Dependency labels   37 #
+
 
 Data Split
 
