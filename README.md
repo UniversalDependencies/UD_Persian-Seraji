@@ -2,45 +2,36 @@
 UD_Persian
 The Persian Universal Dependency Treebank (v1) 
 
-The Persian Universal Dependency Treebank (Persian UD) is the converted version of the Uppsala 
-Persian Dependency Treebank (UPDT) (Seraji, 2015). The treebank has its original annotation scheme 
-based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). 
-The scheme was extended for Persian to include the language specific syntactic relations that 
-could not be covered by the primary scheme developed for English. The treebank consists of 6000 
-sentence of written text with large domain variations, in terms of different genres (containing 
-newspaper articles, fictions, technical descriptions, and documents about culture and art) and 
-tokenization. The variations in the tokenization are due to the orthographic variations of compound 
-words and fixed expressions in the language. The original UPDT was developed by Mojgan Seraji, 
-tutored by Joakim Nivre and Carina Jahani at Uppsala University. 
+The Persian Universal Dependency Treebank (Persian UD) is the converted version of the Uppsala Persian Dependency Treebank (UPDT) (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of 6000 sentence of written text with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by Mojgan Seraji, tutored by Joakim Nivre and Carina Jahani at Uppsala University. 
 
-Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the 
-UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula 
-clitics) annotated with complex labels in the UPDT have been separated from the clitics and received 
-distinct labels in the Persian UD.
+Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
-The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. 
-In this process, we used a conversion script for reversing the head and dependent relations in the 
-prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other 
-scripts tailored for Persian to separate different types of clitics from their host. Subsequently 
-we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency 
-labels. In the current release, only a subset of the morphological features has been included. Adding 
-the rest of the morphological features, as well as lemmas, remain as future work. We are extremely 
-thankful to Filip Ginter for his help in developing the conversion scripts for Persian.
+The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, only a subset of the morphological features has been included. Adding the rest of the morphological features, as well as lemmas, remain as future work. We are extremely thankful to Filip Ginter for his help in developing the conversion scripts for Persian.
 
 
-STATISTICAL OVERVIEW OF THE PERSIAN UD
 
-Sentences           6000 
-Tokens              152,916 
-Types               15,222 
-PoS tags            29 
-Dependency labels   37 
+
+STATISTICAL OVERVIEW OF THE PERSIAN UD 
+
+Sentences: 6000 
+
+Tokens: 152,916 
+
+Types: 15,222 
+
+PoS tags: 29 
+
+Dependency labels: 37 
+
+
 
 
 DATA SPLIT
 
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
+
+
 
 
 REFERENCES
