@@ -11,27 +11,24 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 
-STATISTICAL OVERVIEW OF THE PERSIAN UD 
-
+STATISTICAL OVERVIEW OF THE PERSIAN UD <p>
 Sentences:          6000 <p>
-Tokens:             152,916 
-Types:              15,222 
-PoS tags:           29 
-Dependency labels:  37 
+Tokens:             152,916 <p>
+Types:              15,222 <p>
+PoS tags:           29 <p>
+Dependency labels:  37 <p>
+<p>
+<p>
+<p>
 
-
-
-
-DATA SPLIT
-
+DATA SPLIT <p>
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
 
 
 
-REFERENCES
-
+REFERENCES <p>
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed 
 dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on 
 Language Resources and Evaluation (LREC). 
