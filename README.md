@@ -13,15 +13,11 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 STATISTICAL OVERVIEW OF THE PERSIAN UD 
 
-Sentences: 6000 
-
-Tokens: 152,916 
-
-Types: 15,222 
-
-PoS tags: 29 
-
-Dependency labels: 37 
+Sentences:          6000 
+Tokens:             152,916 
+Types:              15,222 
+PoS tags:           29 
+Dependency labels:  37 
 
 
 
