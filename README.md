@@ -29,7 +29,7 @@ thankful to Filip Ginter for his help in developing the conversion scripts for P
 
 
 Statistical overview of the Persian UD
-########################
+---------------------------------------
 Sentences           6000
 Tokens              152,916
 Types               15,222 
@@ -37,13 +37,13 @@ PoS tags            29
 Dependency labels   37
 
 Data Split
-==========
+
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
 
 References
-#######
+
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed 
 dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on 
 Language Resources and Evaluation (LREC). 
