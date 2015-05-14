@@ -37,7 +37,7 @@ PoS tags            29
 Dependency labels   37
 
 Data Split
-########
+==========
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
