@@ -27,8 +27,7 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 
 
 LICENSE <p>
-The treebank is licensed under Creative Commons Attribution 3.0 License                                                 
-Developed by Mojgan Seraji and Joakim Nivre at Uppsala University
+The treebank is developed by Mojgan Seraji and Joakim Nivre at Uppsala University and licensed under Creative Commons Attribution 3.0 License.
 
 
 REFERENCES <p>
