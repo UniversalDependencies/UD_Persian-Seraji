@@ -26,6 +26,9 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 9 for development (10%), and 10 for test (10%) sets.
 
 
+LICENSE <p>
+The treebank is developed by Mojgan Seraji and Joakim Nivre at Uppsala University and licensed under Creative Commons Attribution 3.0 License.
+
 
 
 REFERENCES <p>
