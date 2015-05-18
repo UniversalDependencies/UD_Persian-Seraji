@@ -12,11 +12,12 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 STATISTICAL OVERVIEW OF THE PERSIAN UD <p>
-Sentences:          6000 <p>
-Tokens:             152,916 <p>
-Types:              15,222 <p>
-PoS tags:           29 <p>
-Dependency labels:  37 <p>
+Tree count:  6000 <p>
+Word count:  152915 <p>
+Token count: 152915 <p>
+Dep. relations: 37 of which 7 language specific <p>
+POS tags: 15 <p>
+Category=value feature pairs: 14 <p>
 <p>
 <p>
 <p>
