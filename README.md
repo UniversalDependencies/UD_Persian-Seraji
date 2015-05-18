@@ -10,12 +10,12 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD
-Tree count:  6000
-Word count:  152918
-Token count: 151671
-Dep. relations: 37 of which 7 language specific
-POS tags: 15
-Category=value feature pairs: 14
+Tree count:  6000  
+Word count:  152918  
+Token count: 151671  
+Dep. relations: 37 of which 7 language specific  
+POS tags: 15  
+Category=value feature pairs: 14  
 
 ## DATA SPLIT
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
