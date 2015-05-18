@@ -23,8 +23,8 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 
 
 ## LICENSE
-The treebank is developed by Mojgan Seraji and Joakim Nivre and licensed under Creative Commons Attribution 3.0 License.
-
+The treebank is developed by Mojgan Seraji and Joakim Nivre and licensed under Creative Commons Attribution 
+3.0 Unported License (CC BY 3.0).
 
 ## REFERENCES
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC). 
