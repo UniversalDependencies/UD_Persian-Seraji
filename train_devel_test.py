@@ -21,6 +21,7 @@ for s,comm in sents:
         print >> f, u"\n".join(comm)
     print >> f, u"\n".join(u"\t".join(l) for l in s)
     print >> f
+    counter+=1
 train.close()
 test.close()
 devel.close()
