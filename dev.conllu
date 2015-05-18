@@ -640,6 +640,7 @@
 16	ایران	_	NOUN	N_SING	_	13	nmod	_	_
 17	و	_	CONJ	CON	_	16	cc	_	_
 18	ترکیه	_	NOUN	N_SING	_	16	conj	_	_
+19-20	ناخرسندند	_	_	_	_	_	_	_	_
 19	ناخرسند	_	ADJ	ADJ	_	9	acl:relcl	_	_
 20	ند	_	VERB	V_PRS	_	19	cop	_	_
 21	،	_	PUNCT	DELM	_	34	punct	_	_
@@ -659,6 +660,7 @@
 35	و	_	CONJ	CON	_	34	cc	_	_
 36	داستانهای	_	NOUN	N_PL	Number=Plur	38	dobj	_	_
 37	جنجالی	_	ADJ	ADJ	_	36	amod	_	_
+38-39	آفریده‌اند	_	_	_	_	_	_	_	_
 38	آفریده‌	_	NOUN	N_SING	_	34	conj	_	_
 39	اند	_	VERB	V_PRS	_	38	cop	_	_
 40	که	_	SCONJ	CON	_	49	mark	_	_
@@ -1143,6 +1145,7 @@
 11	در	_	ADP	P	_	13	case	_	_
 12	مقابل	_	ADP	P	_	11	mwe	_	_
 13	آن	_	PRON	PRO	_	14	nmod	_	_
+14-15	ساکتند	_	_	_	_	_	_	_	_
 14	ساکت	_	ADJ	ADJ	_	0	root	_	_
 15	ند	_	VERB	V_PRS	_	14	cop	_	_
 16	؟	_	PUNCT	DELM	_	14	punct	_	_
@@ -1978,6 +1981,7 @@
 13	کنند	_	VERB	V_SUB	Mood=Sub	0	root	_	_
 14	و	_	CONJ	CON	_	13	cc	_	_
 15	تمام	_	DET	DET	_	16	det	_	_
+16-17	تلاششان	_	_	_	_	_	_	_	_
 16	تلاش	_	NOUN	N_SING	Number=Sing	18	nsubj	_	_
 17	شان	_	PRON	PRO	_	16	nmod:poss	_	_
 18	این	_	PRON	PRO	_	13	conj	_	_
@@ -2518,6 +2522,7 @@
 5	کرباسچی	_	NOUN	N_SING	_	4	name	_	_
 6	هوشیارتر	_	ADJ	ADJ_CMPR	Degree=Cmp	0	root	_	_
 7	از	_	ADP	P	_	8	case	_	_
+8-9	این‌هاست	_	_	_	_	_	_	_	_
 8	این‌ها	_	PRON	PRO	_	6	nmod	_	_
 9	ست	_	VERB	V_PRS	_	6	cop	_	_
 10	که	_	SCONJ	CON	_	16	mark	_	_
@@ -3265,6 +3270,7 @@
 4	محبت	_	NOUN	N_SING	Number=Sing	9	nsubj	_	_
 5	او	_	PRON	PRO	_	4	nmod:poss	_	_
 6	در	_	ADP	P	_	7	case	_	_
+7-8	دلم	_	_	_	_	_	_	_	_
 7	دل	_	NOUN	N_SING	_	9	nmod	_	_
 8	م	_	PRON	PRO	_	7	nmod:poss	_	_
 9	باقی	_	NOUN	N_SING	Number=Sing	1	ccomp	_	_
@@ -3510,6 +3516,7 @@
 1	یا	_	CONJ	CON	_	11	cc	_	_
 2	این	_	CONJ	CON	_	1	mwe	_	_
 3	که	_	CONJ	CON	_	2	mwe	_	_
+4-5	خودت	_	_	_	_	_	_	_	_
 4	خود	_	PRON	PRO	_	11	nsubj	_	_
 5	ت	_	PRON	PRO	_	4	nmod:poss	_	_
 6	-	_	PUNCT	DELM	_	4	punct	_	_
@@ -3652,9 +3659,11 @@
 2	محض	_	ADJ	ADJ	_	1	mwe	_	_
 3	این	_	PRON	PRO	_	2	mwe	_	_
 4	که	_	CONJ	CON	_	3	mwe	_	_
+5-6	نامه‌ام	_	_	_	_	_	_	_	_
 5	نامه‌	_	NOUN	N_SING	Number=Sing	10	nsubj	_	_
 6	ام	_	PRON	PRO	_	5	nmod:poss	_	_
 7	به	_	ADP	P	_	8	case	_	_
+8-9	دستت	_	_	_	_	_	_	_	_
 8	دست	_	NOUN	N_SING	_	10	nmod	_	_
 9	ت	_	PRON	PRO	_	8	nmod:poss	_	_
 10	رسید	_	VERB	V_PA	Tense=Past	14	advcl	_	_
@@ -3687,8 +3696,10 @@
 1	و	_	CONJ	CON	_	6	cc	_	_
 2	تو	_	PRON	PRO	_	6	nsubj	_	_
 3	به	_	ADP	P	_	4	case	_	_
+4-5	خودت	_	_	_	_	_	_	_	_
 4	خود	_	PRON	PRO	_	6	nmod	_	_
 5	ت	_	PRON	PRO	_	4	nmod:poss	_	_
+6-7	بیناتری	_	_	_	_	_	_	_	_
 6	بیناتر	_	ADJ	ADJ	_	0	root	_	_
 7	ی	_	VERB	V_PRS	Tense=Pres	6	cop	_	_
 8	!	_	PUNCT	DELM	_	6	punct	_	_
@@ -3702,6 +3713,7 @@
 7	می‌دانی	_	VERB	V_PRS	Tense=Pres	3	ccomp	_	_
 8	که	_	SCONJ	CON	_	16	mark	_	_
 9	من	_	PRON	PRO	_	16	nsubj	_	_
+10-11	ترا	_	_	_	_	_	_	_	_
 10	ت	_	PRON	PRO	_	16	dobj	_	_
 11	را	_	PART	CLITIC	_	10	case	_	_
 12	نسبت	_	ADP	P	_	14	case	_	_
@@ -3713,6 +3725,7 @@
 18	درباره	_	ADP	P	_	19	case	_	_
 19	تو	_	PRON	PRO	_	25	nmod	_	_
 20	و	_	CONJ	CON	_	19	cc	_	_
+21-22	خانواده‌ات	_	_	_	_	_	_	_	_
 21	خانواده	_	NOUN	N_SING	_	19	conj	_	_
 22	ات	_	PRON	PRO	_	21	nmod:poss	_	_
 23	حسن	_	NOUN	N_SING	Number=Sing	25	compound:lvc	_	_
@@ -3746,6 +3759,7 @@
 4	بیعت	_	NOUN	N_SING	_	6	nmod	_	_
 5	روی	_	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
 6	گردانی	_	VERB	V_SUB	Mood=Sub	9	advcl	_	_
+7-8	بدان	_	_	_	_	_	_	_	_
 7	ب	_	ADP	P	_	8	case	_	_
 8	دان	_	PRON	PRO	_	9	nmod	_	_
 9	مجبور	_	ADJ	ADJ	_	0	root	_	_
@@ -3758,6 +3772,7 @@
 3	شعری	_	NOUN	N_SING	_	4	dobj	_	_
 4	نوشت	_	VERB	V_PA	Tense=Past	0	root	_	_
 5	که	_	SCONJ	CON	_	8	mark	_	_
+6-7	پیامش	_	_	_	_	_	_	_	_
 6	پیام	_	NOUN	N_SING	Number=Sing	8	nsubj	_	_
 7	ش	_	PRON	PRO	_	6	nmod:poss	_	_
 8	نافرمانی	_	NOUN	N_SING	Number=Sing	4	ccomp	_	_
@@ -3778,6 +3793,7 @@
 23	خداوند	_	NOUN	N_SING	_	22	nmod:poss	_	_
 24	.	_	PUNCT	DELM	_	4	punct	_	_
 
+1-2	نامه‌اش	_	_	_	_	_	_	_	_
 1	نامه‌	_	NOUN	N_SING	Number=Sing	9	nsubj	_	_
 2	اش	_	PRON	PRO	_	1	nmod:poss	_	_
 3	به	_	ADP	P	_	4	case	_	_
@@ -3816,9 +3832,11 @@
 22	ع	_	NOUN	N_SING	Number=Sing	20	dep	_	_
 23	(	_	PUNCT	DELM	_	20	punct	_	_
 24	درباره	_	ADP	P	_	25	case	_	_
+25-26	خودش	_	_	_	_	_	_	_	_
 25	خود	_	PRON	PRO	_	36	nmod	_	_
 26	ش	_	PRON	PRO	_	25	nmod:poss	_	_
 27	و	_	CONJ	CON	_	25	cc	_	_
+28-29	دینش	_	_	_	_	_	_	_	_
 28	دین	_	NOUN	N_SING	_	25	conj	_	_
 29	ش	_	PRON	PRO	_	28	nmod:poss	_	_
 30	و	_	CONJ	CON	_	28	cc	_	_
@@ -3876,6 +3894,7 @@
 8	هرگز	_	ADV	ADV_NEG	Negative=Neg	10	advmod	_	_
 9	گمان	_	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
 10	نمی‌کردم	_	VERB	V_PA	Tense=Past	5	ccomp	_	_
+11-12	بدان	_	_	_	_	_	_	_	_
 11	ب	_	ADP	P	_	14	case	_	_
 12	دان	_	DET	DET	_	14	det:predet	_	_
 13	گونه	_	NOUN	N_SING	Number=Sing	14	det	_	_
@@ -3986,6 +4005,7 @@
 12	او	_	PRON	PRO	_	11	nmod:poss	_	_
 13	طلایه	_	NOUN	N_SING	Number=Sing	9	ccomp	_	_
 14	انقلاب	_	NOUN	N_SING	_	13	nmod:poss	_	_
+15-16	عاشوراست	_	_	_	_	_	_	_	_
 15	عاشورا	_	NOUN	N_SING	_	14	nmod:poss	_	_
 16	ست	_	VERB	V_PRS	_	13	cop	_	_
 17	.	_	PUNCT	DELM	_	9	punct	_	_
@@ -4031,6 +4051,7 @@
 7	معاویه	_	NOUN	N_SING	_	8	nmod	_	_
 8	نوشت	_	VERB	V_PA	Tense=Past	0	root	_	_
 9	:	_	PUNCT	DELM	_	8	punct	_	_
+10-11	نامه‌ات	_	_	_	_	_	_	_	_
 10	نامه	_	NOUN	N_SING	Number=Sing	12	nsubj	_	_
 11	ات	_	PRON	PRO	_	10	nmod:poss	_	_
 12	رسید	_	VERB	V_PA	Tense=Past	8	ccomp	_	_
@@ -4085,6 +4106,7 @@
 12	می‌کند	_	VERB	V_PRS	Tense=Pres	0	root	_	_
 13	و	_	CONJ	CON	_	12	cc	_	_
 14	اگر	_	SCONJ	CON	_	18	mark	_	_
+15-16	اراده‌اش	_	_	_	_	_	_	_	_
 15	اراده‌	_	NOUN	N_SING	Number=Sing	18	nsubj	_	_
 16	اش	_	PRON	PRO	_	15	nmod:poss	_	_
 17	تعلق	_	NOUN	N_SING	Number=Sing	18	compound:lvc	_	_
@@ -4099,6 +4121,7 @@
 26	.	_	PUNCT	DELM	_	12	punct	_	_
 
 1	در	_	ADP	P	_	2	case	_	_
+2-3	نامه‌ات	_	_	_	_	_	_	_	_
 2	نامه	_	NOUN	N_SING	_	4	nmod	_	_
 3	ات	_	PRON	PRO	_	2	nmod:poss	_	_
 4	یادآور	_	ADJ	ADJ	_	0	root	_	_
@@ -4190,6 +4213,7 @@
 36	ستمگران	_	NOUN	N_PL	Number=Plur	35	nmod:poss	_	_
 37	و	_	CONJ	CON	_	36	cc	_	_
 38	یاران	_	NOUN	N_PL	Number=Plur	36	conj	_	_
+39-40	شیطان‌اند	_	_	_	_	_	_	_	_
 39	شیطان‌	_	NOUN	N_SING	_	38	nmod:poss	_	_
 40	اند	_	VERB	V_PRS	_	24	ccomp	_	_
 41	.	_	PUNCT	DELM	_	6	punct	_	_
@@ -4242,6 +4266,7 @@
 13	پیمان	_	NOUN	N_SING	Number=Sing	14	compound:lvc	_	_
 14	بستی	_	VERB	V_PA	Tense=Past	19	advcl	_	_
 15	،	_	PUNCT	DELM	_	19	punct	_	_
+16-17	پیمانت	_	_	_	_	_	_	_	_
 16	پیمان	_	NOUN	N_SING	_	19	dobj	_	_
 17	ت	_	PRON	PRO	_	16	nmod:poss	_	_
 18	را	_	PART	CLITIC	_	16	case	_	_
@@ -4254,6 +4279,7 @@
 25	خداوند	_	NOUN	N_SING	_	31	dobj	_	_
 26	را	_	PART	CLITIC	_	25	case	_	_
 27	با	_	ADP	P	_	28	case	_	_
+28-29	خودت	_	_	_	_	_	_	_	_
 28	خود	_	PRON	PRO	_	31	nmod	_	_
 29	ت	_	PRON	PRO	_	28	nmod:poss	_	_
 30	دشمن	_	NOUN	N_SING	Number=Sing	31	compound:lvc	_	_
@@ -4268,6 +4294,7 @@
 6	از	_	ADP	P	_	8	case	_	_
 7	بسیاری	_	ADJ	ADJ	_	8	amod	_	_
 8	عبادت	_	NOUN	N_SING	_	11	nmod	_	_
+9-10	پیشانی‌اش	_	_	_	_	_	_	_	_
 9	پیشانی‌	_	NOUN	N_SING	Number=Sing	11	nsubj	_	_
 10	اش	_	PRON	PRO	_	9	nmod:poss	_	_
 11	پرپینه	_	ADJ	ADJ	_	4	acl:relcl	_	_
@@ -4398,6 +4425,7 @@
 6	بر	_	ADP	P	_	8	case	_	_
 7	غیر	_	ADV	ADV_NEG	Negative=Neg	8	neg	_	_
 8	دین	_	NOUN	N_SING	_	11	nmod	_	_
+9-10	پسرعمویش	_	_	_	_	_	_	_	_
 9	پسرعموی	_	NOUN	N_SING	_	8	nmod:poss	_	_
 10	ش	_	PRON	PRO	_	9	nmod:poss	_	_
 11	بود	_	VERB	V_PA	Tense=Past	0	root	_	_
@@ -4418,6 +4446,7 @@
 4	افتخار	_	NOUN	N_SING	_	2	conj	_	_
 5	تو	_	PRON	PRO	_	4	nmod:poss	_	_
 6	و	_	CONJ	CON	_	5	cc	_	_
+7-8	اجدادت	_	_	_	_	_	_	_	_
 7	اجداد	_	NOUN	N_PL	Number=Plur	5	conj	_	_
 8	ت	_	PRON	PRO	_	7	nmod:poss	_	_
 9	در	_	ADP	P	_	10	case	_	_
@@ -4462,6 +4491,7 @@
 
 1	حال	_	ADV	ADV_TIME	Case=Tem	7	advmod	_	_
 2	در	_	ADP	P	_	3	case	_	_
+3-4	نامه‌ات	_	_	_	_	_	_	_	_
 3	نامه	_	NOUN	N_SING	_	7	nmod	_	_
 4	ات	_	PRON	PRO	_	3	nmod:poss	_	_
 5	برای	_	ADP	P	_	6	case	_	_
@@ -4493,14 +4523,17 @@
 10	.	_	PUNCT	DELM	_	9	punct	_	_
 
 1	در	_	ADP	P	_	2	case	_	_
+2-3	نامه‌ات	_	_	_	_	_	_	_	_
 2	نامه	_	NOUN	N_SING	_	4	nmod	_	_
 3	ات	_	PRON	PRO	_	2	nmod:poss	_	_
 4	نوشته‌ای	_	VERB	V_PP	VerbForm=Part	0	root	_	_
 5	که	_	SCONJ	CON	_	6	mark	_	_
 6	متوجه	_	NOUN	N_SING	Number=Sing	4	ccomp	_	_
+7-8	خودت	_	_	_	_	_	_	_	_
 7	خود	_	PRON	PRO	_	6	nmod:poss	_	_
 8	ت	_	PRON	PRO	_	7	nmod:poss	_	_
 9	و	_	CONJ	CON	_	7	cc	_	_
+10-11	دینت	_	_	_	_	_	_	_	_
 10	دین	_	NOUN	N_SING	_	7	conj	_	_
 11	ت	_	PRON	PRO	_	10	nmod:poss	_	_
 12	و	_	CONJ	CON	_	10	cc	_	_
@@ -4563,6 +4596,7 @@
 16	.	_	PUNCT	DELM	_	5	punct	_	_
 
 1	در	_	ADP	P	_	2	case	_	_
+2-3	نامه‌ات	_	_	_	_	_	_	_	_
 2	نامه	_	NOUN	N_SING	_	4	nmod	_	_
 3	ات	_	PRON	PRO	_	2	nmod:poss	_	_
 4	نوشته‌ای	_	VERB	V_PP	VerbForm=Part	0	root	_	_
@@ -4608,12 +4642,14 @@
 21	کرده‌اند	_	VERB	V_PP	VerbForm=Part	11	ccomp	_	_
 22	.	_	PUNCT	DELM	_	6	punct	_	_
 
+1-2	امیدوارم	_	_	_	_	_	_	_	_
 1	امیدوار	_	ADJ	ADJ	_	0	root	_	_
 2	م	_	VERB	V_PRS	_	1	cop	_	_
 3	که	_	SCONJ	CON	_	12	mark	_	_
 4	تو	_	PRON	PRO	_	12	nsubj	_	_
 5	جز	_	ADP	P	_	7	case	_	_
 6	به	_	ADP	P	_	5	mwe	_	_
+7-8	خودت	_	_	_	_	_	_	_	_
 7	خود	_	PRON	PRO	_	12	nmod	_	_
 8	ت	_	PRON	PRO	_	7	nmod:poss	_	_
 9	به	_	ADP	P	_	10	case	_	_
@@ -4622,6 +4658,7 @@
 12	نرسانی	_	VERB	V_SUB	Mood=Sub	1	ccomp	_	_
 13	و	_	CONJ	CON	_	12	cc	_	_
 14	اعمال	_	NOUN	N_SING	_	19	dobj	_	_
+15-16	شومت	_	_	_	_	_	_	_	_
 15	شوم	_	ADJ	ADJ	_	14	amod	_	_
 16	ت	_	PRON	PRO	_	14	nmod:poss	_	_
 17	را	_	PART	CLITIC	_	14	case	_	_
@@ -4680,6 +4717,7 @@
 38	دروغ‌ها	_	NOUN	N_PL	Number=Plur	43	nmod	_	_
 39	و	_	CONJ	CON	_	38	cc	_	_
 40	تهمت‌ها	_	NOUN	N_PL	Number=Plur	38	conj	_	_
+41-42	مواخذه‌ات	_	_	_	_	_	_	_	_
 41	مواخذه	_	NOUN	N_SING	Number=Sing	43	compound:lvc	_	_
 42	ات	_	PRON	PRO	_	43	dobj	_	_
 43	می‌نماید	_	VERB	V_PRS	Tense=Pres	34	conj	_	_
@@ -4702,6 +4740,7 @@
 
 1	می‌بینم	_	VERB	V_PRS	Tense=Pres	0	root	_	_
 2	که	_	SCONJ	CON	_	8	mark	_	_
+3-4	خودت	_	_	_	_	_	_	_	_
 3	خود	_	PRON	PRO	_	8	dobj	_	_
 4	ت	_	PRON	PRO	_	3	nmod:poss	_	_
 5	را	_	PART	CLITIC	_	3	case	_	_
@@ -4709,6 +4748,7 @@
 7	نابودی	_	NOUN	N_SING	_	8	nmod	_	_
 8	افکنده‌ای	_	VERB	V_PP	VerbForm=Part	1	ccomp	_	_
 9	و	_	CONJ	CON	_	8	cc	_	_
+10-11	دینت	_	_	_	_	_	_	_	_
 10	دین	_	NOUN	N_SING	_	14	dobj	_	_
 11	ت	_	PRON	PRO	_	10	nmod:poss	_	_
 12	را	_	PART	CLITIC	_	10	case	_	_
@@ -4812,6 +4852,7 @@
 45	اعتباری	_	NOUN	N_SING	_	43	conj	_	_
 46	ندارد	_	VERB	V_PRS	Tense=Pres	30	conj	_	_
 47	،	_	PUNCT	DELM	_	46	punct	_	_
+48-49	پیداست	_	_	_	_	_	_	_	_
 48	پیدا	_	ADJ	ADJ	_	46	conj	_	_
 49	ست	_	VERB	V_PRS	_	48	cop	_	_
 50	که	_	SCONJ	CON	_	59	mark	_	_
@@ -4838,6 +4879,7 @@
 9	و	_	CONJ	CON	_	7	cc	_	_
 10	وابستگان	_	NOUN	N_PL	Number=Plur	7	conj	_	_
 11	به	_	ADP	P	_	12	case	_	_
+12-13	اوست	_	_	_	_	_	_	_	_
 12	او	_	PRON	PRO	_	10	nmod	_	_
 13	ست	_	VERB	V_PRS	_	7	cop	_	_
 14	.	_	PUNCT	DELM	_	6	punct	_	_
@@ -6530,6 +6572,7 @@
 9	در	_	ADP	P	_	10	case	_	_
 10	جوار	_	NOUN	N_SING	_	17	nmod	_	_
 11	مقبره	_	NOUN	N_SING	_	10	nmod:poss	_	_
+12-13	پدرش	_	_	_	_	_	_	_	_
 12	پدر	_	NOUN	N_SING	_	11	nmod:poss	_	_
 13	ش	_	PRON	PRO	_	12	nmod:poss	_	_
 14	دولت‌محمد	_	NOUN	N_SING	Number=Sing	12	appos	_	_
@@ -6890,6 +6933,7 @@
 28	از	_	ADP	P	_	29	case	_	_
 29	اهمیت	_	NOUN	N_SING	_	31	nmod	_	_
 30	خاصی	_	ADJ	ADJ	_	29	amod	_	_
+31-32	برخوردارند	_	_	_	_	_	_	_	_
 31	برخوردار	_	ADJ	ADJ	_	26	ccomp	_	_
 32	ند	_	VERB	V_PRS	_	31	cop	_	_
 33	.	_	PUNCT	DELM	_	7	punct	_	_
@@ -8150,6 +8194,7 @@
 8	چهارشنبه	_	NOUN	N_SING	_	7	name	_	_
 9	دو	_	NUM	NUM	_	10	nummod	_	_
 10	تکواندوکار	_	NOUN	N_SING	Number=Sing	27	nsubj	_	_
+11-12	کشورمان	_	_	_	_	_	_	_	_
 11	کشور	_	NOUN	N_SING	_	10	nmod:poss	_	_
 12	مان	_	PRON	PRO	_	11	nmod:poss	_	_
 13	به	_	ADP	P	_	14	case	_	_
@@ -8720,6 +8765,7 @@
 25	از	_	ADP	P	_	26	case	_	_
 26	سلامت	_	NOUN	N_SING	_	31	nmod	_	_
 27	کامل	_	ADJ	ADJ	_	26	amod	_	_
+28-29	مغزشان	_	_	_	_	_	_	_	_
 28	مغز	_	NOUN	N_SING	_	26	nmod:poss	_	_
 29	شان	_	PRON	PRO	_	28	nmod:poss	_	_
 30	اطمینان	_	NOUN	N_SING	Number=Sing	31	compound:lvc	_	_
@@ -9101,6 +9147,7 @@
 21	کشور	_	NOUN	N_SING	_	20	nmod:poss	_	_
 22	در	_	ADP	P	_	23	case	_	_
 23	زمان	_	NOUN	N_SING	_	32	nmod	_	_
+24-25	نخست‌وزیری‌اش	_	_	_	_	_	_	_	_
 24	نخست‌وزیری‌	_	NOUN	N_SING	_	23	nmod:poss	_	_
 25	اش	_	PRON	PRO	_	24	nmod:poss	_	_
 26	)	_	PUNCT	DELM	_	24	punct	_	_
@@ -9828,6 +9875,7 @@
 5	پیش	_	ADV	ADV_TIME	Case=Tem	22	advmod	_	_
 6	از	_	ADP	P	_	8	case	_	_
 7	این	_	DET	DET	_	8	det	_	_
+8-9	قهرمانیش	_	_	_	_	_	_	_	_
 8	قهرمانی	_	NOUN	N_SING	_	5	nmod	_	_
 9	ش	_	PRON	PRO	_	8	nmod:poss	_	_
 10	در	_	ADP	P	_	11	case	_	_
@@ -10374,6 +10422,7 @@
 20	می‌دهند	_	VERB	V_PRS	Tense=Pres	3	ccomp	_	_
 21	و	_	CONJ	CON	_	20	cc	_	_
 22	همین	_	PRON	PRO	_	23	nsubj	_	_
+23-24	کافیست	_	_	_	_	_	_	_	_
 23	کافی	_	ADJ	ADJ	_	20	conj	_	_
 24	ست	_	VERB	V_PRS	_	23	cop	_	_
 25	که	_	SCONJ	CON	_	35	mark	_	_
@@ -11662,6 +11711,7 @@
 18	این	_	DET	DET	_	19	det	_	_
 19	مرد	_	NOUN	N_SING	Number=Sing	62	nsubj	_	_
 20	که	_	SCONJ	CON	_	26	mark	_	_
+21-22	هویتش	_	_	_	_	_	_	_	_
 21	هویت	_	NOUN	N_SING	Number=Sing	26	nsubj	_	_
 22	ش	_	PRON	PRO	_	21	nmod:poss	_	_
 23	از	_	ADP	P	_	24	case	_	_
@@ -11788,6 +11838,7 @@
 24	آخرین	_	ADJ	ADJ_SUP	Degree=Sup	25	amod	_	_
 25	گروه	_	NOUN	N_SING	_	31	dobj	_	_
 26	از	_	ADP	P	_	27	case	_	_
+27-28	گروگانهایش	_	_	_	_	_	_	_	_
 27	گروگانهای	_	NOUN	N_PL	Number=Plur	25	nmod	_	_
 28	ش	_	PRON	PRO	_	27	nmod:poss	_	_
 29	را	_	PART	CLITIC	_	25	case	_	_
@@ -12212,6 +12263,7 @@
 13	در	_	ADP	P	_	14	case	_	_
 14	بروکسل	_	NOUN	N_SING	_	18	nmod	_	_
 15	در	_	ADP	P	_	16	case	_	_
+16-17	موردش	_	_	_	_	_	_	_	_
 16	مورد	_	NOUN	N_SING	_	18	nmod	_	_
 17	ش	_	PRON	PRO	_	16	nmod:poss	_	_
 18	تصمیم‌گیری	_	NOUN	N_SING	_	5	conj	_	_
@@ -12233,6 +12285,7 @@
 8	که	_	SCONJ	CON	_	10	mark	_	_
 9	تأكید	_	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
 10	کرد	_	VERB	V_PA	Tense=Past	7	acl:relcl	_	_
+11-12	دیدگاهش	_	_	_	_	_	_	_	_
 11	دیدگاه	_	NOUN	N_SING	Number=Sing	13	nsubj	_	_
 12	ش	_	PRON	PRO	_	11	nmod:poss	_	_
 13	شخصی	_	ADJ	ADJ	_	10	ccomp	_	_
@@ -12304,6 +12357,7 @@
 16	و	_	CONJ	CON	_	14	cc	_	_
 17	نفوذ	_	NOUN	N_SING	_	14	conj	_	_
 18	سیاسی	_	ADJ	ADJ	_	17	amod	_	_
+19-20	کشورشان	_	_	_	_	_	_	_	_
 19	کشور	_	NOUN	N_SING	_	17	nmod:poss	_	_
 20	شان	_	PRON	PRO	_	19	nmod:poss	_	_
 21	است	_	VERB	V_PRS	Tense=Pres	4	cop	_	_
@@ -12398,6 +12452,7 @@
 16	اذعان	_	NOUN	N_SING	Number=Sing	17	compound:lvc	_	_
 17	دارند	_	VERB	V_PRS	Tense=Pres	8	ccomp	_	_
 18	که	_	SCONJ	CON	_	33	mark	_	_
+19-20	کودکانشان	_	_	_	_	_	_	_	_
 19	کودکان	_	NOUN	N_PL	Number=Plur	33	dobj	_	_
 20	شان	_	PRON	PRO	_	19	nmod:poss	_	_
 21	را	_	PART	CLITIC	_	19	case	_	_
@@ -12512,6 +12567,7 @@
 13	بدنی	_	ADJ	ADJ	_	12	amod	_	_
 14	کودک	_	NOUN	N_SING	_	12	nmod:poss	_	_
 15	پنج	_	NUM	NUM	_	16	nummod	_	_
+16-17	ساله‌اش	_	_	_	_	_	_	_	_
 16	ساله‌	_	ADJ	ADJ	_	14	amod	_	_
 17	اش	_	PRON	PRO	_	14	nmod:poss	_	_
 18	در	_	ADP	P	_	19	case	_	_
@@ -12539,6 +12595,7 @@
 9	بدنی	_	ADJ	ADJ	_	8	amod	_	_
 10	دختر	_	NOUN	N_SING	_	8	nmod:poss	_	_
 11	۹	_	NUM	NUM	_	12	nummod	_	_
+12-13	ساله‌اش	_	_	_	_	_	_	_	_
 12	ساله‌	_	ADJ	ADJ	_	10	amod	_	_
 13	اش	_	PRON	PRO	_	10	nmod:poss	_	_
 14	جریمه	_	NOUN	N_SING	Number=Sing	0	root	_	_
@@ -12601,6 +12658,7 @@
 17	بدنی	_	ADJ	ADJ	_	16	amod	_	_
 18	کودکان	_	NOUN	N_PL	Number=Plur	16	nmod:poss	_	_
 19	توسط	_	ADP	P	_	20	case	_	_
+20-21	والدینشان	_	_	_	_	_	_	_	_
 20	والدین	_	NOUN	N_PL	Number=Plur	18	nmod	_	_
 21	شان	_	PRON	PRO	_	20	nmod:poss	_	_
 22	را	_	PART	CLITIC	_	16	case	_	_
@@ -13123,6 +13181,7 @@
 3	،	_	PUNCT	DELM	_	4	punct	_	_
 4	ویروس	_	NOUN	N_SING	Number=Sing	0	root	_	_
 5	"	_	PUNCT	DELM	_	4	punct	_	_
+6-7	دوستت	_	_	_	_	_	_	_	_
 6	دوست	_	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
 7	ت	_	PRON	PRO	_	8	dobj	_	_
 8	دارم	_	VERB	V_PRS	Tense=Pres	4	appos	_	_
@@ -13259,6 +13318,7 @@
 18	انتشار	_	NOUN	N_SING	Number=Sing	16	nmod	_	_
 19	ویروس	_	NOUN	N_SING	_	18	nmod:poss	_	_
 20	"	_	PUNCT	DELM	_	19	punct	_	_
+21-22	دوستت	_	_	_	_	_	_	_	_
 21	دوست	_	NOUN	N_SING	Number=Sing	23	compound:lvc	_	_
 22	ت	_	PRON	PRO	_	23	dobj	_	_
 23	دارم	_	VERB	V_PRS	Tense=Pres	19	appos	_	_
@@ -13518,6 +13578,7 @@
 11	شرکت	_	NOUN	N_SING	Number=Sing	12	compound:lvc	_	_
 12	داشتند	_	VERB	V_PA	Tense=Past	0	root	_	_
 13	و	_	CONJ	CON	_	12	cc	_	_
+14-15	بدین	_	_	_	_	_	_	_	_
 14	ب	_	ADP	P	_	16	case	_	_
 15	دین	_	DET	DET	_	16	det	_	_
 16	ترتیب	_	NOUN	N_SING	_	33	nmod	_	_
@@ -15137,6 +15198,7 @@
 6	به	_	ADP	P	_	7	case	_	_
 7	بُن	_	NOUN	N_SING	_	5	nmod	_	_
 8	،	_	PUNCT	DELM	_	5	punct	_	_
+9-10	زمن	_	_	_	_	_	_	_	_
 9	ز	_	ADP	P	_	10	case	_	_
 10	من	_	PRON	PRO	_	14	nmod	_	_
 11	روی	_	NOUN	N_SING	Number=Sing	14	nsubj	_	_
@@ -15151,6 +15213,7 @@
 4	نمیرم	_	VERB	V_SUB	Mood=Sub	0	root	_	_
 5	که	_	SCONJ	CON	_	7	mark	_	_
 6	من	_	PRON	PRO	_	7	nsubj	_	_
+7-8	زنده‌ام	_	_	_	_	_	_	_	_
 7	زنده‌	_	ADJ	ADJ	_	4	ccomp	_	_
 8	ام	_	VERB	V_PRS	_	7	cop	_	_
 9	،	_	PUNCT	DELM	_	4	punct	_	_
@@ -15295,6 +15358,7 @@
 7	؟	_	PUNCT	DELM	_	4	punct	_	_
 
 1	ما	_	PRON	PRO	_	2	nsubj	_	_
+2-3	آرزومندیم	_	_	_	_	_	_	_	_
 2	آرزومند	_	ADJ	ADJ	_	0	root	_	_
 3	یم	_	VERB	V_PRS	_	2	cop	_	_
 4	که	_	SCONJ	CON	_	10	mark	_	_
@@ -15478,6 +15542,7 @@
 5	بود	_	VERB	V_PA	Tense=Past	0	root	_	_
 6	مرغانی	_	NOUN	N_PL	Number=Plur	5	nsubj	_	_
 7	که	_	SCONJ	CON	_	13	mark	_	_
+8-9	نامشان	_	_	_	_	_	_	_	_
 8	نام	_	NOUN	N_SING	Number=Sing	13	nsubj	_	_
 9	شان	_	PRON	PRO	_	8	nmod:poss	_	_
 10	در	_	ADP	P	_	11	case	_	_
@@ -15607,6 +15672,7 @@
 
 1	بنایی	_	NOUN	N_SING	Number=Sing	10	nsubj	_	_
 2	که	_	SCONJ	CON	_	3	mark	_	_
+3-4	امیدواریم	_	_	_	_	_	_	_	_
 3	امیدوار	_	ADJ	ADJ	_	1	acl:relcl	_	_
 4	یم	_	VERB	V_PRS	_	3	cop	_	_
 5	به	_	ADP	P	_	6	case	_	_
@@ -15733,6 +15799,7 @@
 8	ایرانی	_	NOUN	N_SING	Number=Sing	13	nsubj	_	_
 9	به	_	ADP	P	_	10	case	_	_
 10	گذشتهٔ	_	NOUN	N_SING	_	13	nmod	_	_
+11-12	پربارش	_	_	_	_	_	_	_	_
 11	پربار	_	ADJ	ADJ	_	10	amod	_	_
 12	ش	_	PRON	PRO	_	10	nmod:poss	_	_
 13	پشتگرم	_	ADJ	ADJ	_	6	ccomp	_	_
@@ -15756,8 +15823,10 @@
 10	بود	_	VERB	V_PA	Tense=Past	2	cop	_	_
 11	،	_	PUNCT	DELM	_	2	punct	_	_
 12	در	_	ADP	P	_	13	case	_	_
+13-14	کتابخانه‌اش	_	_	_	_	_	_	_	_
 13	کتابخانه‌	_	NOUN	N_SING	_	15	nmod	_	_
 14	اش	_	PRON	PRO	_	13	nmod:poss	_	_
+15-16	امیدواریم	_	_	_	_	_	_	_	_
 15	امیدوار	_	ADJ	ADJ	_	2	conj	_	_
 16	یم	_	VERB	V_PRS	_	15	cop	_	_
 17	که	_	SCONJ	CON	_	32	mark	_	_
@@ -15841,6 +15910,7 @@
 45	،	_	PUNCT	DELM	_	43	punct	_	_
 46	و	_	CONJ	CON	_	43	cc	_	_
 47	بخصوص	_	CONJ	CON	_	46	mwe	_	_
+48-49	جوانانش	_	_	_	_	_	_	_	_
 48	جوانان	_	NOUN	N_PL	Number=Plur	51	nsubj	_	_
 49	ش	_	PRON	PRO	_	48	nmod:poss	_	_
 50	پی	_	NOUN	N_SING	Number=Sing	51	compound:lvc	_	_
@@ -15901,6 +15971,7 @@
 5	و	_	CONJ	CON	_	4	cc	_	_
 6	این	_	DET	DET	_	7	det	_	_
 7	باغ	_	NOUN	N_SING	_	4	conj	_	_
+8-9	ماهیتش	_	_	_	_	_	_	_	_
 8	ماهیت	_	NOUN	N_SING	Number=Sing	12	nsubj	_	_
 9	ش	_	PRON	PRO	_	8	nmod:poss	_	_
 10	به	_	ADP	P	_	11	case	_	_
@@ -15996,6 +16067,7 @@
 16	کمک	_	NOUN	N_SING	Number=Sing	17	compound:lvc	_	_
 17	کند	_	VERB	V_SUB	Mood=Sub	5	ccomp	_	_
 18	،	_	PUNCT	DELM	_	17	punct	_	_
+19-20	بدان	_	_	_	_	_	_	_	_
 19	ب	_	ADP	P	_	21	case	_	_
 20	دان	_	DET	DET	_	21	det	_	_
 21	گونه	_	NOUN	N_SING	_	17	nmod	_	_
@@ -16105,6 +16177,7 @@
 20	که	_	CONJ	CON	_	19	mwe	_	_
 21	بخشی	_	NOUN	N_SING	Number=Sing	27	nsubj	_	_
 22	از	_	ADP	P	_	23	case	_	_
+23-24	سخنانش	_	_	_	_	_	_	_	_
 23	سخنان	_	NOUN	N_PL	Number=Plur	21	nmod	_	_
 24	ش	_	PRON	PRO	_	23	nmod:poss	_	_
 25	با	_	ADP	P	_	26	case	_	_
@@ -16162,6 +16235,7 @@
 24	زندگی	_	NOUN	N_SING	_	32	nmod	_	_
 25	فردوسی	_	NOUN	N_SING	_	24	nmod:poss	_	_
 26	و	_	CONJ	CON	_	25	cc	_	_
+27-28	خانواده‌اش	_	_	_	_	_	_	_	_
 27	خانواده‌	_	NOUN	N_SING	_	25	conj	_	_
 28	اش	_	PRON	PRO	_	27	nmod:poss	_	_
 29	بر	_	ADP	P	_	30	case	_	_
