@@ -24,7 +24,9 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 
 ## Contributors
 Mojgan Seraji
+
 Filip Ginter
+
 Joakim Nivre 
 
 ## REFERENCES
