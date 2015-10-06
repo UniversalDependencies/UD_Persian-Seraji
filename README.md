@@ -31,3 +31,9 @@ Joakim Nivre
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC). 
 2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation. 
 3. Seraji Mojgan. 2015. Morphosyntactic Corpora and Tools for Persian. Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
+
+
+Documentation status: partial
+Data source: unknown
+Data available since: UD v1.1
+License: CC BY-SA 4.0
