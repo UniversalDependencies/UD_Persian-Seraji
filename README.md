@@ -27,9 +27,9 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 3. Seraji Mojgan. 2015. Morphosyntactic Corpora and Tools for Persian. Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
 
 
-Documentation status: partial 
-Data source: semi-automatic 
-Data available since: UD v1.1 
-License: CC BY-SA 4.0 
-Genre: news articles fictions technical descriptions culture art 
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim 
+Documentation status: partial  
+Data source: semi-automatic  
+Data available since: UD v1.1  
+License: CC BY-SA 4.0  
+Genre: news articles fictions technical descriptions culture art  
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim  
