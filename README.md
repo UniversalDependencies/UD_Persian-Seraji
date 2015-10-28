@@ -6,7 +6,7 @@ The Persian Universal Dependency Treebank (Persian UD) is the converted version 
 
 Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
-The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, only a subset of the morphological features has been included. Adding the rest of the morphological features, as well as lemmas, remain as future work. 
+The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, all the morphological features have been included. Adding lemmas remain as future work. 
 
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD
@@ -21,19 +21,15 @@ Category=value feature pairs: 14
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
-
-## Contributors
-Mojgan Seraji  
-Filip Ginter  
-Joakim Nivre 
-
 ## REFERENCES
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC). 
 2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation. 
 3. Seraji Mojgan. 2015. Morphosyntactic Corpora and Tools for Persian. Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
 
 
-Documentation status: partial
-Data source: unknown
-Data available since: UD v1.1
-License: CC BY-SA 4.0
+Documentation status: partial 
+Data source: semi-automatic 
+Data available since: UD v1.1 
+License: CC BY-SA 4.0 
+Genre: news articles fictions technical descriptions culture art 
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim 
