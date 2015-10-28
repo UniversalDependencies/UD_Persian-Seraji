@@ -31,5 +31,5 @@ Documentation status: partial
 Data source: semi-automatic  
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
-Genre: news articles fiction technic culture art  
+Genre: news fiction medical legal social nonfiction  
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim  
