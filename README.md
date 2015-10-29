@@ -21,7 +21,8 @@ Category=value feature pairs: 14
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
-## Contributors (in order of size of contribution)  
+## Contributors   
+The Persian UD is created by (in order of size of contribution):   
 
 Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
 Filip Ginter (automatic conversion)  
