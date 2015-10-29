@@ -27,6 +27,7 @@ Please contact mojgan.seraji@lingfil.uu.se for feedback and bug reports.
 
 ## CONTRIBUTORS   
 The Persian UD is created by (in order of size of contribution):   
+
 Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
 Filip Ginter (automatic conversion)  
 Nivre, Joakim (consultation for guidelines) 
