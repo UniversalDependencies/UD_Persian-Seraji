@@ -8,7 +8,6 @@ Apart from the universal annotation scheme and the general rules in the UD, the 
 
 The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, morphological features have been included. Adding lemmas remain as future work. 
 
-
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD
 Tree count:  6000  
 Word count:  152918  
