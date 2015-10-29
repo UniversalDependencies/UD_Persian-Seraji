@@ -30,7 +30,7 @@ The Persian UD is created by (in order of size of contribution):
 
 Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
 Filip Ginter (automatic conversion)  
-Nivre, Joakim (consultation for guidelines) 
+Joakim Nivre (consultation for guidelines) 
 
 
 ## REFERENCES
