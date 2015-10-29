@@ -21,6 +21,13 @@ Category=value feature pairs: 14
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
 9 for development (10%), and 10 for test (10%) sets.
 
+## Contributors (in order of size of contribution)  
+
+Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
+Filip Ginter (automatic conversion)  
+Nivre, Joakim (consultation for guidelines) 
+
+
 ## REFERENCES
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC). 
 2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation. 
@@ -32,4 +39,4 @@ Data source: semi-automatic
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
 Genre: news fiction medical legal social nonfiction  
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim  
+
