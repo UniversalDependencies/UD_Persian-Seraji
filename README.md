@@ -41,4 +41,5 @@ Data source: semi-automatic
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
 Genre: news fiction medical legal social nonfiction  
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim   
 
