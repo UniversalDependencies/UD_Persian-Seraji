@@ -40,6 +40,6 @@ Documentation status: partial
 Data source: semi-automatic  
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
-Genre: news fiction medical legal social nonfiction  
+Genre: news fiction medical legal social spoken nonfiction  
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim   
 
