@@ -37,8 +37,7 @@ Joakim Nivre (consultation for guidelines)
 
 
 ## CHANGELOG 
-From v1.1 to v1.2, all morphological features have been    
-added. Some errors have further been corrected. 
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. 
 
 
 
