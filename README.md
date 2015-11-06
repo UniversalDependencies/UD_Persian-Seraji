@@ -36,6 +36,11 @@ Joakim Nivre (consultation for guidelines)
 3. Seraji Mojgan. 2015. Morphosyntactic Corpora and Tools for Persian. Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
 
 
+## CHANGELOG 
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. 
+
+
+
 Documentation status: partial  
 Data source: semi-automatic  
 Data available since: UD v1.1  
