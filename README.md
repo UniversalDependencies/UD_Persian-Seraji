@@ -6,7 +6,7 @@ The Persian Universal Dependency Treebank (Persian UD) is the converted version 
 
 Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
-The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, morphological features have been included. Adding lemmas remains for future work. 
+The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, morphological features have been included. Adding lemmas remains as future work. 
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD   
 Tree count:  6000   
@@ -36,9 +36,16 @@ Joakim Nivre (consultation for guidelines)
 3. Seraji Mojgan. 2015. Morphosyntactic Corpora and Tools for Persian. Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
 
 
+## CHANGELOG 
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. 
+
+
+
+
 Documentation status: partial  
 Data source: semi-automatic  
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
-Genre: news fiction medical legal social nonfiction  
+Genre: news fiction medical legal social spoken nonfiction  
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim   
 
