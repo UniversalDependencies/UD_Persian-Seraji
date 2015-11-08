@@ -1853,7 +1853,7 @@
 3	مثل	_	ADV	ADV_COMP	_	4	case	_	_
 4	فرآورده‌های	_	NOUN	N_PL	Number=Plur	1	nmod	_	_
 5	پتروشیمی	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
-6	هم	_	SCONJ	CON	_	7	conj:preconj	_	_
+6	هم	_	SCONJ	CON	_	7	cc:preconj	_	_
 7	از	_	ADP	P	_	8	case	_	_
 8	نظر	_	NOUN	N_SING	Number=Sing	24	nmod	_	_
 9	ثبات	_	NOUN	N_SING	Number=Sing	8	nmod:poss	_	_
@@ -8346,7 +8346,7 @@
 7	سرزمین	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
 8	اجدادی	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
 9	،	_	PUNCT	DELM	_	11	punct	_	_
-10	هم	_	SCONJ	CON	_	11	conj:preconj	_	_
+10	هم	_	SCONJ	CON	_	11	cc:preconj	_	_
 11	طولانی	_	ADJ	ADJ	Degree=Pos	0	root	_	_
 12	بود	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	11	cop	_	_
 13	و	_	CONJ	CON	_	11	cc	_	_
@@ -14978,7 +14978,7 @@
 21	آن	_	PRON	PRO	Number=Sing|PronType=Dem	20	nmod:poss	_	_
 22	است	_	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	14	ccomp	_	_
 23	که	_	SCONJ	CON	_	31	mark	_	_
-24	هم	_	SCONJ	CON	_	31	conj:preconj	_	_
+24	هم	_	SCONJ	CON	_	31	cc:preconj	_	_
 25	فرد	_	NOUN	N_SING	Number=Sing	31	nsubj	_	_
 26	شاخصی	_	NOUN	N_SING	Number=Sing	25	nmod:poss	_	_
 27	برای	_	ADP	P	_	29	case	_	_
@@ -16220,7 +16220,7 @@
 41	اما	_	CONJ	CON	_	39	cc	_	_
 42	کار	_	NOUN	N_SING	Number=Sing	46	nsubj	_	_
 43	آن‌ها	_	PRON	PRO	Number=Plur|PronType=Dem	42	nmod:poss	_	_
-44	اولاً	_	SCONJ	CON	_	46	conj:preconj	_	_
+44	اولاً	_	SCONJ	CON	_	46	cc:preconj	_	_
 45	عمومیت	_	NOUN	N_SING	Number=Sing	46	compound:lvc	_	_
 46	نداشت	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	39	ccomp	_	_
 47	و	_	CONJ	CON	_	46	cc	_	_
@@ -16382,7 +16382,7 @@
 69	بیاوریم	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	54	conj	_	_
 70	.	_	PUNCT	DELM	_	6	punct	_	_
 
-1	هم	_	SCONJ	CON	_	3	conj:preconj	_	_
+1	هم	_	SCONJ	CON	_	3	cc:preconj	_	_
 2	این	_	DET	DET	_	3	det	_	_
 3	افراط	_	NOUN	N_SING	Number=Sing	8	nsubj	_	_
 4	و	_	CONJ	CON	_	3	cc	_	_

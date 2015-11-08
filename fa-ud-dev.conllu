@@ -1535,7 +1535,7 @@
 5	هوشمندانه‌ای	_	ADJ	ADJ	Degree=Pos	3	conj	_	_
 6	بود	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
 7	که	_	SCONJ	CON	_	14	mark	_	_
-8	هم	_	SCONJ	CON	_	14	conj:preconj	_	_
+8	هم	_	SCONJ	CON	_	14	cc:preconj	_	_
 9	در	_	ADP	P	_	11	case	_	_
 10	کم	_	ADJ	ADJ	Degree=Pos	11	compound:lvc	_	_
 11	کردن	_	NOUN	N_SING	Number=Sing	14	nmod	_	_
@@ -5135,7 +5135,7 @@
 46	جنبش	_	NOUN	N_SING	Number=Sing	58	nsubj	_	_
 47	مردم	_	NOUN	N_SING	Number=Sing	46	nmod:poss	_	_
 48	،	_	PUNCT	DELM	_	58	punct	_	_
-49	هم	_	SCONJ	CON	_	50	conj:preconj	_	_
+49	هم	_	SCONJ	CON	_	50	cc:preconj	_	_
 50	بعد	_	ADV	ADV_TIME	Case=Tem	58	advmod	_	_
 51	ضد‌استبدادی	_	ADJ	ADJ	Degree=Pos	50	amod	_	_
 52	و	_	CONJ	CON	_	50	cc	_	_
@@ -5187,7 +5187,7 @@
 23	شکل	_	NOUN	N_SING	Number=Sing	41	nmod	_	_
 24	بسیار	_	ADV	ADV	_	25	advmod	_	_
 25	گسترده‌ای	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
-26	هم	_	SCONJ	CON	_	27	conj:preconj	_	_
+26	هم	_	SCONJ	CON	_	27	cc:preconj	_	_
 27	به	_	ADP	P	_	28	case	_	_
 28	لحاظ	_	NOUN	N_SING	Number=Sing	41	nmod	_	_
 29	کمی	_	ADJ	ADJ	Degree=Pos	28	amod	_	_
@@ -5809,7 +5809,7 @@
 45	دستگاه	_	NOUN	N_SING	Number=Sing	44	nmod:poss	_	_
 46	قضایی	_	ADJ	ADJ	Degree=Pos	45	amod	_	_
 47	را	_	PART	CLITIC	_	44	case	_	_
-48	چه	_	SCONJ	CON	_	49	conj:preconj	_	_
+48	چه	_	SCONJ	CON	_	49	cc:preconj	_	_
 49	از	_	ADP	P	_	50	case	_	_
 50	نظر	_	NOUN	N_SING	Number=Sing	58	nmod	_	_
 51	فقهی	_	ADJ	ADJ	Degree=Pos	50	amod	_	_
@@ -8286,28 +8286,6 @@
 30	دست	_	NOUN	N_SING	Number=Sing	31	compound:lvc	_	_
 31	یافتند	_	VERB	V_PA	Number=Plur|Person=3|Tense=Past	0	root	_	_
 32	.	_	PUNCT	DELM	_	31	punct	_	_
-
-1	تیم	_	NOUN	N_SING	Number=Sing	20	nsubj	_	_
-2	ایران	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
-3	در	_	ADP	P	_	4	case	_	_
-4	دوره	_	NOUN	N_SING	Number=Sing	20	nmod	_	_
-5	گذشته	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
-6	این	_	DET	DET	_	7	det	_	_
-7	رقابتها	_	NOUN	N_PL	Number=Plur	4	nmod:poss	_	_
-8	که	_	SCONJ	CON	_	15	mark	_	_
-9	سال	_	NOUN	N_SING	Number=Sing	15	advmod	_	_
-10	۱۳۷۷	_	NUM	NUM	NumType=Card	9	nummod	_	_
-11	در	_	ADP	P	_	12	case	_	_
-12	شهر	_	NOUN	N_SING	Number=Sing	15	nmod	_	_
-13	هوشی‌مینه	_	NOUN	N_SING	Number=Sing	12	name	_	_
-14	ویتنام	_	NOUN	N_SING	Number=Sing	13	nmod:poss	_	_
-15	برگزار	_	ADJ	ADJ	Degree=Pos	7	acl:relcl	_	_
-16	شد	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	15	cop	_	_
-17	در	_	ADP	P	_	18	case	_	_
-18	مکان	_	NOUN	N_SING	Number=Sing	20	nmod	_	_
-19	چهارم	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
-20	ایستاد	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
-21	.	_	PUNCT	DELM	_	20	punct	_	_
 
 1	تیم	_	NOUN	N_SING	Number=Sing	13	nsubj	_	_
 2	ایران	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
@@ -11127,7 +11105,7 @@
 27	دارد	_	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	9	conj	_	_
 28	.	_	PUNCT	DELM	_	3	punct	_	_
 
-1	هم	_	SCONJ	CON	_	8	conj:preconj	_	_
+1	هم	_	SCONJ	CON	_	8	cc:preconj	_	_
 2	وحدت	_	NOUN	N_SING	Number=Sing	8	nsubj	_	_
 3	،	_	PUNCT	DELM	_	8	punct	_	_
 4	نقش	_	NOUN	N_SING	Number=Sing	8	dobj	_	_
@@ -14629,7 +14607,7 @@
 1	این	_	DET	DET	_	2	det	_	_
 2	روش	_	NOUN	N_SING	Number=Sing	13	nsubj	_	_
 3	،	_	PUNCT	DELM	_	13	punct	_	_
-4	هم	_	SCONJ	CON	_	13	conj:preconj	_	_
+4	هم	_	SCONJ	CON	_	13	cc:preconj	_	_
 5	به	_	ADP	P	_	6	case	_	_
 6	صرفه‌جویی	_	NOUN	N_SING	Number=Sing	13	nmod	_	_
 7	در	_	ADP	P	_	8	case	_	_
@@ -15894,7 +15872,7 @@
 29	بوده	_	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	27	acl:relcl	_	_
 30	است	_	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	29	aux	_	_
 31	،	_	PUNCT	DELM	_	43	punct	_	_
-32	هم	_	SCONJ	CON	_	33	conj:preconj	_	_
+32	هم	_	SCONJ	CON	_	33	cc:preconj	_	_
 33	در	_	ADP	P	_	34	case	_	_
 34	چشم	_	NOUN	N_SING	Number=Sing	43	nmod	_	_
 35	مردم	_	NOUN	N_SING	Number=Sing	34	nmod:poss	_	_
