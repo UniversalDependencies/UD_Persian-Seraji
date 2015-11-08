@@ -38,7 +38,7 @@ Joakim Nivre (consultation for guidelines)
 
 
 ## CHANGELOG 
-From v1.1 to v1.2, all morphological features are now included in the treebank. Three overlapped sentences have been removed from the data sets. Two cases were occurred in the training- and one in dev set. Hence, the total number of sentences in v1.2 are 5997 as compared to v1.1 with 6000. Some errors have further been corrected. 
+From v1.1 to v1.2, all morphological features are now included in the treebank. Three overlapped sentences have been removed from the data sets. Two cases were in the training- and one in dev set. Hence, the total number of sentences in v1.2 are 5997 as compared to v1.1 with 6000. Some errors have further been corrected. 
 
 
 
