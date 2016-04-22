@@ -1,20 +1,21 @@
 # UD_Persian
 
-## Universal Dependencies for Persian (v1.2) 
+## Universal Dependencies for Persian (v1.3) 
 
-The Persian Universal Dependency Treebank (Persian UD) is the converted version of the Uppsala Persian Dependency Treebank (UPDT) (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of 6000 sentence of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by Mojgan Seraji, under the supervision of Joakim Nivre and Carina Jahani at Uppsala University. 
+The Persian Universal Dependency Treebank (Persian UD) is the converted version of the Uppsala Persian Dependency Treebank (UPDT) (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of ~ 6000 annotated and validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by Mojgan Seraji, under the supervision of Joakim Nivre and Carina Jahani at Uppsala University. 
 
 Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
-The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. In the current release, morphological features have been included. Adding lemmas remains as future work. 
+The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels.  Morphological features were further added semi-automatically. The entire process have been manually validated. In the current release, lemmas are partly included. 
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD   
-Tree count:  6000   
-Word count:  152920   
-Token count: 151672   
-Dep. relations: 37 of which 7 language specific   
-POS tags: 15   
-Category=value feature pairs: 30   
+Tree count:  5997
+Word count:  152871
+Token count: 151624
+Dep. relations: 37 of which 7 language specific
+POS tags: 15
+Category=value feature pairs: 30
+
 
 ## DATA SPLIT
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%), 
@@ -38,6 +39,7 @@ Joakim Nivre (consultation for guidelines)
 
 ## CHANGELOG 
 From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. 
+From v1.2 to v1.3, some errors have been corrected. Lemmas are partly included.
 
 
 
