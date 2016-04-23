@@ -40,10 +40,10 @@ Joakim Nivre (consultation for guidelines)
 ## CHANGELOG 
 From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.   
 From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
-
-
-
-
+   
+   
+   
+** Machine readable metadata *****************************
 Documentation status: partial  
 Data source: semi-automatic   
 Data available since: UD v1.1  
