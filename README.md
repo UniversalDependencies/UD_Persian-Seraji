@@ -43,7 +43,7 @@ From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been incl
    
    
    
-Machine Readable Metadata ******************************** 
+********************************************************** 
 Documentation status: partial  
 Data source: semi-automatic   
 Data available since: UD v1.1  
