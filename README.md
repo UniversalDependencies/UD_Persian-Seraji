@@ -41,13 +41,23 @@ Joakim Nivre (consultation for guidelines)
 From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.   
 From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
    
-   
-   
-**********************************************************  
+*************************************   
+*************************************   
+*************************************   
+*************************************   
+*************************************  
+*************************************   
+*************************************   
+*************************************   
+*************************************   
+*************************************   
+*************************************   
+Machine Readable Metadata   
+*************************************   
 Documentation status: partial  
 Data source: semi-automatic   
 Data available since: UD v1.1  
 License: CC BY-SA 4.0  
 Genre: news fiction medical legal social spoken nonfiction  
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim   
-*********************************************************** 
+ 
