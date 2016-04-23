@@ -42,10 +42,7 @@ From v1.1 to v1.2, all morphological features have been added. Some errors have 
 From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
 
 
-##      
-##  
-##  
-## 
+
   
 ..........................................................................................................   
 Machine readable metadata   
