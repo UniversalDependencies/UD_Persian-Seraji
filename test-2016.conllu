@@ -14462,7 +14462,7 @@
 30	وقت	وقت	NOUN	N_SING	Number=Sing	40	nmod	_	_
 31	پکن	پکن	NOUN	N_SING	Number=Sing	30	nmod:poss	_	_
 32	در	در	ADP	P	_	33	case	_	_
-33 	منطقه	منطقه	NOUN	N_SING	Number=Sing	40	nmod	_	_
+33	منطقه	منطقه	NOUN	N_SING	Number=Sing	40	nmod	_	_
 34	نانتو	نانتو	NOUN	N_SING	Number=Sing	33	name	_	_
 35	در	در	ADP	P	_	36	case	_	_
 36	مرکز	مرکز	NOUN	N_SING	Number=Sing	34	nmod	_	_
