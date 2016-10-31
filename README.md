@@ -34,7 +34,7 @@ Joakim Nivre (consultation for guidelines)
 ## REFERENCES
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC). 
 2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation. 
-3. Seraji Mojgan. 2015.  <a href="http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A800998&dswid=new"> Morphosyntactic Corpora and Tools for Persian </a> . Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
+3. Seraji Mojgan. 2015.  <a href="http://uu.diva-portal.org/smash/get/diva2:800998/FULLTEXT02.pdf"> Morphosyntactic Corpora and Tools for Persian </a> . Doctoral dissertation. Studia Linguistica Upsaliensia 16. 
 4. Seraji Mojgan, Filip Ginter, and Joakim Nivre. 2016.  <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/697_Paper.pdf"> Universal Dependencies for Persian </a> . In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016).
 
 
