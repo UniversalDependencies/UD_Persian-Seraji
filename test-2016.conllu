@@ -16124,7 +16124,7 @@
 24	و	و	CONJ	CON	_	23	cc	_	_
 25-26	گلهایش	_	_	_	_	_	_	_	_
 25	گلهای	گل	NOUN	N_PL	Number=Plur	28	dobj	_	_
-26	ش	آن 	PRON	PRO	Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
+26	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
 27	را	را	PART	CLITIC	_	25	case	_	_
 28	چیده	چید#چین	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	23	conj	_	_
 29	و	و	CONJ	CON	_	28	cc	_	_
