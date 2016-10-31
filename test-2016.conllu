@@ -871,7 +871,7 @@
 1	بیش	بیش	ADJ	ADJ_CMPR	Degree=Cmp	4	advmod	_	_
 2	از	از	ADP	P	_	1	mwe	_	_
 3	نیم	نیم	NOUN	N_SING	Number=Sing	4	det	_	_
-4	قرن	قرن	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	قرن	قرن	NOUN	N_SING	Number=Sing	5	nmod	_	_
 5	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	که	که	SCONJ	CON	_	17	mark	_	_
 7	بالا	بالا	ADV	ADV_LOC	Case=Loc	8	advmod	_	_
@@ -9441,7 +9441,7 @@
 14	.	.	PUNCT	DELM	_	2	punct	_	_
 
 1	هیچ	هیچ	ADV	ADV_NEG	Negative=Neg	2	det	_	_
-2 	منطقه	منطقه	NOUN	N_SING	Number=Sing	11	dobj	_	_
+2	منطقه	منطقه	NOUN	N_SING	Number=Sing	11	dobj	_	_
 3	و	و	CONJ	CON	_	2	cc	_	_
 4	ناحیه‌ای	ناحیه	NOUN	N_SING	Number=Sing	2	conj	_	_
 5	،	،	PUNCT	DELM	_	4	punct	_	_
@@ -11387,7 +11387,7 @@
 6	شهرستان	شهرستان	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
 7	بویراحمد	بویراحمد	NOUN	N_SING	Number=Sing	6	name	_	_
 8	در	در	ADP	P	_	9	case	_	_
-9 	منطقه	منطقه	NOUN	N_SING	Number=Sing	18	nmod	_	_
+9	منطقه	منطقه	NOUN	N_SING	Number=Sing	18	nmod	_	_
 10	سردسیری	سردسیر	ADJ	ADJ	Degree=Pos	9	amod	_	_
 11	این	این	DET	DET	_	12	det	_	_
 12	استان	استان	NOUN	N_SING	Number=Sing	9	nmod:poss	_	_
@@ -11506,7 +11506,7 @@
 28	گذشته	گذشته	ADJ	ADJ	Degree=Pos	27	amod	_	_
 29	در	در	ADP	P	_	31	case	_	_
 30	این	این	DET	DET	_	31	det	_	_
-31 	منطقه	منطقه	NOUN	N_SING	Number=Sing	35	nmod	_	_
+31	منطقه	منطقه	NOUN	N_SING	Number=Sing	35	nmod	_	_
 32	مورد	مورد	ADP	P	_	33	case	_	_
 33	بهره‌برداری	بهره‌برداری	NOUN	N_SING	Number=Sing	35	nmod	_	_
 34	قرار	قرار	NOUN	N_SING	Number=Sing	35	compound:lvc	_	_
@@ -11615,7 +11615,7 @@
 5	کشت	کشت	NOUN	N_SING	Number=Sing	29	nsubj	_	_
 6	سیب‌زمینی	سیب‌زمینی	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
 7	در	در	ADP	P	_	8	case	_	_
-8 	منطقه	منطقه	NOUN	N_SING	Number=Sing	6	nmod	_	_
+8	منطقه	منطقه	NOUN	N_SING	Number=Sing	6	nmod	_	_
 9	به	به	ADP	P	_	10	case	_	_
 10	لحاظ	لحاظ	NOUN	N_SING	Number=Sing	29	nmod	_	_
 11	بارش	بارش	NOUN	N_SING	Number=Sing	10	nmod:poss	_	_
@@ -11720,7 +11720,7 @@
 29	با	با	ADP	P	_	30	case	_	_
 30	شرایط	شرایط	NOUN	N_PL	Number=Plur	28	nmod	_	_
 31	اقلیمی	اقلیمی	ADJ	ADJ	Degree=Pos	30	amod	_	_
-32 	منطقه	منطقه	NOUN	N_SING	Number=Sing	30	nmod:poss	_	_
+32	منطقه	منطقه	NOUN	N_SING	Number=Sing	30	nmod:poss	_	_
 33	می‌باشد	بود#باش	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	21	cop	_	_
 34	.	.	PUNCT	DELM	_	9	punct	_	_
 
@@ -12099,7 +12099,7 @@
 61	سلاطین	سلطان	NOUN	N_PL	Number=Plur	59	conj	_	_
 62	محلی	محلی	ADJ	ADJ	Degree=Pos	61	amod	_	_
 63	این	این	DET	DET	_	64	det	_	_
-64 	منطقه	منطقه	NOUN	N_SING	Number=Sing	61	nmod:poss	_	_
+64	منطقه	منطقه	NOUN	N_SING	Number=Sing	61	nmod:poss	_	_
 65	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	57	cop	_	_
 66	.	.	PUNCT	DELM	_	55	punct	_	_
 
@@ -12147,7 +12147,7 @@
 10	ساکن	ساکن	NOUN	N_SING	Number=Sing	9	nmod:poss	_	_
 11	در	در	ADP	P	_	13	case	_	_
 12	این	این	DET	DET	_	13	det	_	_
-13 	منطقه	منطقه	NOUN	N_SING	Number=Sing	10	nmod	_	_
+13	منطقه	منطقه	NOUN	N_SING	Number=Sing	10	nmod	_	_
 14	باعث	باعث	NOUN	N_SING	Number=Sing	0	root	_	_
 15	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	14	cop	_	_
 16	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	15	aux	_	_
@@ -12230,7 +12230,7 @@
 19	میلاد	میلاد	NOUN	N_SING	Number=Sing	17	nmod	_	_
 20	در	در	ADP	P	_	22	case	_	_
 21	این	این	DET	DET	_	22	det	_	_
-22 	منطقه	منطقه	NOUN	N_SING	Number=Sing	23	nmod	_	_
+22	منطقه	منطقه	NOUN	N_SING	Number=Sing	23	nmod	_	_
 23	می‌زیسته‌اند	زیست#زی	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	9	ccomp	_	_
 24	.	.	PUNCT	DELM	_	9	punct	_	_
 
@@ -12261,7 +12261,7 @@
 25	از	از	ADP	P	_	26	case	_	_
 26	میلاد	میلاد	NOUN	N_SING	Number=Sing	24	nmod	_	_
 27	سهمی	سهم	NOUN	N_SING	Number=Sing	28	dobj	_	_
-28	داشته‌اند	داشت#دار		VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	15	conj	_	_
+28	داشته‌اند	داشت#دار	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	15	conj	_	_
 29	.	.	PUNCT	DELM	_	15	punct	_	_
 
 1	دکتر	دکتر	NOUN	N_SING	Number=Sing	10	nsubj	_	_
@@ -13173,7 +13173,7 @@
 47	در	در	ADP	P	_	48	case	_	_
 48	سالهای	سال	NOUN	N_PL	Number=Plur	50	nmod	_	_
 49	پیش	پیش	ADV	ADV_TIME	Case=Tem	48	amod	_	_
-50	داشته‌اند	داشت#دار		VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	34	acl:relcl	_	_
+50	داشته‌اند	داشت#دار	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	34	acl:relcl	_	_
 51	،	،	PUNCT	DELM	_	54	punct	_	_
 52	می‌توانند	توانست#توان	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	54	aux	_	_
 53	شرکت	شرکت	NOUN	N_SING	Number=Sing	54	compound:lvc	_	_
