@@ -70,7 +70,7 @@
 17	از	از	ADP	P	_	18	case	_	_
 18	طوس	طوس	NOUN	N_SING	Number=Sing	15	nmod	_	_
 19	وجود	وجود	NOUN	N_SING	Number=Sing	20	compound:lvc	_	_
-20	داشته‌اند	داشت#دار		VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	11	ccomp	_	_
+20	داشته‌اند	داشت#دار	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	11	ccomp	_	_
 21	.	.	PUNCT	DELM	_	11	punct	_	_
 
 1	نشانه‌هایی	نشانه	NOUN	N_PL	Number=Plur	32	dislocated	_	_
@@ -1316,7 +1316,7 @@
 33	قیمت	قیمت	NOUN	N_SING	Number=Sing	32	nmod:poss	_	_
 34	نفت	نفت	NOUN	N_SING	Number=Sing	33	nmod:poss	_	_
 35	،	،	PUNCT	DELM	_	38	punct	_	_
-36	آسیب	آسیب	NOUN	N_SING	Number=Sing	38	compound-lvc	_	_
+36	آسیب	آسیب	NOUN	N_SING	Number=Sing	38	compound:lvc	_	_
 37	بیشتری	بیش	ADJ	ADJ_CMPR	Degree=Cmp	36	amod	_	_
 38	می‌بینند	دید#بین	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 39	.	.	PUNCT	DELM	_	38	punct	_	_
@@ -1500,7 +1500,7 @@
 22	نظامی	نظامی	ADJ	ADJ	Degree=Pos	21	amod	_	_
 23	آمریکا	آمریکا	NOUN	N_SING	Number=Sing	21	nmod:poss	_	_
 24	در	در	ADP	P	_	25	case	_	_
-25 	منطقه	منطقه	NOUN	N_SING	Number=Sing	21	nmod	_	_
+25	منطقه	منطقه	NOUN	N_SING	Number=Sing	21	nmod	_	_
 26	در‌حقیقت	در‌حقیقت	SCONJ	CON	_	27	advmod	_	_
 27	جنبه‌های	جنبه	NOUN	N_PL	Number=Plur	12	ccomp	_	_
 28	اقتصادی	اقتصادی	ADJ	ADJ	Degree=Pos	27	amod	_	_
@@ -5829,7 +5829,7 @@
 33	به	به	ADP	P	_	34	case	_	_
 34	عنوان	عنوان	NOUN	N_SING	Number=Sing	37	nmod	_	_
 35	نیروهای	نیرو	NOUN	N_PL	Number=Plur	34	name	_	_
-36	اصلاح‌گر		اصلاح‌گر	ADJ	ADJ	Degree=Pos	35	amod	_	_
+36	اصلاح‌گر	اصلاح‌گر	ADJ	ADJ	Degree=Pos	35	amod	_	_
 37	تلقی	تلقی	NOUN	N_SING	Number=Sing	28	conj	_	_
 38	بشود	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	37	cop	_	_
 39	در	در	ADP	P	_	41	case	_	_
@@ -10374,7 +10374,7 @@
 36	به	به	ADP	P	_	37	case	_	_
 37	عبدالله‌بن‌زبیر	عبدالله‌بن‌زبیر	NOUN	N_SING	Number=Sing	35	nmod	_	_
 38	در	در	ADP	P	_	39	case	_	_
-39	مکه	مکه		NOUN	N_SING	Number=Sing	37	nmod	_	_
+39	مکه	مکه	NOUN	N_SING	Number=Sing	37	nmod	_	_
 40	،	،	PUNCT	DELM	_	45	punct	_	_
 41	کعبه	کعبه	NOUN	N_SING	Number=Sing	45	dobj	_	_
 42	را	را	PART	CLITIC	_	41	case	_	_
@@ -10421,7 +10421,7 @@
 10	حرکت	حرکت	NOUN	N_SING	Number=Sing	6	conj	_	_
 11	به	به	ADP	P	_	12	case	_	_
 12	سوی	سوی	NOUN	N_SING	Number=Sing	10	nmod	_	_
-13	مکه	مکه		NOUN	N_SING	Number=Sing	12	nmod:poss	_	_
+13	مکه	مکه	NOUN	N_SING	Number=Sing	12	nmod:poss	_	_
 14	برای	برای	ADP	P	_	15	case	_	_
 15	جنگ	جنگ	NOUN	N_SING	Number=Sing	21	nmod	_	_
 16	با	با	ADP	P	_	17	case	_	_
