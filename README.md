@@ -1,10 +1,10 @@
 # UD_Persian
 
-## Universal Dependencies for Persian (v2.0)
+## Universal Dependencies for Persian (v2.0)  
 
-The Persian Universal Dependency Treebank (Persian UD) is the converted version of the  <a href="http://stp.lingfil.uu.se/~mojgan/UPDT.html"> Uppsala Persian Dependency Treebank (UPDT) </a> (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of ~ 6000 annotated and validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by <a href="http://stp.lingfil.uu.se/~mojgan"> Mojgan Seraji</a>, under the supervision of Joakim Nivre and Carina Jahani at Uppsala University.
+The Persian Universal Dependency Treebank (Persian UD) is the converted version of the  <a href="http://stp.lingfil.uu.se/~mojgan/UPDT.html"> Uppsala Persian Dependency Treebank (UPDT) </a> (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of ~ 6000 annotated and validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by <a href="http://stp.lingfil.uu.se/~mojgan"> Mojgan Seraji</a>, under the supervision of Joakim Nivre and Carina Jahani at Uppsala University.  
 
-Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
+Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.  
 
 The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. Morphological features were then mapped semi-automatically. In the current release, lemmas are added for a large number of tokens. This process are further done semi-automatically. The entire process have been manually validated.      
 
@@ -21,10 +21,10 @@ Category=value feature pairs: 30
 
 ## DATA SPLIT
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%),
-9 for development (10%), and 10 for test (10%) sets.
+9 for development (10%), and 10 for test (10%) sets.  
 
 ## FEEDBACK AND BUG REPORTS
-Please contact mojgan.seraji@lingfil.uu.se for feedback and bug reports.
+Please contact mojgan.seraji@lingfil.uu.se for feedback and bug reports.  
 
 
 ## CONTRIBUTORS
@@ -54,13 +54,13 @@ From v1.3 to v2.0, a number of annotation errors are fixed. More lemmas are adde
 
 
 
-..........................................................................................................
-Machine readable metadata
-..........................................................................................................
+.......................................................................................................... 
+Machine readable metadata 
+.......................................................................................................... 
 Documentation status: partial   
 Data source: semi-automatic    
 Data available since: UD v1.1    
 License: CC BY-SA 4.0   
 Genre: news fiction medical legal social spoken nonfiction   
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim   
-Contact:
+
