@@ -55,7 +55,7 @@ From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are adde
 
 
 ..........................................................................................................    
-Machine readable metadata
+Machine readable metadata    
 ..........................................................................................................   
 Documentation status: partial  
 Data source: semi-automatic  
