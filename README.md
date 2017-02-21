@@ -11,12 +11,12 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD
-Tree count:  5997  
-Word count:  152871   
-Token count: 151624    
-Dep. relations: 37 of which 7 language specific   
-POS tags: 15   
-Category=value feature pairs: 30    
+Tree count:  5997
+Word count:  152871
+Token count: 151624
+Dep. relations: 37 of which 7 language specific
+POS tags: 15
+Category=value feature pairs: 30
 
 
 ## DATA SPLIT
@@ -28,25 +28,25 @@ Please contact mojgan@stp.lingfil.uu.se for feedback and bug reports.
 
 
 ## CONTRIBUTORS
-Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
-Filip Ginter (automatic conversion)    
-Joakim Nivre (consultation for guidelines)    
+Mojgan Seraji (manual annotation, automatic conversion with manual corrections)
+Filip Ginter (automatic conversion)
+Joakim Nivre (consultation for guidelines)
 
 
 ## REFERENCES
-1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC).  
-2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation.   
-3. Seraji Mojgan. 2015.  <a href="http://uu.diva-portal.org/smash/get/diva2:800998/FULLTEXT02.pdf"> Morphosyntactic Corpora and Tools for Persian</a>. Doctoral dissertation. Studia Linguistica Upsaliensia 16.  
-4. Seraji Mojgan, Filip Ginter, and Joakim Nivre. 2016.  <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/697_Paper.pdf"> Universal Dependencies for Persian</a>. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016), pages 2361-2365.  
+1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC).
+2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation.
+3. Seraji Mojgan. 2015.  <a href="http://uu.diva-portal.org/smash/get/diva2:800998/FULLTEXT02.pdf"> Morphosyntactic Corpora and Tools for Persian</a>. Doctoral dissertation. Studia Linguistica Upsaliensia 16.
+4. Seraji Mojgan, Filip Ginter, and Joakim Nivre. 2016.  <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/697_Paper.pdf"> Universal Dependencies for Persian</a>. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016), pages 2361-2365.
 
 
 
 
 
 ## CHANGELOG
-From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.   
-From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.   
-From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.    
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.
+From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
+From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.
 
 
 
@@ -54,13 +54,13 @@ From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are adde
 
 
 
-..........................................................................................................    
-Machine readable metadata    
-..........................................................................................................   
-Documentation status: partial  
-Data source: semi-automatic  
-Data available since: UD v1.1  
-License: CC BY-SA 4.0  
-Genre: news fiction medical legal social spoken nonfiction  
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim  
-Contact: mojgan@stp.lingfil.uu.se   
+..........................................................................................................
+Machine readable metadata
+..........................................................................................................
+Documentation status: partial
+Data source: semi-automatic
+Data available since: UD v1.1
+License: CC BY-SA 4.0
+Genre: news fiction medical legal social spoken nonfiction
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim
+Contact: mojgan.seraji96@gmail.com
