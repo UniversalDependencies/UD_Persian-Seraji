@@ -10,13 +10,13 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 
-## STATISTICAL OVERVIEW OF THE PERSIAN UD
-Tree count:  5997
-Word count:  152871
-Token count: 151624
-Dep. relations: 37 of which 7 language specific
-POS tags: 15
-Category=value feature pairs: 30
+## STATISTICAL OVERVIEW OF THE PERSIAN UD 
+Tree count:  5997 
+Word count:  152871    
+Token count: 151624     
+Dep. relations: 37 of which 7 language specific    
+POS tags: 15      
+Category=value feature pairs: 30      
 
 
 ## DATA SPLIT
@@ -28,9 +28,9 @@ Please contact mojgan@stp.lingfil.uu.se for feedback and bug reports.
 
 
 ## CONTRIBUTORS
-Mojgan Seraji (manual annotation, automatic conversion with manual corrections)
-Filip Ginter (automatic conversion)
-Joakim Nivre (consultation for guidelines)
+Mojgan Seraji (manual annotation, automatic conversion with manual corrections)     
+Filip Ginter (automatic conversion)       
+Joakim Nivre (consultation for guidelines)       
 
 
 ## REFERENCES
@@ -54,13 +54,13 @@ From v1.3 to v2.0, a number of annotation errors are fixed. More lemmas are adde
 
 
 
-..........................................................................................................
-Machine readable metadata
-..........................................................................................................
-Documentation status: partial
-Data source: semi-automatic
-Data available since: UD v1.1
-License: CC BY-SA 4.0
-Genre: news fiction medical legal social spoken nonfiction
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim
-Contact: mojgan@stp.lingfil.uu.se
+..........................................................................................................    
+Machine readable metadata     
+..........................................................................................................    
+Documentation status: partial      
+Data source: semi-automatic      
+Data available since: UD v1.1      
+License: CC BY-SA 4.0      
+Genre: news fiction medical legal social spoken nonfiction     
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim      
+Contact: mojgan@stp.lingfil.uu.se        
