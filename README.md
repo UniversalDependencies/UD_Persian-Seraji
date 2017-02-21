@@ -63,4 +63,4 @@ Data available since: UD v1.1
 License: CC BY-SA 4.0      
 Genre: news fiction medical legal social spoken nonfiction       
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim         
-Contact: mojgan.seraji96@gmail.co        
+Contact: mojgan.seraji96@gmail.com        
