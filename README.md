@@ -1,6 +1,6 @@
 # UD_Persian
 
-## Universal Dependencies for Persian (v1.4)
+## Universal Dependencies for Persian (v2)
 
 The Persian Universal Dependency Treebank (Persian UD) is the converted version of the  <a href="http://stp.lingfil.uu.se/~mojgan/UPDT.html"> Uppsala Persian Dependency Treebank (UPDT) </a> (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of ~ 6000 annotated and validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language. The original UPDT was developed by <a href="http://stp.lingfil.uu.se/~mojgan"> Mojgan Seraji</a>, under the supervision of Joakim Nivre and Carina Jahani at Uppsala University.
 
@@ -10,13 +10,13 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 
-## STATISTICAL OVERVIEW OF THE PERSIAN UD
-Tree count:  5997
-Word count:  152871
-Token count: 151624
-Dep. relations: 37 of which 7 language specific
-POS tags: 15
-Category=value feature pairs: 30
+## STATISTICAL OVERVIEW OF THE PERSIAN UD   
+Tree count:  5997    
+Word count:  152871     
+Token count: 151624     
+Dep. relations: 37 of which 7 language specific     
+POS tags: 15     
+Category=value feature pairs: 30     
 
 
 ## DATA SPLIT
@@ -27,10 +27,10 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 Please contact mojgan@stp.lingfil.uu.se for feedback and bug reports.
 
 
-## CONTRIBUTORS
-Mojgan Seraji (manual annotation, automatic conversion with manual corrections)
-Filip Ginter (automatic conversion)
-Joakim Nivre (consultation for guidelines)
+## CONTRIBUTORS  
+Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
+Filip Ginter (automatic conversion)          
+Joakim Nivre (consultation for guidelines)        
 
 
 ## REFERENCES
@@ -44,9 +44,9 @@ Joakim Nivre (consultation for guidelines)
 
 
 ## CHANGELOG
-From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.
-From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
-From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.    
+From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.     
+From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.       
 
 
 
@@ -54,13 +54,13 @@ From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are adde
 
 
 
-..........................................................................................................
-Machine readable metadata
-..........................................................................................................
-Documentation status: partial
-Data source: semi-automatic
-Data available since: UD v1.1
-License: CC BY-SA 4.0
-Genre: news fiction medical legal social spoken nonfiction
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim
-Contact: mojgan.seraji96@gmail.com
+..........................................................................................................     
+Machine readable metadata      
+..........................................................................................................     
+Documentation status: partial      
+Data source: semi-automatic      
+Data available since: UD v1.1      
+License: CC BY-SA 4.0      
+Genre: news fiction medical legal social spoken nonfiction       
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim         
+Contact: mojgan.seraji96@gmail.com        
