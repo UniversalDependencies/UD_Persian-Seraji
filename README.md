@@ -10,13 +10,13 @@ The conversion of the UPDT to the Universal Dependencies has been carried out se
 
 
 
-## STATISTICAL OVERVIEW OF THE PERSIAN UD 
-Tree count:  5997 
-Word count:  152871    
+## STATISTICAL OVERVIEW OF THE PERSIAN UD   
+Tree count:  5997    
+Word count:  152871     
 Token count: 151624     
-Dep. relations: 37 of which 7 language specific    
-POS tags: 15      
-Category=value feature pairs: 30      
+Dep. relations: 37 of which 7 language specific     
+POS tags: 15     
+Category=value feature pairs: 30     
 
 
 ## DATA SPLIT
@@ -27,10 +27,10 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 Please contact mojgan@stp.lingfil.uu.se for feedback and bug reports.
 
 
-## CONTRIBUTORS
-Mojgan Seraji (manual annotation, automatic conversion with manual corrections)     
-Filip Ginter (automatic conversion)       
-Joakim Nivre (consultation for guidelines)       
+## CONTRIBUTORS  
+Mojgan Seraji (manual annotation, automatic conversion with manual corrections)   
+Filip Ginter (automatic conversion)          
+Joakim Nivre (consultation for guidelines)        
 
 
 ## REFERENCES
@@ -44,9 +44,9 @@ Joakim Nivre (consultation for guidelines)
 
 
 ## CHANGELOG
-From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.
-From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.
-From v1.3 to v2.0, a number of annotation errors are fixed. More lemmas are added.
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.    
+From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.     
+From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.       
 
 
 
@@ -54,13 +54,13 @@ From v1.3 to v2.0, a number of annotation errors are fixed. More lemmas are adde
 
 
 
-..........................................................................................................    
-Machine readable metadata     
-..........................................................................................................    
+..........................................................................................................     
+Machine readable metadata      
+..........................................................................................................     
 Documentation status: partial      
 Data source: semi-automatic      
 Data available since: UD v1.1      
 License: CC BY-SA 4.0      
-Genre: news fiction medical legal social spoken nonfiction     
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim      
-Contact: mojgan@stp.lingfil.uu.se        
+Genre: news fiction medical legal social spoken nonfiction       
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim         
+Contact: mojgan.seraji96@gmail.com        
