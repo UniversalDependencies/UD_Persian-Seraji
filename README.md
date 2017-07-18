@@ -24,7 +24,7 @@ The data has sequentially been split into 10 parts, of which segments 1-8 are us
 9 for development (10%), and 10 for test (10%) sets.
 
 ## FEEDBACK AND BUG REPORTS
-Please contact mojgan@stp.lingfil.uu.se for feedback and bug reports.
+Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 
 ## CONTRIBUTORS  
