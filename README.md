@@ -59,7 +59,7 @@ Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native
 Features: manual native
-Relations: converted from manual
+Relations: manual native
 Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim
 Contributing: elsewhere
 Contact: mojgan.seraji96@gmail.com
