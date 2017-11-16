@@ -15,7 +15,7 @@ The conversion of the UPDT to the Persian UD has been performed by Mojgan Seraji
 
 #
 
-## STATISTICAL OVERVIEW OF THE PERSIAN UD
+# STATISTICAL OVERVIEW OF THE PERSIAN UD
 Tree count:  5997 <br />
 Word count:  152871 <br />
 Token count: 151624 <br />
@@ -24,15 +24,15 @@ POS tags: 15 <br />
 Category=value feature pairs: 30 <br />
 
 
-## DATA SPLIT
+# DATA SPLIT
 The data has sequentially been split into 10 parts, of which segments 1-8 are used for training (80%),
 9 for development (10%), and 10 for test (10%) sets.
 
-## FEEDBACK AND BUG REPORTS
+# FEEDBACK AND BUG REPORTS
 Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 
-## REFERENCES
+# REFERENCES
 1. De Marneffe, Marie-Catherine, Bill MacCartney, and Christopher D. Manning. 2006. Generating typed dependency parses from phrase structure parses. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC).
 2. De Marneffe, Marie-Catherine, and Christopher D. Manning. 2008. Stanford Typed Dependencies Representation. In Proceedings of the COLING’08 Workshop on Cross-Framework and Cross-Domain Parser Evaluation.
 3. Seraji Mojgan. 2015.  <a href="http://uu.diva-portal.org/smash/get/diva2:800998/FULLTEXT02.pdf"> Morphosyntactic Corpora and Tools for Persian</a>. Doctoral dissertation. Studia Linguistica Upsaliensia 16.
@@ -42,7 +42,7 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 
 
-## CHANGELOG
+# CHANGELOG
 From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. <br />
 From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included. <br />
 From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added. <br />
