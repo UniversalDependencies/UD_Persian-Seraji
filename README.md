@@ -16,12 +16,12 @@ The conversion of the UPDT to the Persian UD has been performed by Mojgan Seraji
 #
 
 ## STATISTICAL OVERVIEW OF THE PERSIAN UD 
-Tree count:  5997<br />
-Word count:  152871<br />
-Token count: 151624<br />
-Dep. relations: 37 of which 7 language specific<br />
-POS tags: 15<br />
-Category=value feature pairs: 30<br />
+Tree count:  5997 <br />
+Word count:  152871 <br />
+Token count: 151624 <br />
+Dep. relations: 37 of which 7 language specific <br />
+POS tags: 15 <br />
+Category=value feature pairs: 30 <br />
 
 
 ## DATA SPLIT
@@ -43,9 +43,9 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 
 ## CHANGELOG
-From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected.<br /> 
-From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included.<br /> 
-From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.<br /> 
+From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. <br /> 
+From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included. <br /> 
+From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added. <br /> 
 
 
 
