@@ -13614,7 +13614,7 @@
 9	حاضر	حاضر	ADJ	ADJ	Degree=Pos	8	amod	_	_
 10	با	با	ADP	P	_	11	case	_	_
 11	عنوان	عنوان	NOUN	N_SING	Number=Sing	0	root	_	_
-12	"	"	PUNCT	DELM	_	11	punct	_	SpaceAfter=No
+12	"	"	PUNCT	DELM	_	25	punct	_	SpaceAfter=No
 13	امام	امام	NOUN	N_SING	Number=Sing	11	flat	_	_
 14	علی	علی	NOUN	N_SING	Number=Sing	13	flat	_	SpaceAfter=No
 15	)	)	PUNCT	DELM	_	14	punct	_	_
@@ -13625,7 +13625,7 @@
 20	خوشنویسان	خوشنویس	NOUN	N_PL	Number=Plur	19	nmod:poss	_	_
 21	نامی	نامی	ADJ	ADJ	Degree=Pos	20	amod	_	_
 22	ایران	ایران	NOUN	N_SING	Number=Sing	20	nmod:poss	_	SpaceAfter=No
-23	"	"	PUNCT	DELM	_	11	punct	_	_
+23	"	"	PUNCT	DELM	_	25	punct	_	_
 24	در	در	ADP	P	_	25	case	_	_
 25	موزه	موزه	NOUN	N_SING	Number=Sing	11	conj	_	_
 26	خط	خط	NOUN	N_SING	Number=Sing	25	nmod:poss	_	_
