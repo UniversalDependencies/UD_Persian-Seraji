@@ -46,6 +46,7 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 From v1.1 to v1.2, all morphological features have been added. Some errors have further been corrected. <br />
 From v1.2 to v1.3, some errors have been corrected. Lemmas have partly been included. <br />
 From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added. <br />
+From v2.1 to v2.2, repository renamed from UD_Persian to UD_Persian-Seraji.
 
 
 
