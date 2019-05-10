@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit f84d6e3e86830079e7f53c189ad4c67768bfe869
-Merge: b3f14bb 676b345
+commit 694fab6db8fe367e77530c23ec112ebf059d94af
+Merge: df6d413 654f111
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
