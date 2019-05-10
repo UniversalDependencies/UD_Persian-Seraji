@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>5997</sentences><tokens>151625</tokens><words>152920</words><fused>1291</fused></total>
+    <train><sentences>4798</sentences><tokens>119945</tokens><words>121064</words><fused>1116</fused></train>
+    <dev><sentences>599</sentences><tokens>15755</tokens><words>15832</words><fused>77</fused></dev>
+    <test><sentences>600</sentences><tokens>15925</tokens><words>16024</words><fused>98</fused></test>
   </size>
   <lemmas unique="7581" /><!-- و, ., در, ،, کرد#کن, به, که, از, این, را, است, با, آن, بود#باش, داشت#دار -->
   <forms unique="15186" /><!-- و, ., در, ،, به, که, از, این, را, است, با, :, آن, یک, خود -->
