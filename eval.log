@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit 694fab6db8fe367e77530c23ec112ebf059d94af
-Merge: df6d413 654f111
+commit c4b956663c220c32eb1ed2953d943662c610bda9
+Merge: 3cb8858 9d45017
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
@@ -23,12 +23,81 @@ Udapi: found 17818 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 152920 words.
 Genres: found 7 out of 17 known.
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
-*** PASSED ***
+[Line 34 Sent dev-s1 Node 32]: [L5 Morpho aux-lemma] 'هست' is not an auxiliary verb in language [fa]
+[Line 34 Sent dev-s1 Node 32]: [L5 Syntax cop-lemma] 'هست' is not a copula in language [fa]
+[Line 49 Sent dev-s2 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 93 Sent dev-s3 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 142 Sent dev-s4 Node 13]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (13:از:case --> 17:خرداد:nmod)
+[Line 150 Sent dev-s4 Node 25]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 150 Sent dev-s4 Node 25]: [L5 Syntax cop-lemma] 'کرد#کن' is not a copula in language [fa]
+[Line 182 Sent dev-s5 Node 28]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 183 Sent dev-s5 Node 28]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (28:شده:aux --> 29:است:aux)
+[Line 183 Sent dev-s5 Node 29]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 206 Sent dev-s6 Node 19]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Syntax
+[Line 250 Sent dev-s7 Node 40]: [L5 Morpho aux-lemma] 'خواست#خواه' is not an auxiliary verb in language [fa]
+[Line 251 Sent dev-s7 Node 41]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 274 Sent dev-s8 Node 19]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 286 Sent dev-s8 Node 31]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 306 Sent dev-s9 Node 16]: [L5 Morpho aux-lemma] 'خواست#خواه' is not an auxiliary verb in language [fa]
+[Line 335 Sent dev-s9 Node 45]: [L5 Morpho aux-lemma] 'خواست#خواه' is not an auxiliary verb in language [fa]
+[Line 336 Sent dev-s9 Node 46]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+...suppressing further errors regarding Morpho
+Morpho errors: 360
+Syntax errors: 692
+*** FAILED *** with 1052 errors
+Exit code: 1
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
-*** PASSED ***
+[Line 42 Sent test-s2 Node 25]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 42 Sent test-s2 Node 25]: [L5 Syntax cop-lemma] 'کرد#کن' is not a copula in language [fa]
+[Line 119 Sent test-s5 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 127 Sent test-s5 Node 41]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (41:شده:cop --> 42:باشند:aux)
+[Line 127 Sent test-s5 Node 42]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 126 Sent test-s5 Node 41]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 126 Sent test-s5 Node 41]: [L5 Syntax cop-lemma] 'کرد#کن' is not a copula in language [fa]
+[Line 183 Sent test-s6 Node 52]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 135 Sent test-s6 Node 4]: [L5 Morpho aux-lemma] 'توان' is not an auxiliary verb in language [fa]
+[Line 141 Sent test-s6 Node 10]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
+[Line 141 Sent test-s6 Node 10]: [L5 Syntax cop-lemma] 'بود#باش' is not a copula in language [fa]
+[Line 172 Sent test-s6 Node 41]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
+[Line 172 Sent test-s6 Node 41]: [L5 Syntax cop-lemma] 'بود#باش' is not a copula in language [fa]
+[Line 220 Sent test-s8 Node 13]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (13:بوده:cop --> 14:است:aux)
+...suppressing further errors regarding Syntax
+[Line 219 Sent test-s8 Node 13]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
+[Line 349 Sent test-s13 Node 4]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
+[Line 361 Sent test-s13 Node 15]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
+[Line 401 Sent test-s15 Node 19]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
+...suppressing further errors regarding Morpho
+Morpho errors: 399
+Syntax errors: 761
+*** FAILED *** with 1160 errors
+Exit code: 1
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 10 Sent train-s1 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 36 Sent train-s3 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 55 Sent train-s4 Node 15]: [L5 Morpho aux-lemma] 'کرد' is not an auxiliary verb in language [fa]
+[Line 55 Sent train-s4 Node 15]: [L5 Syntax cop-lemma] 'کرد' is not a copula in language [fa]
+[Line 68 Sent train-s5 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 92 Sent train-s5 Node 32]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (32:شده:cop --> 33:بودند:aux)
+[Line 92 Sent train-s5 Node 33]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 91 Sent train-s5 Node 32]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 91 Sent train-s5 Node 32]: [L5 Syntax cop-lemma] 'کرد#کن' is not a copula in language [fa]
+[Line 110 Sent train-s6 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 99 Sent train-s6 Node 3]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 99 Sent train-s6 Node 3]: [L5 Syntax cop-lemma] 'کرد#کن' is not a copula in language [fa]
+...suppressing further errors regarding Syntax
+[Line 130 Sent train-s7 Node 16]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 145 Sent train-s7 Node 31]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 325 Sent train-s15 Node 5]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
+[Line 431 Sent train-s19 Node 35]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 468 Sent train-s20 Node 21]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
+[Line 508 Sent train-s23 Node 18]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
+...suppressing further errors regarding Morpho
+Morpho errors: 3148
+Syntax errors: 6419
+*** FAILED *** with 9567 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -37,6 +106,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.46294254045891) * (availability=1) * (validity=1) = 0.46294254045891
-STARS = 2.5
-UD_Persian-Seraji	0.46294254045891	2.5
+(TOTAL score=0.46294254045891) * (availability=1) * (validity=0.01) = 0.0046294254045891
+STARS = 0
+UD_Persian-Seraji	0.0046294254045891	0
