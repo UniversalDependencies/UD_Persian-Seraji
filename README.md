@@ -1,4 +1,4 @@
-# Universal Dependencies for Persian (v2.5)
+# Universal Dependencies for Persian (v2.6)
 
 # Summary
 The Persian Universal Dependency Treebank (Persian UD) is based on Uppsala Persian Dependency Treebank (UPDT). The conversion of the UPDT to the Universal Dependencies was performed semi-automatically with extensive manual checks and corrections.
