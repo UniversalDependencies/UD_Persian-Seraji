@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit c4b956663c220c32eb1ed2953d943662c610bda9
-Merge: 3cb8858 9d45017
+commit d8987ae79c6df732b954ce02f747ef48e9611774
+Merge: 03d1e9c 8ea595b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
@@ -19,7 +19,7 @@ Features: 99818 out of 152920 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 17818 bugs.
+Udapi: found 17843 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 152920 words.
 Genres: found 7 out of 17 known.
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
