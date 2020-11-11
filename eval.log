@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit d8987ae79c6df732b954ce02f747ef48e9611774
-Merge: 03d1e9c 8ea595b
+commit 44fe3caca9c689032b2bef785dee02073372bce5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 10 18:31:23 2020 +0200
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -44,8 +44,8 @@ validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
 [Line 336 Sent dev-s9 Node 46]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
 ...suppressing further errors regarding Morpho
 Morpho errors: 360
-Syntax errors: 692
-*** FAILED *** with 1052 errors
+Syntax errors: 662
+*** FAILED *** with 1022 errors
 Exit code: 1
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 42 Sent test-s2 Node 25]: [L5 Morpho aux-lemma] 'کرد#کن' is not an auxiliary verb in language [fa]
@@ -58,10 +58,10 @@ validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 183 Sent test-s6 Node 52]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 135 Sent test-s6 Node 4]: [L5 Morpho aux-lemma] 'توان' is not an auxiliary verb in language [fa]
 [Line 141 Sent test-s6 Node 10]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
-[Line 141 Sent test-s6 Node 10]: [L5 Syntax cop-lemma] 'بود#باش' is not a copula in language [fa]
 [Line 172 Sent test-s6 Node 41]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
-[Line 172 Sent test-s6 Node 41]: [L5 Syntax cop-lemma] 'بود#باش' is not a copula in language [fa]
 [Line 220 Sent test-s8 Node 13]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (13:بوده:cop --> 14:است:aux)
+[Line 220 Sent test-s8 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 236 Sent test-s8 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 ...suppressing further errors regarding Syntax
 [Line 219 Sent test-s8 Node 13]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
 [Line 349 Sent test-s13 Node 4]: [L5 Morpho aux-lemma] 'بود#باش' is not an auxiliary verb in language [fa]
@@ -69,8 +69,8 @@ validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 401 Sent test-s15 Node 19]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
 ...suppressing further errors regarding Morpho
 Morpho errors: 399
-Syntax errors: 761
-*** FAILED *** with 1160 errors
+Syntax errors: 720
+*** FAILED *** with 1119 errors
 Exit code: 1
 validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
 [Line 10 Sent train-s1 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
@@ -94,8 +94,8 @@ validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
 [Line 508 Sent train-s23 Node 18]: [L5 Morpho aux-lemma] 'بایست#باید' is not an auxiliary verb in language [fa]
 ...suppressing further errors regarding Morpho
 Morpho errors: 3148
-Syntax errors: 6419
-*** FAILED *** with 9567 errors
+Syntax errors: 5653
+*** FAILED *** with 8801 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
