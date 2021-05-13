@@ -80,7 +80,7 @@
     <dep name="compound">312</dep>
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
-    <dep name="conj">8773</dep>
+    <dep name="conj">8768</dep>
     <dep name="cop">4700</dep>
     <dep name="dep">380</dep>
     <dep name="det">3965</dep>
@@ -99,7 +99,7 @@
     <dep name="obj">3870</dep>
     <dep name="obl">8113</dep>
     <dep name="parataxis">208</dep>
-    <dep name="punct">13438</dep>
+    <dep name="punct">13443</dep>
     <dep name="root">5997</dep>
     <dep name="vocative">66</dep>
     <dep name="xcomp">455</dep>
