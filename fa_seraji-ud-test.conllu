@@ -2147,7 +2147,7 @@
 41	۷۰۰	۷۰۰	NUM	NUM	NumType=Card	48	obl	_	Translit=700|LTranslit=700
 42	تا	تا	ADP	P	_	44	case	_	Translit=ta|LTranslit=ta
 43	۱۰۰۰	۱۰۰۰	NUM	NUM	NumType=Card	44	nummod	_	Translit=1000|LTranslit=1000
-44	برابر	برابر	NOUN	N_SING	Number=Sing	40	nmod	_	Translit=brabr|LTranslit=brabr
+44	برابر	برابر	NOUN	N_SING	Number=Sing	41	nmod	_	Translit=brabr|LTranslit=brabr
 45	قیمت	قیمت	NOUN	N_SING	Number=Sing	44	nmod:poss	_	Translit=qīmt|LTranslit=qīmt
 46	نفت	نفت	NOUN	N_SING	Number=Sing	45	nmod:poss	_	Translit=nft|LTranslit=nft
 47	خام	خام	ADJ	ADJ	Degree=Pos	46	amod	_	Translit=xam|LTranslit=xam
@@ -3085,7 +3085,7 @@
 27	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	Translit=krdh|LTranslit=krd#kn
 28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	27	aux	_	Translit=ast|LTranslit=ast
 29	-	-	PUNCT	DELM	_	32	punct	_	Translit=-|LTranslit=-
-30	مگر	مگر	ADV	ADV_I	PronType=Int	31	mark	_	Translit=mgr|LTranslit=mgr
+30	مگر	مگر	ADV	ADV_I	PronType=Int	32	mark	_	Translit=mgr|LTranslit=mgr
 31	در	در	ADP	P	_	32	case	_	Translit=dr|LTranslit=dr
 32	ماه	ماه	NOUN	N_SING	Number=Sing	27	obl	_	Translit=mah|LTranslit=mah
 33	مارس	مارس	NOUN	N_SING	Number=Sing	32	flat	_	Translit=mars|LTranslit=mars
@@ -6295,7 +6295,7 @@
 6	دشوار	دشوار	ADJ	ADJ	Degree=Pos	0	root	_	Translit=dshoar|LTranslit=dshoar
 7	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	6	cop	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 8	،	،	PUNCT	DELM	_	12	punct	_	Translit=,|LTranslit=,
-9	یعنی	یعنی	SCONJ	CON	_	10	advmod	_	Translit=īʿnī|LTranslit=īʿnī
+9	یعنی	یعنی	SCONJ	CON	_	12	advmod	_	Translit=īʿnī|LTranslit=īʿnī
 10	به	به	ADP	P	_	12	case	_	Translit=bh|LTranslit=bh
 11	این	این	DET	DET	_	12	det	_	Translit=aīn|LTranslit=aīn
 12	معنی	معنی	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=mʿnī|LTranslit=mʿnī
@@ -6692,7 +6692,7 @@
 45	زیر	زیر	ADP	P	_	44	fixed	_	Translit=zīr|LTranslit=zīr
 46	خیمهٔ	خیمه	NOUN	N_SING	Number=Sing	42	nmod	_	Translit=xīmhٔ|LTranslit=xīmh
 47	انقلاب	انقلاب	NOUN	N_SING	Number=Sing	46	nmod:poss	_	Translit=anqlab|LTranslit=anqlab
-48	را	را	PART	CLITIC	_	37	dep	_	Translit=ra|LTranslit=ra
+48	را	را	PART	CLITIC	_	38	dep	_	Translit=ra|LTranslit=ra
 49	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	53	xcomp	_	Translit=bīshtr|LTranslit=bīsh
 50	از	از	ADP	P	_	51	case	_	Translit=az|LTranslit=az
 51	گذشته	گذشته	NOUN	N_SING	Number=Sing	49	nmod	_	Translit=gðshth|LTranslit=gðshth
@@ -7975,7 +7975,7 @@
 5	از	از	ADP	P	_	6	case	_	Translit=az|LTranslit=az
 6	بن	بن	NOUN	N_SING	Number=Sing	4	nmod	_	Translit=bn|LTranslit=bn
 7	بست	بست	NOUN	N_SING	Number=Sing	6	fixed	_	Translit=bst|LTranslit=bst
-8	تناقض	تناقض	NOUN	N_SING	Number=Sing	7	nmod:poss	_	Translit=tnaqḑ|LTranslit=tnaqḑ
+8	تناقض	تناقض	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=tnaqḑ|LTranslit=tnaqḑ
 9	حرف	حرف	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=hrf|LTranslit=hrf
 10	و	و	CCONJ	CON	_	11	cc	_	Translit=o|LTranslit=o
 11	عمل	عمل	NOUN	N_SING	Number=Sing	9	conj	_	Translit=ʿml|LTranslit=ʿml
@@ -8288,7 +8288,7 @@
 13	غیرطبیعی	غیرطبیعی	ADJ	ADJ	Degree=Pos	12	amod	_	Translit=ghīrţbīʿī|LTranslit=ghīrţbīʿī
 14	و	و	CCONJ	CON	_	11	cc	_	Translit=o|LTranslit=o
 15	با	با	ADP	P	_	16	case	_	Translit=ba|LTranslit=ba
-16	اراده	اراده	NOUN	N_SING	Number=Sing	11	nmod	_	Translit=aradh|LTranslit=aradh
+16	اراده	اراده	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=aradh|LTranslit=aradh
 17	بانک	بانک	NOUN	N_SING	Number=Sing	16	nmod:poss	_	Translit=bank|LTranslit=bank
 18	مرکزی	مرکزی	ADJ	ADJ	Degree=Pos	17	amod	_	Translit=mrkzī|LTranslit=mrkzī
 19	به	به	ADP	P	_	20	case	_	Translit=bh|LTranslit=bh
@@ -9352,7 +9352,7 @@
 29	ایران	ایران	NOUN	N_SING	Number=Sing	28	flat	_	Translit=aīran|LTranslit=aīran
 30	ایر	ایر	NOUN	N_SING	Number=Sing	29	fixed	_	Translit=aīr|LTranslit=aīr
 31	در	در	ADP	P	_	32	case	_	Translit=dr|LTranslit=dr
-32	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	30	nmod	_	SpaceAfter=No|Translit=frodgah|LTranslit=frodgah
+32	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	29	nmod	_	SpaceAfter=No|Translit=frodgah|LTranslit=frodgah
 33	،	،	PUNCT	DELM	_	27	punct	_	Translit=,|LTranslit=,
 34	حالت	حالت	NOUN	N_SING	Number=Sing	38	obj	_	Translit=halt|LTranslit=halt
 35	بسیار	بسیار	ADV	ADV	_	36	advmod	_	Translit=bsīar|LTranslit=bsīar
@@ -9380,7 +9380,7 @@
 4	از	از	ADP	P	_	3	case	_	Translit=az|LTranslit=az
 5	هفده	هفده	NUM	NUM	NumType=Card	6	nummod	_	Translit=hfdh|LTranslit=hfdh
 6	سال	سال	NOUN	N_SING	Number=Sing	7	nmod	_	Translit=sal|LTranslit=sal
-7	زندگی	زندگی	NOUN	N_SING	Number=Sing	4	obj	_	Translit=zndgī|LTranslit=zndgī
+7	زندگی	زندگی	NOUN	N_SING	Number=Sing	3	obj	_	Translit=zndgī|LTranslit=zndgī
 8	در	در	ADP	P	_	9	case	_	Translit=dr|LTranslit=dr
 9	آمریکا	آمریکا	NOUN	N_SING	Number=Sing	7	nmod	_	SpaceAfter=No|Translit=Āmrīka|LTranslit=Āmrīka
 10	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
@@ -13700,7 +13700,7 @@
 23	تهران	تهران	NOUN	N_SING	Number=Sing	20	nmod:poss	_	Translit=thran|LTranslit=thran
 24	و	و	CCONJ	CON	_	19	cc	_	Translit=o|LTranslit=o
 25	در	در	ADP	P	_	26	case	_	Translit=dr|LTranslit=dr
-26	خانواده‌ای	خانواده	NOUN	N_SING	Number=Sing	19	nmod	_	Translit=xanoadhaī|LTranslit=xanoadh
+26	خانواده‌ای	خانواده	NOUN	N_SING	Number=Sing	20	nmod	_	Translit=xanoadhaī|LTranslit=xanoadh
 27	اهل	اهل	NOUN	N_SING	Number=Sing	26	nmod:poss	_	Translit=ahl|LTranslit=ahl
 28	علم	علم	NOUN	N_SING	Number=Sing	27	nmod:poss	_	Translit=ʿlm|LTranslit=ʿlm
 29	و	و	CCONJ	CON	_	30	cc	_	Translit=o|LTranslit=o
@@ -14457,7 +14457,7 @@
 9	۱۶	۱۶	NUM	NUM	NumType=Card	10	nummod	_	Translit=16|LTranslit=16
 10	مرداد	مرداد	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=mrdad|LTranslit=mrdad
 11	ماه	ماه	NOUN	N_SING	Number=Sing	10	fixed	_	Translit=mah|LTranslit=mah
-12	سال	سال	NOUN	N_SING	Number=Sing	11	nmod:poss	_	Translit=sal|LTranslit=sal
+12	سال	سال	NOUN	N_SING	Number=Sing	10	nmod:poss	_	Translit=sal|LTranslit=sal
 13	جاری	جاری	ADJ	ADJ	Degree=Pos	12	amod	_	Translit=jarī|LTranslit=jarī
 14	در	در	ADP	P	_	15	case	_	Translit=dr|LTranslit=dr
 15	شهر	شهر	NOUN	N_SING	Number=Sing	17	nmod	_	Translit=shhr|LTranslit=shhr
@@ -14644,7 +14644,7 @@
 10	۳۰	۳۰	NUM	NUM	NumType=Card	11	nummod	_	Translit=30|LTranslit=30
 11	اردیبهشت	اردیبهشت	NOUN	N_SING	Number=Sing	8	appos	_	Translit=ardībhsht|LTranslit=ardībhsht
 12	ماه	ماه	NOUN	N_SING	Number=Sing	11	fixed	_	Translit=mah|LTranslit=mah
-13	جاری	جاری	ADJ	ADJ	Degree=Pos	12	amod	_	Translit=jarī|LTranslit=jarī
+13	جاری	جاری	ADJ	ADJ	Degree=Pos	11	amod	_	Translit=jarī|LTranslit=jarī
 14	آغاز	آغاز	NOUN	N_SING	Number=Sing	0	root	_	Translit=Āghaz|LTranslit=Āghaz
 15	می‌شود	کرد#کن	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	14	cop	_	SpaceAfter=No|Translit=mīshod|LTranslit=krd#kn
 16	.	.	PUNCT	DELM	_	14	punct	_	Translit=.|LTranslit=.
@@ -16588,7 +16588,7 @@
 15	افزود	افزود#افزا	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=afzod|LTranslit=afzod#afza
 16	:	:	PUNCT	DELM	_	27	punct	_	Translit=:|LTranslit=:
 17	فعلاً	فعلاً	ADV	ADV	_	27	advmod	_	Translit=fʿlaan|LTranslit=fʿlaan
-18	۱۳۰	۱۳۰	NUM	NUM	NumType=Card	19	nummod	_	Translit=130|LTranslit=130
+18	۱۳۰	۱۳۰	NUM	NUM	NumType=Card	21	nummod	_	Translit=130|LTranslit=130
 19	تا	تا	ADP	P	_	21	case	_	Translit=ta|LTranslit=ta
 20	۱۴۰	۱۴۰	NUM	NUM	NumType=Card	21	nummod	_	Translit=140|LTranslit=140
 21	نفر	نفر	NOUN	N_SING	Number=Sing	27	nmod	_	Translit=nfr|LTranslit=nfr

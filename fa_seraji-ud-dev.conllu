@@ -143,7 +143,7 @@
 14	۲۷	۲۷	NUM	NUM	NumType=Card	24	nmod	_	Translit=27|LTranslit=27
 15	تا	تا	ADP	P	_	17	case	_	Translit=ta|LTranslit=ta
 16	۳۰	۳۰	NUM	NUM	NumType=Card	17	nummod	_	Translit=30|LTranslit=30
-17	خرداد	خرداد	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=xrdad|LTranslit=xrdad
+17	خرداد	خرداد	NOUN	N_SING	Number=Sing	14	nmod	_	Translit=xrdad|LTranslit=xrdad
 18	ماه	ماه	NOUN	N_SING	Number=Sing	17	fixed	_	Translit=mah|LTranslit=mah
 19	در	در	ADP	P	_	20	case	_	Translit=dr|LTranslit=dr
 20	بیمارستان	بیمارستان	NOUN	N_SING	Number=Sing	24	nmod	_	Translit=bīmarstan|LTranslit=bīmarstan
@@ -1311,7 +1311,7 @@
 13	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	19	obl	_	Translit=gft|LTranslit=gft#go
 14	و	و	CCONJ	CON	_	13	fixed	_	Translit=o|LTranslit=o
 15	گوی	_	NOUN	N_SING	Number=Sing	14	fixed	_	Translit=goī
-16	مستقیم	مستقیم	ADJ	ADJ	Degree=Pos	15	amod	_	Translit=mstqīm|LTranslit=mstqīm
+16	مستقیم	مستقیم	ADJ	ADJ	Degree=Pos	13	amod	_	Translit=mstqīm|LTranslit=mstqīm
 17	با	با	ADP	P	_	18	case	_	Translit=ba|LTranslit=ba
 18	یکدیگر	یکدیگر	PRON	PRO	PronType=Rcp	13	obl	_	Translit=īkdīgr|LTranslit=īkdīgr
 19	بپردازند	پرداخت#پرداز	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	3	ccomp	_	SpaceAfter=No|Translit=bprdaznd|LTranslit=prdaxt#prdaz
@@ -1346,7 +1346,7 @@
 24	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	36	obj	_	Translit=gft|LTranslit=gft#go
 25	و	و	CCONJ	CON	_	24	fixed	_	Translit=o|LTranslit=o
 26	گویی	گویی	NOUN	N_SING	Number=Sing	25	fixed	_	Translit=goīī|LTranslit=goīī
-27	فشرده	_	ADJ	ADJ	Degree=Pos	26	amod	_	Translit=fshrdh
+27	فشرده	_	ADJ	ADJ	Degree=Pos	24	amod	_	Translit=fshrdh
 28	و	و	CCONJ	CON	_	29	cc	_	Translit=o|LTranslit=o
 29	منطقی	منطقی	ADJ	ADJ	Degree=Pos	27	conj	_	Translit=mnţqī|LTranslit=mnţqī
 30	را	را	PART	CLITIC	_	24	case	_	Translit=ra|LTranslit=ra
@@ -1876,7 +1876,7 @@
 10	اقناع	_	NOUN	N_SING	Number=Sing	11	compound:lvc	_	Translit=aqnaʿ
 11	می‌کند	کرد#کن	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	1	ccomp	_	Translit=mīknd|LTranslit=krd#kn
 12	و	و	CCONJ	CON	_	24	cc	_	Translit=o|LTranslit=o
-13	نه	نه	ADV	ADV_NEG	Polarity=Neg	14	advmod	_	Translit=nh|LTranslit=nh
+13	نه	نه	ADV	ADV_NEG	Polarity=Neg	15	advmod	_	Translit=nh|LTranslit=nh
 14	به	به	ADP	P	_	15	case	_	Translit=bh|LTranslit=bh
 15	انتظارات	انتظار	NOUN	N_PL	Number=Plur	24	obl	_	Translit=antz̧arat|LTranslit=antz̧ar
 16	مقام	مقام	NOUN	N_SING	Number=Sing	15	nmod:poss	_	Translit=mqam|LTranslit=mqam
@@ -6473,7 +6473,7 @@
 50	نظر	نظر	NOUN	N_SING	Number=Sing	58	obl	_	Translit=nz̧r|LTranslit=nz̧r
 51	فقهی	_	ADJ	ADJ	Degree=Pos	50	amod	_	Translit=fqhī
 52	و	و	CCONJ	CON	_	55	cc	_	Translit=o|LTranslit=o
-53	چه	چه	SCONJ	CON	_	54	advmod	_	Translit=chh|LTranslit=chh
+53	چه	چه	SCONJ	CON	_	55	advmod	_	Translit=chh|LTranslit=chh
 54	از	از	ADP	P	_	55	case	_	Translit=az|LTranslit=az
 55	نظر	نظر	NOUN	N_SING	Number=Sing	49	conj	_	Translit=nz̧r|LTranslit=nz̧r
 56	حقوقی	_	ADJ	ADJ	Degree=Pos	55	amod	_	Translit=hqoqī
@@ -9282,7 +9282,7 @@
 13	با	با	ADP	P	_	14	case	_	Translit=ba|LTranslit=ba
 14	نتیجه	نتیجه	NOUN	N_SING	Number=Sing	21	obl	_	Translit=ntījh|LTranslit=ntījh
 15	مساوی	مساوی	ADJ	ADJ	Degree=Pos	14	amod	_	Translit=msaoī|LTranslit=msaoī
-16	یک	یک	NUM	NUM	NumType=Card	17	nummod	_	Translit=īk|LTranslit=īk
+16	یک	یک	NUM	NUM	NumType=Card	18	nummod	_	Translit=īk|LTranslit=īk
 17	بر	بر	ADP	P	_	18	case	_	Translit=br|LTranslit=br
 18	یک	یک	NUM	NUM	NumType=Card	14	nmod	_	Translit=īk|LTranslit=īk
 19	به	به	ADP	P	_	20	case	_	Translit=bh|LTranslit=bh
@@ -9993,7 +9993,7 @@
 # sent_id = dev-s327
 # text = یکی از نشانه‌های بیماری پارکینسون لرزش شدید دست‌ها است، که به واسطه آسیب دیدن سلول‌های ناحیه غده‌های قاعده‌ای مغز صورت می‌گیرد.
 # translit = īkī az nshanhhaī bīmarī parkīnson lrzsh shdīd dstha ast, kh bh vasţh Āsīb dīdn slolhaī nahīh ghdhhaī qaʿdhaī mghz şort mīgīrd.
-1	یکی	یک	NUM	NUM	NumType=Card	2	nummod	_	Translit=īkī|LTranslit=īk
+1	یکی	یک	NUM	NUM	NumType=Card	3	nummod	_	Translit=īkī|LTranslit=īk
 2	از	از	ADP	P	_	3	case	_	Translit=az|LTranslit=az
 3	نشانه‌های	نشانه	NOUN	N_PL	Number=Plur	6	nmod	_	Translit=nshanhhaī|LTranslit=nshanh
 4	بیماری	بیماری	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=bīmarī|LTranslit=bīmarī
@@ -10131,7 +10131,7 @@
 24	نخست‌وزیری‌	_	NOUN	N_SING	Number=Sing	23	nmod:poss	_	Translit=nxstozīrī
 25	اش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	24	nmod:poss	_	Translit=ash|LTranslit=ao
 26	)	)	PUNCT	DELM	_	29	punct	_	Translit=)|LTranslit=)
-27	۱۹۸۹	۱۹۸۹	NUM	NUM	NumType=Card	28	nummod	_	Translit=1989|LTranslit=1989
+27	۱۹۸۹	۱۹۸۹	NUM	NUM	NumType=Card	29	nummod	_	Translit=1989|LTranslit=1989
 28	تا	تا	ADP	P	_	29	case	_	Translit=ta|LTranslit=ta
 29	۱۹۹۲	۱۹۹۲	NUM	NUM	NumType=Card	24	nmod	_	Translit=1992|LTranslit=1992
 30	(	(	PUNCT	DELM	_	24	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
@@ -10378,7 +10378,7 @@
 5	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	4	nmod:poss	_	Translit=gft|LTranslit=gft#go
 6	و	و	CCONJ	CON	_	5	fixed	_	Translit=o|LTranslit=o
 7	گوی	_	NOUN	N_SING	Number=Sing	5	fixed	_	Translit=goī
-8	مسئولان	مسئول	NOUN	N_PL	Number=Plur	7	nmod:poss	_	Translit=msolan|LTranslit=msol
+8	مسئولان	مسئول	NOUN	N_PL	Number=Plur	5	nmod:poss	_	Translit=msolan|LTranslit=msol
 9	برج	_	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=brj
 10	مراقبت	_	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=mraqbt
 11	با	با	ADP	P	_	12	case	_	Translit=ba|LTranslit=ba
@@ -11391,7 +11391,7 @@
 6	۲۹	۲۹	NUM	NUM	NumType=Card	7	nummod	_	Translit=29|LTranslit=29
 7	اردیبهشت	اردیبهشت	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=ardībhsht|LTranslit=ardībhsht
 8	ماه	ماه	NOUN	N_SING	Number=Sing	7	fixed	_	Translit=mah|LTranslit=mah
-9	جاری	جاری	ADJ	ADJ	Degree=Pos	8	amod	_	Translit=jarī|LTranslit=jarī
+9	جاری	جاری	ADJ	ADJ	Degree=Pos	7	amod	_	Translit=jarī|LTranslit=jarī
 10	در	در	ADP	P	_	11	case	_	Translit=dr|LTranslit=dr
 11	شهر	شهر	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=shhr|LTranslit=shhr
 12	بانکوک	_	NOUN	N_SING	Number=Sing	11	flat	_	Translit=bankok
@@ -11573,7 +11573,7 @@
 14	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	Translit=dashth|LTranslit=dasht#dar
 15	باشد	بود#باش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	14	aux	_	Translit=bashd|LTranslit=bod#bash
 16	و	و	CCONJ	CON	_	32	cc	_	Translit=o|LTranslit=o
-17	نه	نه	ADV	ADV_NEG	Polarity=Neg	18	advmod	_	Translit=nh|LTranslit=nh
+17	نه	نه	ADV	ADV_NEG	Polarity=Neg	19	advmod	_	Translit=nh|LTranslit=nh
 18	در	در	ADP	P	_	19	case	_	Translit=dr|LTranslit=dr
 19	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	32	obl	_	Translit=Ān|LTranslit=Ān
 20	به‌زعم	_	ADP	P	_	21	case	_	Translit=bhzʿm
@@ -11591,7 +11591,7 @@
 32	دیده	دید	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	14	conj	_	Translit=dīdh|LTranslit=dīd
 33	می‌شد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	32	aux:pass	_	Translit=mīshd|LTranslit=krd#kn
 34	و	و	CCONJ	CON	_	47	cc	_	Translit=o|LTranslit=o
-35	نه	نه	ADV	ADV_NEG	Polarity=Neg	36	advmod	_	Translit=nh|LTranslit=nh
+35	نه	نه	ADV	ADV_NEG	Polarity=Neg	38	advmod	_	Translit=nh|LTranslit=nh
 36	در	در	ADP	P	_	38	case	_	Translit=dr|LTranslit=dr
 37	آن	آن	DET	DET	_	38	det	_	Translit=Ān|LTranslit=Ān
 38	روزنامه	روزنامه	NOUN	N_SING	Number=Sing	47	nmod	_	Translit=roznamh|LTranslit=roznamh
@@ -14182,7 +14182,7 @@
 54	نقش	نقش	NOUN	N_SING	Number=Sing	63	obl	_	Translit=nqsh|LTranslit=nqsh
 55	و	و	CCONJ	CON	_	54	fixed	_	Translit=o|LTranslit=o
 56	نگار	_	NOUN	N_SING	Number=Sing	55	fixed	_	Translit=ngar
-57	فراوان	فراوان	ADJ	ADJ	Degree=Pos	56	amod	_	Translit=fraoan|LTranslit=fraoan
+57	فراوان	فراوان	ADJ	ADJ	Degree=Pos	54	amod	_	Translit=fraoan|LTranslit=fraoan
 58	در	در	ADP	P	_	60	case	_	Translit=dr|LTranslit=dr
 59	پیش	پیش	ADP	P	_	58	fixed	_	Translit=pīsh|LTranslit=pīsh
 60	روی	رو	NOUN	N_SING	Number=Sing	63	obl	_	Translit=roī|LTranslit=ro
@@ -17914,7 +17914,7 @@
 15	فردوسی	فردوسی	NOUN	N_SING	Number=Sing	14	nmod:poss	_	Translit=frdosī|LTranslit=frdosī
 16	می‌گذارد	گذارد#گذار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	4	ccomp	_	SpaceAfter=No|Translit=mīgðard|LTranslit=gðard#gðar
 17	،	،	PUNCT	DELM	_	27	punct	_	Translit=,|LTranslit=,
-18	هر	هر	DET	DET	_	19	det	_	Translit=hr|LTranslit=hr
+18	هر	هر	DET	DET	_	27	det	_	Translit=hr|LTranslit=hr
 19	چند	چند	ADJ	ADJ	Degree=Pos	27	mark	_	Translit=chnd|LTranslit=chnd
 20	که	که	CCONJ	CON	_	19	fixed	_	Translit=kh|LTranslit=kh
 21	بخشی	بخش	NOUN	N_SING	Number=Sing	27	nsubj	_	Translit=bxshī|LTranslit=bxsh
@@ -18026,7 +18026,7 @@
 25	یاد	یاد	NOUN	N_SING	Number=Sing	26	obl	_	Translit=īad|LTranslit=īad
 26	می‌داشتند	_	VERB	V_PA	Number=Plur|Person=3|Tense=Past	11	conj	_	SpaceAfter=No|Translit=mīdashtnd
 27	،	،	PUNCT	DELM	_	39	punct	_	Translit=,|LTranslit=,
-28	هر	هر	DET	DET	_	29	det	_	Translit=hr|LTranslit=hr
+28	هر	هر	DET	DET	_	39	det	_	Translit=hr|LTranslit=hr
 29	چند	چند	ADJ	ADJ	Degree=Pos	39	mark	_	Translit=chnd|LTranslit=chnd
 30	که	که	CCONJ	CON	_	29	fixed	_	Translit=kh|LTranslit=kh
 31	تخیل	تخیل	NOUN	N_SING	Number=Sing	39	nsubj	_	Translit=txīl|LTranslit=txīl
