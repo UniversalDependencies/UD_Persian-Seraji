@@ -9771,7 +9771,7 @@
 16	ع	ع	NOUN	N_SING	Number=Sing	14	dep	_	_
 17	(	(	PUNCT	DELM	_	18	punct	_	SpaceAfter=No
 18	و	و	CCONJ	CON	_	12	cc	_	SpaceAfter=No
-19	…	…	PUNCT	DELM	_	12	conj	_	_
+19	…	…	PUNCT	DELM	_	12	punct	_	_
 20	تبعیت	تبعیت	NOUN	N_SING	Number=Sing	21	compound:lvc	_	_
 21	می‌کنند	کرد#کن	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	4	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	DELM	_	4	punct	_	_
@@ -10054,7 +10054,7 @@
 11	،	،	PUNCT	DELM	_	12	punct	_	_
 12	عبدالله‌بن‌عباس	عبدالله‌بن‌عباس	NOUN	N_SING	Number=Sing	8	appos	_	_
 13	و	و	CCONJ	CON	_	12	cc	_	SpaceAfter=No
-14	…	…	PUNCT	DELM	_	12	conj	_	_
+14	…	…	PUNCT	DELM	_	12	punct	_	_
 15	هم	هم	SCONJ	CON	_	18	advmod	_	_
 16	در	در	ADP	P	_	17	case	_	_
 17	مسجد	مسجد	NOUN	N_SING	Number=Sing	18	nmod	_	_
