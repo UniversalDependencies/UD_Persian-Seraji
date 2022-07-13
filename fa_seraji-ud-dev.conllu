@@ -1310,7 +1310,7 @@
 12	به	به	ADP	P	_	13	case	_	Translit=bh|LTranslit=bh
 13	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	19	obl	_	Translit=gft|LTranslit=gft#go
 14	و	و	CCONJ	CON	_	13	fixed	_	Translit=o|LTranslit=o
-15	گوی	_	NOUN	N_SING	Number=Sing	14	fixed	_	Translit=goī
+15	گوی	_	NOUN	N_SING	Number=Sing	13	fixed	_	Translit=goī
 16	مستقیم	مستقیم	ADJ	ADJ	Degree=Pos	13	amod	_	Translit=mstqīm|LTranslit=mstqīm
 17	با	با	ADP	P	_	18	case	_	Translit=ba|LTranslit=ba
 18	یکدیگر	یکدیگر	PRON	PRO	PronType=Rcp	13	obl	_	Translit=īkdīgr|LTranslit=īkdīgr
@@ -1345,7 +1345,7 @@
 23	و	و	CCONJ	CON	_	36	cc	_	Translit=o|LTranslit=o
 24	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	36	obj	_	Translit=gft|LTranslit=gft#go
 25	و	و	CCONJ	CON	_	24	fixed	_	Translit=o|LTranslit=o
-26	گویی	گویی	NOUN	N_SING	Number=Sing	25	fixed	_	Translit=goīī|LTranslit=goīī
+26	گویی	گویی	NOUN	N_SING	Number=Sing	24	fixed	_	Translit=goīī|LTranslit=goīī
 27	فشرده	_	ADJ	ADJ	Degree=Pos	24	amod	_	Translit=fshrdh
 28	و	و	CCONJ	CON	_	29	cc	_	Translit=o|LTranslit=o
 29	منطقی	منطقی	ADJ	ADJ	Degree=Pos	27	conj	_	Translit=mnţqī|LTranslit=mnţqī
@@ -1365,7 +1365,7 @@
 2	این	این	DET	DET	_	3	det	_	Translit=aīn|LTranslit=aīn
 3	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	13	obl	_	Translit=gft|LTranslit=gft#go
 4	و	و	CCONJ	CON	_	3	fixed	_	Translit=o|LTranslit=o
-5	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	4	fixed	_	Translit=go|LTranslit=gft#go
+5	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	3	fixed	_	Translit=go|LTranslit=gft#go
 6	چارچوب	_	NOUN	N_SING	Number=Sing	13	nsubj	_	Translit=charchob
 7	کلی	کلی	ADJ	ADJ	Degree=Pos	6	amod	_	Translit=klī|LTranslit=klī
 8	رقابت‌های	رقابت	NOUN	N_PL	Number=Plur	6	nmod:poss	_	Translit=rqabthaī|LTranslit=rqabt
@@ -1397,7 +1397,7 @@
 3	این	این	DET	DET	_	4	det	_	Translit=aīn|LTranslit=aīn
 4	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	nmod:poss	_	Translit=gft|LTranslit=gft#go
 5	و	و	CCONJ	CON	_	4	fixed	_	Translit=o|LTranslit=o
-6	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	5	fixed	_	Translit=go|LTranslit=gft#go
+6	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	4	fixed	_	Translit=go|LTranslit=gft#go
 7	جناح‌های	جناح	NOUN	N_PL	Number=Plur	13	nsubj	_	Translit=jnahhaī|LTranslit=jnah
 8	سیاسی	سیاسی	ADJ	ADJ	Degree=Pos	7	amod	_	Translit=sīasī|LTranslit=sīasī
 9	بر	بر	ADP	P	_	10	case	_	Translit=br|LTranslit=br
@@ -1423,7 +1423,7 @@
 3	چنین	چنین	ADV	ADV	_	4	advmod	_	Translit=chnīn|LTranslit=chnīn
 4	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	nmod:poss	_	Translit=gft|LTranslit=gft#go
 5	و	و	CCONJ	CON	_	4	fixed	_	Translit=o|LTranslit=o
-6	گویی	گویی	NOUN	N_SING	Number=Sing	5	fixed	_	Translit=goīī|LTranslit=goīī
+6	گویی	گویی	NOUN	N_SING	Number=Sing	4	fixed	_	Translit=goīī|LTranslit=goīī
 7	تندروان	تندرو	NOUN	N_PL	Number=Plur	9	nsubj	_	Translit=tndroan|LTranslit=tndro
 8	ماجراجو	_	ADJ	ADJ	Degree=Pos	7	amod	_	Translit=majrajo
 9	منزوی	_	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mnzoī
@@ -2150,7 +2150,7 @@
 11	در	در	ADP	P	_	12	case	_	Translit=dr|LTranslit=dr
 12	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	26	obl	_	Translit=gft|LTranslit=gft#go
 13	و	و	CCONJ	CON	_	12	fixed	_	Translit=o|LTranslit=o
-14	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	13	fixed	_	Translit=go|LTranslit=gft#go
+14	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	12	fixed	_	Translit=go|LTranslit=gft#go
 15	با	با	ADP	P	_	16	case	_	Translit=ba|LTranslit=ba
 16	خبرگزاری	خبرگزاری	NOUN	N_SING	Number=Sing	12	obl	_	Translit=xbrgzarī|LTranslit=xbrgzarī
 17	دانشجویان	دانشجو	NOUN	N_PL	Number=Plur	16	nmod:poss	_	Translit=danshjoīan|LTranslit=danshjo
@@ -14181,7 +14181,7 @@
 53	با	با	ADP	P	_	54	case	_	Translit=ba|LTranslit=ba
 54	نقش	نقش	NOUN	N_SING	Number=Sing	63	obl	_	Translit=nqsh|LTranslit=nqsh
 55	و	و	CCONJ	CON	_	54	fixed	_	Translit=o|LTranslit=o
-56	نگار	_	NOUN	N_SING	Number=Sing	55	fixed	_	Translit=ngar
+56	نگار	_	NOUN	N_SING	Number=Sing	54	fixed	_	Translit=ngar
 57	فراوان	فراوان	ADJ	ADJ	Degree=Pos	54	amod	_	Translit=fraoan|LTranslit=fraoan
 58	در	در	ADP	P	_	60	case	_	Translit=dr|LTranslit=dr
 59	پیش	پیش	ADP	P	_	58	fixed	_	Translit=pīsh|LTranslit=pīsh

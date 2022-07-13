@@ -1071,7 +1071,7 @@
 18	به	به	ADP	P	_	19	case	_	Translit=bh|LTranslit=bh
 19	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	22	obl	_	Translit=gft|LTranslit=gft#go
 20	و	و	CCONJ	CON	_	19	fixed	_	Translit=o|LTranslit=o
-21	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	20	fixed	_	Translit=go|LTranslit=gft#go
+21	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	19	fixed	_	Translit=go|LTranslit=gft#go
 22	نشست	نشست#نشین	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=nshst|LTranslit=nshst#nshīn
 23	.	.	PUNCT	DELM	_	22	punct	_	Translit=.|LTranslit=.
 
@@ -12600,7 +12600,7 @@
 17	مزارع	مزرعه	NOUN	N_PL	Number=Plur	14	nmod	_	Translit=mzarʿ|LTranslit=mzrʿh
 18	مقرون	مقرون	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mqron|LTranslit=mqron
 19	به	به	ADP	P	_	18	fixed	_	Translit=bh|LTranslit=bh
-20	صرفه	صرفه	NOUN	N_SING	Number=Sing	19	fixed	_	Translit=şrfh|LTranslit=şrfh
+20	صرفه	صرفه	NOUN	N_SING	Number=Sing	18	fixed	_	Translit=şrfh|LTranslit=şrfh
 21	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	18	cop	_	Translit=nīst|LTranslit=hst
 22	و	و	CCONJ	CON	_	30	cc	_	Translit=o|LTranslit=o
 23	برای	برای	ADP	P	_	24	case	_	Translit=braī|LTranslit=braī
