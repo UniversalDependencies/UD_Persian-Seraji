@@ -129,7 +129,7 @@
 39	قدری	قدری	NOUN	N_SING	Number=Sing	40	nmod	_	Translit=qdrī|LTranslit=qdrī
 40	دستکاری	دستکاری	NOUN	N_SING	Number=Sing	35	ccomp	_	Translit=dstkarī|LTranslit=dstkarī
 41	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	40	cop	_	Translit=shdh|LTranslit=krd#kn
-42	باشند	بود#باش	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	41	aux	_	SpaceAfter=No|Translit=bashnd|LTranslit=bod#bash
+42	باشند	بود#باش	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	40	aux	_	SpaceAfter=No|Translit=bashnd|LTranslit=bod#bash
 43	.	.	PUNCT	DELM	_	32	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s6
@@ -225,7 +225,7 @@
 11	اقامتگاه	اقامتگاه	NOUN	N_SING	Number=Sing	9	ccomp	_	Translit=aqamtgah|LTranslit=aqamtgah
 12	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	Translit=ao|LTranslit=ao
 13	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	11	cop	_	Translit=bodh|LTranslit=bod#bash
-14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	11	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 15	:	:	PUNCT	DELM	_	16	punct	_	Translit=:|LTranslit=:
 16	خروشیدم	خروشید#خروش	VERB	V_PA	Number=Sing|Person=1|Tense=Past	11	ccomp	_	Translit=xroshīdm|LTranslit=xroshīd#xrosh
 17	و	و	CCONJ	CON	_	18	cc	_	Translit=o|LTranslit=o
@@ -254,7 +254,7 @@
 39	خاک	خاک	NOUN	N_SING	Number=Sing	40	obl	_	Translit=xak|LTranslit=xak
 40	سپرده	سپرده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	32	ccomp	_	Translit=sprdh|LTranslit=sprdh
 41	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	40	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-42	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	41	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+42	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	40	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 43	؟	؟	PUNCT	DELM	_	9	punct	_	Translit=?|LTranslit=?
 
 # sent_id = test-s9
@@ -1006,7 +1006,7 @@
 22	مساله‌ای	مسئله	NOUN	N_SING	Number=Sing	17	conj	_	Translit=msalhaī|LTranslit=mslh
 23	دلهره‌آور	دلهره‌آور	ADJ	ADJ	Degree=Pos	22	amod	_	Translit=dlhrhĀor|LTranslit=dlhrhĀor
 24	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	22	cop	_	Translit=shdh|LTranslit=krd#kn
-25	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	24	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+25	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	22	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 26	،	،	PUNCT	DELM	_	37	punct	_	Translit=,|LTranslit=,
 27	زیرا	زیرا	SCONJ	CON	_	37	mark	_	Translit=zīra|LTranslit=zīra
 28	چرخ‌های	چرخ	NOUN	N_PL	Number=Plur	37	obj	_	Translit=chrxhaī|LTranslit=chrx
@@ -1405,7 +1405,7 @@
 6	نگرش	نگرش	NOUN	N_SING	Number=Sing	7	nmod	_	Translit=ngrsh|LTranslit=ngrsh
 7	مطرح	مطرح	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mţrh|LTranslit=mţrh
 8	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	7	cop	_	Translit=shdh|LTranslit=krd#kn
-9	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+9	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	7	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 10	.	.	PUNCT	DELM	_	7	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s54
@@ -1652,7 +1652,7 @@
 6	قیمت	قیمت	NOUN	N_SING	Number=Sing	5	nmod:poss	_	SpaceAfter=No|Translit=qīmt|LTranslit=qīmt
 7	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 8	آمریکا	آمریکا	NOUN	N_SING	Number=Sing	0	root	_	Translit=Āmrīka|LTranslit=Āmrīka
-9	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+9	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 10	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 11	.	.	PUNCT	DELM	_	8	punct	_	Translit=.|LTranslit=.
 
@@ -2045,7 +2045,7 @@
 18	قابل	قابل	ADJ	ADJ	Degree=Pos	17	amod	_	Translit=qabl|LTranslit=qabl
 19	توجهی	توجه	NOUN	N_SING	Number=Sing	18	nmod:poss	_	Translit=tojhī|LTranslit=tojh
 20	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	17	cop	_	Translit=bodh|LTranslit=bod#bash
-21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	20	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	17	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 22	.	.	PUNCT	DELM	_	17	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s74
@@ -3156,7 +3156,7 @@
 17	طولانی‌مدت	طولانی‌مدت	ADJ	ADJ	Degree=Pos	16	amod	_	Translit=ţolanīmdt|LTranslit=ţolanīmdt
 18	محکوم	محکوم	ADJ	ADJ	Degree=Pos	9	acl:relcl	_	Translit=mhkom|LTranslit=mhkom
 19	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	18	cop	_	Translit=shdh|LTranslit=krd#kn
-20	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	19	aux	_	Translit=bodnd|LTranslit=bod
+20	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	18	aux	_	Translit=bodnd|LTranslit=bod
 21	عفو	عفو	NOUN	N_SING	Number=Sing	22	compound:lvc	_	Translit=ʿfo|LTranslit=ʿfo
 22	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=krd|LTranslit=krd#kn
 23	و	و	CCONJ	CON	_	33	cc	_	Translit=o|LTranslit=o
@@ -3215,7 +3215,7 @@
 12	۱۹۹۶	۱۹۹۶	NUM	NUM	NumType=Card	11	nummod	_	Translit=1996|LTranslit=1996
 13	محاکمه	محاکمه	NOUN	N_SING	Number=Sing	0	root	_	Translit=mhakmh|LTranslit=mhakmh
 14	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	13	cop	_	Translit=shdh|LTranslit=krd#kn
-15	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	14	aux	_	Translit=bodnd|LTranslit=bod
+15	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	13	aux	_	Translit=bodnd|LTranslit=bod
 16	که	که	SCONJ	CON	_	28	mark	_	Translit=kh|LTranslit=kh
 17	ظاهراً	ظاهراً	ADV	ADV	_	28	advmod	_	Translit=z̧ahraan|LTranslit=z̧ahraan
 18	این	این	DET	DET	_	19	det	_	Translit=aīn|LTranslit=aīn
@@ -3274,7 +3274,7 @@
 8	از	از	ADP	P	_	9	case	_	Translit=az|LTranslit=az
 9	تحلیلگران	تحلیلگر	NOUN	N_PL	Number=Plur	7	nmod	_	Translit=thlīlgran|LTranslit=thlīlgr
 10	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	5	cop	_	Translit=shdh|LTranslit=krd#kn
-11	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	10	aux	_	Translit=ast|LTranslit=ast
+11	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	5	aux	_	Translit=ast|LTranslit=ast
 12	ماهیت	ماهیت	NOUN	N_SING	Number=Sing	0	root	_	Translit=mahīt|LTranslit=mahīt
 13	ضد	ضد	ADJ	ADJ	Degree=Pos	12	amod	_	Translit=ḑd|LTranslit=ḑd
 14	و	و	CCONJ	CON	_	15	cc	_	Translit=o|LTranslit=o
@@ -3431,7 +3431,7 @@
 35	شدید	شدید	ADJ	ADJ	Degree=Pos	34	amod	_	Translit=shdīd|LTranslit=shdīd
 36	دولت	دولت	NOUN	N_SING	Number=Sing	34	nmod:poss	_	Translit=dolt|LTranslit=dolt
 37	امکان‌پذیر	امکان‌پذیر	ADJ	ADJ	Degree=Pos	30	conj	_	Translit=amkanpðīr|LTranslit=amkanpðīr
-38	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+38	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 39	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	37	cop	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 40	.	.	PUNCT	DELM	_	22	punct	_	Translit=.|LTranslit=.
 
@@ -3474,7 +3474,7 @@
 34	در	در	ADP	P	_	35	case	_	Translit=dr|LTranslit=dr
 35	مصر	مصر	NOUN	N_SING	Number=Sing	32	nmod	_	Translit=mşr|LTranslit=mşr
 36	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	23	cop	_	Translit=shdh|LTranslit=krd#kn
-37	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	36	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+37	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	23	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 38	.	.	PUNCT	DELM	_	23	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s122
@@ -3772,7 +3772,7 @@
 28	پونک	پونک	NOUN	N_SING	Number=Sing	27	flat	_	Translit=ponk|LTranslit=ponk
 29	ساخته	ساخت#ساز	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	Translit=saxth|LTranslit=saxt#saz
 30	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	29	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-31	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	30	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+31	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	29	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 32	.	.	PUNCT	DELM	_	29	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s132
@@ -3999,7 +3999,7 @@
 14	،	،	PUNCT	DELM	_	7	punct	_	Translit=,|LTranslit=,
 15	متهم	متهم	NOUN	N_SING	Number=Sing	5	ccomp	_	Translit=mthm|LTranslit=mthm
 16	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	15	cop	_	Translit=shdh|LTranslit=krd#kn
-17	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	16	aux	_	Translit=bod|LTranslit=bod
+17	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	15	aux	_	Translit=bod|LTranslit=bod
 18	که	که	SCONJ	CON	_	19	mark	_	Translit=kh|LTranslit=kh
 19	کافر	کافر	ADJ	ADJ	Degree=Pos	15	ccomp	_	Translit=kafr|LTranslit=kafr
 20	و	و	CCONJ	CON	_	21	cc	_	Translit=o|LTranslit=o
@@ -4748,7 +4748,7 @@
 14	مستحکم‌تر	مستحکم	ADJ	ADJ_CMPR	Degree=Cmp	4	ccomp	_	Translit=msthkmtr|LTranslit=msthkm
 15	و	و	CCONJ	CON	_	16	cc	_	Translit=o|LTranslit=o
 16	قویتر	قوی	ADJ	ADJ_CMPR	Degree=Cmp	14	conj	_	Translit=qoītr|LTranslit=qoī
-17	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+17	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 18	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	14	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 19	.	.	PUNCT	DELM	_	4	punct	_	Translit=.|LTranslit=.
 
@@ -4930,7 +4930,7 @@
 45	ضعیف	ضعیف	ADJ	ADJ	Degree=Pos	40	conj	_	Translit=ḑʿīf|LTranslit=ḑʿīf
 46	عمل	عمل	NOUN	N_SING	Number=Sing	45	nmod:poss	_	Translit=ʿml|LTranslit=ʿml
 47	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	45	cop	_	Translit=shdh|LTranslit=krd#kn
-48	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	47	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+48	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	45	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 49	.	.	PUNCT	DELM	_	13	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s161
@@ -4995,7 +4995,7 @@
 57	تأخیر	تأخیر	NOUN	N_SING	Number=Sing	58	nmod	_	Translit=tÁxīr|LTranslit=tÁxīr
 58	دخیل	دخیل	ADJ	ADJ	Degree=Pos	45	conj	_	Translit=dxīl|LTranslit=dxīl
 59	نبوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	58	cop	_	Translit=nbodh|LTranslit=bod#bash
-60	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	59	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+60	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	58	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 61	.	.	PUNCT	DELM	_	19	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s162
@@ -5088,7 +5088,7 @@
 26	و	و	CCONJ	CON	_	27	cc	_	Translit=o|LTranslit=o
 27	منظور	منظور	NOUN	N_SING	Number=Sing	25	conj	_	Translit=mnz̧or|LTranslit=mnz̧or
 28	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	25	cop	_	Translit=shdh|LTranslit=krd#kn
-29	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	28	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+29	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	25	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 30	!	!	PUNCT	DELM	_	2	punct	_	Translit=!|LTranslit=!
 
 # sent_id = test-s164
@@ -5688,7 +5688,7 @@
 37	تبعید	تبعید	NOUN	N_SING	Number=Sing	35	nmod	_	Translit=tbʿīd|LTranslit=tbʿīd
 38	تعیین	تعیین	NOUN	N_SING	Number=Sing	0	root	_	Translit=tʿīīn|LTranslit=tʿīīn
 39	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	38	cop	_	Translit=shdh|LTranslit=krd#kn
-40	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	39	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+40	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	38	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 41	.	.	PUNCT	DELM	_	38	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s180
@@ -6089,7 +6089,7 @@
 24	دلار	دلار	NOUN	N_SING	Number=Sing	18	nmod	_	Translit=dlar|LTranslit=dlar
 25	برآورد	برآورد	NOUN	N_SING	Number=Sing	2	ccomp	_	Translit=brĀord|LTranslit=brĀord
 26	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	25	cop	_	Translit=shdh|LTranslit=krd#kn
-27	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+27	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	25	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 28	.	.	PUNCT	DELM	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s190
@@ -6793,7 +6793,7 @@
 28	کشور	کشور	NOUN	N_SING	Number=Sing	26	conj	_	SpaceAfter=No|Translit=kshor|LTranslit=kshor
 29	،	،	PUNCT	DELM	_	23	punct	_	Translit=,|LTranslit=,
 30	منظور	منظور	NOUN	N_SING	Number=Sing	0	root	_	Translit=mnz̧or|LTranslit=mnz̧or
-31	نخواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	32	aux	_	Translit=nxoahd|LTranslit=xoast#xoah
+31	نخواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	30	aux	_	Translit=nxoahd|LTranslit=xoast#xoah
 32	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	30	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 33	.	.	PUNCT	DELM	_	30	punct	_	Translit=.|LTranslit=.
 
@@ -6847,7 +6847,7 @@
 3	هم	هم	SCONJ	CON	_	4	advmod	_	Translit=hm|LTranslit=hm
 4	دیر	دیر	ADJ	ADJ	Degree=Pos	0	root	_	Translit=dīr|LTranslit=dīr
 5	نشده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	cop	_	Translit=nshdh|LTranslit=krd#kn
-6	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	5	aux	_	Translit=ast|LTranslit=ast
+6	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=ast|LTranslit=ast
 7	و	و	CCONJ	CON	_	35	cc	_	Translit=o|LTranslit=o
 8	یقیناً	یقیناً	ADV	ADV	_	35	advmod	_	Translit=īqīnaan|LTranslit=īqīnaan
 9	پیوستن	پیوستن	NOUN	N_SING	Number=Sing	35	nsubj	_	Translit=pīostn|LTranslit=pīostn
@@ -7235,7 +7235,7 @@
 34	اقدامات	اقدام	NOUN	N_PL	Number=Plur	32	nmod	_	Translit=aqdamat|LTranslit=aqdam
 35	بعدی	بعد	ADJ	ADJ	Degree=Pos	34	amod	_	Translit=bʿdī|LTranslit=bʿd
 36	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	24	cop	_	Translit=bodh|LTranslit=bod#bash
-37	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	36	aux	_	Translit=ast|LTranslit=ast
+37	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	24	aux	_	Translit=ast|LTranslit=ast
 38	یا	یا	CCONJ	CON	_	58	cc	_	Translit=īa|LTranslit=īa
 39	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	38	fixed	_	Translit=Ān|LTranslit=Ān
 40	که	که	CCONJ	CON	_	38	fixed	_	Translit=kh|LTranslit=kh
@@ -7573,7 +7573,7 @@
 25	خاص	خاص	ADJ	ADJ	Degree=Pos	24	amod	_	Translit=xaş|LTranslit=xaş
 26	بدل	بدل	NOUN	N_SING	Number=Sing	14	conj	_	Translit=bdl|LTranslit=bdl
 27	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	26	cop	_	Translit=shdh|LTranslit=krd#kn
-28	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	27	aux	_	SpaceAfter=No|Translit=bod|LTranslit=bod
+28	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	26	aux	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 29	،	،	PUNCT	DELM	_	6	punct	_	Translit=,|LTranslit=,
 30	مردم	مردم	NOUN	N_SING	Number=Sing	47	nsubj	_	Translit=mrdm|LTranslit=mrdm
 31	توانستند	توانست#توان	VERB	V_PA	Number=Plur|Person=3|Tense=Past	47	aux	_	Translit=toanstnd|LTranslit=toanst#toan
@@ -7813,7 +7813,7 @@
 11	مراحل	مرحله	NOUN	N_PL	Number=Plur	10	nmod:poss	_	Translit=mrahl|LTranslit=mrhlh
 12	تازه‌ای	تازه	ADJ	ADJ	Degree=Pos	11	amod	_	Translit=tazhaī|LTranslit=tazh
 13	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	10	cop	_	Translit=shdh|LTranslit=krd#kn
-14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 15	.	.	PUNCT	DELM	_	10	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s234
@@ -7889,7 +7889,7 @@
 7	جامعه	جامعه	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=jamʿh|LTranslit=jamʿh
 8	منتشر	منتشر	ADJ	ADJ	Degree=Pos	2	acl:relcl	_	Translit=mntshr|LTranslit=mntshr
 9	گردیده	گشت#گرد	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	8	cop	_	Translit=grdīdh|LTranslit=gsht#grd
-10	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	9	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+10	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 11	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 12	مأید	مأید	NOUN	N_SING	Number=Sing	0	root	_	Translit=mÁīd|LTranslit=mÁīd
 13	این	این	DET	DET	_	14	det	_	Translit=aīn|LTranslit=aīn
@@ -7938,7 +7938,7 @@
 36	با	با	ADP	P	_	37	case	_	Translit=ba|LTranslit=ba
 37	آرام‌سازی	آرام‌سازی	NOUN	N_SING	Number=Sing	35	nmod	_	Translit=Āramsazī|LTranslit=Āramsazī
 38	اجتماعی	اجتماعی	ADJ	ADJ	Degree=Pos	37	amod	_	Translit=ajtmaʿī|LTranslit=ajtmaʿī
-39	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+39	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 40	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	34	cop	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 41	.	.	PUNCT	DELM	_	34	punct	_	Translit=.|LTranslit=.
 
@@ -7993,7 +7993,7 @@
 23	اجتماعی	اجتماعی	ADJ	ADJ	Degree=Pos	22	amod	_	Translit=ajtmaʿī|LTranslit=ajtmaʿī
 24	ارائه	ارائه	NOUN	N_SING	Number=Sing	15	acl:relcl	_	Translit=arah|LTranslit=arah
 25	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	24	cop	_	Translit=shdh|LTranslit=krd#kn
-26	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	25	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+26	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	24	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 27	،	،	PUNCT	DELM	_	4	punct	_	Translit=,|LTranslit=,
 28	بهتر	به	ADJ	ADJ_CMPR	Degree=Cmp	0	root	_	Translit=bhtr|LTranslit=bh
 29	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	28	cop	_	Translit=ast|LTranslit=ast
@@ -8438,7 +8438,7 @@
 33	ایشان	ایشان	PRON	PRO	Number=Plur|Person=3|PronType=Prs	32	nmod:poss	_	Translit=aīshan|LTranslit=aīshan
 34	خارج	خارج	NOUN	N_SING	Number=Sing	25	ccomp	_	Translit=xarj|LTranslit=xarj
 35	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	34	cop	_	Translit=bodh|LTranslit=bod#bash
-36	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	35	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+36	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	34	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 37	!	!	PUNCT	DELM	_	7	punct	_	Translit=!|LTranslit=!
 
 # sent_id = test-s250
@@ -8693,7 +8693,7 @@
 33	شرح	شرح	NOUN	N_SING	Number=Sing	34	compound:lvc	_	Translit=shrh|LTranslit=shrh
 34	داده	داد#ده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	Translit=dadh|LTranslit=dad#dh
 35	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	34	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-36	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	35	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+36	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	34	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 37	.	.	PUNCT	DELM	_	34	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s257
@@ -9210,7 +9210,7 @@
 13	یو‌سی‌ال‌ای	یو‌سی‌ال‌ای	NOUN	N_SING	Number=Sing	12	flat	_	Translit=īosīalaī|LTranslit=īosīalaī
 14	فارغ‌التحصیل	فارغ‌التحصیل	NOUN	N_SING	Number=Sing	3	ccomp	_	Translit=farghalthşīl|LTranslit=farghalthşīl
 15	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	14	cop	_	Translit=shdh|LTranslit=krd#kn
-16	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	15	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+16	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 17	.	.	PUNCT	DELM	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s280
@@ -9225,7 +9225,7 @@
 7	بورلی‌هیلز	بورلی‌هیلز	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=borlīhīlz|LTranslit=borlīhīlz
 8	غوطه‌ور	غوطه‌ور	ADJ	ADJ	Degree=Pos	0	root	_	Translit=ghoţhor|LTranslit=ghoţhor
 9	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	8	cop	_	Translit=shdh|LTranslit=krd#kn
-10	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	9	aux	_	Translit=bod|LTranslit=bod
+10	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	8	aux	_	Translit=bod|LTranslit=bod
 11	و	و	CCONJ	CON	_	21	cc	_	Translit=o|LTranslit=o
 12	بقول	بقول	ADP	P	_	13	case	_	Translit=bqol|LTranslit=bqol
 13	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obl	_	SpaceAfter=No|Translit=xod|LTranslit=xod
@@ -10010,8 +10010,8 @@
 8	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	Translit=xod|LTranslit=xod
 9	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	8	nmod:poss	_	Translit=t|LTranslit=to
 10	را	را	PART	CLITIC	_	8	case	_	Translit=ra|LTranslit=ra
-11	حلیم	حلیم	ADJ	ADJ	Degree=Pos	13	xcomp	_	Translit=hlīm|LTranslit=hlīm
-12	وانمود	وانمود	ADJ	ADJ	Degree=Pos	13	compound:lvc	_	Translit=oanmod|LTranslit=oanmod
+11	حلیم	حلیم	ADJ	ADJ	Degree=Pos	2	xcomp	_	Translit=hlīm|LTranslit=hlīm
+12	وانمود	وانمود	ADJ	ADJ	Degree=Pos	2	compound:lvc	_	Translit=oanmod|LTranslit=oanmod
 13	می‌کنی	کرد#کن	AUX	V_PRS	Number=Sing|Person=2|Tense=Pres	2	cop	_	SpaceAfter=No|Translit=mīknī|LTranslit=krd#kn
 14	.	.	PUNCT	DELM	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -11303,7 +11303,7 @@
 16	مسجد	مسجد	NOUN	N_SING	Number=Sing	17	nmod	_	Translit=msjd|LTranslit=msjd
 17	پخش	پخش	NOUN	N_SING	Number=Sing	11	ccomp	_	Translit=pxsh|LTranslit=pxsh
 18	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	17	cop	_	Translit=shdh|LTranslit=krd#kn
-19	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	18	aux	_	SpaceAfter=No|Translit=bodnd|LTranslit=bod
+19	بودند	بود	VERB	V_PA	Number=Plur|Person=3|Tense=Past	17	aux	_	SpaceAfter=No|Translit=bodnd|LTranslit=bod
 20	.	.	PUNCT	DELM	_	11	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s381
@@ -11772,7 +11772,7 @@
 25	حفاری	حفاری	NOUN	N_SING	Number=Sing	26	nmod	_	Translit=hfarī|LTranslit=hfarī
 26	کشف	کشف	NOUN	N_SING	Number=Sing	2	ccomp	_	Translit=kshf|LTranslit=kshf
 27	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	26	cop	_	Translit=shdh|LTranslit=krd#kn
-28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 29	.	.	PUNCT	DELM	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s397
@@ -12013,7 +12013,7 @@
 18	ریاضیات	ریاضی	NOUN	N_SING	Number=Sing	16	nmod:poss	_	Translit=rīaḑīat|LTranslit=rīaḑī
 19	ایجاد	ایجاد	NOUN	N_SING	Number=Sing	10	ccomp	_	Translit=aījad|LTranslit=aījad
 20	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	19	cop	_	Translit=shdh|LTranslit=krd#kn
-21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	20	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	19	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 22	.	.	PUNCT	DELM	_	10	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s404
@@ -12082,7 +12082,7 @@
 15	نظر	نظر	NOUN	N_SING	Number=Sing	16	compound:lvc	_	Translit=nz̧r|LTranslit=nz̧r
 16	گرفته	گرفت#گیر	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	Translit=grfth|LTranslit=grft#gīr
 17	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	16	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-18	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	17	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+18	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	16	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 19	.	.	PUNCT	DELM	_	16	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s407
@@ -12142,7 +12142,7 @@
 29	تخصیص	تخصیص	NOUN	N_SING	Number=Sing	30	compound:lvc	_	Translit=txşīş|LTranslit=txşīş
 30	داده	داد#ده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	ccomp	_	Translit=dadh|LTranslit=dad#dh
 31	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	30	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-32	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	31	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+32	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	30	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 33	.	.	PUNCT	DELM	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s409
@@ -12227,7 +12227,7 @@
 25	خوزنین	خوزنین	NOUN	N_SING	Number=Sing	24	flat	_	Translit=xoznīn|LTranslit=xoznīn
 26	احداث	احداث	NOUN	N_SING	Number=Sing	0	root	_	Translit=ahdaþ|LTranslit=ahdaþ
 27	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	26	cop	_	Translit=shdh|LTranslit=krd#kn
-28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 29	.	.	PUNCT	DELM	_	26	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s412
@@ -12415,7 +12415,7 @@
 12	این	این	DET	DET	_	13	det	_	Translit=aīn|LTranslit=aīn
 13	استان	استان	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=astan|LTranslit=astan
 14	هزینه	هزینه	NOUN	N_SING	Number=Sing	4	ccomp	_	Translit=hzīnh|LTranslit=hzīnh
-15	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+15	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 16	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	14	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 17	.	.	PUNCT	DELM	_	4	punct	_	Translit=.|LTranslit=.
 
@@ -12445,7 +12445,7 @@
 21	دولت	دولت	NOUN	N_SING	Number=Sing	20	nmod:poss	_	Translit=dolt|LTranslit=dolt
 22	به‌زودی	به‌زودی	ADV	ADV_TIME	Case=Tem	23	advmod	_	Translit=bhzodī|LTranslit=bhzodī
 23	مشخص	مشخص	ADJ	ADJ	Degree=Pos	2	ccomp	_	Translit=mshxş|LTranslit=mshxş
-24	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+24	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 25	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	23	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 26	.	.	PUNCT	DELM	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -12672,7 +12672,7 @@
 16	ماه	ماه	NOUN	N_SING	Number=Sing	18	nmod	_	Translit=mah|LTranslit=mah
 17	آینده	آینده	NOUN	N_SING	Number=Sing	16	nmod:poss	_	Translit=Āīndh|LTranslit=Āīndh
 18	آغاز	آغاز	NOUN	N_SING	Number=Sing	0	root	_	Translit=Āghaz|LTranslit=Āghaz
-19	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+19	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 20	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	18	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 21	.	.	PUNCT	DELM	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -12988,7 +12988,7 @@
 45	زارعین	زارع	NOUN	N_PL	Number=Plur	46	nmod	_	Translit=zarʿīn|LTranslit=zarʿ
 46	توزیع	توزیع	NOUN	N_SING	Number=Sing	3	ccomp	_	Translit=tozīʿ|LTranslit=tozīʿ
 47	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	46	cop	_	Translit=shdh|LTranslit=krd#kn
-48	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	47	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+48	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	46	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 49	.	.	PUNCT	DELM	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s435
@@ -13497,7 +13497,7 @@
 13	منطقه	منطقه	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=mnţqh|LTranslit=mnţqh
 14	باعث	باعث	NOUN	N_SING	Number=Sing	0	root	_	Translit=baʿþ|LTranslit=baʿþ
 15	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	14	cop	_	Translit=shdh|LTranslit=krd#kn
-16	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	15	aux	_	Translit=ast|LTranslit=ast
+16	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	14	aux	_	Translit=ast|LTranslit=ast
 17	تا	تا	SCONJ	CON	_	37	mark	_	Translit=ta|LTranslit=ta
 18	آن‌ها	آن	PRON	PRO	Number=Plur|PronType=Dem	37	nsubj	_	Translit=Ānha|LTranslit=Ān
 19	در	در	ADP	P	_	21	case	_	Translit=dr|LTranslit=dr
@@ -13556,7 +13556,7 @@
 30	آمده	آمد#آ	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	20	acl:relcl	_	Translit=Āmdh|LTranslit=Āmd#Ā
 31	ساخته	ساخت#ساز	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	12	ccomp	_	Translit=saxth|LTranslit=saxt#saz
 32	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	31	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-33	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	32	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+33	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	31	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 34	.	.	PUNCT	DELM	_	12	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s451
@@ -14002,7 +14002,7 @@
 24	نیزه	نیزه	NOUN	N_SING	Number=Sing	21	nmod	_	Translit=nīzh|LTranslit=nīzh
 25	حک	حک	NOUN	N_SING	Number=Sing	0	root	_	Translit=hk|LTranslit=hk
 26	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	25	cop	_	Translit=shdh|LTranslit=krd#kn
-27	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+27	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	25	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 28	.	.	PUNCT	DELM	_	25	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s467
@@ -14436,7 +14436,7 @@
 26	فرایبورگ	فرایبورگ	NOUN	N_SING	Number=Sing	25	flat	_	Translit=fraīborg|LTranslit=fraīborg
 27	آلمان	آلمان	NOUN	N_SING	Number=Sing	26	nmod:poss	_	Translit=Ālman|LTranslit=Ālman
 28	برگزار	برگزار	ADJ	ADJ	Degree=Pos	21	acl:relcl	_	Translit=brgzar|LTranslit=brgzar
-29	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+29	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 30	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	28	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 31	،	،	PUNCT	DELM	_	21	punct	_	Translit=,|LTranslit=,
 32	شرکت	شرکت	NOUN	N_SING	Number=Sing	33	compound:lvc	_	Translit=shrkt|LTranslit=shrkt
@@ -14548,7 +14548,7 @@
 28	تیر	تیر	NOUN	N_SING	Number=Sing	26	nmod:poss	_	Translit=tīr|LTranslit=tīr
 29	تهران	تهران	NOUN	N_SING	Number=Sing	28	nmod:poss	_	Translit=thran|LTranslit=thran
 30	برگزار	برگزار	ADJ	ADJ	Degree=Pos	0	root	_	Translit=brgzar|LTranslit=brgzar
-31	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+31	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 32	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	30	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 33	.	.	PUNCT	DELM	_	30	punct	_	Translit=.|LTranslit=.
 
@@ -14916,7 +14916,7 @@
 27	۱۲	۱۲	NUM	NUM	NumType=Card	25	conj	_	Translit=12|LTranslit=12
 28	برابر	برابر	NOUN	N_SING	Number=Sing	3	ccomp	_	Translit=brabr|LTranslit=brabr
 29	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	28	cop	_	Translit=bodh|LTranslit=bod#bash
-30	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	29	aux	_	Translit=ast|LTranslit=ast
+30	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	28	aux	_	Translit=ast|LTranslit=ast
 31	که	که	SCONJ	CON	_	32	mark	_	Translit=kh|LTranslit=kh
 32	بیانگر	بیانگر	NOUN	N_SING	Number=Sing	28	ccomp	_	Translit=bīangr|LTranslit=bīangr
 33	روند	روند	NOUN	N_SING	Number=Sing	32	nmod:poss	_	Translit=rond|LTranslit=rond
@@ -15413,7 +15413,7 @@
 25	ماه	ماه	NOUN	N_SING	Number=Sing	24	fixed	_	Translit=mah|LTranslit=mah
 26	منظور	منظور	NOUN	N_SING	Number=Sing	8	conj	_	Translit=mnz̧or|LTranslit=mnz̧or
 27	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	26	cop	_	Translit=shdh|LTranslit=krd#kn
-28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+28	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 29	.	.	PUNCT	DELM	_	8	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s511
@@ -15888,7 +15888,7 @@
 21	یا	یا	CCONJ	CON	_	20	fixed	_	Translit=īa|LTranslit=īa
 22	دفن	دفن	NOUN	N_SING	Number=Sing	19	conj	_	Translit=dfn|LTranslit=dfn
 23	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	17	cop	_	Translit=shdh|LTranslit=krd#kn
-24	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	23	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+24	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	17	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 25	.	.	PUNCT	DELM	_	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s529
@@ -16286,7 +16286,7 @@
 5	نخست	نخست	ADJ	ADJ	Degree=Pos	4	amod	_	Translit=nxst|LTranslit=nxst
 6	متعاقباً	متعاقباً	ADV	ADV	_	7	advmod	_	Translit=mtʿaqbaan|LTranslit=mtʿaqbaan
 7	اعلام	اعلام	NOUN	N_SING	Number=Sing	0	root	_	Translit=aʿlam|LTranslit=aʿlam
-8	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+8	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 9	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	7	cop	_	SpaceAfter=No|Translit=shd|LTranslit=krd#kn
 10	.	.	PUNCT	DELM	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -16990,7 +16990,7 @@
 31	سربلندی	سربلندی	NOUN	N_SING	Number=Sing	29	conj	_	Translit=srblndī|LTranslit=srblndī
 32	همه	همه	PRON	PRO	PronType=Tot	33	det	_	Translit=hmh|LTranslit=hmh
 33	ایرانی‌ها	ایرانی	NOUN	N_PL	Number=Plur	31	nmod:poss	_	Translit=aīranīha|LTranslit=aīranī
-34	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	Translit=xoahd|LTranslit=xoast#xoah
+34	خواهد	خواست#خواه	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	aux	_	Translit=xoahd|LTranslit=xoast#xoah
 35	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	28	cop	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 36	.	.	PUNCT	DELM	_	16	punct	_	Translit=.|LTranslit=.
 
@@ -17227,7 +17227,7 @@
 14	را	را	PART	CLITIC	_	13	case	_	Translit=ra|LTranslit=ra
 15	پذیرا	پذیرا	ADJ	ADJ	Degree=Pos	0	root	_	Translit=pðīra|LTranslit=pðīra
 16	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	15	cop	_	Translit=shdh|LTranslit=krd#kn
-17	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	16	aux	_	SpaceAfter=No|Translit=bod|LTranslit=bod
+17	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	15	aux	_	SpaceAfter=No|Translit=bod|LTranslit=bod
 18	.	.	PUNCT	DELM	_	15	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s567
@@ -17283,7 +17283,7 @@
 18	گل	گل	NOUN	N_SING	Number=Sing	19	nmod	_	Translit=gl|LTranslit=gl
 19	پنهان	پنهان	ADJ	ADJ	Degree=Pos	14	conj	_	Translit=pnhan|LTranslit=pnhan
 20	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	14	cop	_	Translit=shdh|LTranslit=krd#kn
-21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	20	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+21	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 22	.	.	PUNCT	DELM	_	1	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s569
@@ -17828,7 +17828,7 @@
 26	،	،	PUNCT	DELM	_	10	punct	_	Translit=,|LTranslit=,
 27	چاپ	چاپ	NOUN	N_SING	Number=Sing	7	acl:relcl	_	Translit=chap|LTranslit=chap
 28	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	27	cop	_	Translit=shdh|LTranslit=krd#kn
-29	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	28	aux	_	Translit=ast|LTranslit=ast
+29	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	27	aux	_	Translit=ast|LTranslit=ast
 30	قبر	قبر	NOUN	N_SING	Number=Sing	36	obj	_	Translit=qbr|LTranslit=qbr
 31	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	Translit=ao|LTranslit=ao
 32	را	را	PART	CLITIC	_	30	case	_	Translit=ra|LTranslit=ra
@@ -17855,7 +17855,7 @@
 6	۱۱۹۱	۱۱۹۱	NUM	NUM	NumType=Card	7	obl	_	Translit=1191|LTranslit=1191
 7	برداشته	بر#داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	acl:relcl	_	Translit=brdashth|LTranslit=br#dasht#dar
 8	شده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	7	aux:pass	_	Translit=shdh|LTranslit=krd#kn
-9	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	8	aux	_	Translit=ast|LTranslit=ast
+9	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	7	aux	_	Translit=ast|LTranslit=ast
 10	آرامگاه	آرامگاه	NOUN	N_SING	Number=Sing	17	obj	_	Translit=Āramgah|LTranslit=Āramgah
 11	خیام	خیام	NOUN	N_SING	Number=Sing	10	nmod:poss	_	Translit=xīam|LTranslit=xīam
 12	را	را	PART	CLITIC	_	10	case	_	Translit=ra|LTranslit=ra
@@ -18065,7 +18065,7 @@
 11	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	10	amod	_	Translit=aslamī|LTranslit=aslamī
 12	معلوم	معلوم	ADJ	ADJ	Degree=Pos	3	acl:relcl	_	Translit=mʿlom|LTranslit=mʿlom
 13	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	12	cop	_	Translit=shdh|LTranslit=krd#kn
-14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+14	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	12	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 15	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
 16	هنوز	هنوز	ADV	ADV	_	26	advmod	_	Translit=hnoz|LTranslit=hnoz
 17	هم	هم	SCONJ	CON	_	26	advmod	_	Translit=hm|LTranslit=hm
@@ -18276,7 +18276,7 @@
 32	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	31	amod	_	Translit=aslamī|LTranslit=aslamī
 33	منتشر	منتشر	ADJ	ADJ	Degree=Pos	19	ccomp	_	Translit=mntshr|LTranslit=mntshr
 34	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	33	cop	_	Translit=shdh|LTranslit=krd#kn
-35	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	34	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
+35	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	33	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 36	.	.	PUNCT	DELM	_	19	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s595
