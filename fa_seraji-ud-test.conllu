@@ -10005,7 +10005,7 @@
 4	بلکه	بلکه	CCONJ	CON	_	6	cc	_	Translit=blkh|LTranslit=blkh
 5	تحلم	تحلم	NOUN	N_SING	Number=Sing	6	obj	_	Translit=thlm|LTranslit=thlm
 6	می‌کنی	کرد#کن	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	2	conj	_	SpaceAfter=No|Translit=mīknī|LTranslit=krd#kn
-7	،	،	PUNCT	DELM	_	13	punct	_	Translit=,|LTranslit=,
+7	،	،	PUNCT	DELM	_	11	punct	_	Translit=,|LTranslit=,
 8-9	خودت	_	_	_	_	_	_	_	Translit=xodt
 8	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	Translit=xod|LTranslit=xod
 9	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	8	nmod:poss	_	Translit=t|LTranslit=to
