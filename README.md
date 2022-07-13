@@ -1,6 +1,7 @@
 # Summary
 
-The Persian Universal Dependency Treebank (Persian UD) is based on Uppsala Persian Dependency Treebank (UPDT). The conversion of the UPDT to the Universal Dependencies was performed semi-automatically with extensive manual checks and corrections.
+The Persian Universal Dependency Treebank (Seraji) is based on Uppsala Persian Dependency Treebank (UPDT).
+The conversion of the UPDT to the Universal Dependencies was performed semi-automatically with extensive manual checks and corrections.
 
 # Introduction
 
