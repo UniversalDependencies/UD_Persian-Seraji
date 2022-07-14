@@ -3234,7 +3234,7 @@
 # sent_id = test-s115
 # text = اکثر مصری‌ها به‌قدری دل‌مشغول مسایل دیگری چون نظام‌های ناموفق بهداشتی و آموزشی کشور هستند که دیگر وقتی برای ابراز تعجب از نوسانات سیاسی کشور ندارند.
 # translit = akþr mşrīha bhqdrī dlmshghol msaīl dīgrī chon nz̧amhaī namofq bhdashtī v Āmozshī kshor hstnd kh dīgr vqtī braī abraz tʿjb az nosanat sīasī kshor ndarnd.
-1	اکثر	اکثر	ADJ	ADJ	Degree=Pos	2	det	_	Translit=akþr|LTranslit=akþr
+1	اکثر	اکثر	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=akþr|LTranslit=akþr
 2	مصری‌ها	مصری	NOUN	N_PL	Number=Plur	4	nsubj	_	Translit=mşrīha|LTranslit=mşrī
 3	به‌قدری	به‌قدری	NOUN	N_SING	Number=Sing	4	nmod	_	Translit=bhqdrī|LTranslit=bhqdrī
 4	دل‌مشغول	دل‌مشغول	ADJ	ADJ	Degree=Pos	0	root	_	Translit=dlmshghol|LTranslit=dlmshghol
