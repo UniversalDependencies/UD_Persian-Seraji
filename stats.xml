@@ -35,7 +35,7 @@
   <feats unique="31">
     <feat name="Case" value="Loc" upos="ADV">167</feat><!-- بالا, اینجا, آنجا, پیش, بیرون, پایین, آن‌جا, زیر -->
     <feat name="Case" value="Tem" upos="ADV">941</feat><!-- بعد, پس, پیش, حالا, امروز, قبل, اکنون, کنون, همیشه, دیروز -->
-    <feat name="Case" value="Voc" upos="NOUN">4</feat><!-- پروردگارا, الهی, حافظا -->
+    <feat name="Case" value="Voc" upos="INTJ,NOUN">30</feat><!-- ای, پروردگارا, الهی, حافظا -->
     <feat name="Degree" value="Cmp" upos="ADJ">452</feat><!-- بیشتر, بیش, کمتر, بیشتری, بهتر, بالاتر, برتر, بزرگتر, فراتر, نزدیکتر -->
     <feat name="Degree" value="Pos" upos="ADJ">12602</feat><!-- اسلامی, دیگر, سیاسی, دوم, گذشته, فرهنگی, جدید, چند, ملی, پیدا -->
     <feat name="Degree" value="Sup" upos="ADJ">379</feat><!-- نخستین, بهترین, اولین, آخرین, بزرگترین, دومین, مهمترین, بیشترین, سومین, بالاترین -->
@@ -75,7 +75,7 @@
     <dep name="appos">584</dep>
     <dep name="aux">2287</dep>
     <dep name="aux:pass">217</dep>
-    <dep name="case">19215</dep>
+    <dep name="case">19241</dep>
     <dep name="cc">7654</dep>
     <dep name="cc:preconj">48</dep>
     <dep name="ccomp">4113</dep>
@@ -85,7 +85,7 @@
     <dep name="conj">8767</dep>
     <dep name="cop">4697</dep>
     <dep name="dep">380</dep>
-    <dep name="det">3846</dep>
+    <dep name="det">3820</dep>
     <dep name="det:predet">54</dep>
     <dep name="dislocated">70</dep>
     <dep name="fixed">1678</dep>

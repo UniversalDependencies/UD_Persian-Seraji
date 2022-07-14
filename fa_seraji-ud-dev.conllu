@@ -3533,7 +3533,7 @@
 1	معاویه	معاویه	NOUN	N_SING	Number=Sing	2	nsubj	_	Translit=mʿaoīh|LTranslit=mʿaoīh
 2	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 3	:	:	PUNCT	DELM	_	5	punct	_	Translit=:|LTranslit=:
-4	ای	ای	INTJ	INT	_	5	det	_	Translit=aī|LTranslit=aī
+4	ای	ای	INTJ	INT	Case=Voc	5	case	_	Translit=aī|LTranslit=aī
 5	اباظریف	اباظریف	NOUN	N_SING	Number=Sing	2	vocative	_	SpaceAfter=No|Translit=abaz̧rīf|LTranslit=abaz̧rīf
 6	!	!	PUNCT	DELM	_	2	punct	_	Translit=!|LTranslit=!
 
@@ -4884,7 +4884,7 @@
 # sent_id = dev-s169
 # text = ای معاویه!
 # translit = aī mʿaoīh!
-1	ای	ای	INTJ	INT	_	2	det	_	Translit=aī|LTranslit=aī
+1	ای	ای	INTJ	INT	Case=Voc	2	case	_	Translit=aī|LTranslit=aī
 2	معاویه	معاویه	NOUN	N_SING	Number=Sing	0	root	_	SpaceAfter=No|Translit=mʿaoīh|LTranslit=mʿaoīh
 3	!	!	PUNCT	DELM	_	2	punct	_	Translit=!|LTranslit=!
 
@@ -5175,7 +5175,7 @@
 # text = اینک ای معاویه!
 # translit = aīnk aī mʿaoīh!
 1	اینک	اینک	ADV	ADV_TIME	Case=Tem	3	advmod	_	Translit=aīnk|LTranslit=aīnk
-2	ای	ای	INTJ	INT	_	3	det	_	Translit=aī|LTranslit=aī
+2	ای	ای	INTJ	INT	Case=Voc	3	case	_	Translit=aī|LTranslit=aī
 3	معاویه	معاویه	NOUN	N_SING	Number=Sing	0	root	_	SpaceAfter=No|Translit=mʿaoīh|LTranslit=mʿaoīh
 4	!	!	PUNCT	DELM	_	3	punct	_	Translit=!|LTranslit=!
 
@@ -5245,7 +5245,7 @@
 # sent_id = dev-s190
 # text = ای معاویه!
 # translit = aī mʿaoīh!
-1	ای	ای	INTJ	INT	_	2	det	_	Translit=aī|LTranslit=aī
+1	ای	ای	INTJ	INT	Case=Voc	2	case	_	Translit=aī|LTranslit=aī
 2	معاویه	معاویه	NOUN	N_SING	Number=Sing	0	root	_	SpaceAfter=No|Translit=mʿaoīh|LTranslit=mʿaoīh
 3	!	!	PUNCT	DELM	_	2	punct	_	Translit=!|LTranslit=!
 

@@ -2347,7 +2347,7 @@
 2	مکن	کرد#کن	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	Translit=mkn|LTranslit=krd#kn
 3	به	به	ADP	P	_	4	case	_	Translit=bh|LTranslit=bh
 4	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	obl	_	Translit=mn|LTranslit=mn
-5	ای	ای	INTJ	INT	_	6	det	_	Translit=aī|LTranslit=aī
+5	ای	ای	INTJ	INT	Case=Voc	6	case	_	Translit=aī|LTranslit=aī
 6	شهر	شهر	NOUN	N_SING	Number=Sing	2	vocative	_	Translit=shhr|LTranslit=shhr
 7	آشنا	آشنا	ADJ	ADJ	Degree=Pos	6	amod	_	SpaceAfter=No|Translit=Āshna|LTranslit=Āshna
 8	،	،	PUNCT	DELM	_	17	punct	_	Translit=,|LTranslit=,
@@ -2385,7 +2385,7 @@
 # sent_id = test-s87
 # text = ای تازه گل، سر تو سلامت که عنقریب، نام و نشان، به شاخ تو از عندلیب نیست.
 # translit = aī tazh gl, sr to slamt kh ʿnqrīb, nam v nshan, bh shax to az ʿndlīb nīst.
-1	ای	ای	INTJ	INT	_	3	det	_	Translit=aī|LTranslit=aī
+1	ای	ای	INTJ	INT	Case=Voc	3	case	_	Translit=aī|LTranslit=aī
 2	تازه	تازه	ADJ	ADJ	Degree=Pos	3	amod	_	Translit=tazh|LTranslit=tazh
 3	گل	گل	NOUN	N_SING	Number=Sing	7	vocative	_	SpaceAfter=No|Translit=gl|LTranslit=gl
 4	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
@@ -9853,7 +9853,7 @@
 1	به	به	ADP	P	_	2	case	_	Translit=bh|LTranslit=bh
 2	خداوند	خداوند	NOUN	N_SING	Number=Sing	11	obl	_	Translit=xdaond|LTranslit=xdaond
 3	سوگند	سوگند	NOUN	N_SING	Number=Sing	2	flat	_	Translit=sognd|LTranslit=sognd
-4	ای	ای	INTJ	INT	_	5	det	_	Translit=aī|LTranslit=aī
+4	ای	ای	INTJ	INT	Case=Voc	5	case	_	Translit=aī|LTranslit=aī
 5	معاویه	معاویه	NOUN	N_SING	Number=Sing	11	vocative	_	Translit=mʿaoīh|LTranslit=mʿaoīh
 6	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Translit=mn|LTranslit=mn
 7	هیچگاه	هیچگاه	ADV	ADV_TIME	Case=Tem	11	advmod	_	Translit=hīchgah|LTranslit=hīchgah
@@ -10433,7 +10433,7 @@
 1	سپس	سپس	ADV	ADV	_	2	advmod	_	Translit=sps|LTranslit=sps
 2	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 3	:	:	PUNCT	DELM	_	12	punct	_	Translit=:|LTranslit=:
-4	ای	ای	INTJ	INT	_	5	det	_	Translit=aī|LTranslit=aī
+4	ای	ای	INTJ	INT	Case=Voc	5	case	_	Translit=aī|LTranslit=aī
 5	مردم	مردم	NOUN	N_SING	Number=Sing	12	vocative	_	Translit=mrdm|LTranslit=mrdm
 6	مدینه	مدینه	NOUN	N_SING	Number=Sing	5	nmod:poss	_	SpaceAfter=No|Translit=mdīnh|LTranslit=mdīnh
 7	،	،	PUNCT	DELM	_	5	punct	_	Translit=,|LTranslit=,
@@ -11218,7 +11218,7 @@
 5	شام	شام	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=sham|LTranslit=sham
 6	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 7	:	:	PUNCT	DELM	_	16	punct	_	Translit=:|LTranslit=:
-8	ای	ای	INTJ	INT	_	9	det	_	Translit=aī|LTranslit=aī
+8	ای	ای	INTJ	INT	Case=Voc	9	case	_	Translit=aī|LTranslit=aī
 9	مردم	مردم	NOUN	N_SING	Number=Sing	16	vocative	_	Translit=mrdm|LTranslit=mrdm
 10	شام	شام	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=sham|LTranslit=sham
 11	این	این	DET	DET	_	13	det	_	Translit=aīn|LTranslit=aīn
@@ -11238,7 +11238,7 @@
 4	شام	شام	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=sham|LTranslit=sham
 5	گفتند	گفت#گو	VERB	V_PA	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=gftnd|LTranslit=gft#go
 6	:	:	PUNCT	DELM	_	19	punct	_	Translit=:|LTranslit=:
-7	ای	ای	INTJ	INT	_	8	det	_	Translit=aī|LTranslit=aī
+7	ای	ای	INTJ	INT	Case=Voc	8	case	_	Translit=aī|LTranslit=aī
 8	امیر	امیر	NOUN	N_SING	Number=Sing	19	vocative	_	Translit=amīr|LTranslit=amīr
 9	مؤمنان	مؤمن	NOUN	N_PL	Number=Plur	8	nmod:poss	_	SpaceAfter=No|Translit=mŪmnan|LTranslit=mŪmn
 10	،	،	PUNCT	DELM	_	8	punct	_	Translit=,|LTranslit=,
