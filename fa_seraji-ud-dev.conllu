@@ -606,7 +606,7 @@
 4	وزیر	وزیر	NOUN	N_SING	Number=Sing	1	appos	_	Translit=ozīr|LTranslit=ozīr
 5	امور	امر	NOUN	N_PL	Number=Plur	4	nmod:poss	_	Translit=amor|LTranslit=amr
 6	خارجه	خارجه	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=xarjh|LTranslit=xarjh
-7	روز	روز	NOUN	N_SING	Number=Sing	25	advmod	_	Translit=roz|LTranslit=roz
+7	روز	روز	NOUN	N_SING	Number=Sing	25	obl	_	Translit=roz|LTranslit=roz
 8	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	7	flat	_	Translit=shshnbh|LTranslit=shshnbh
 9	اظهارات	اظهار	NOUN	N_PL	Number=Plur	15	nsubj	_	Translit=az̧harat|LTranslit=az̧har
 10	بلنت	_	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=blnt
@@ -689,7 +689,7 @@
 5	:	:	PUNCT	DELM	_	34	punct	_	Translit=:|LTranslit=:
 6	متأسفانه	متأسفانه	ADV	ADV	_	34	advmod	_	Translit=mtÁsfanh|LTranslit=mtÁsfanh
 7	این	این	DET	DET	_	8	det	_	Translit=aīn|LTranslit=aīn
-8	روزها	روز	NOUN	N_PL	Number=Plur	34	advmod	_	Translit=rozha|LTranslit=roz
+8	روزها	روز	NOUN	N_PL	Number=Plur	34	obl	_	Translit=rozha|LTranslit=roz
 9	کسانی	کس	NOUN	N_PL	Number=Plur	34	nsubj	_	Translit=ksanī|LTranslit=ks
 10	که	که	SCONJ	CON	_	19	mark	_	Translit=kh|LTranslit=kh
 11	از	از	ADP	P	_	12	case	_	Translit=az|LTranslit=az
@@ -2934,7 +2934,7 @@
 13	تشکیل	تشکیل	NOUN	N_SING	Number=Sing	22	nsubj	_	Translit=tshkīl|LTranslit=tshkīl
 14	سرمایه	_	NOUN	N_SING	Number=Sing	13	nmod:poss	_	Translit=srmaīh
 15	نیز	نیز	SCONJ	CON	_	22	mark	_	Translit=nīz|LTranslit=nīz
-16	حدود	حدود	NOUN	N_PL	Number=Plur	17	advmod	_	Translit=hdod|LTranslit=hdod
+16	حدود	حدود	NOUN	N_PL	Number=Plur	17	obl	_	Translit=hdod|LTranslit=hdod
 17	۴۱	۴۱	NUM	NUM	NumType=Card	20	nummod	_	Translit=41|LTranslit=41
 18	/	/	PUNCT	DELM	_	19	punct	_	Translit=/|LTranslit=/
 19	۵	۵	NUM	NUM	NumType=Card	17	conj	_	Translit=5|LTranslit=5
@@ -3196,7 +3196,7 @@
 12	کشتیرانی	کشتیرانی	NOUN	N_SING	Number=Sing	10	conj	_	Translit=kshtīranī|LTranslit=kshtīranī
 13	آماده	آماده	ADJ	ADJ	Degree=Pos	7	ccomp	_	Translit=Āmadh|LTranslit=Āmadh
 14	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	13	cop	_	Translit=ast|LTranslit=ast
-15	حدود	حدود	NOUN	N_PL	Number=Plur	16	advmod	_	Translit=hdod|LTranslit=hdod
+15	حدود	حدود	NOUN	N_PL	Number=Plur	16	obl	_	Translit=hdod|LTranslit=hdod
 16	۲۱	۲۱	NUM	NUM	NumType=Card	18	nummod	_	Translit=21|LTranslit=21
 17	هزار	هزار	NUM	NUM	NumType=Card	18	nummod	_	Translit=hzar|LTranslit=hzar
 18	میلیارد	میلیارد	NUM	NUM	NumType=Card	19	compound	_	Translit=mīlīard|LTranslit=mīlīard
@@ -3264,7 +3264,7 @@
 31	بخش	بخش	NOUN	N_SING	Number=Sing	28	nmod	_	Translit=bxsh|LTranslit=bxsh
 32	مشارکت	مشارکت	NOUN	N_SING	Number=Sing	31	nmod:poss	_	Translit=msharkt|LTranslit=msharkt
 33	و	و	CCONJ	CON	_	37	cc	_	Translit=o|LTranslit=o
-34	حدود	حدود	NOUN	N_PL	Number=Plur	35	advmod	_	Translit=hdod|LTranslit=hdod
+34	حدود	حدود	NOUN	N_PL	Number=Plur	35	obl	_	Translit=hdod|LTranslit=hdod
 35	۱۷۰	_	NUM	NUM	NumType=Card	36	nummod	_	Translit=170
 36	میلیارد	میلیارد	NUM	NUM	NumType=Card	37	compound	_	Translit=mīlīard|LTranslit=mīlīard
 37	ریال	ریال	NOUN	N_SING	Number=Sing	28	conj	_	Translit=rīal|LTranslit=rīal
@@ -3490,7 +3490,7 @@
 # sent_id = dev-s106
 # text = روزی عدی‌بن‌حاتم بعد از شهادت علی) ع (به نزد معاویه رفت.
 # translit = rozī ʿdībnhatm bʿd az shhadt ʿlī) ʿ (bh nzd mʿaoīh rft.
-1	روزی	روز	NOUN	N_SING	Number=Sing	13	advmod	_	Translit=rozī|LTranslit=roz
+1	روزی	روز	NOUN	N_SING	Number=Sing	13	obl	_	Translit=rozī|LTranslit=roz
 2	عدی‌بن‌حاتم	_	NOUN	N_SING	Number=Sing	13	nsubj	_	Translit=ʿdībnhatm
 3	بعد	بعد	ADV	ADV_TIME	Case=Tem	13	advmod	_	Translit=bʿd|LTranslit=bʿd
 4	از	از	ADP	P	_	5	case	_	Translit=az|LTranslit=az
@@ -4826,7 +4826,7 @@
 8	ابوسفیان	_	NOUN	N_SING	Number=Sing	7	nmod:poss	_	Translit=abosfīan
 9	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	7	cop	_	Translit=ast|LTranslit=ast
 10	و	و	CCONJ	CON	_	18	cc	_	Translit=o|LTranslit=o
-11	حال	حال	NOUN	N_SING	Number=Sing	18	advmod	_	Translit=hal|LTranslit=hal
+11	حال	حال	NOUN	N_SING	Number=Sing	18	obl	_	Translit=hal|LTranslit=hal
 12	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	11	fixed	_	Translit=Ān|LTranslit=Ān
 13	که	که	CCONJ	CON	_	11	fixed	_	Translit=kh|LTranslit=kh
 14	پیامبر	پیامبر	NOUN	N_SING	Number=Sing	18	nsubj	_	SpaceAfter=No|Translit=pīambr|LTranslit=pīambr
@@ -5543,7 +5543,7 @@
 6	و	و	CCONJ	CON	_	7	cc	_	Translit=o|LTranslit=o
 7	ارشاد	ارشاد	NOUN	N_SING	Number=Sing	5	conj	_	Translit=arshad|LTranslit=arshad
 8	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	7	amod	_	Translit=aslamī|LTranslit=aslamī
-9	یکشنبه	یکشنبه	NOUN	N_SING	Number=Sing	24	advmod	_	Translit=īkshnbh|LTranslit=īkshnbh
+9	یکشنبه	یکشنبه	NOUN	N_SING	Number=Sing	24	obl	_	Translit=īkshnbh|LTranslit=īkshnbh
 10	شب	شب	NOUN	N_SING	Number=Sing	9	flat	_	Translit=shb|LTranslit=shb
 11	در	در	ADP	P	_	12	case	_	Translit=dr|LTranslit=dr
 12	جمع	جمع	NOUN	N_SING	Number=Sing	24	obl	_	Translit=jmʿ|LTranslit=jmʿ
@@ -5586,7 +5586,7 @@
 3	در	در	ADP	P	_	4	case	_	Translit=dr|LTranslit=dr
 4	سخنان	سخن	NOUN	N_PL	Number=Plur	15	obl	_	Translit=sxnan|LTranslit=sxn
 5	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nmod:poss	_	Translit=xod|LTranslit=xod
-6	ابتدا	_	NOUN	N_SING	Number=Sing	15	advmod	_	Translit=abtda
+6	ابتدا	_	NOUN	N_SING	Number=Sing	15	obl	_	Translit=abtda
 7	به	به	ADP	P	_	8	case	_	Translit=bh|LTranslit=bh
 8	ماجرای	ماجرا	NOUN	N_SING	Number=Sing	15	obl	_	Translit=majraī|LTranslit=majra
 9	محاکمه	محاکمه	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=mhakmh|LTranslit=mhakmh
@@ -5600,7 +5600,7 @@
 17	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	15	conj	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 18	:	:	PUNCT	DELM	_	31	punct	_	Translit=:|LTranslit=:
 19	چند	چند	ADJ	ADJ	Degree=Pos	20	amod	_	Translit=chnd|LTranslit=chnd
-20	سال	سال	NOUN	N_SING	Number=Sing	31	advmod	_	Translit=sal|LTranslit=sal
+20	سال	سال	NOUN	N_SING	Number=Sing	31	obl	_	Translit=sal|LTranslit=sal
 21	پیش	پیش	ADV	ADV_TIME	Case=Tem	20	amod	_	Translit=pīsh|LTranslit=pīsh
 22	آمریکایی‌ها	_	NOUN	N_PL	Number=Plur	31	nsubj	_	Translit=Āmrīkaīīha
 23	در	در	ADP	P	_	24	case	_	Translit=dr|LTranslit=dr
@@ -6342,7 +6342,7 @@
 4	رئیس	رئیس	NOUN	N_SING	Number=Sing	1	appos	_	Translit=rīs|LTranslit=rīs
 5	قوه	قوه	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=qoh|LTranslit=qoh
 6	قضائیه	_	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=qḑaīh
-7	روز	روز	NOUN	N_SING	Number=Sing	9	advmod	_	Translit=roz|LTranslit=roz
+7	روز	روز	NOUN	N_SING	Number=Sing	9	obl	_	Translit=roz|LTranslit=roz
 8	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	7	flat	_	Translit=shshnbh|LTranslit=shshnbh
 9	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 10	:	:	PUNCT	DELM	_	30	punct	_	Translit=:|LTranslit=:
@@ -7182,7 +7182,7 @@
 14	عارف	_	NOUN	N_SING	Number=Sing	12	conj	_	Translit=ʿarf
 15	مسلمان	مسلمان	NOUN	N_SING	Number=Sing	14	nmod:poss	_	Translit=mslman|LTranslit=mslman
 16	ترکمن	_	NOUN	N_SING	Number=Sing	15	nmod:poss	_	Translit=trkmn
-17	روز	روز	NOUN	N_SING	Number=Sing	25	advmod	_	Translit=roz|LTranslit=roz
+17	روز	روز	NOUN	N_SING	Number=Sing	25	obl	_	Translit=roz|LTranslit=roz
 18	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	17	flat	_	Translit=shshnbh|LTranslit=shshnbh
 19	در	در	ADP	P	_	20	case	_	Translit=dr|LTranslit=dr
 20	روستای	روستا	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=rostaī|LTranslit=rosta
@@ -7360,7 +7360,7 @@
 16	و	و	CCONJ	CON	_	17	cc	_	Translit=o|LTranslit=o
 17	اخلاقی	اخلاقی	ADJ	ADJ	Degree=Pos	15	conj	_	Translit=axlaqī|LTranslit=axlaqī
 18	کودک	کودک	NOUN	N_SING	Number=Sing	17	nmod:poss	_	Translit=kodk|LTranslit=kodk
-19	روز	روز	NOUN	N_SING	Number=Sing	25	advmod	_	Translit=roz|LTranslit=roz
+19	روز	روز	NOUN	N_SING	Number=Sing	25	obl	_	Translit=roz|LTranslit=roz
 20	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	19	flat	_	Translit=shshnbh|LTranslit=shshnbh
 21	در	در	ADP	P	_	22	case	_	Translit=dr|LTranslit=dr
 22	دانشگاه	دانشگاه	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=danshgah|LTranslit=danshgah
@@ -7635,7 +7635,7 @@
 # translit = aīn shhr hdod 40 hktar vsʿt dard v ţbq noshthhaī tarīxī tosţ shapor aol sasanī aījad shdh v dr aoaxr dorh şfoīh bh xaţr fqdan amnīt dr rahhaī bazrganī Ān şdmatī dīdh v dr dorh zndīh vīran shd.
 1	این	این	DET	DET	_	2	det	_	Translit=aīn|LTranslit=aīn
 2	شهر	شهر	NOUN	N_SING	Number=Sing	7	nsubj	_	Translit=shhr|LTranslit=shhr
-3	حدود	حدود	NOUN	N_PL	Number=Plur	4	advmod	_	Translit=hdod|LTranslit=hdod
+3	حدود	حدود	NOUN	N_PL	Number=Plur	4	obl	_	Translit=hdod|LTranslit=hdod
 4	۴۰	۴۰	NUM	NUM	NumType=Card	5	nummod	_	Translit=40|LTranslit=40
 5	هکتار	هکتار	NOUN	N_SING	Number=Sing	7	obj	_	Translit=hktar|LTranslit=hktar
 6	وسعت	وسعت	NOUN	N_SING	Number=Sing	7	compound:lvc	_	Translit=osʿt|LTranslit=osʿt
@@ -7764,7 +7764,7 @@
 16	در	در	ADP	P	_	17	case	_	Translit=dr|LTranslit=dr
 17	خرم‌آباد	خرم‌آباد	NOUN	N_SING	Number=Sing	15	nmod	_	SpaceAfter=No|Translit=xrmĀbad|LTranslit=xrmĀbad
 18	،	،	PUNCT	DELM	_	7	punct	_	Translit=,|LTranslit=,
-19	روز	روز	NOUN	N_SING	Number=Sing	22	advmod	_	Translit=roz|LTranslit=roz
+19	روز	روز	NOUN	N_SING	Number=Sing	22	obl	_	Translit=roz|LTranslit=roz
 20	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	19	flat	_	Translit=shshnbh|LTranslit=shshnbh
 21	گشایش	گشایش	NOUN	N_SING	Number=Sing	22	compound:lvc	_	Translit=gshaīsh|LTranslit=gshaīsh
 22	یافت	یافت#یاب	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=īaft|LTranslit=īaft#īab
@@ -8035,7 +8035,7 @@
 16	و	و	CCONJ	CON	_	17	cc	_	Translit=o|LTranslit=o
 17	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	15	conj	_	SpaceAfter=No|Translit=gft|LTranslit=gft#go
 18	:	:	PUNCT	DELM	_	25	punct	_	Translit=:|LTranslit=:
-19	حدود	حدود	NOUN	N_PL	Number=Plur	20	advmod	_	Translit=hdod|LTranslit=hdod
+19	حدود	حدود	NOUN	N_PL	Number=Plur	20	obl	_	Translit=hdod|LTranslit=hdod
 20	۳۷	۳۷	NUM	NUM	NumType=Card	21	nummod	_	Translit=37|LTranslit=37
 21	درصد	درصد	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=drşd|LTranslit=drşd
 22	روستاهای	روستا	NOUN	N_PL	Number=Plur	25	nsubj	_	Translit=rostahaī|LTranslit=rosta
@@ -8214,7 +8214,7 @@
 37	در‌نتیجه	_	SCONJ	CON	_	53	mark	_	Translit=drntījh
 38	تا	تا	ADP	P	_	39	case	_	Translit=ta|LTranslit=ta
 39	کنون	کنون	ADV	ADV_TIME	Case=Tem	53	advcl	_	Translit=knon|LTranslit=knon
-40	حدود	حدود	NOUN	N_PL	Number=Plur	41	advmod	_	Translit=hdod|LTranslit=hdod
+40	حدود	حدود	NOUN	N_PL	Number=Plur	41	obl	_	Translit=hdod|LTranslit=hdod
 41	۵۰	۵۰	NUM	NUM	NumType=Card	42	nummod	_	Translit=50|LTranslit=50
 42	مقاله	مقاله	NOUN	N_SING	Number=Sing	53	nsubj	_	Translit=mqalh|LTranslit=mqalh
 43	از	از	ADP	P	_	44	case	_	Translit=az|LTranslit=az
@@ -8349,13 +8349,13 @@
 2	این	این	DET	DET	_	3	det	_	Translit=aīn|LTranslit=aīn
 3	مراسم	مراسم	NOUN	N_PL	Number=Plur	26	obl	_	Translit=mrasm|LTranslit=mrasm
 4	که	که	SCONJ	CON	_	8	mark	_	Translit=kh|LTranslit=kh
-5	روز	روز	NOUN	N_SING	Number=Sing	8	advmod	_	Translit=roz|LTranslit=roz
+5	روز	روز	NOUN	N_SING	Number=Sing	8	obl	_	Translit=roz|LTranslit=roz
 6	سوم	سوم	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=som|LTranslit=som
 7	خرداد	خرداد	NOUN	N_SING	Number=Sing	5	flat	_	Translit=xrdad|LTranslit=xrdad
 8	برگزار	برگزار	ADJ	ADJ	Degree=Pos	3	acl:relcl	_	Translit=brgzar|LTranslit=brgzar
 9	می‌شود	کرد#کن	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	8	cop	_	SpaceAfter=No|Translit=mīshod|LTranslit=krd#kn
 10	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
-11	ابتدا	_	NOUN	N_SING	Number=Sing	26	advmod	_	Translit=abtda
+11	ابتدا	_	NOUN	N_SING	Number=Sing	26	obl	_	Translit=abtda
 12	نویسندگان	_	NOUN	N_PL	Number=Plur	26	nsubj	_	Translit=noīsndgan
 13	و	و	CCONJ	CON	_	14	cc	_	Translit=o|LTranslit=o
 14	شاعران	شاعر	NOUN	N_PL	Number=Plur	12	conj	_	Translit=shaʿran|LTranslit=shaʿr
@@ -8498,7 +8498,7 @@
 3	دیگر	دیگر	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=dīgr|LTranslit=dīgr
 4	تا	تا	ADP	P	_	5	case	_	Translit=ta|LTranslit=ta
 5	کنون	کنون	ADV	ADV_TIME	Case=Tem	9	advcl	_	Translit=knon|LTranslit=knon
-6	حدود	حدود	NOUN	N_PL	Number=Plur	7	advmod	_	Translit=hdod|LTranslit=hdod
+6	حدود	حدود	NOUN	N_PL	Number=Plur	7	obl	_	Translit=hdod|LTranslit=hdod
 7	بیست	بیست	NUM	NUM	NumType=Card	8	nummod	_	Translit=bīst|LTranslit=bīst
 8	کشور	کشور	NOUN	N_SING	Number=Sing	9	nsubj	_	Translit=kshor|LTranslit=kshor
 9	خواستار	خواستار	NOUN	N_SING	Number=Sing	0	root	_	Translit=xoastar|LTranslit=xoastar
@@ -8573,7 +8573,7 @@
 10	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	SpaceAfter=No|Translit=dasht|LTranslit=dasht#dar
 11	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 12	دو	دو	NUM	NUM	NumType=Card	13	nummod	_	Translit=do|LTranslit=do
-13	سال	سال	NOUN	N_SING	Number=Sing	23	advmod	_	Translit=sal|LTranslit=sal
+13	سال	سال	NOUN	N_SING	Number=Sing	23	obl	_	Translit=sal|LTranslit=sal
 14	پیش	پیش	ADV	ADV_TIME	Case=Tem	13	amod	_	Translit=pīsh|LTranslit=pīsh
 15	در	در	ADP	P	_	16	case	_	Translit=dr|LTranslit=dr
 16	بخش	بخش	NOUN	N_SING	Number=Sing	23	obl	_	Translit=bxsh|LTranslit=bxsh
@@ -9088,7 +9088,7 @@
 4	این	این	DET	DET	_	5	det	_	Translit=aīn|LTranslit=aīn
 5	مسابقه‌ها	مسابقه	NOUN	N_PL	Number=Plur	3	nmod:poss	_	SpaceAfter=No|Translit=msabqhha|LTranslit=msabqh
 6	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
-7	روز	روز	NOUN	N_SING	Number=Sing	27	advmod	_	Translit=roz|LTranslit=roz
+7	روز	روز	NOUN	N_SING	Number=Sing	27	obl	_	Translit=roz|LTranslit=roz
 8	چهارشنبه	چهارشنبه	NOUN	N_SING	Number=Sing	7	flat	_	Translit=chharshnbh|LTranslit=chharshnbh
 9	دو	دو	NUM	NUM	NumType=Card	10	nummod	_	Translit=do|LTranslit=do
 10	تکواندوکار	_	NOUN	N_SING	Number=Sing	27	nsubj	_	Translit=tkoandokar
@@ -9603,7 +9603,7 @@
 # translit = pīshbīnī mīshod hdod yk mīlīon kodk chīnī hmzman ba aol zhon) roz jhanī kodk (ba shrkt dr brnamhhaī vīzhh Āmozshī raīanhaī dr srasr aīn kshor ba shbkh jhanī aīntrnt bīshtr Āshna shond v dr ʿīn hal ba ykdīgr bh rqabt bprdaznd.
 1	پیش‌بینی	پیش‌بینی	NOUN	N_SING	Number=Sing	0	root	_	Translit=pīshbīnī|LTranslit=pīshbīnī
 2	می‌شود	کرد#کن	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	1	cop	_	Translit=mīshod|LTranslit=krd#kn
-3	حدود	حدود	NOUN	N_PL	Number=Plur	4	advmod	_	Translit=hdod|LTranslit=hdod
+3	حدود	حدود	NOUN	N_PL	Number=Plur	4	obl	_	Translit=hdod|LTranslit=hdod
 4	یک	یک	NUM	NUM	NumType=Card	5	nummod	_	Translit=īk|LTranslit=īk
 5	میلیون	میلیون	NUM	NUM	NumType=Card	6	compound	_	Translit=mīlīon|LTranslit=mīlīon
 6	کودک	کودک	NOUN	N_SING	Number=Sing	33	nsubj	_	Translit=kodk|LTranslit=kodk
@@ -9719,7 +9719,7 @@
 6	سکته	سکته	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=skth|LTranslit=skth
 7	مغزی	مغزی	ADJ	ADJ	Degree=Pos	6	amod	_	Translit=mghzī|LTranslit=mghzī
 8	شش	شش	NUM	NUM	NumType=Card	9	nummod	_	Translit=shsh|LTranslit=shsh
-9	هفته	هفته	NOUN	N_SING	Number=Sing	14	advmod	_	Translit=hfth|LTranslit=hfth
+9	هفته	هفته	NOUN	N_SING	Number=Sing	14	obl	_	Translit=hfth|LTranslit=hfth
 10	در	در	ADP	P	_	11	case	_	Translit=dr|LTranslit=dr
 11	حالت	حالت	NOUN	N_SING	Number=Sing	14	obl	_	Translit=halt|LTranslit=halt
 12	اغما	_	NOUN	N_SING	Number=Sing	11	nmod:poss	_	Translit=aghma
@@ -9727,7 +9727,7 @@
 14	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=rft|LTranslit=rft#ro
 15	و	و	CCONJ	CON	_	19	cc	_	Translit=o|LTranslit=o
 16	سرانجام	سرانجام	ADV	ADV	_	19	advmod	_	Translit=sranjam|LTranslit=sranjam
-17	روز	روز	NOUN	N_SING	Number=Sing	19	advmod	_	Translit=roz|LTranslit=roz
+17	روز	روز	NOUN	N_SING	Number=Sing	19	obl	_	Translit=roz|LTranslit=roz
 18	یکشنبه	یکشنبه	NOUN	N_SING	Number=Sing	17	flat	_	Translit=īkshnbh|LTranslit=īkshnbh
 19	درگذشت	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	14	conj	_	SpaceAfter=No|Translit=drgðsht
 20	.	.	PUNCT	DELM	_	14	punct	_	Translit=.|LTranslit=.
@@ -9796,7 +9796,7 @@
 2	بیمارستان‌های	بیمارستان	NOUN	N_PL	Number=Plur	1	nmod:poss	_	Translit=bīmarstanhaī|LTranslit=bīmarstan
 3	ژاپن	ژاپن	NOUN	N_SING	Number=Sing	2	nmod:poss	_	Translit=zhapn|LTranslit=zhapn
 4	هر	هر	DET	DET	_	5	det	_	Translit=hr|LTranslit=hr
-5	روز	روز	NOUN	N_SING	Number=Sing	11	advmod	_	Translit=roz|LTranslit=roz
+5	روز	روز	NOUN	N_SING	Number=Sing	11	obl	_	Translit=roz|LTranslit=roz
 6	تلفن	تلفن	NOUN	N_SING	Number=Sing	11	obj	_	Translit=tlfn|LTranslit=tlfn
 7	دهها	ده	NUM	NUM	NumType=Card	8	nummod	_	Translit=dhha|LTranslit=dh
 8	نفر	نفر	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=nfr|LTranslit=nfr
@@ -10206,7 +10206,7 @@
 19	کالاهای	کالا	NOUN	N_PL	Number=Plur	18	nmod:poss	_	Translit=kalahaī|LTranslit=kala
 20	اساسی	اساسی	ADJ	ADJ	Degree=Pos	19	amod	_	SpaceAfter=No|Translit=asasī|LTranslit=asasī
 21	،	،	PUNCT	DELM	_	17	punct	_	Translit=,|LTranslit=,
-22	روز	روز	NOUN	N_SING	Number=Sing	31	advmod	_	Translit=roz|LTranslit=roz
+22	روز	روز	NOUN	N_SING	Number=Sing	31	obl	_	Translit=roz|LTranslit=roz
 23	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	22	flat	_	Translit=shshnbh|LTranslit=shshnbh
 24	از	از	ADP	P	_	25	case	_	Translit=az|LTranslit=az
 25	محل	محل	NOUN	N_SING	Number=Sing	31	obl	_	Translit=mhl|LTranslit=mhl
@@ -10646,7 +10646,7 @@
 18	در	در	ADP	P	_	30	mark	_	Translit=dr|LTranslit=dr
 19	حالی	حال	NOUN	N_SING	Number=Sing	18	fixed	_	Translit=halī|LTranslit=hal
 20	که	که	CCONJ	CON	_	18	fixed	_	Translit=kh|LTranslit=kh
-21	روز	روز	NOUN	N_SING	Number=Sing	30	advmod	_	Translit=roz|LTranslit=roz
+21	روز	روز	NOUN	N_SING	Number=Sing	30	obl	_	Translit=roz|LTranslit=roz
 22	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	21	flat	_	Translit=shshnbh|LTranslit=shshnbh
 23	در	در	ADP	P	_	24	case	_	Translit=dr|LTranslit=dr
 24	بروکسل	_	NOUN	N_SING	Number=Sing	30	nmod	_	Translit=broksl
@@ -10813,7 +10813,7 @@
 7	شهر	شهر	NOUN	N_SING	Number=Sing	5	nmod	_	Translit=shhr|LTranslit=shhr
 8	نورنبرگ	_	NOUN	N_SING	Number=Sing	7	flat	_	SpaceAfter=No|Translit=nornbrg
 9	،	،	PUNCT	DELM	_	1	punct	_	Translit=,|LTranslit=,
-10	روز	روز	NOUN	N_SING	Number=Sing	13	advmod	_	Translit=roz|LTranslit=roz
+10	روز	روز	NOUN	N_SING	Number=Sing	13	obl	_	Translit=roz|LTranslit=roz
 11	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	10	flat	_	Translit=shshnbh|LTranslit=shshnbh
 12	اعلام	اعلام	NOUN	N_SING	Number=Sing	13	compound:lvc	_	Translit=aʿlam|LTranslit=aʿlam
 13	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=krd|LTranslit=krd#kn
@@ -10969,7 +10969,7 @@
 34	تیمها	_	NOUN	N_PL	Number=Plur	32	nmod	_	Translit=tīmha
 35	نباخته	_	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	22	conj	_	Translit=nbaxth
 36	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	35	aux	_	Translit=bod|LTranslit=bod
-37	روز	روز	NOUN	N_SING	Number=Sing	66	advmod	_	Translit=roz|LTranslit=roz
+37	روز	روز	NOUN	N_SING	Number=Sing	66	obl	_	Translit=roz|LTranslit=roz
 38	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	37	flat	_	Translit=shshnbh|LTranslit=shshnbh
 39	در	در	ADP	P	_	40	case	_	Translit=dr|LTranslit=dr
 40	دیداری	دیدار	NOUN	N_SING	Number=Sing	66	nmod	_	Translit=dīdarī|LTranslit=dīdar
@@ -11249,7 +11249,7 @@
 # text = زرگری روز سه‌شنبه مسیر ۵۵۱ کیلومتری شهرهای بندر شرفخانه به جلفا را با زمان ۳ / ۶۳ / ۴۳ ساعت طی کرد و به مقام نخست دست یافت.
 # translit = zrgrī roz shshnbh msīr 551 kīlomtrī shhrhaī bndr shrfxanh bh jlfa ra ba zman 3 / 63 / 43 saʿt ţī krd v bh mqam nxst dst yaft.
 1	زرگری	زرگری	NOUN	N_SING	Number=Sing	22	nsubj	_	Translit=zrgrī|LTranslit=zrgrī
-2	روز	روز	NOUN	N_SING	Number=Sing	22	advmod	_	Translit=roz|LTranslit=roz
+2	روز	روز	NOUN	N_SING	Number=Sing	22	obl	_	Translit=roz|LTranslit=roz
 3	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	2	flat	_	Translit=shshnbh|LTranslit=shshnbh
 4	مسیر	مسیر	NOUN	N_SING	Number=Sing	22	obj	_	Translit=msīr|LTranslit=msīr
 5	۵۵۱	_	NUM	NUM	NumType=Card	6	nummod	_	Translit=551
@@ -11387,7 +11387,7 @@
 2	این	این	DET	DET	_	3	det	_	Translit=aīn|LTranslit=aīn
 3	اجلاس	جلسه	NOUN	N_SING	Number=Sing	41	nmod	_	Translit=ajlas|LTranslit=jlsh
 4	که	که	SCONJ	CON	_	13	mark	_	Translit=kh|LTranslit=kh
-5	روز	روز	NOUN	N_SING	Number=Sing	13	advmod	_	Translit=roz|LTranslit=roz
+5	روز	روز	NOUN	N_SING	Number=Sing	13	obl	_	Translit=roz|LTranslit=roz
 6	۲۹	۲۹	NUM	NUM	NumType=Card	7	nummod	_	Translit=29|LTranslit=29
 7	اردیبهشت	اردیبهشت	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=ardībhsht|LTranslit=ardībhsht
 8	ماه	ماه	NOUN	N_SING	Number=Sing	7	fixed	_	Translit=mah|LTranslit=mah
@@ -11638,7 +11638,7 @@
 9	نماز	نماز	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=nmaz|LTranslit=nmaz
 10	جمعه	جمعه	NOUN	N_SING	Number=Sing	9	flat	_	Translit=jmʿh|LTranslit=jmʿh
 11	که	که	SCONJ	CON	_	22	mark	_	Translit=kh|LTranslit=kh
-12	هفته	هفته	NOUN	N_SING	Number=Sing	22	advmod	_	Translit=hfth|LTranslit=hfth
+12	هفته	هفته	NOUN	N_SING	Number=Sing	22	obl	_	Translit=hfth|LTranslit=hfth
 13	گذشته	گذشته	ADJ	ADJ	Degree=Pos	12	amod	_	Translit=gðshth|LTranslit=gðshth
 14	جناح‌های	جناح	NOUN	N_PL	Number=Plur	22	obj	_	Translit=jnahhaī|LTranslit=jnah
 15	موجود	موجود	ADJ	ADJ	Degree=Pos	14	amod	_	Translit=mojod|LTranslit=mojod
@@ -12651,7 +12651,7 @@
 15	حمل	حمل	NOUN	N_SING	Number=Sing	16	compound:lvc	_	Translit=hml|LTranslit=hml
 16	می‌کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	SpaceAfter=No|Translit=mīkrd|LTranslit=krd#kn
 17	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
-18	روز	روز	NOUN	N_SING	Number=Sing	24	advmod	_	Translit=roz|LTranslit=roz
+18	روز	روز	NOUN	N_SING	Number=Sing	24	obl	_	Translit=roz|LTranslit=roz
 19	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	18	flat	_	Translit=shshnbh|LTranslit=shshnbh
 20	در	در	ADP	P	_	21	case	_	Translit=dr|LTranslit=dr
 21	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	24	nmod	_	Translit=frodgah|LTranslit=frodgah
@@ -12807,7 +12807,7 @@
 6	مخدر	مخدر	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=mxdr|LTranslit=mxdr
 7	پاکستان	پاکستان	NOUN	N_SING	Number=Sing	5	nmod:poss	_	SpaceAfter=No|Translit=pakstan|LTranslit=pakstan
 8	،	،	PUNCT	DELM	_	1	punct	_	Translit=,|LTranslit=,
-9	روز	روز	NOUN	N_SING	Number=Sing	23	advmod	_	Translit=roz|LTranslit=roz
+9	روز	روز	NOUN	N_SING	Number=Sing	23	obl	_	Translit=roz|LTranslit=roz
 10	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	9	flat	_	Translit=shshnbh|LTranslit=shshnbh
 11	۱۷	_	NUM	NUM	NumType=Card	12	nummod	_	Translit=17
 12	کیلوگرم	کیلوگرم	NOUN	N_SING	Number=Sing	13	compound	_	Translit=kīlogrm|LTranslit=kīlogrm
@@ -12890,7 +12890,7 @@
 1	یک	یک	NUM	NUM	NumType=Card	2	nummod	_	Translit=īk|LTranslit=īk
 2	مرد	مرد	NOUN	N_SING	Number=Sing	26	nsubj	_	Translit=mrd|LTranslit=mrd
 3	مسلح	_	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=mslh
-4	روز	روز	NOUN	N_SING	Number=Sing	26	advmod	_	Translit=roz|LTranslit=roz
+4	روز	روز	NOUN	N_SING	Number=Sing	26	obl	_	Translit=roz|LTranslit=roz
 5	دوشنبه	_	NOUN	N_SING	Number=Sing	4	flat	_	Translit=doshnbh
 6	در	در	ADP	P	_	7	case	_	Translit=dr|LTranslit=dr
 7	مهد	_	NOUN	N_SING	Number=Sing	26	obl	_	Translit=mhd
@@ -12915,7 +12915,7 @@
 26	گرفت	گرفت#گیر	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=grft|LTranslit=grft#gīr
 27	ولی	ولی	CCONJ	CON	_	35	cc	_	Translit=olī|LTranslit=olī
 28	چند	چند	ADJ	ADJ	Degree=Pos	29	amod	_	Translit=chnd|LTranslit=chnd
-29	ساعت	ساعت	NOUN	N_SING	Number=Sing	35	advmod	_	Translit=saʿt|LTranslit=saʿt
+29	ساعت	ساعت	NOUN	N_SING	Number=Sing	35	obl	_	Translit=saʿt|LTranslit=saʿt
 30	بعد	بعد	ADV	ADV_TIME	Case=Tem	35	advmod	_	Translit=bʿd|LTranslit=bʿd
 31	گروگان‌های	_	NOUN	N_PL	Number=Plur	35	obj	_	Translit=groganhaī
 32	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	nmod:poss	_	Translit=xod|LTranslit=xod
@@ -13338,7 +13338,7 @@
 6	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 7	پلیس	پلیس	NOUN	N_SING	Number=Sing	12	nsubj	_	Translit=plīs|LTranslit=plīs
 8	برزیل	برزیل	NOUN	N_SING	Number=Sing	7	nmod:poss	_	Translit=brzīl|LTranslit=brzīl
-9	هفته	هفته	NOUN	N_SING	Number=Sing	12	advmod	_	Translit=hfth|LTranslit=hfth
+9	هفته	هفته	NOUN	N_SING	Number=Sing	12	obl	_	Translit=hfth|LTranslit=hfth
 10	جاری	جاری	ADJ	ADJ	Degree=Pos	9	amod	_	Translit=jarī|LTranslit=jarī
 11	اعلام	اعلام	NOUN	N_SING	Number=Sing	12	compound:lvc	_	Translit=aʿlam|LTranslit=aʿlam
 12	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=krd|LTranslit=krd#kn
@@ -13436,7 +13436,7 @@
 3	رویتر	رویتر	NOUN	N_SING	Number=Sing	2	flat	_	SpaceAfter=No|Translit=roītr|LTranslit=roītr
 4	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 5	فیشر	فیشر	NOUN	N_SING	Number=Sing	9	nsubj	_	Translit=fīshr|LTranslit=fīshr
-6	جمعه	جمعه	NOUN	N_SING	Number=Sing	9	advmod	_	Translit=jmʿh|LTranslit=jmʿh
+6	جمعه	جمعه	NOUN	N_SING	Number=Sing	9	obl	_	Translit=jmʿh|LTranslit=jmʿh
 7	گذشته	گذشته	ADJ	ADJ	Degree=Pos	6	amod	_	Translit=gðshth|LTranslit=gðshth
 8	اعلام	اعلام	NOUN	N_SING	Number=Sing	9	compound:lvc	_	Translit=aʿlam|LTranslit=aʿlam
 9	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=krd|LTranslit=krd#kn
@@ -13933,7 +13933,7 @@
 # sent_id = dev-s455
 # text = سال بعد مردی در ونکوور به اتهام تنبیه بدنی دختر ۹ ساله‌اش جریمه شد.
 # translit = sal bʿd mrdī dr vnkoor bh atham tnbīh bdnī dxtr 9 salhash jrīmh shd.
-1	سال	سال	NOUN	N_SING	Number=Sing	14	advmod	_	Translit=sal|LTranslit=sal
+1	سال	سال	NOUN	N_SING	Number=Sing	14	obl	_	Translit=sal|LTranslit=sal
 2	بعد	بعد	ADJ	ADJ	Degree=Pos	1	amod	_	Translit=bʿd|LTranslit=bʿd
 3	مردی	مرد	NOUN	N_SING	Number=Sing	14	nsubj	_	Translit=mrdī|LTranslit=mrd
 4	در	در	ADP	P	_	5	case	_	Translit=dr|LTranslit=dr
@@ -14512,7 +14512,7 @@
 # translit = shrkt maīkrosaft roz shshnbh aʿlam krd: yk brnamh alhaqī braī nrmafzar maīkrosaft aotlok tdark dīdh ast.
 1	شرکت	شرکت	NOUN	N_SING	Number=Sing	6	nsubj	_	Translit=shrkt|LTranslit=shrkt
 2	مایکروسافت	_	NOUN	N_SING	Number=Sing	1	flat	_	Translit=maīkrosaft
-3	روز	روز	NOUN	N_SING	Number=Sing	6	advmod	_	Translit=roz|LTranslit=roz
+3	روز	روز	NOUN	N_SING	Number=Sing	6	obl	_	Translit=roz|LTranslit=roz
 4	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	3	flat	_	Translit=shshnbh|LTranslit=shshnbh
 5	اعلام	اعلام	NOUN	N_SING	Number=Sing	6	compound:lvc	_	Translit=aʿlam|LTranslit=aʿlam
 6	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=krd|LTranslit=krd#kn
@@ -14595,7 +14595,7 @@
 10	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	Translit=bod|LTranslit=bod
 11	که	که	SCONJ	CON	_	27	mark	_	Translit=kh|LTranslit=kh
 12	دو	دو	NUM	NUM	NumType=Card	13	nummod	_	Translit=do|LTranslit=do
-13	هفته	هفته	NOUN	N_SING	Number=Sing	27	advmod	_	Translit=hfth|LTranslit=hfth
+13	هفته	هفته	NOUN	N_SING	Number=Sing	27	obl	_	Translit=hfth|LTranslit=hfth
 14	پیش	پیش	ADV	ADV_TIME	Case=Tem	13	amod	_	Translit=pīsh|LTranslit=pīsh
 15	رایانه‌های	رایانه	NOUN	N_PL	Number=Plur	27	obj	_	Translit=raīanhhaī|LTranslit=raīanh
 16	دولتی	دولتی	ADJ	ADJ	Degree=Pos	15	amod	_	Translit=doltī|LTranslit=doltī
@@ -14813,7 +14813,7 @@
 7	شود	کرد#کن	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	6	cop	_	SpaceAfter=No|Translit=shod|LTranslit=krd#kn
 8	،	،	PUNCT	DELM	_	6	punct	_	Translit=,|LTranslit=,
 9	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	17	aux	_	Translit=baīd|LTranslit=baīst#baīd
-10	ابتدا	_	NOUN	N_SING	Number=Sing	17	advmod	_	Translit=abtda
+10	ابتدا	_	NOUN	N_SING	Number=Sing	17	obl	_	Translit=abtda
 11	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	17	obj	_	Translit=Ān|LTranslit=Ān
 12	را	را	PART	CLITIC	_	11	case	_	Translit=ra|LTranslit=ra
 13	روی	رو	ADP	P	_	14	case	_	Translit=roī|LTranslit=ro
@@ -14864,7 +14864,7 @@
 3	سمفونیک	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	Translit=smfonīk
 4	جهان	جهان	NOUN	N_SING	Number=Sing	3	nmod:poss	_	SpaceAfter=No|Translit=jhan|LTranslit=jhan
 5	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
-6	روز	روز	NOUN	N_SING	Number=Sing	19	advmod	_	Translit=roz|LTranslit=roz
+6	روز	روز	NOUN	N_SING	Number=Sing	19	obl	_	Translit=roz|LTranslit=roz
 7	دوشنبه	_	NOUN	N_SING	Number=Sing	6	flat	_	Translit=doshnbh
 8	با	با	ADP	P	_	9	case	_	Translit=ba|LTranslit=ba
 9	حضور	حضور	NOUN	N_SING	Number=Sing	19	nmod	_	Translit=hḑor|LTranslit=hḑor
@@ -14976,7 +14976,7 @@
 3	سمفونی	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	Translit=smfonī
 4	بزرگ	بزرگ	ADJ	ADJ	Degree=Pos	3	amod	_	Translit=bzrg|LTranslit=bzrg
 5	۸۱	۸۱	NUM	NUM	NumType=Card	6	nummod	_	Translit=81|LTranslit=81
-6	ماه	ماه	NOUN	N_SING	Number=Sing	9	advmod	_	Translit=mah|LTranslit=mah
+6	ماه	ماه	NOUN	N_SING	Number=Sing	9	obl	_	Translit=mah|LTranslit=mah
 7	به	به	ADP	P	_	8	case	_	Translit=bh|LTranslit=bh
 8	طول	طول	NOUN	N_SING	Number=Sing	9	compound:lvc	_	Translit=ţol|LTranslit=ţol
 9	انجامیده	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=anjamīdh
@@ -15076,7 +15076,7 @@
 11	جریان	جریان	NOUN	N_SING	Number=Sing	12	compound:lvc	_	Translit=jrīan|LTranslit=jrīan
 12	دارد	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No|Translit=dard|LTranslit=dasht#dar
 13	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
-14	روز	روز	NOUN	N_SING	Number=Sing	17	advmod	_	Translit=roz|LTranslit=roz
+14	روز	روز	NOUN	N_SING	Number=Sing	17	obl	_	Translit=roz|LTranslit=roz
 15	سه‌شنبه	سه‌شنبه	NOUN	N_SING	Number=Sing	14	flat	_	Translit=shshnbh|LTranslit=shshnbh
 16	اعلام	اعلام	NOUN	N_SING	Number=Sing	17	compound:lvc	_	Translit=aʿlam|LTranslit=aʿlam
 17	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=krd|LTranslit=krd#kn
@@ -16302,7 +16302,7 @@
 1	در	در	ADP	P	_	2	case	_	Translit=dr|LTranslit=dr
 2	حال	حال	NOUN	N_SING	Number=Sing	24	obl	_	Translit=hal|LTranslit=hal
 3	حاضر	حاضر	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=haḑr|LTranslit=haḑr
-4	حدود	حدود	NOUN	N_PL	Number=Plur	5	advmod	_	Translit=hdod|LTranslit=hdod
+4	حدود	حدود	NOUN	N_PL	Number=Plur	5	obl	_	Translit=hdod|LTranslit=hdod
 5	۵	۵	NUM	NUM	NumType=Card	6	nummod	_	Translit=5|LTranslit=5
 6	هزار	هزار	NUM	NUM	NumType=Card	7	compound	_	Translit=hzar|LTranslit=hzar
 7	نفر	نفر	NOUN	N_SING	Number=Sing	24	nsubj	_	Translit=nfr|LTranslit=nfr
@@ -16336,7 +16336,7 @@
 6	۲۰۰۵	_	NUM	NUM	NumType=Card	5	nummod	_	Translit=2005
 7	میلادی	میلادی	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=mīladī|LTranslit=mīladī
 8	اکثریت	اکثریت	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=akþrīt|LTranslit=akþrīt
-9	نیم	نیم	NOUN	N_SING	Number=Sing	10	advmod	_	Translit=nīm|LTranslit=nīm
+9	نیم	نیم	NOUN	N_SING	Number=Sing	10	obl	_	Translit=nīm|LTranslit=nīm
 10	میلیون	میلیون	NUM	NUM	NumType=Card	11	nummod	_	Translit=mīlīon|LTranslit=mīlīon
 11	نفر	نفر	NOUN	N_SING	Number=Sing	12	compound	_	Translit=nfr|LTranslit=nfr
 12	پزشک	پزشک	NOUN	N_SING	Number=Sing	23	nsubj	_	Translit=pzshk|LTranslit=pzshk
@@ -17289,7 +17289,7 @@
 20	باز	باز	ADP	PREV	_	21	compound:prt	_	Translit=baz|LTranslit=baz
 21	می‌گردانند	_	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	Translit=mīgrdannd
 22	و	و	CCONJ	CON	_	31	cc	_	Translit=o|LTranslit=o
-23	ساعتی	_	NOUN	N_SING	Number=Sing	31	advmod	_	Translit=saʿtī
+23	ساعتی	_	NOUN	N_SING	Number=Sing	31	obl	_	Translit=saʿtī
 24	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	31	obj	_	Translit=ao|LTranslit=ao
 25	را	را	PART	CLITIC	_	24	case	_	Translit=ra|LTranslit=ra
 26	از	از	ADP	P	_	27	case	_	Translit=az|LTranslit=az
@@ -17958,7 +17958,7 @@
 # text = نظامی صد سالی بعد از مرگ فردوسی به توس سفر کرده است و چون مرد کنجکاوی بوده، اخباری را که راجع به زندگی فردوسی و خانواده‌اش بر سر زبانها بوده، به خاطر سپرده.
 # translit = nz̧amī şd salī bʿd az mrg frdosī bh tos sfr krdh ast v chon mrd knjkaoī bodh, axbarī ra kh rajʿ bh zndgī frdosī v xanoadhash br sr zbanha bodh, bh xaţr sprdh.
 1	نظامی	نظامی	NOUN	N_SING	Number=Sing	11	nsubj	_	Translit=nz̧amī|LTranslit=nz̧amī
-2	صد	صد	NOUN	N_SING	Number=Sing	11	advmod	_	Translit=şd|LTranslit=şd
+2	صد	صد	NOUN	N_SING	Number=Sing	11	obl	_	Translit=şd|LTranslit=şd
 3	سالی	سال	NOUN	N_SING	Number=Sing	2	nmod:poss	_	Translit=salī|LTranslit=sal
 4	بعد	بعد	ADV	ADV_TIME	Case=Tem	11	advmod	_	Translit=bʿd|LTranslit=bʿd
 5	از	از	ADP	P	_	6	case	_	Translit=az|LTranslit=az
