@@ -17,10 +17,10 @@
   <tags unique="15">
     <tag name="ADJ">13674</tag><!-- _, دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند -->
     <tag name="ADP">17415</tag><!-- در, به, از, با, برای, بر, تا, درباره, مورد, رو -->
-    <tag name="ADV">4017</tag><!-- _, پس, هیچ, خیلی, پیش, بعد, نه, حتی, بسیار, چه -->
+    <tag name="ADV">3885</tag><!-- _, پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل -->
     <tag name="AUX">5439</tag><!-- کرد#کن, است, بود#باش, هست, بایست#باید, خواست#خواه, بود, _, توان, گشت#گرد -->
     <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, _ -->
-    <tag name="DET">3627</tag><!-- این, آن, هر, همان, همین, چه, تمام, برخی, همه, دیگر -->
+    <tag name="DET">3759</tag><!-- این, آن, هر, هیچ, همان, همین, چه, تمام, برخی, همه -->
     <tag name="INTJ">69</tag><!-- ای, _, بله, خیر, آری, هی, نه, خب, فر, هیچ -->
     <tag name="NOUN">57578</tag><!-- _, کشور, سال, ایران, مردم, کار, روز, قرار, دست, برنامه -->
     <tag name="NUM">3409</tag><!-- یک, دو, _, هزار, سه, میلیون, ۲, چهار, ۵, ۳ -->
@@ -48,11 +48,11 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2389</feat><!-- ما, من, م, می‌کنم, کنیم, مان, کردیم, کنم, کردم, دارم -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1031</feat><!-- تو, شما, ت, کنید, کن, تان, گو, ات, بگو, دارید -->
     <feat name="Person" value="3" upos="ADJ,AUX,PRON,VERB">17659</feat><!-- است, خود, بود, او, کرد, شد, گفت, شده, می‌شود, ش -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">1372</feat><!-- نیست, هیچ, نه, غیر, نداشته, نباید, نشده, ندارند, نکرده, نیستند -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">1240</feat><!-- نیست, نه, نداشته, نباید, نشده, ندارند, غیر, نکرده, نیستند, نباشد -->
     <feat name="PronType" value="Dem" upos="PRON">1624</feat><!-- آن, این, آن‌ها, آنان, این‌ها, همین, آنرا, همان, اینان, دان -->
     <feat name="PronType" value="Ind" upos="PRON">169</feat><!-- بعضی, برخی, دیگران, هرکس, یک, بعضی‌ها, دیگری, بسیاری, بعضیهای, تک‌تک -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">348</feat><!-- چه, چرا, چی, چگونه, کجا, مگر, چقدر, چطور, کی, چه‌طور -->
-    <feat name="PronType" value="Neg" upos="PRON">9</feat><!-- هیچکدام, هیچکس, هیچیک, هیچ‌یک -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">141</feat><!-- هیچ, غیر, هیچکدام, هیچکس, هیچیک, هیچ‌یک -->
     <feat name="PronType" value="Prs" upos="PRON">3615</feat><!-- خود, او, ما, ش, من, وی, تو, شان, م, شما -->
     <feat name="PronType" value="Rcp" upos="PRON">102</feat><!-- هم, یکدیگر, همدیگر -->
     <feat name="PronType" value="Rel" upos="PRON">47</feat><!-- آنچه -->

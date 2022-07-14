@@ -5920,7 +5920,7 @@
 45	مورد	مورد	NOUN	N_SING	Number=Sing	43	nmod	_	Translit=mord|LTranslit=mord
 46	انتخابات	انتخابات	NOUN	N_PL	Number=Plur	45	nmod:poss	_	SpaceAfter=No|Translit=antxabat|LTranslit=antxabat
 47	،	،	PUNCT	DELM	_	39	punct	_	Translit=,|LTranslit=,
-48	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	50	det:predet	_	Translit=hīch|LTranslit=hīch
+48	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	50	det:predet	_	Translit=hīch|LTranslit=hīch
 49	گونه	گونه	NOUN	N_SING	Number=Sing	50	nmod	_	Translit=gonh|LTranslit=gonh
 50	انتقاداتی	_	NOUN	N_PL	Number=Plur	51	obj	_	Translit=antqadatī
 51	نداشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	35	ccomp	_	Translit=ndashth|LTranslit=dasht#dar
@@ -10456,7 +10456,7 @@
 30	حل	حل	NOUN	N_SING	Number=Sing	31	compound:lvc	_	Translit=hl|LTranslit=hl
 31	نکرده‌اند	کرد#کن	VERB	V_PP	Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	0	root	_	Translit=nkrdhand|LTranslit=krd#kn
 32	و	و	CCONJ	CON	_	42	cc	_	Translit=o|LTranslit=o
-33	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	34	det	_	Translit=hīch|LTranslit=hīch
+33	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	34	det	_	Translit=hīch|LTranslit=hīch
 34	مدرکی	مدرک	NOUN	N_SING	Number=Sing	42	nsubj	_	Translit=mdrkī|LTranslit=mdrk
 35	دال	_	NOUN	N_SING	Number=Sing	42	obj	_	Translit=dal
 36	بر	بر	ADP	P	_	37	case	_	Translit=br|LTranslit=br
@@ -10698,7 +10698,7 @@
 # translit = oī kh hīch gonh slahī hml nmīkrd, tosţ plīs broksl dstgīr shd.
 1	وی	وی	PRON	PRO	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Translit=oī|LTranslit=oī
 2	که	که	SCONJ	CON	_	7	mark	_	Translit=kh|LTranslit=kh
-3	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	5	det:predet	_	Translit=hīch|LTranslit=hīch
+3	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	5	det:predet	_	Translit=hīch|LTranslit=hīch
 4	گونه	گونه	NOUN	N_SING	Number=Sing	5	nmod	_	Translit=gonh|LTranslit=gonh
 5	سلاحی	سلاح	NOUN	N_SING	Number=Sing	7	obj	_	Translit=slahī|LTranslit=slah
 6	حمل	حمل	NOUN	N_SING	Number=Sing	7	compound:lvc	_	Translit=hml|LTranslit=hml
@@ -10963,7 +10963,7 @@
 28	بازیهای	بازی	NOUN	N_PL	Number=Plur	27	nmod:poss	_	Translit=bazīhaī|LTranslit=bazī
 29	لیگ	_	NOUN	N_SING	Number=Sing	28	nmod:poss	_	Translit=līg
 30	به	به	ADP	P	_	32	case	_	Translit=bh|LTranslit=bh
-31	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	32	det	_	Translit=hīch|LTranslit=hīch
+31	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	32	det	_	Translit=hīch|LTranslit=hīch
 32	یک	یک	PRON	PRO	PronType=Ind	35	obl	_	Translit=īk|LTranslit=īk
 33	از	از	ADP	P	_	34	case	_	Translit=az|LTranslit=az
 34	تیمها	_	NOUN	N_PL	Number=Plur	32	nmod	_	Translit=tīmha
@@ -13031,7 +13031,7 @@
 20	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	29	obj	_	Translit=xod|LTranslit=xod
 21	را	را	PART	CLITIC	_	20	case	_	Translit=ra|LTranslit=ra
 22	بدون	بدون	ADP	P	_	25	case	_	Translit=bdon|LTranslit=bdon
-23	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	25	det:predet	_	Translit=hīch|LTranslit=hīch
+23	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	25	det:predet	_	Translit=hīch|LTranslit=hīch
 24	گونه	گونه	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=gonh|LTranslit=gonh
 25	مشکل‌آفرینی	_	NOUN	N_SING	Number=Sing	29	obl	_	Translit=mshklĀfrīnī
 26	به	به	ADP	P	_	27	case	_	Translit=bh|LTranslit=bh
@@ -13229,7 +13229,7 @@
 13	هستند	هست	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Translit=hstnd|LTranslit=hst
 14	،	،	PUNCT	DELM	_	20	punct	_	Translit=,|LTranslit=,
 15	اما	اما	CCONJ	CON	_	20	cc	_	Translit=ama|LTranslit=ama
-16	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	17	det	_	Translit=hīch|LTranslit=hīch
+16	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	17	det	_	Translit=hīch|LTranslit=hīch
 17	مورد	مورد	NOUN	N_SING	Number=Sing	20	nsubj	_	Translit=mord|LTranslit=mord
 18	تلفات	_	NOUN	N_PL	Number=Plur	17	nmod:poss	_	Translit=tlfat
 19	انسانی	انسانی	ADJ	ADJ	Degree=Pos	18	amod	_	Translit=ansanī|LTranslit=ansanī
@@ -13819,7 +13819,7 @@
 10	زیان	_	NOUN	N_SING	Number=Sing	17	obl	_	Translit=zīan
 11	روحی	روحی	ADJ	ADJ	Degree=Pos	10	amod	_	SpaceAfter=No|Translit=rohī|LTranslit=rohī
 12	،	،	PUNCT	DELM	_	10	punct	_	Translit=,|LTranslit=,
-13	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	14	det	_	Translit=hīch|LTranslit=hīch
+13	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	14	det	_	Translit=hīch|LTranslit=hīch
 14	چیزی	چیز	NOUN	N_SING	Number=Sing	17	obj	_	Translit=chīzī|LTranslit=chīz
 15	به	به	ADP	P	_	16	case	_	Translit=bh|LTranslit=bh
 16	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	17	obl	_	Translit=ao|LTranslit=ao
@@ -16934,7 +16934,7 @@
 7	خواند	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=xoand
 8	،	،	PUNCT	DELM	_	24	punct	_	Translit=,|LTranslit=,
 9	زیرا	زیرا	SCONJ	CON	_	24	mark	_	Translit=zīra|LTranslit=zīra
-10	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	11	det	_	Translit=hīch|LTranslit=hīch
+10	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	11	det	_	Translit=hīch|LTranslit=hīch
 11	فردی	فرد	NOUN	N_SING	Number=Sing	24	nsubj	_	Translit=frdī|LTranslit=frd
 12	در	در	ADP	P	_	16	case	_	Translit=dr|LTranslit=dr
 13	طی	طی	ADP	P	_	12	fixed	_	Translit=ţī|LTranslit=ţī
@@ -16951,7 +16951,7 @@
 24	اثر‌گذار	_	ADJ	ADJ	Degree=Pos	7	advcl	_	Translit=aþrgðar
 25	نبوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	24	cop	_	Translit=nbodh|LTranslit=bod#bash
 26	و	و	CCONJ	CON	_	41	cc	_	Translit=o|LTranslit=o
-27	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	28	det	_	Translit=hīch|LTranslit=hīch
+27	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	28	det	_	Translit=hīch|LTranslit=hīch
 28	کتابی	کتاب	NOUN	N_SING	Number=Sing	41	nsubj	_	Translit=ktabī|LTranslit=ktab
 29	به	به	ADP	P	_	30	case	_	Translit=bh|LTranslit=bh
 30	اندازهٔ	اندازه	NOUN	N_SING	Number=Sing	41	obl	_	Translit=andazhٔ|LTranslit=andazh

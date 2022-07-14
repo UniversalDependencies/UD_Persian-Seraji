@@ -3537,7 +3537,7 @@
 31	تسلط	تسلط	NOUN	N_SING	Number=Sing	32	compound:lvc	_	Translit=tslţ|LTranslit=tslţ
 32	دارند	داشت#دار	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	18	ccomp	_	Translit=darnd|LTranslit=dasht#dar
 33	و	و	CCONJ	CON	_	39	cc	_	Translit=o|LTranslit=o
-34	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	35	det	_	Translit=hīch|LTranslit=hīch
+34	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	35	det	_	Translit=hīch|LTranslit=hīch
 35	خطری	خطر	NOUN	N_SING	Number=Sing	39	nsubj	_	Translit=xţrī|LTranslit=xţr
 36	آن‌ها	آن	PRON	PRO	Number=Plur|PronType=Dem	39	obj	_	Translit=Ānha|LTranslit=Ān
 37	را	را	PART	CLITIC	_	36	case	_	Translit=ra|LTranslit=ra
@@ -3571,7 +3571,7 @@
 21	که	که	SCONJ	CON	_	26	mark	_	Translit=kh|LTranslit=kh
 22	البته	البته	ADV	ADV	_	26	advmod	_	Translit=albth|LTranslit=albth
 23	به	به	ADP	P	_	25	case	_	Translit=bh|LTranslit=bh
-24	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	25	det	_	Translit=hīch|LTranslit=hīch
+24	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	25	det	_	Translit=hīch|LTranslit=hīch
 25	وجه	وجه	NOUN	N_SING	Number=Sing	26	nmod	_	Translit=ojh|LTranslit=ojh
 26	تعجب‌انگیز	تعجب‌انگیز	ADJ	ADJ	Degree=Pos	20	ccomp	_	Translit=tʿjbangīz|LTranslit=tʿjbangīz
 27	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	26	cop	_	SpaceAfter=No|Translit=nīst|LTranslit=hst
@@ -3621,7 +3621,7 @@
 15	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=rft|LTranslit=rft#ro
 16	،	،	PUNCT	DELM	_	27	punct	_	Translit=,|LTranslit=,
 17	اما	اما	CCONJ	CON	_	27	cc	_	Translit=ama|LTranslit=ama
-18	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	19	det	_	Translit=hīch|LTranslit=hīch
+18	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	19	det	_	Translit=hīch|LTranslit=hīch
 19	نشان‌های	نشانه	NOUN	N_SING	Number=Sing	27	nsubj:pass	_	Translit=nshanhaī|LTranslit=nshanh
 20	از	از	ADP	P	_	21	case	_	Translit=az|LTranslit=az
 21	بیماری	بیماری	NOUN	N_SING	Number=Sing	19	nmod	_	Translit=bīmarī|LTranslit=bīmarī
@@ -6456,7 +6456,7 @@
 18	هستند	هست	AUX	V_PRS	Number=Plur|Person=3|Tense=Pres	11	cop	_	SpaceAfter=No|Translit=hstnd|LTranslit=hst
 19	،	،	PUNCT	DELM	_	33	punct	_	Translit=,|LTranslit=,
 20	چون	چون	SCONJ	CON	_	28	mark	_	Translit=chon|LTranslit=chon
-21	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	22	det	_	Translit=hīch|LTranslit=hīch
+21	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	22	det	_	Translit=hīch|LTranslit=hīch
 22	نظامی	نظام	NOUN	N_SING	Number=Sing	28	nsubj	_	Translit=nz̧amī|LTranslit=nz̧am
 23	بدون	بدون	ADP	P	_	25	case	_	Translit=bdon|LTranslit=bdon
 24	نو	نو	ADJ	ADJ	Degree=Pos	25	compound:lvc	_	Translit=no|LTranslit=no
@@ -9513,7 +9513,7 @@
 14	،	،	PUNCT	DELM	_	11	punct	_	Translit=,|LTranslit=,
 15	و	و	CCONJ	CON	_	19	cc	_	Translit=o|LTranslit=o
 16	در	در	ADP	P	_	19	case	_	Translit=dr|LTranslit=dr
-17	غیر	غیر	ADV	ADV_NEG	Polarity=Neg	19	det:predet	_	Translit=ghīr|LTranslit=ghīr
+17	غیر	غیر	DET	ADV_NEG	PronType=Neg	19	det:predet	_	Translit=ghīr|LTranslit=ghīr
 18	این	این	DET	DET	_	19	det	_	Translit=aīn|LTranslit=aīn
 19	صورت	صورت	NOUN	N_SING	Number=Sing	7	conj	_	Translit=şort|LTranslit=şort
 20	مُهر	مُهر	NOUN	N_SING	Number=Sing	24	obj	_	Translit=muhr|LTranslit=muhr
@@ -10448,7 +10448,7 @@
 # sent_id = test-s336
 # text = هیچ منطقه و ناحیه‌ای، شهر و دهی را فروگذار نکرده‌ام مگر این که نمایندگانی را اعزام کرده‌ام و همه با یزید بیعت کرده‌اند.
 # translit = hīch mnţqh v nahīhaī, shhr v dhī ra frogðar nkrdham mgr aīn kh nmaīndganī ra aʿzam krdham v hmh ba yzīd bīʿt krdhand.
-1	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	2	det	_	Translit=hīch|LTranslit=hīch
+1	هیچ	هیچ	DET	ADV_NEG	PronType=Neg	2	det	_	Translit=hīch|LTranslit=hīch
 2	منطقه	منطقه	NOUN	N_SING	Number=Sing	11	obj	_	Translit=mnţqh|LTranslit=mnţqh
 3	و	و	CCONJ	CON	_	4	cc	_	Translit=o|LTranslit=o
 4	ناحیه‌ای	ناحیه	NOUN	N_SING	Number=Sing	2	conj	_	SpaceAfter=No|Translit=nahīhaī|LTranslit=nahīh
