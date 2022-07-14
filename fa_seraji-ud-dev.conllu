@@ -1999,7 +1999,7 @@
 12	آرامش	آرامش	NOUN	N_SING	Number=Sing	11	nmod:poss	_	Translit=Āramsh|LTranslit=Āramsh
 13	و	و	CCONJ	CON	_	14	cc	_	Translit=o|LTranslit=o
 14	سکوت	سکوت	NOUN	N_SING	Number=Sing	12	conj	_	Translit=skot|LTranslit=skot
-15	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	19	advmod	_	Translit=Ān|LTranslit=Ān
+15	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	19	obl	_	Translit=Ān|LTranslit=Ān
 16	هم	هم	SCONJ	CON	_	15	fixed	_	Translit=hm|LTranslit=hm
 17	در	در	ADP	P	_	19	case	_	Translit=dr|LTranslit=dr
 18	برابر	برابر	ADP	P	_	17	fixed	_	Translit=brabr|LTranslit=brabr
