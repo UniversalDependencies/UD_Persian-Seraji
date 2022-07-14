@@ -11847,7 +11847,7 @@
 # sent_id = dev-s389
 # text = اکثر نمایندگان تایید انتخابات تهران را حتمی می‌دانستند ولی در مورد تایید سی نفر و یا کمتر از آن اختلاف نظر داشتند.
 # translit = akþr nmaīndgan taīīd antxabat thran ra htmī mīdanstnd vlī dr mord taīīd sī nfr v ya kmtr az Ān axtlaf nz̧r dashtnd.
-1	اکثر	اکثر	ADJ	ADJ	Degree=Pos	2	det	_	Translit=akþr|LTranslit=akþr
+1	اکثر	اکثر	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=akþr|LTranslit=akþr
 2	نمایندگان	نماینده	NOUN	N_PL	Number=Plur	8	nsubj	_	Translit=nmaīndgan|LTranslit=nmaīndh
 3	تایید	تایید	NOUN	N_SING	Number=Sing	7	nsubj	_	Translit=taīīd|LTranslit=taīīd
 4	انتخابات	انتخابات	NOUN	N_PL	Number=Plur	3	nmod:poss	_	Translit=antxabat|LTranslit=antxabat
