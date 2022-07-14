@@ -16430,7 +16430,7 @@
 35	داروهای	دارو	NOUN	N_PL	Number=Plur	33	nmod	_	Translit=darohaī|LTranslit=daro
 36	بی‌ثمر	بی‌ثمر	ADJ	ADJ	Degree=Pos	35	amod	_	Translit=bīþmr|LTranslit=bīþmr
 37	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	35	nmod:poss	_	SpaceAfter=No|Translit=xod|LTranslit=xod
-38	،	،	PUNCT	DELM	_	31	punct	_	Translit=,|LTranslit=,
+38	،	،	PUNCT	DELM	_	33	punct	_	Translit=,|LTranslit=,
 39	گمان	گمان	NOUN	N_SING	Number=Sing	40	compound:lvc	_	Translit=gman|LTranslit=gman
 40	می‌کنند	کرد#کن	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	29	conj	_	Translit=mīknnd|LTranslit=krd#kn
 41	که	که	SCONJ	CON	_	49	mark	_	Translit=kh|LTranslit=kh
