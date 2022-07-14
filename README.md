@@ -14,7 +14,9 @@ validated sentences of written texts with large domain variations, in terms of d
 articles, fiction, technical descriptions, and documents about culture and art) and tokenization. The variations in
 the tokenization are due to the orthographic variations of compound words and fixed expressions in the language.
 
-Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
+Apart from the universal annotation scheme and the general rules in UD, the Persian UD and the UPDT differ further in
+tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels
+in UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
 The conversion of the UPDT to the Universal Dependencies has been carried out semi-automatically. In this process, we used a conversion script for reversing the head and dependent relations in the prepositional modifier (prep) and object of a preposition (pobj). Furthermore, we have used other scripts tailored for Persian to separate different types of clitics from their host. Subsequently we added different rules for rewriting the coarse-grained part-of-speech tags and the dependency labels. Morphological features were then mapped semi-automatically. In the current release, lemmas are added for a large number of tokens. This process is further done semi-automatically. The entire process has been manually validated.
 
