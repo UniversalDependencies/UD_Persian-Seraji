@@ -984,7 +984,7 @@
 # translit = bīsh az nīm qrn ast kh bala rftn qīmt nft dr bazar jhanī aīranīha ra shad krdh v paīīn Āmdn qīmt msalhaī dlhrhĀor shdh ast, zīra chrxhaī aqtşad kshor ra az drĀmdhaī frosh nft xam mīchrxanīm.
 1	بیش	بیش	ADJ	ADJ_CMPR	Degree=Cmp	4	advmod	_	Translit=bīsh|LTranslit=bīsh
 2	از	از	ADP	P	_	1	fixed	_	Translit=az|LTranslit=az
-3	نیم	نیم	NOUN	N_SING	Number=Sing	4	det	_	Translit=nīm|LTranslit=nīm
+3	نیم	نیم	NOUN	N_SING	Number=Sing	4	nmod	_	Translit=nīm|LTranslit=nīm
 4	قرن	قرن	NOUN	N_SING	Number=Sing	5	obl	_	Translit=qrn|LTranslit=qrn
 5	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=ast|LTranslit=ast
 6	که	که	SCONJ	CON	_	17	mark	_	Translit=kh|LTranslit=kh
@@ -1031,7 +1031,7 @@
 5	نفت	نفت	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=nft|LTranslit=nft
 6	به	به	ADP	P	_	7	case	_	Translit=bh|LTranslit=bh
 7	نفع	نفع	NOUN	N_SING	Number=Sing	13	obl	_	Translit=nfʿ|LTranslit=nfʿ
-8	کدام	کدام	NOUN	N_SING	Number=Sing	9	det	_	Translit=kdam|LTranslit=kdam
+8	کدام	کدام	NOUN	N_SING	Number=Sing	9	nmod	_	Translit=kdam|LTranslit=kdam
 9	یک	یک	NUM	NUM	NumType=Card	7	nmod:poss	_	Translit=īk|LTranslit=īk
 10	از	از	ADP	P	_	12	case	_	Translit=az|LTranslit=az
 11	دو	دو	NUM	NUM	NumType=Card	12	nummod	_	Translit=do|LTranslit=do
@@ -2179,7 +2179,7 @@
 18	و	و	CCONJ	CON	_	29	cc	_	Translit=o|LTranslit=o
 19	به	به	ADP	P	_	20	case	_	Translit=bh|LTranslit=bh
 20	اتکاء	اتکاء	NOUN	N_SING	Number=Sing	29	obl	_	Translit=atka'|LTranslit=atka'
-21	سایر	سایر	NOUN	N_SING	Number=Sing	22	det	_	Translit=saīr|LTranslit=saīr
+21	سایر	سایر	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=saīr|LTranslit=saīr
 22	درآمدها	درآمد	NOUN	N_PL	Number=Plur	20	nmod:poss	_	Translit=drĀmdha|LTranslit=drĀmd
 23	ترکیب	ترکیب	NOUN	N_SING	Number=Sing	29	obj	_	Translit=trkīb|LTranslit=trkīb
 24	برنامه‌ها	برنامه	NOUN	N_PL	Number=Plur	23	nmod:poss	_	Translit=brnamhha|LTranslit=brnamh
@@ -3819,7 +3819,7 @@
 39	عدم	عدم	NOUN	N_SING	Number=Sing	33	conj	_	Translit=ʿdm|LTranslit=ʿdm
 40	وجود	وجود	NOUN	N_SING	Number=Sing	39	nmod:poss	_	Translit=ojod|LTranslit=ojod
 41	هر	هر	DET	DET	_	43	det:predet	_	Translit=hr|LTranslit=hr
-42	گونه	گونه	NOUN	N_SING	Number=Sing	43	det	_	Translit=gonh|LTranslit=gonh
+42	گونه	گونه	NOUN	N_SING	Number=Sing	43	nmod	_	Translit=gonh|LTranslit=gonh
 43	چراغ	چراغ	NOUN	N_SING	Number=Sing	40	nmod:poss	_	Translit=chragh|LTranslit=chragh
 44	راهنمایی	راهنمایی	NOUN	N_SING	Number=Sing	43	nmod:poss	_	Translit=rahnmaīī|LTranslit=rahnmaīī
 45	به	به	ADP	P	_	46	case	_	Translit=bh|LTranslit=bh
@@ -4605,7 +4605,7 @@
 21	و	و	CCONJ	CON	_	22	cc	_	Translit=o|LTranslit=o
 22	همفکری	همفکری	NOUN	N_SING	Number=Sing	20	conj	_	Translit=hmfkrī|LTranslit=hmfkrī
 23	با	با	ADP	P	_	25	case	_	Translit=ba|LTranslit=ba
-24	سایر	سایر	NOUN	N_SING	Number=Sing	25	det	_	Translit=saīr|LTranslit=saīr
+24	سایر	سایر	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=saīr|LTranslit=saīr
 25	کشورها	کشور	NOUN	N_PL	Number=Plur	22	nmod	_	SpaceAfter=No|Translit=kshorha|LTranslit=kshor
 26	،	،	PUNCT	DELM	_	16	punct	_	Translit=,|LTranslit=,
 27	بویژه	بویژه	ADV	ADV	_	32	advmod	_	Translit=boīzhh|LTranslit=boīzhh
@@ -6734,7 +6734,7 @@
 27	و	و	CCONJ	CON	_	32	cc	_	Translit=o|LTranslit=o
 28	در	در	ADP	P	_	31	case	_	Translit=dr|LTranslit=dr
 29	پشت	پشت	ADP	P	_	28	fixed	_	Translit=psht|LTranslit=psht
-30	سایر	سایر	NOUN	N_SING	Number=Sing	31	det	_	Translit=saīr|LTranslit=saīr
+30	سایر	سایر	NOUN	N_SING	Number=Sing	31	nmod	_	Translit=saīr|LTranslit=saīr
 31	گروهها	گروه	NOUN	N_PL	Number=Plur	32	nmod	_	Translit=grohha|LTranslit=groh
 32	مخفی	مخفی	ADJ	ADJ	Degree=Pos	26	conj	_	Translit=mxfī|LTranslit=mxfī
 33	شوند	کرد#کن	AUX	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	32	cop	_	Translit=shond|LTranslit=krd#kn
@@ -6852,7 +6852,7 @@
 8	یقیناً	یقیناً	ADV	ADV	_	35	advmod	_	Translit=īqīnaan|LTranslit=īqīnaan
 9	پیوستن	پیوستن	NOUN	N_SING	Number=Sing	35	nsubj	_	Translit=pīostn|LTranslit=pīostn
 10	این	این	DET	DET	_	12	det:predet	_	Translit=aīn|LTranslit=aīn
-11	قبیل	قبیل	NOUN	N_SING	Number=Sing	12	det	_	Translit=qbīl|LTranslit=qbīl
+11	قبیل	قبیل	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=qbīl|LTranslit=qbīl
 12	گروهها	گروه	NOUN	N_PL	Number=Plur	9	nmod:poss	_	Translit=grohha|LTranslit=groh
 13	و	و	CCONJ	CON	_	14	cc	_	Translit=o|LTranslit=o
 14	تشکل‌ها	تشکل	NOUN	N_PL	Number=Plur	12	conj	_	Translit=tshklha|LTranslit=tshkl
@@ -7467,7 +7467,7 @@
 32	پس	پس	ADV	ADV_TIME	Case=Tem	43	advmod	_	Translit=ps|LTranslit=ps
 33	از	از	ADP	P	_	34	case	_	Translit=az|LTranslit=az
 34	توقیف	توقیف	NOUN	N_SING	Number=Sing	32	nmod	_	Translit=toqīf|LTranslit=toqīf
-35	سایر	سایر	NOUN	N_SING	Number=Sing	36	det	_	Translit=saīr|LTranslit=saīr
+35	سایر	سایر	NOUN	N_SING	Number=Sing	36	nmod	_	Translit=saīr|LTranslit=saīr
 36	روزنامه‌ها	روزنامه	NOUN	N_PL	Number=Plur	34	nmod:poss	_	Translit=roznamhha|LTranslit=roznamh
 37	بلافاصله	بلافاصله	ADV	ADV_TIME	Case=Tem	43	advmod	_	Translit=blafaşlh|LTranslit=blafaşlh
 38	به	به	ADP	P	_	40	case	_	Translit=bh|LTranslit=bh
@@ -8830,7 +8830,7 @@
 14	را	را	PART	CLITIC	_	12	case	_	Translit=ra|LTranslit=ra
 15	از	از	ADP	P	_	18	case	_	Translit=az|LTranslit=az
 16	این	این	DET	DET	_	18	det:predet	_	Translit=aīn|LTranslit=aīn
-17	گونه	گونه	NOUN	N_SING	Number=Sing	18	det	_	Translit=gonh|LTranslit=gonh
+17	گونه	گونه	NOUN	N_SING	Number=Sing	18	nmod	_	Translit=gonh|LTranslit=gonh
 18	افکار	فکر	NOUN	N_PL	Number=Plur	21	obl	_	SpaceAfter=No|Translit=afkar|LTranslit=fkr
 19	،	،	PUNCT	DELM	_	18	punct	_	Translit=,|LTranslit=,
 20	پاک	پاک	ADJ	ADJ	Degree=Pos	21	compound:lvc	_	Translit=pak|LTranslit=pak
@@ -10379,7 +10379,7 @@
 4	ع	ع	NOUN	N_SING	Number=Sing	2	dep	_	Translit=ʿ|LTranslit=ʿ
 5	(	(	PUNCT	DELM	_	8	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 6	و	و	CCONJ	CON	_	8	cc	_	Translit=o|LTranslit=o
-7	سایر	سایر	NOUN	N_SING	Number=Sing	8	det	_	Translit=saīr|LTranslit=saīr
+7	سایر	سایر	NOUN	N_SING	Number=Sing	8	nmod	_	Translit=saīr|LTranslit=saīr
 8	اشخاص	شخص	NOUN	N_PL	Number=Plur	2	conj	_	Translit=ashxaş|LTranslit=shxş
 9	ممتاز	ممتاز	ADJ	ADJ	Degree=Pos	8	amod	_	Translit=mmtaz|LTranslit=mmtaz
 10	قریش	قریش	NOUN	N_SING	Number=Sing	8	nmod:poss	_	SpaceAfter=No|Translit=qrīsh|LTranslit=qrīsh
@@ -12117,7 +12117,7 @@
 4	:	:	PUNCT	DELM	_	30	punct	_	Translit=:|LTranslit=:
 5	از	از	ADP	P	_	8	case	_	Translit=az|LTranslit=az
 6	این	این	DET	DET	_	8	det:predet	_	Translit=aīn|LTranslit=aīn
-7	میزان	میزان	NOUN	N_SING	Number=Sing	8	det	_	Translit=mīzan|LTranslit=mīzan
+7	میزان	میزان	NOUN	N_SING	Number=Sing	8	nmod	_	Translit=mīzan|LTranslit=mīzan
 8	اعتبار	اعتبار	NOUN	N_SING	Number=Sing	30	obl	_	Translit=aʿtbar|LTranslit=aʿtbar
 9	پنج	پنج	NUM	NUM	NumType=Card	10	nummod	_	Translit=pnj|LTranslit=pnj
 10	میلیارد	میلیارد	NUM	NUM	NumType=Card	14	compound	_	Translit=mīlīard|LTranslit=mīlīard
@@ -12152,7 +12152,7 @@
 2	افزود	افزود#افزا	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=afzod|LTranslit=afzod#afza
 3	:	:	PUNCT	DELM	_	7	punct	_	Translit=:|LTranslit=:
 4	این	این	DET	DET	_	6	det:predet	_	Translit=aīn|LTranslit=aīn
-5	میزان	میزان	NOUN	N_SING	Number=Sing	6	det	_	Translit=mīzan|LTranslit=mīzan
+5	میزان	میزان	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=mīzan|LTranslit=mīzan
 6	اعتبار	اعتبار	NOUN	N_SING	Number=Sing	7	nsubj	_	Translit=aʿtbar|LTranslit=aʿtbar
 7	برابر	برابر	NOUN	N_SING	Number=Sing	2	ccomp	_	Translit=brabr|LTranslit=brabr
 8	۵۰	۵۰	NUM	NUM	NumType=Card	9	nummod	_	Translit=50|LTranslit=50
@@ -13062,7 +13062,7 @@
 3	افزود	افزود#افزا	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=afzod|LTranslit=afzod#afza
 4	:	:	PUNCT	DELM	_	25	punct	_	Translit=:|LTranslit=:
 5	این	این	DET	DET	_	7	det:predet	_	Translit=aīn|LTranslit=aīn
-6	مقدار	مقدار	NOUN	N_SING	Number=Sing	7	det	_	Translit=mqdar|LTranslit=mqdar
+6	مقدار	مقدار	NOUN	N_SING	Number=Sing	7	nmod	_	Translit=mqdar|LTranslit=mqdar
 7	محصول	محصول	NOUN	N_SING	Number=Sing	25	nsubj	_	Translit=mhşol|LTranslit=mhşol
 8	از	از	ADP	P	_	14	case	_	Translit=az|LTranslit=az
 9	سه	سه	NUM	NUM	NumType=Card	10	nummod	_	Translit=sh|LTranslit=sh
@@ -15927,7 +15927,7 @@
 5	مرگ	مرگ	NOUN	N_SING	Number=Sing	16	obj	_	Translit=mrg|LTranslit=mrg
 6	خوک‌ها	خوک	NOUN	N_PL	Number=Plur	5	nmod:poss	_	Translit=xokha|LTranslit=xok
 7	و	و	CCONJ	CON	_	9	cc	_	Translit=o|LTranslit=o
-8	سایر	سایر	NOUN	N_SING	Number=Sing	9	det	_	Translit=saīr|LTranslit=saīr
+8	سایر	سایر	NOUN	N_SING	Number=Sing	9	nmod	_	Translit=saīr|LTranslit=saīr
 9	آبزیان	آبزی	NOUN	N_PL	Number=Plur	6	conj	_	Translit=Ābzīan|LTranslit=Ābzī
 10	را	را	PART	CLITIC	_	5	case	_	Translit=ra|LTranslit=ra
 11	با	با	ADP	P	_	12	case	_	Translit=ba|LTranslit=ba
@@ -16175,7 +16175,7 @@
 10	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 11	وقوع	وقوع	NOUN	N_SING	Number=Sing	24	nsubj	_	Translit=oqoʿ|LTranslit=oqoʿ
 12	این	این	DET	DET	_	14	det:predet	_	Translit=aīn|LTranslit=aīn
-13	گونه	گونه	NOUN	N_SING	Number=Sing	14	det	_	Translit=gonh|LTranslit=gonh
+13	گونه	گونه	NOUN	N_SING	Number=Sing	14	nmod	_	Translit=gonh|LTranslit=gonh
 14	پس‌لرزه‌ها	پس‌لرزه	NOUN	N_PL	Number=Plur	11	nmod:poss	_	Translit=pslrzhha|LTranslit=pslrzh
 15	که	که	SCONJ	CON	_	16	mark	_	Translit=kh|LTranslit=kh
 16	مرتبط	مرتبط	ADJ	ADJ	Degree=Pos	14	acl:relcl	_	Translit=mrtbţ|LTranslit=mrtbţ
@@ -17545,7 +17545,7 @@
 53	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	52	aux	_	Translit=bod|LTranslit=bod
 54	ولی	ولی	CCONJ	CON	_	63	cc	_	Translit=olī|LTranslit=olī
 55	چند	چند	ADJ	ADJ	Degree=Pos	57	amod	_	Translit=chnd|LTranslit=chnd
-56	عدد	عدد	NOUN	N_SING	Number=Sing	57	det	_	Translit=ʿdd|LTranslit=ʿdd
+56	عدد	عدد	NOUN	N_SING	Number=Sing	57	nmod	_	Translit=ʿdd|LTranslit=ʿdd
 57	حقه	حقه	NOUN	N_SING	Number=Sing	63	nsubj	_	Translit=hqh|LTranslit=hqh
 58	گل	گل	NOUN	N_SING	Number=Sing	57	nmod:poss	_	Translit=gl|LTranslit=gl
 59	سرخ	سرخ	ADJ	ADJ	Degree=Pos	58	amod	_	Translit=srx|LTranslit=srx
@@ -17566,7 +17566,7 @@
 5	آن‌ها	آن	PRON	PRO	Number=Plur|PronType=Dem	3	nmod	_	Translit=Ānha|LTranslit=Ān
 6	با	با	ADP	P	_	9	case	_	Translit=ba|LTranslit=ba
 7	چند	چند	ADJ	ADJ	Degree=Pos	9	amod	_	Translit=chnd|LTranslit=chnd
-8	عدد	عدد	NOUN	N_SING	Number=Sing	9	det	_	Translit=ʿdd|LTranslit=ʿdd
+8	عدد	عدد	NOUN	N_SING	Number=Sing	9	nmod	_	Translit=ʿdd|LTranslit=ʿdd
 9	برگ	برگ	NOUN	N_SING	Number=Sing	12	obl	_	Translit=brg|LTranslit=brg
 10	درخت	درخت	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=drxt|LTranslit=drxt
 11	گل	گل	NOUN	N_SING	Number=Sing	10	nmod:poss	_	Translit=gl|LTranslit=gl
@@ -17720,7 +17720,7 @@
 9	تشریفات	تشریفات	NOUN	N_PL	Number=Plur	7	conj	_	Translit=tshrīfat|LTranslit=tshrīfat
 10	شایان	شایان	ADJ	ADJ	Degree=Pos	9	amod	_	Translit=shaīan|LTranslit=shaīan
 11	دو	دو	NUM	NUM	NumType=Card	13	nummod	_	Translit=do|LTranslit=do
-12	عدد	عدد	NOUN	N_SING	Number=Sing	13	det	_	Translit=ʿdd|LTranslit=ʿdd
+12	عدد	عدد	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=ʿdd|LTranslit=ʿdd
 13	بوته	بوته	NOUN	N_SING	Number=Sing	24	obj	_	Translit=both|LTranslit=both
 14	گل	گل	NOUN	N_SING	Number=Sing	13	nmod:poss	_	Translit=gl|LTranslit=gl
 15	سرخ	سرخ	ADJ	ADJ	Degree=Pos	14	amod	_	Translit=srx|LTranslit=srx
@@ -18074,7 +18074,7 @@
 20	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	19	nmod:poss	_	Translit=ma|LTranslit=ma
 21	و	و	CCONJ	CON	_	24	cc	_	Translit=o|LTranslit=o
 22	در	در	ADP	P	_	24	case	_	Translit=dr|LTranslit=dr
-23	سایر	سایر	NOUN	N_SING	Number=Sing	24	det	_	Translit=saīr|LTranslit=saīr
+23	سایر	سایر	NOUN	N_SING	Number=Sing	24	nmod	_	Translit=saīr|LTranslit=saīr
 24	کشورهای	کشور	NOUN	N_PL	Number=Plur	18	conj	_	Translit=kshorhaī|LTranslit=kshor
 25	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	24	amod	_	Translit=aslamī|LTranslit=aslamī
 26	تکرار	تکرار	NOUN	N_SING	Number=Sing	0	root	_	Translit=tkrar|LTranslit=tkrar

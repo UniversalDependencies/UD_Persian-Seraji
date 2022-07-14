@@ -48,7 +48,7 @@
 8	ایران	ایران	NOUN	N_SING	Number=Sing	14	obl	_	Translit=aīran|LTranslit=aīran
 9	نسبت	نسبت	ADP	P	_	12	case	_	Translit=nsbt|LTranslit=nsbt
 10	به	به	ADP	P	_	9	fixed	_	Translit=bh|LTranslit=bh
-11	سایر	سایر	NOUN	N_SING	Number=Sing	12	det	_	Translit=saīr|LTranslit=saīr
+11	سایر	سایر	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=saīr|LTranslit=saīr
 12	کشورها	کشور	NOUN	N_PL	Number=Plur	8	nmod	_	Translit=kshorha|LTranslit=kshor
 13	پایین‌تر	پایین	ADJ	ADJ_CMPR	Degree=Cmp	14	xcomp	_	Translit=paīīntr|LTranslit=paīīn
 14	دانست	دانست#دان	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=danst|LTranslit=danst#dan
@@ -1021,7 +1021,7 @@
 2	،	،	PUNCT	DELM	_	3	punct	_	Translit=,|LTranslit=,
 3	رسانه‌ها	رسانه	NOUN	N_PL	Number=Plur	1	conj	_	Translit=rsanhha|LTranslit=rsanh
 4	و	و	CCONJ	CON	_	6	cc	_	Translit=o|LTranslit=o
-5	سایر	سایر	NOUN	N_SING	Number=Sing	6	det	_	Translit=saīr|LTranslit=saīr
+5	سایر	سایر	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=saīr|LTranslit=saīr
 6	نهادهای	_	NOUN	N_PL	Number=Plur	3	conj	_	Translit=nhadhaī
 7	مدنی	_	ADJ	ADJ	Degree=Pos	6	amod	_	SpaceAfter=No|Translit=mdnī
 8	،	،	PUNCT	DELM	_	1	punct	_	Translit=,|LTranslit=,
@@ -1238,7 +1238,7 @@
 18	،	،	PUNCT	DELM	_	25	punct	_	Translit=,|LTranslit=,
 19	از	از	ADP	P	_	22	case	_	Translit=az|LTranslit=az
 20	این	این	DET	DET	_	22	det:predet	_	Translit=aīn|LTranslit=aīn
-21	نوع	نوع	NOUN	N_SING	Number=Sing	22	det	_	Translit=noʿ|LTranslit=noʿ
+21	نوع	نوع	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=noʿ|LTranslit=noʿ
 22	حرکت	حرکت	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=hrkt|LTranslit=hrkt
 23	چه	چه	ADV	ADV_I	PronType=Int	24	det	_	Translit=chh|LTranslit=chh
 24	منظوری	_	NOUN	N_SING	Number=Sing	25	nsubj	_	Translit=mnz̧orī
@@ -2715,7 +2715,7 @@
 8	نمود	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	Translit=nmod
 9	که	که	SCONJ	CON	_	31	mark	_	Translit=kh|LTranslit=kh
 10	هر	هر	DET	DET	_	12	det:predet	_	Translit=hr|LTranslit=hr
-11	نوع	نوع	NOUN	N_SING	Number=Sing	12	det	_	Translit=noʿ|LTranslit=noʿ
+11	نوع	نوع	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=noʿ|LTranslit=noʿ
 12	بیانیه	بیانیه	NOUN	N_SING	Number=Sing	31	nsubj	_	Translit=bīanīh|LTranslit=bīanīh
 13	در	در	ADP	P	_	14	case	_	Translit=dr|LTranslit=dr
 14	ارتباط	ارتباط	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=artbaţ|LTranslit=artbaţ
@@ -4337,7 +4337,7 @@
 11-12	بدان	_	_	_	_	_	_	_	Translit=bdan
 11	ب	به	ADP	P	_	14	case	_	Translit=b|LTranslit=bh
 12	دان	آن	DET	DET	_	14	det:predet	_	Translit=dan|LTranslit=Ān
-13	گونه	گونه	NOUN	N_SING	Number=Sing	14	det	_	Translit=gonh|LTranslit=gonh
+13	گونه	گونه	NOUN	N_SING	Number=Sing	14	nmod	_	Translit=gonh|LTranslit=gonh
 14	مطالب	مطلب	NOUN	N_PL	Number=Plur	16	obl	_	Translit=mţalb|LTranslit=mţlb
 15	گرایش	گرایش	NOUN	N_SING	Number=Sing	16	compound:lvc	_	Translit=graīsh|LTranslit=graīsh
 16	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	10	ccomp	_	Translit=dashth|LTranslit=dasht#dar
@@ -5921,7 +5921,7 @@
 46	انتخابات	انتخابات	NOUN	N_PL	Number=Plur	45	nmod:poss	_	SpaceAfter=No|Translit=antxabat|LTranslit=antxabat
 47	،	،	PUNCT	DELM	_	39	punct	_	Translit=,|LTranslit=,
 48	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	50	det:predet	_	Translit=hīch|LTranslit=hīch
-49	گونه	گونه	NOUN	N_SING	Number=Sing	50	det	_	Translit=gonh|LTranslit=gonh
+49	گونه	گونه	NOUN	N_SING	Number=Sing	50	nmod	_	Translit=gonh|LTranslit=gonh
 50	انتقاداتی	_	NOUN	N_PL	Number=Plur	51	obj	_	Translit=antqadatī
 51	نداشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	35	ccomp	_	Translit=ndashth|LTranslit=dasht#dar
 52	باشیم	بود#باش	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	51	aux	_	SpaceAfter=No|Translit=bashīm|LTranslit=bod#bash
@@ -10699,7 +10699,7 @@
 1	وی	وی	PRON	PRO	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Translit=oī|LTranslit=oī
 2	که	که	SCONJ	CON	_	7	mark	_	Translit=kh|LTranslit=kh
 3	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	5	det:predet	_	Translit=hīch|LTranslit=hīch
-4	گونه	گونه	NOUN	N_SING	Number=Sing	5	det	_	Translit=gonh|LTranslit=gonh
+4	گونه	گونه	NOUN	N_SING	Number=Sing	5	nmod	_	Translit=gonh|LTranslit=gonh
 5	سلاحی	سلاح	NOUN	N_SING	Number=Sing	7	obj	_	Translit=slahī|LTranslit=slah
 6	حمل	حمل	NOUN	N_SING	Number=Sing	7	compound:lvc	_	Translit=hml|LTranslit=hml
 7	نمی‌کرد	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	SpaceAfter=No|Translit=nmīkrd
@@ -13032,7 +13032,7 @@
 21	را	را	PART	CLITIC	_	20	case	_	Translit=ra|LTranslit=ra
 22	بدون	بدون	ADP	P	_	25	case	_	Translit=bdon|LTranslit=bdon
 23	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	25	det:predet	_	Translit=hīch|LTranslit=hīch
-24	گونه	گونه	NOUN	N_SING	Number=Sing	25	det	_	Translit=gonh|LTranslit=gonh
+24	گونه	گونه	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=gonh|LTranslit=gonh
 25	مشکل‌آفرینی	_	NOUN	N_SING	Number=Sing	29	obl	_	Translit=mshklĀfrīnī
 26	به	به	ADP	P	_	27	case	_	Translit=bh|LTranslit=bh
 27	پلیس	پلیس	NOUN	N_SING	Number=Sing	29	obl	_	Translit=plīs|LTranslit=plīs
@@ -14674,7 +14674,7 @@
 5	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	4	cop	_	Translit=ast|LTranslit=ast
 6	که	که	SCONJ	CON	_	28	mark	_	Translit=kh|LTranslit=kh
 7	هر	هر	DET	DET	_	9	det:predet	_	Translit=hr|LTranslit=hr
-8	گونه	گونه	NOUN	N_SING	Number=Sing	9	det	_	Translit=gonh|LTranslit=gonh
+8	گونه	گونه	NOUN	N_SING	Number=Sing	9	nmod	_	Translit=gonh|LTranslit=gonh
 9	پرونده	پرونده	NOUN	N_SING	Number=Sing	28	obj	_	SpaceAfter=No|Translit=prondh|LTranslit=prondh
 10	)	)	PUNCT	DELM	_	11	punct	_	Translit=)|LTranslit=)
 11	فایل	_	NOUN	N_SING	Number=Sing	9	appos	_	Translit=faīl
@@ -14786,7 +14786,7 @@
 2	الحاقی	الحاقی	ADJ	ADJ	Degree=Pos	1	amod	_	SpaceAfter=No|Translit=alhaqī|LTranslit=alhaqī
 3	،	،	PUNCT	DELM	_	1	punct	_	Translit=,|LTranslit=,
 4	هر	هر	DET	DET	_	6	det:predet	_	Translit=hr|LTranslit=hr
-5	گونه	گونه	NOUN	N_SING	Number=Sing	6	det	_	Translit=gonh|LTranslit=gonh
+5	گونه	گونه	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=gonh|LTranslit=gonh
 6	فایل	_	NOUN	N_SING	Number=Sing	17	nsubj	_	Translit=faīl
 7	ضمیمه‌ای	_	ADJ	ADJ	Degree=Pos	6	amod	_	Translit=ḑmīmhaī
 8	میل	_	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=mīl
@@ -15924,7 +15924,7 @@
 5	اثر	اثر	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=aþr|LTranslit=aþr
 6	سوخت	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=soxt
 7	و	و	CCONJ	CON	_	9	cc	_	Translit=o|LTranslit=o
-8	سایر	سایر	NOUN	N_SING	Number=Sing	9	det	_	Translit=saīr|LTranslit=saīr
+8	سایر	سایر	NOUN	N_SING	Number=Sing	9	nmod	_	Translit=saīr|LTranslit=saīr
 9	مواد	ماده	NOUN	N_PL	Number=Plur	6	conj	_	Translit=moad|LTranslit=madh
 10	ارگانیک	ارگانیک	ADJ	ADJ	Degree=Pos	9	amod	_	Translit=arganīk|LTranslit=arganīk
 11	همچون	همچون	ADV	ADV_COMP	_	12	case	_	Translit=hmchon|LTranslit=hmchon
@@ -16335,7 +16335,7 @@
 5	سال	سال	NOUN	N_SING	Number=Sing	23	obl	_	Translit=sal|LTranslit=sal
 6	۲۰۰۵	_	NUM	NUM	NumType=Card	5	nummod	_	Translit=2005
 7	میلادی	میلادی	ADJ	ADJ	Degree=Pos	5	amod	_	Translit=mīladī|LTranslit=mīladī
-8	اکثریت	اکثریت	NOUN	N_SING	Number=Sing	12	det	_	Translit=akþrīt|LTranslit=akþrīt
+8	اکثریت	اکثریت	NOUN	N_SING	Number=Sing	12	nmod	_	Translit=akþrīt|LTranslit=akþrīt
 9	نیم	نیم	NOUN	N_SING	Number=Sing	10	advmod	_	Translit=nīm|LTranslit=nīm
 10	میلیون	میلیون	NUM	NUM	NumType=Card	11	nummod	_	Translit=mīlīon|LTranslit=mīlīon
 11	نفر	نفر	NOUN	N_SING	Number=Sing	12	compound	_	Translit=nfr|LTranslit=nfr
@@ -16465,7 +16465,7 @@
 25	بسیار	بسیار	ADV	ADV	_	26	advmod	_	Translit=bsīar|LTranslit=bsīar
 26	کمتر	کم	ADJ	ADJ_CMPR	Degree=Cmp	31	xcomp	_	Translit=kmtr|LTranslit=km
 27	از	از	ADP	P	_	29	case	_	Translit=az|LTranslit=az
-28	سایر	سایر	NOUN	N_SING	Number=Sing	29	det	_	Translit=saīr|LTranslit=saīr
+28	سایر	سایر	NOUN	N_SING	Number=Sing	29	nmod	_	Translit=saīr|LTranslit=saīr
 29	مادران	_	NOUN	N_PL	Number=Plur	26	nmod	_	Translit=madran
 30	باردار	باردار	ADJ	ADJ	Degree=Pos	29	amod	_	Translit=bardar|LTranslit=bardar
 31	دچار	دچار	ADJ	ADJ	Degree=Pos	9	ccomp	_	Translit=dchar|LTranslit=dchar
@@ -17841,7 +17841,7 @@
 3	علت	علت	NOUN	N_SING	Number=Sing	23	obl	_	Translit=ʿlt|LTranslit=ʿlt
 4	تهیهٔ	تهیه	NOUN	N_SING	Number=Sing	23	nsubj	_	Translit=thīhٔ|LTranslit=thīh
 5	یک	یک	NUM	NUM	NumType=Card	7	nummod	_	Translit=īk|LTranslit=īk
-6	سلسله	سلسله	NOUN	N_SING	Number=Sing	7	det	_	Translit=slslh|LTranslit=slslh
+6	سلسله	سلسله	NOUN	N_SING	Number=Sing	7	nmod	_	Translit=slslh|LTranslit=slslh
 7	کتاب	کتاب	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=ktab|LTranslit=ktab
 8	دربارهٔٔ	درباره	ADP	P	_	9	case	_	Translit=drbarhٔٔ|LTranslit=drbarh
 9	تاریخ	تاریخ	NOUN	N_SING	Number=Sing	7	nmod	_	Translit=tarīx|LTranslit=tarīx
