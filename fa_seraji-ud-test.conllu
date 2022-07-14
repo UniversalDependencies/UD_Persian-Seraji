@@ -16425,7 +16425,7 @@
 30	و	و	CCONJ	CON	_	40	cc	_	Translit=o|LTranslit=o
 31	علی‌رغم	علی‌رغم	SCONJ	CON	_	40	mark	_	Translit=ʿlīrghm|LTranslit=ʿlīrghm
 32	نتیجه	نتیجه	NOUN	N_SING	Number=Sing	33	compound:lvc	_	Translit=ntījh|LTranslit=ntījh
-33	نگرفتن	گرفتن	NOUN	N_SING	Number=Sing	31	nmod:poss	_	Translit=ngrftn|LTranslit=grftn
+33	نگرفتن	گرفتن	NOUN	N_SING	Number=Sing	40	nmod:poss	_	Translit=ngrftn|LTranslit=grftn
 34	از	از	ADP	P	_	35	case	_	Translit=az|LTranslit=az
 35	داروهای	دارو	NOUN	N_PL	Number=Plur	33	nmod	_	Translit=darohaī|LTranslit=daro
 36	بی‌ثمر	بی‌ثمر	ADJ	ADJ	Degree=Pos	35	amod	_	Translit=bīþmr|LTranslit=bīþmr
