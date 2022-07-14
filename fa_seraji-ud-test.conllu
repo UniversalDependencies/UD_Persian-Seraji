@@ -4258,7 +4258,7 @@
 4	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	5	aux	_	Translit=baīd|LTranslit=baīst#baīd
 5	پرسید	پرسید#پرس	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	ccomp	_	Translit=prsīd|LTranslit=prsīd#prs
 6	که	که	SCONJ	CON	_	9	mark	_	Translit=kh|LTranslit=kh
-7	چه	چه	ADV	ADV_I	PronType=Int	8	det	_	Translit=chh|LTranslit=chh
+7	چه	چه	DET	ADV_I	PronType=Int	8	det	_	Translit=chh|LTranslit=chh
 8	کسی	کس	NOUN	N_SING	Number=Sing	9	nsubj	_	Translit=ksī|LTranslit=ks
 9	نگران	نگران	ADJ	ADJ	Degree=Pos	5	ccomp	_	Translit=ngran|LTranslit=ngran
 10	عقب‌ماندگی	عقب‌ماندگی	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=ʿqbmandgī|LTranslit=ʿqbmandgī
@@ -8312,7 +8312,7 @@
 37	معجزه	معجزه	NOUN	N_SING	Number=Sing	38	compound:lvc	_	Translit=mʿjzh|LTranslit=mʿjzh
 38	نمی‌کند	کرد#کن	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No|Translit=nmīknd|LTranslit=krd#kn
 39	،	،	PUNCT	DELM	_	42	punct	_	Translit=,|LTranslit=,
-40	چه	چه	ADV	ADV_I	PronType=Int	41	det	_	Translit=chh|LTranslit=chh
+40	چه	چه	DET	ADV_I	PronType=Int	41	det	_	Translit=chh|LTranslit=chh
 41	دلیلی	دلیل	NOUN	N_SING	Number=Sing	42	obj	_	Translit=dlīlī|LTranslit=dlīl
 42	دارد	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	38	conj	_	Translit=dard|LTranslit=dasht#dar
 43	که	که	SCONJ	CON	_	50	mark	_	Translit=kh|LTranslit=kh
@@ -10328,7 +10328,7 @@
 3	ست	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	2	cop	_	Translit=st|LTranslit=ast
 4	این	این	DET	DET	_	5	det	_	Translit=aīn|LTranslit=aīn
 5	پیام	پیام	NOUN	N_SING	Number=Sing	11	nsubj	_	Translit=pīam|LTranslit=pīam
-6	چه	چه	ADV	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
+6	چه	چه	DET	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
 7	تأثیری	تأثیر	NOUN	N_SING	Number=Sing	11	obj	_	Translit=tÁþīrī|LTranslit=tÁþīr
 8	در	در	ADP	P	_	9	case	_	Translit=dr|LTranslit=dr
 9	دیگران	دیگری	PRON	PRO	PronType=Ind	7	nmod	_	Translit=dīgran|LTranslit=dīgrī
@@ -16490,7 +16490,7 @@
 31	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	30	cop	_	Translit=ast|LTranslit=ast
 32	چگونه	چگونه	ADV	ADV_I	PronType=Int	49	advmod	_	Translit=chgonh|LTranslit=chgonh
 33	و	و	CCONJ	CON	_	35	cc	_	Translit=o|LTranslit=o
-34	چه	چه	ADV	ADV_I	PronType=Int	35	det	_	Translit=chh|LTranslit=chh
+34	چه	چه	DET	ADV_I	PronType=Int	35	det	_	Translit=chh|LTranslit=chh
 35	وقت	وقت	NOUN	N_SING	Number=Sing	32	conj	_	Translit=oqt|LTranslit=oqt
 36	به	به	ADP	P	_	39	case	_	Translit=bh|LTranslit=bh
 37	سراغ	سراغ	ADP	P	_	36	fixed	_	Translit=sragh|LTranslit=sragh
@@ -16717,7 +16717,7 @@
 16	خصوص	خصوص	NOUN	N_SING	Number=Sing	33	nmod	_	Translit=xşoş|LTranslit=xşoş
 17	این	این	PRON	PRO	Number=Sing|PronType=Dem	16	nmod:poss	_	Translit=aīn|LTranslit=aīn
 18	که	که	SCONJ	CON	_	31	mark	_	Translit=kh|LTranslit=kh
-19	چه	چه	ADV	ADV_I	PronType=Int	20	det	_	Translit=chh|LTranslit=chh
+19	چه	چه	DET	ADV_I	PronType=Int	20	det	_	Translit=chh|LTranslit=chh
 20	کسی	کس	NOUN	N_SING	Number=Sing	31	nsubj	_	Translit=ksī|LTranslit=ks
 21	ریاست	ریاست	NOUN	N_SING	Number=Sing	31	obj	_	Translit=rīast|LTranslit=rīast
 22	فراکسیون	فراکسیون	NOUN	N_SING	Number=Sing	21	nmod:poss	_	Translit=fraksīon|LTranslit=fraksīon

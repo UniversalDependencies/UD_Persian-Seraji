@@ -1147,7 +1147,7 @@
 3	واقعه‌ای	واقعه	NOUN	N_SING	Number=Sing	9	obl	_	Translit=oaqʿhaī|LTranslit=oaqʿh
 4	جز	جز	ADP	P	_	5	case	_	Translit=jz|LTranslit=jz
 5	براندازان	_	NOUN	N_PL	Number=Plur	9	obl	_	Translit=brandazan
-6	چه	چه	ADV	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
+6	چه	چه	DET	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
 7	کسی	کس	NOUN	N_SING	Number=Sing	9	nsubj	_	Translit=ksī|LTranslit=ks
 8	سود	_	NOUN	N_SING	Number=Sing	9	compound:lvc	_	Translit=sod
 9	می‌برد	برد#بر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Translit=mībrd|LTranslit=brd#br
@@ -1159,7 +1159,7 @@
 1	واقعاً	واقعاً	ADV	ADV	_	2	advmod	_	Translit=oaqʿaan|LTranslit=oaqʿaan
 2	معلوم	معلوم	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mʿlom|LTranslit=mʿlom
 3	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	2	cop	_	Translit=nīst|LTranslit=hst
-4	چه	چه	ADV	ADV_I	PronType=Int	5	det	_	Translit=chh|LTranslit=chh
+4	چه	چه	DET	ADV_I	PronType=Int	5	det	_	Translit=chh|LTranslit=chh
 5	کسانی	کس	NOUN	N_PL	Number=Plur	16	nsubj	_	Translit=ksanī|LTranslit=ks
 6	از	از	ADP	P	_	9	case	_	Translit=az|LTranslit=az
 7	بر	بر	ADP	P	_	8	case	_	Translit=br|LTranslit=br
@@ -1183,7 +1183,7 @@
 3	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	Translit=ma|LTranslit=ma
 4	ریشه	_	NOUN	N_SING	Number=Sing	8	obj	_	Translit=rīshh
 5	در	در	ADP	P	_	7	case	_	Translit=dr|LTranslit=dr
-6	چه	چه	ADV	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
+6	چه	چه	DET	ADV_I	PronType=Int	7	det	_	Translit=chh|LTranslit=chh
 7	چیز	چیز	NOUN	N_SING	Number=Sing	4	nmod	_	Translit=chīz|LTranslit=chīz
 8	دارد	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Translit=dard|LTranslit=dasht#dar
 9	؟	؟	PUNCT	DELM	_	8	punct	_	Translit=?|LTranslit=?
@@ -1240,7 +1240,7 @@
 20	این	این	DET	DET	_	22	det:predet	_	Translit=aīn|LTranslit=aīn
 21	نوع	نوع	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=noʿ|LTranslit=noʿ
 22	حرکت	حرکت	NOUN	N_SING	Number=Sing	25	nmod	_	Translit=hrkt|LTranslit=hrkt
-23	چه	چه	ADV	ADV_I	PronType=Int	24	det	_	Translit=chh|LTranslit=chh
+23	چه	چه	DET	ADV_I	PronType=Int	24	det	_	Translit=chh|LTranslit=chh
 24	منظوری	_	NOUN	N_SING	Number=Sing	25	nsubj	_	Translit=mnz̧orī
 25	دنبال	دنبال	NOUN	N_SING	Number=Sing	17	parataxis	_	Translit=dnbal|LTranslit=dnbal
 26	می‌شود	کرد#کن	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	25	cop	_	SpaceAfter=No|Translit=mīshod|LTranslit=krd#kn
@@ -11617,7 +11617,7 @@
 5	روزنامه	روزنامه	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=roznamh|LTranslit=roznamh
 6	را	را	PART	CLITIC	_	2	case	_	Translit=ra|LTranslit=ra
 7	در	در	ADP	P	_	9	case	_	Translit=dr|LTranslit=dr
-8	چه	چه	ADV	ADV_I	PronType=Int	9	det	_	Translit=chh|LTranslit=chh
+8	چه	چه	DET	ADV_I	PronType=Int	9	det	_	Translit=chh|LTranslit=chh
 9	چیز	چیز	NOUN	N_SING	Number=Sing	12	obl	_	Translit=chīz|LTranslit=chīz
 10	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	12	aux	_	Translit=baīd|LTranslit=baīst#baīd
 11	جستجو	_	NOUN	N_SING	Number=Sing	12	compound:lvc	_	Translit=jstjo
@@ -17630,7 +17630,7 @@
 52	که	که	SCONJ	CON	_	53	mark	_	Translit=kh|LTranslit=kh
 53	وابسته	وابسته	ADJ	ADJ	Degree=Pos	51	ccomp	_	Translit=oabsth|LTranslit=oabsth
 54	به	به	ADP	P	_	56	case	_	Translit=bh|LTranslit=bh
-55	چه	چه	ADV	ADV_I	PronType=Int	56	det	_	Translit=chh|LTranslit=chh
+55	چه	چه	DET	ADV_I	PronType=Int	56	det	_	Translit=chh|LTranslit=chh
 56	سرزمین	سرزمین	NOUN	N_SING	Number=Sing	53	nmod	_	Translit=srzmīn|LTranslit=srzmīn
 57	پر‌معنایی	پر‌معنا	ADJ	ADJ	Degree=Pos	56	amod	_	Translit=prmʿnaīī|LTranslit=prmʿna
 58	هستند	هست	AUX	V_PRS	Number=Plur|Person=3|Tense=Pres	53	cop	_	SpaceAfter=No|Translit=hstnd|LTranslit=hst
@@ -17884,7 +17884,7 @@
 7	که	که	SCONJ	CON	_	14	mark	_	Translit=kh|LTranslit=kh
 8	ایرانسرا	ایرانسرا	NOUN	N_SING	Number=Sing	14	nsubj	_	Translit=aīransra|LTranslit=aīransra
 9	در	در	ADP	P	_	11	case	_	Translit=dr|LTranslit=dr
-10	چه	چه	ADV	ADV_I	PronType=Int	11	det	_	Translit=chh|LTranslit=chh
+10	چه	چه	DET	ADV_I	PronType=Int	11	det	_	Translit=chh|LTranslit=chh
 11	مکانی	_	NOUN	N_SING	Number=Sing	14	obl	_	Translit=mkanī
 12	می‌تواند	توانست#توان	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	14	aux	_	Translit=mītoand|LTranslit=toanst#toan
 13	جای	جا	NOUN	N_SING	Number=Sing	14	compound:lvc	_	Translit=jaī|LTranslit=ja
