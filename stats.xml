@@ -70,7 +70,7 @@
     <dep name="acl">1</dep>
     <dep name="acl:relcl">1424</dep>
     <dep name="advcl">959</dep>
-    <dep name="advmod">4770</dep>
+    <dep name="advmod">3623</dep>
     <dep name="amod">9266</dep>
     <dep name="appos">584</dep>
     <dep name="aux">2287</dep>
@@ -91,7 +91,7 @@
     <dep name="fixed">1678</dep>
     <dep name="flat">3363</dep>
     <dep name="flat:foreign">168</dep>
-    <dep name="mark">4164</dep>
+    <dep name="mark">5311</dep>
     <dep name="nmod">7990</dep>
     <dep name="nmod:poss">17358</dep>
     <dep name="nsubj">8839</dep>
