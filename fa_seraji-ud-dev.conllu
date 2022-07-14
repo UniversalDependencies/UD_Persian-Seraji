@@ -1323,7 +1323,7 @@
 1	دولت	دولت	NOUN	N_SING	Number=Sing	7	nsubj	_	Translit=dolt|LTranslit=dolt
 2	یا	یا	CCONJ	CON	_	3	cc	_	Translit=īa|LTranslit=īa
 3	جبههٔ	جبهه	NOUN	N_SING	Number=Sing	1	conj	_	Translit=jbhhٔ|LTranslit=jbhh
-4	دوم	دوم	ADJ	ADJ	Degree=Pos	5	nummod	_	Translit=dom|LTranslit=dom
+4	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	5	amod	_	Translit=dom|LTranslit=dom
 5	خرداد	خرداد	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 6	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	7	aux	_	Translit=baīd|LTranslit=baīst#baīd
 7	پیش‌قدم	_	NOUN	N_SING	Number=Sing	0	root	_	Translit=pīshqdm
@@ -1744,7 +1744,7 @@
 12	عنوان	عنوان	NOUN	N_SING	Number=Sing	24	obl	_	Translit=ʿnoan|LTranslit=ʿnoan
 13	سخنگوی	سخنگو	NOUN	N_SING	Number=Sing	12	flat	_	Translit=sxngoī|LTranslit=sxngo
 14	جبهه	جبهه	NOUN	N_SING	Number=Sing	13	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-15	دوم	دوم	ADJ	ADJ	Degree=Pos	16	nummod	_	Translit=dom|LTranslit=dom
+15	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	16	amod	_	Translit=dom|LTranslit=dom
 16	خرداد	خرداد	NOUN	N_SING	Number=Sing	14	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 17	هم	هم	SCONJ	CON	_	24	advmod	_	Translit=hm|LTranslit=hm
 18	نسبت	نسبت	ADP	P	_	20	case	_	Translit=nsbt|LTranslit=nsbt
@@ -1765,7 +1765,7 @@
 4	:	:	PUNCT	DELM	_	9	punct	_	Translit=:|LTranslit=:
 5	اعضای	عضو	NOUN	N_PL	Number=Plur	9	nsubj	_	Translit=aʿḑaī|LTranslit=ʿḑo
 6	ستاد	ستاد	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=stad|LTranslit=stad
-7	دوم	دوم	ADJ	ADJ	Degree=Pos	8	nummod	_	Translit=dom|LTranslit=dom
+7	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	8	amod	_	Translit=dom|LTranslit=dom
 8	خرداد	خرداد	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 9-10	معتقدند	_	_	_	_	_	_	_	Translit=mʿtqdnd
 9	معتقد	معتقد	ADJ	ADJ	Degree=Pos	2	ccomp	_	Translit=mʿtqd|LTranslit=mʿtqd
@@ -1795,7 +1795,7 @@
 # text = جبهه دوم خرداد از جناحها می‌خواهد که زمینه‌های تشنج را از بین ببرند.
 # translit = jbhh dom xrdad az jnahha mīxoahd kh zmīnhhaī tshnj ra az bīn bbrnd.
 1	جبهه	جبهه	NOUN	N_SING	Number=Sing	6	nsubj	_	Translit=jbhh|LTranslit=jbhh
-2	دوم	دوم	ADJ	ADJ	Degree=Pos	3	nummod	_	Translit=dom|LTranslit=dom
+2	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	3	amod	_	Translit=dom|LTranslit=dom
 3	خرداد	خرداد	NOUN	N_SING	Number=Sing	1	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 4	از	از	ADP	P	_	5	case	_	Translit=az|LTranslit=az
 5	جناحها	جناح	NOUN	N_PL	Number=Plur	6	obl	_	Translit=jnahha|LTranslit=jnah
@@ -1851,7 +1851,7 @@
 20	عنوان	عنوان	NOUN	N_SING	Number=Sing	30	obl	_	Translit=ʿnoan|LTranslit=ʿnoan
 21	سخنگوی	سخنگو	NOUN	N_SING	Number=Sing	20	flat	_	Translit=sxngoī|LTranslit=sxngo
 22	جبهه	جبهه	NOUN	N_SING	Number=Sing	21	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-23	دوم	دوم	ADJ	ADJ	Degree=Pos	24	nummod	_	Translit=dom|LTranslit=dom
+23	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	24	amod	_	Translit=dom|LTranslit=dom
 24	خرداد	خرداد	NOUN	N_SING	Number=Sing	22	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 25	خیلی	خیلی	ADV	ADV	_	26	advmod	_	Translit=xīlī|LTranslit=xīlī
 26	پررنگ	پررنگ	ADJ	ADJ	Degree=Pos	30	xcomp	_	Translit=prrng|LTranslit=prrng
@@ -1884,7 +1884,7 @@
 18	رهبری	رهبر	NOUN	N_SING	Number=Sing	16	nmod:poss	_	Translit=rhbrī|LTranslit=rhbr
 19	از	از	ADP	P	_	20	case	_	Translit=az|LTranslit=az
 20	جبهه	جبهه	NOUN	N_SING	Number=Sing	15	nmod	_	Translit=jbhh|LTranslit=jbhh
-21	دوم	دوم	ADJ	ADJ	Degree=Pos	22	nummod	_	Translit=dom|LTranslit=dom
+21	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	22	amod	_	Translit=dom|LTranslit=dom
 22	خرداد	خرداد	NOUN	N_SING	Number=Sing	20	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 23	پاسخ	پاسخ	NOUN	N_SING	Number=Sing	24	compound:lvc	_	Translit=pasx|LTranslit=pasx
 24	می‌دهد	داد#ده	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	11	conj	_	SpaceAfter=No|Translit=mīdhd|LTranslit=dad#dh
@@ -1900,7 +1900,7 @@
 5	دیدار	دیدار	NOUN	N_SING	Number=Sing	10	obl	_	Translit=dīdar|LTranslit=dīdar
 6	نمایندگان	نماینده	NOUN	N_PL	Number=Plur	5	nmod:poss	_	Translit=nmaīndgan|LTranslit=nmaīndh
 7	جبهه	جبهه	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-8	دوم	دوم	ADJ	ADJ	Degree=Pos	9	nummod	_	Translit=dom|LTranslit=dom
+8	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	9	amod	_	Translit=dom|LTranslit=dom
 9	خرداد	خرداد	NOUN	N_SING	Number=Sing	7	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 10	فرمودند	_	VERB	V_PA	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=frmodnd
 11	:	:	PUNCT	DELM	_	15	punct	_	Translit=:|LTranslit=:
@@ -1956,7 +1956,7 @@
 2	موضع‌گیری‌های	موضع‌گیری	NOUN	N_PL	Number=Plur	27	nmod	_	Translit=moḑʿgīrīhaī|LTranslit=moḑʿgīrī
 3	سخنگوی	سخنگو	NOUN	N_SING	Number=Sing	2	nmod:poss	_	Translit=sxngoī|LTranslit=sxngo
 4	جبهه	جبهه	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-5	دوم	دوم	ADJ	ADJ	Degree=Pos	6	nummod	_	Translit=dom|LTranslit=dom
+5	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	6	amod	_	Translit=dom|LTranslit=dom
 6	خرداد	خرداد	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 7	همیشه	همیشه	ADV	ADV_TIME	Case=Tem	27	advmod	_	Translit=hmīshh|LTranslit=hmīshh
 8	جایگاه	جایگاه	NOUN	N_SING	Number=Sing	27	nsubj	_	Translit=jaīgah|LTranslit=jaīgah
@@ -2240,7 +2240,7 @@
 22	جناح	جناح	NOUN	N_SING	Number=Sing	28	nmod	_	Translit=jnah|LTranslit=jnah
 23	رقیب	رقیب	NOUN	N_SING	Number=Sing	22	nmod:poss	_	Translit=rqīb|LTranslit=rqīb
 24	جبههٔ	جبهه	NOUN	N_SING	Number=Sing	22	nmod:poss	_	Translit=jbhhٔ|LTranslit=jbhh
-25	دوم	دوم	ADJ	ADJ	Degree=Pos	26	nummod	_	Translit=dom|LTranslit=dom
+25	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	26	amod	_	Translit=dom|LTranslit=dom
 26	خرداد	خرداد	NOUN	N_SING	Number=Sing	24	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 27	کاملاً	کاملاً	ADV	ADV	_	28	advmod	_	Translit=kamlaan|LTranslit=kamlaan
 28	وابسته	وابسته	ADJ	ADJ	Degree=Pos	19	ccomp	_	Translit=oabsth|LTranslit=oabsth
@@ -2601,7 +2601,7 @@
 33	را	را	PART	CLITIC	_	32	case	_	Translit=ra|LTranslit=ra
 34	از	از	ADP	P	_	35	case	_	Translit=az|LTranslit=az
 35	جبهه	جبهه	NOUN	N_SING	Number=Sing	39	obl	_	Translit=jbhh|LTranslit=jbhh
-36	دوم	دوم	ADJ	ADJ	Degree=Pos	37	nummod	_	Translit=dom|LTranslit=dom
+36	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	37	amod	_	Translit=dom|LTranslit=dom
 37	خرداد	خرداد	NOUN	N_SING	Number=Sing	35	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 38	خارج	خارج	NOUN	N_SING	Number=Sing	39	compound:lvc	_	Translit=xarj|LTranslit=xarj
 39	کنند	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	24	ccomp	_	Translit=knnd|LTranslit=krd#kn
@@ -2658,7 +2658,7 @@
 13	اولین	_	ADJ	ADJ_SUP	Degree=Sup	14	amod	_	Translit=aolīn
 14	اطلاعیه	اطلاعیه	NOUN	N_SING	Number=Sing	22	nsubj	_	Translit=aţlaʿīh|LTranslit=aţlaʿīh
 15	جبهه	جبهه	NOUN	N_SING	Number=Sing	14	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-16	دوم	دوم	ADJ	ADJ	Degree=Pos	17	nummod	_	Translit=dom|LTranslit=dom
+16	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	17	amod	_	Translit=dom|LTranslit=dom
 17	خرداد	خرداد	NOUN	N_SING	Number=Sing	15	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 18	در	در	ADP	P	_	19	case	_	Translit=dr|LTranslit=dr
 19	اعتراض	اعتراض	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=aʿtraḑ|LTranslit=aʿtraḑ
@@ -2732,7 +2732,7 @@
 25	کنار	کنار	ADP	P	_	24	fixed	_	Translit=knar|LTranslit=knar
 26	اطلاعیه‌های	اطلاعیه	NOUN	N_PL	Number=Plur	31	obl	_	Translit=aţlaʿīhhaī|LTranslit=aţlaʿīh
 27	جبهه	جبهه	NOUN	N_SING	Number=Sing	26	nmod:poss	_	Translit=jbhh|LTranslit=jbhh
-28	دوم	دوم	ADJ	ADJ	Degree=Pos	29	nummod	_	Translit=dom|LTranslit=dom
+28	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	29	amod	_	Translit=dom|LTranslit=dom
 29	خرداد	خرداد	NOUN	N_SING	Number=Sing	27	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 30	رسمیت	رسمیت	NOUN	N_SING	Number=Sing	31	compound:lvc	_	Translit=rsmīt|LTranslit=rsmīt
 31	دارد	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	8	ccomp	_	SpaceAfter=No|Translit=dard|LTranslit=dasht#dar
@@ -11412,7 +11412,7 @@
 27	مرداد	مرداد	NOUN	N_SING	Number=Sing	25	nmod:poss	_	Translit=mrdad|LTranslit=mrdad
 28	ماه	ماه	NOUN	N_SING	Number=Sing	27	fixed	_	Translit=mah|LTranslit=mah
 29	تا	تا	ADP	P	_	31	case	_	Translit=ta|LTranslit=ta
-30	سوم	سوم	ADJ	ADJ	Degree=Pos	31	nummod	_	Translit=som|LTranslit=som
+30	سوم	سوم	ADJ	ADJ	Degree=Pos|NumType=Ord	31	amod	_	Translit=som|LTranslit=som
 31	شهریور	_	NOUN	N_SING	Number=Sing	37	nmod	_	Translit=shhrīor
 32	ماه	ماه	NOUN	N_SING	Number=Sing	31	fixed	_	Translit=mah|LTranslit=mah
 33	سال	سال	NOUN	N_SING	Number=Sing	31	nmod:poss	_	Translit=sal|LTranslit=sal
@@ -11507,7 +11507,7 @@
 14	ماندن	ماندن	NOUN	N_SING	Number=Sing	8	ccomp	_	Translit=mandn|LTranslit=mandn
 15	در	در	ADP	P	_	16	case	_	Translit=dr|LTranslit=dr
 16	جبهه	جبهه	NOUN	N_SING	Number=Sing	14	nmod	_	Translit=jbhh|LTranslit=jbhh
-17	دوم	دوم	ADJ	ADJ	Degree=Pos	18	nummod	_	Translit=dom|LTranslit=dom
+17	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	18	amod	_	Translit=dom|LTranslit=dom
 18	خرداد	خرداد	NOUN	N_SING	Number=Sing	16	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 19	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	14	cop	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 20	.	.	PUNCT	DELM	_	8	punct	_	Translit=.|LTranslit=.
@@ -11808,7 +11808,7 @@
 32	در	در	ADP	P	_	34	case	_	Translit=dr|LTranslit=dr
 33	کنار	کنار	ADP	P	_	32	fixed	_	Translit=knar|LTranslit=knar
 34	مجموعه	مجموعه	NOUN	N_SING	Number=Sing	37	obl	_	Translit=mjmoʿh|LTranslit=mjmoʿh
-35	دوم	دوم	ADJ	ADJ	Degree=Pos	36	nummod	_	Translit=dom|LTranslit=dom
+35	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	36	amod	_	Translit=dom|LTranslit=dom
 36	خرداد	خرداد	NOUN	N_SING	Number=Sing	34	nmod:poss	_	Translit=xrdad|LTranslit=xrdad
 37	بمانند	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	30	ccomp	_	SpaceAfter=No|Translit=bmannd
 38	.	.	PUNCT	DELM	_	19	punct	_	Translit=.|LTranslit=.

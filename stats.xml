@@ -32,7 +32,7 @@
     <tag name="X">254</tag><!-- _, بن, ابن, و, من, الله, علی, احنف, فی, ابی -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="30">
+  <feats unique="31">
     <feat name="Case" value="Loc" upos="ADV">167</feat><!-- بالا, اینجا, آنجا, پیش, بیرون, پایین, آن‌جا, زیر -->
     <feat name="Case" value="Tem" upos="ADV">941</feat><!-- بعد, پس, پیش, حالا, امروز, قبل, اکنون, کنون, همیشه, دیروز -->
     <feat name="Case" value="Voc" upos="NOUN">4</feat><!-- پروردگارا, الهی, حافظا -->
@@ -44,6 +44,7 @@
     <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">14117</feat><!-- ما, آن‌ها, کنند, می‌کنند, دارند, هستند, بودند, کردند, شان, شما -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,VERB">66165</feat><!-- است, خود, بود, آن, او, کرد, این, شد, گفت, شده -->
     <feat name="NumType" value="Card" upos="NUM">3409</feat><!-- یک, دو, یکی, هزار, سه, میلیون, ۲, چهار, ۵, ۳ -->
+    <feat name="NumType" value="Ord" upos="ADJ">79</feat><!-- دوم, هفتم, اول, سوم, شانزدهم, هشتم, پنجمین, چهاردهم -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2389</feat><!-- ما, من, م, می‌کنم, کنیم, مان, کردیم, کنم, کردم, دارم -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1031</feat><!-- تو, شما, ت, کنید, کن, تان, گو, ات, بگو, دارید -->
     <feat name="Person" value="3" upos="ADJ,AUX,PRON,VERB">17659</feat><!-- است, خود, بود, او, کرد, شد, گفت, شده, می‌شود, ش -->
@@ -70,7 +71,7 @@
     <dep name="acl:relcl">1424</dep>
     <dep name="advcl">959</dep>
     <dep name="advmod">4770</dep>
-    <dep name="amod">9187</dep>
+    <dep name="amod">9266</dep>
     <dep name="appos">584</dep>
     <dep name="aux">2287</dep>
     <dep name="aux:pass">217</dep>
@@ -96,7 +97,7 @@
     <dep name="nsubj">8839</dep>
     <dep name="nsubj:nc">22</dep>
     <dep name="nsubj:pass">149</dep>
-    <dep name="nummod">2875</dep>
+    <dep name="nummod">2796</dep>
     <dep name="obj">3870</dep>
     <dep name="obl">8113</dep>
     <dep name="parataxis">208</dep>
