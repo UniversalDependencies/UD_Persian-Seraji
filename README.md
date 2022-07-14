@@ -5,7 +5,14 @@ The conversion of the UPDT to the Universal Dependencies was performed semi-auto
 
 # Introduction
 
-The Persian Universal Dependency Treebank (Persian UD) is the converted version of the <a href="https://sites.google.com/site/mojganserajicom/home/updt "> Uppsala Persian Dependency Treebank (UPDT)</a> (Seraji, 2015). The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006; de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations that could not be covered by the primary scheme developed for English. The treebank consists of ca 6000 annotated and validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper articles, fictions, technical descriptions, and documents about culture and art) and tokenization. The variations in the tokenization are due to the orthographic variations of compound words and fixed expressions in the language.
+The Persian Universal Dependency Treebank (Persian UD) is the converted version of the
+[Uppsala Persian Dependency Treebank (UPDT)](https://sites.google.com/site/mojganserajicom/home/updt) (Seraji, 2015).
+The treebank has its original annotation scheme based on Stanford Typed Dependencies (de Marneffe et al., 2006;
+de Marneffe and Manning, 2008). The scheme was extended for Persian to include the language specific syntactic relations
+that could not be covered by the primary scheme developed for English. The treebank consists of ca 6000 annotated and
+validated sentences of written texts with large domain variations, in terms of different genres (containing newspaper
+articles, fiction, technical descriptions, and documents about culture and art) and tokenization. The variations in
+the tokenization are due to the orthographic variations of compound words and fixed expressions in the language.
 
 Apart from the universal annotation scheme and the general rules in the UD, the Persian UD and the UPDT differ further in tokenization. All words containing unsegmented clitics (pronominal and copula clitics) annotated with complex labels in the UPDT have been separated from the clitics and received distinct labels in the Persian UD.
 
