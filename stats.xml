@@ -18,7 +18,7 @@
     <tag name="ADJ">13674</tag><!-- _, دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند -->
     <tag name="ADP">17415</tag><!-- در, به, از, با, برای, بر, تا, درباره, مورد, رو -->
     <tag name="ADV">3885</tag><!-- _, پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل -->
-    <tag name="AUX">4737</tag><!-- است, بود, خواست, بایست, توانست, _, توان, گشت, داشت, گردید -->
+    <tag name="AUX">4960</tag><!-- است, بود, خواست, بایست, کرد, توانست, _, توان, گشت, داشت -->
     <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, _ -->
     <tag name="DET">3759</tag><!-- این, آن, هر, هیچ, همان, همین, چه, تمام, برخی, همه -->
     <tag name="INTJ">69</tag><!-- ای, _, بله, خیر, آری, هی, نه, خب, فر, هیچ -->
@@ -28,7 +28,7 @@
     <tag name="PRON">5807</tag><!-- آن, او, خود, این, من, ما, وی, تو, همه, شما -->
     <tag name="PUNCT">13442</tag><!-- ., ،, :, ؛, ؟, (, ), !, -, … -->
     <tag name="SCONJ">5160</tag><!-- که, هم, نیز, اگر, تا, یعنی, وقتی, چون, آیا, همچنین -->
-    <tag name="VERB">12943</tag><!-- کرد, _, داشت, گفت, هست, داد, گرفت, آمد, بود, است -->
+    <tag name="VERB">12720</tag><!-- کرد, _, داشت, گفت, هست, داد, گرفت, آمد, بود, است -->
     <tag name="X">254</tag><!-- _, بن, ابن, و, من, الله, علی, احنف, فی, ابی -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -62,7 +62,7 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">5275</feat><!-- بود, کرد, شد, گفت, داشت, بودند, کردند, داد, افزود, گرفت -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">9152</feat><!-- است, می‌شود, دارد, می‌کند, کنند, باشد, نیست, کند, می‌کنند, دارند -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">346</feat><!-- خواهد, خواهند, نخواهد, بتواند, دارد, بتوانند, داریم, دارند, خواهم, دارم -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">335</feat><!-- باید, نباید, بایستی, می‌باید, می‌بایست, بباید, می‌شود, نبایستی, نمی‌باید, نمی‌بایست -->
+    <feat name="VerbForm" value="Inf" upos="AUX">335</feat><!-- باید, نباید, بایستی, می‌باید, می‌بایست, بباید, می‌شود, نبایستی, نمی‌باید, نمی‌بایست -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">2595</feat><!-- شده, کرده, داشته, بوده, گرفته, داده, آمده, کرده‌اند, نوشته, ساخته -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -79,7 +79,7 @@
     <dep name="cc">7654</dep>
     <dep name="cc:preconj">48</dep>
     <dep name="ccomp">4113</dep>
-    <dep name="compound">1953</dep>
+    <dep name="compound">1951</dep>
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
     <dep name="conj">8767</dep>
@@ -105,6 +105,6 @@
     <dep name="punct">13442</dep>
     <dep name="root">5997</dep>
     <dep name="vocative">66</dep>
-    <dep name="xcomp">990</dep>
+    <dep name="xcomp">992</dep>
   </deps>
 </treebank>
