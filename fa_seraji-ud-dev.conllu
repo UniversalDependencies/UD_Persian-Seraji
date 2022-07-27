@@ -4645,7 +4645,7 @@
 6	راه	راه	NOUN	N_SING	Number=Sing	8	nmod	_	Translit=rah|LTranslit=rah
 7	راست	راست	ADJ	ADJ	Degree=Pos	6	amod	_	Translit=rast|LTranslit=rast
 8	خارج	خارج	NOUN	N_SING	Number=Sing	2	acl:relcl	_	Translit=xarj|LTranslit=xarj
-9	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	8	cop	_	Translit=shdhand|LTranslit=krd
+9	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	8	compound	_	Translit=shdhand|LTranslit=krd
 10	بر	بر	ADP	P	_	11	case	_	Translit=br|LTranslit=br
 11	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	15	obl	_	Translit=mn|LTranslit=mn
 12	دروغ	_	NOUN	N_SING	Number=Sing	15	obj	_	Translit=drogh
@@ -8504,7 +8504,7 @@
 9	خواستار	خواستار	NOUN	N_SING	Number=Sing	0	root	_	Translit=xoastar|LTranslit=xoastar
 10	خرید	خرید	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=xrīd|LTranslit=xrīd
 11	فیلم	فیلم	NOUN	N_SING	Number=Sing	10	nmod:poss	_	Translit=fīlm|LTranslit=fīlm
-12	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	9	cop	_	Translit=shdhand|LTranslit=krd
+12	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	9	compound	_	Translit=shdhand|LTranslit=krd
 13	که	که	SCONJ	CON	_	40	mark	_	Translit=kh|LTranslit=kh
 14	در	در	ADP	P	_	16	case	_	Translit=dr|LTranslit=dr
 15	این	این	DET	DET	_	16	det	_	Translit=aīn|LTranslit=aīn
@@ -15653,7 +15653,7 @@
 19	رده	رده	NOUN	N_SING	Number=Sing	18	nmod:poss	_	Translit=rdh|LTranslit=rdh
 20	اول	اول	ADJ	ADJ	Degree=Pos	19	amod	_	Translit=aol|LTranslit=aol
 21	درمان	درمان	NOUN	N_SING	Number=Sing	14	acl:relcl	_	Translit=drman|LTranslit=drman
-22	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	21	cop	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
+22	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	21	compound	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
 23	،	،	PUNCT	DELM	_	14	punct	_	Translit=,|LTranslit=,
 24	مقاوم	مقاوم	ADJ	ADJ	Degree=Pos	9	ccomp	_	Translit=mqaom|LTranslit=mqaom
 25	می‌شود	کرد	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	24	compound	_	OrigLemma=کرد#کن|SpaceAfter=No|Translit=mīshod|LTranslit=krd

@@ -5726,7 +5726,7 @@
 30	گرفته	گرفت#گیر	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	28	amod	_	SpaceAfter=No|Translit=grfth|LTranslit=grft#gīr
 31	،	،	PUNCT	DELM	_	23	punct	_	Translit=,|LTranslit=,
 32	تبراه	تبرئه	NOUN	N_SING	Number=Sing	6	ccomp	_	Translit=tbrah|LTranslit=tbrh
-33	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	32	cop	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
+33	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	32	compound	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
 34	.	.	PUNCT	DELM	_	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s181
@@ -15739,7 +15739,7 @@
 23	با	با	ADP	P	_	24	case	_	Translit=ba|LTranslit=ba
 24	پلیس	پلیس	NOUN	N_SING	Number=Sing	22	nmod	_	Translit=plīs|LTranslit=plīs
 25	مجروح	مجروح	ADJ	ADJ	Degree=Pos	15	conj	_	Translit=mjroh|LTranslit=mjroh
-26	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	15	cop	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
+26	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	15	compound	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
 27	.	.	PUNCT	DELM	_	15	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s523
@@ -16132,7 +16132,7 @@
 14	این	این	DET	DET	_	15	det	_	Translit=aīn|LTranslit=aīn
 15	حادثه	حادثه	NOUN	N_SING	Number=Sing	16	nmod	_	Translit=hadþh|LTranslit=hadþh
 16	مجروح	مجروح	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mjroh|LTranslit=mjroh
-17	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	16	cop	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
+17	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	16	compound	_	SpaceAfter=No|Translit=shdhand|LTranslit=krd
 18	.	.	PUNCT	DELM	_	16	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s539
@@ -16598,7 +16598,7 @@
 25	این	این	DET	DET	_	26	det	_	Translit=aīn|LTranslit=aīn
 26	جلسه	جلسه	NOUN	N_SING	Number=Sing	27	nmod	_	Translit=jlsh|LTranslit=jlsh
 27	دعوت	دعوت	NOUN	N_SING	Number=Sing	15	ccomp	_	Translit=dʿot|LTranslit=dʿot
-28	شده‌اند	کرد	AUX	V_PP	Number=Plur|Person=3|VerbForm=Part	27	cop	_	Translit=shdhand|LTranslit=krd
+28	شده‌اند	کرد	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	27	compound	_	Translit=shdhand|LTranslit=krd
 29	و	و	CCONJ	CON	_	36	cc	_	Translit=o|LTranslit=o
 30	از	از	ADP	P	_	31	case	_	Translit=az|LTranslit=az
 31	دوم‌خردادی‌ها	دوم‌خردادی	NOUN	N_PL	Number=Plur	34	nmod	_	Translit=domxrdadīha|LTranslit=domxrdadī
