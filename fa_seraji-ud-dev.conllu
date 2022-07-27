@@ -4341,7 +4341,7 @@
 14	مطالب	مطلب	NOUN	N_PL	Number=Plur	16	obl	_	Translit=mţalb|LTranslit=mţlb
 15	گرایش	گرایش	NOUN	N_SING	Number=Sing	16	compound:lvc	_	Translit=graīsh|LTranslit=graīsh
 16	داشته	داشت	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	10	ccomp	_	OrigLemma=داشت#دار|Translit=dashth|LTranslit=dasht
-17	باشی	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	16	aux	_	SpaceAfter=No|Translit=bashī
+17	باشی	بود	AUX	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	16	aux	_	SpaceAfter=No|Translit=bashī|LTranslit=bod
 18	.	.	PUNCT	DELM	_	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s147
