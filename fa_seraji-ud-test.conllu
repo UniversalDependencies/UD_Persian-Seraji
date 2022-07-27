@@ -7860,7 +7860,7 @@
 21	به	به	ADP	P	_	22	case	_	Translit=bh|LTranslit=bh
 22	جناح	جناح	NOUN	N_SING	Number=Sing	20	nmod	_	Translit=jnah|LTranslit=jnah
 23	راست	راست	ADJ	ADJ	Degree=Pos	22	amod	_	Translit=rast|LTranslit=rast
-24	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	12	cop	_	OrigLemma=گردید#گرد|Translit=grdīd|LTranslit=grdīd
+24	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	12	aux:pass	_	OrigLemma=گردید#گرد|Translit=grdīd|LTranslit=grdīd
 25	و	و	CCONJ	CON	_	38	cc	_	Translit=o|LTranslit=o
 26	آنان	آن	PRON	PRO	Number=Plur|PronType=Dem	38	obj	_	Translit=Ānan|LTranslit=Ān
 27	را	را	PART	CLITIC	_	26	case	_	Translit=ra|LTranslit=ra
@@ -9486,7 +9486,7 @@
 17	،	،	PUNCT	DELM	_	15	punct	_	Translit=,|LTranslit=,
 18	وجدانها	وجدان	NOUN	N_PL	Number=Plur	19	nsubj	_	Translit=ojdanha|LTranslit=ojdan
 19	زندانی	زندانی	ADJ	ADJ	Degree=Pos	11	ccomp	_	Translit=zndanī|LTranslit=zndanī
-20	گردیدند	گردید	AUX	V_PA	Number=Plur|Person=3|Tense=Past	19	cop	_	OrigLemma=گردید#گرد|Translit=grdīdnd|LTranslit=grdīd
+20	گردیدند	گردید	AUX	V_PA	Number=Plur|Person=3|Tense=Past	19	aux:pass	_	OrigLemma=گردید#گرد|Translit=grdīdnd|LTranslit=grdīd
 21	و	و	CCONJ	CON	_	23	cc	_	Translit=o|LTranslit=o
 22	زبانها	زبان	NOUN	N_PL	Number=Plur	23	nsubj	_	Translit=zbanha|LTranslit=zban
 23	حبس	حبس	NOUN	N_SING	Number=Sing	19	conj	_	Translit=hbs|LTranslit=hbs
@@ -11873,7 +11873,7 @@
 33	صورت	صورت	NOUN	N_SING	Number=Sing	35	nmod	_	Translit=şort|LTranslit=şort
 34	سخنرانی	سخنرانی	NOUN	N_SING	Number=Sing	33	nmod:poss	_	Translit=sxnranī|LTranslit=sxnranī
 35	ارائه	ارائه	NOUN	N_SING	Number=Sing	0	root	_	Translit=arah|LTranslit=arah
-36	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	35	cop	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=grdīd|LTranslit=grdīd
+36	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	35	aux:pass	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=grdīd|LTranslit=grdīd
 37	.	.	PUNCT	DELM	_	35	punct	_	Translit=.|LTranslit=.
 
 # sent_id = test-s400

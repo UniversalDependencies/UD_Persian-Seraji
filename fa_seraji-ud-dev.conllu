@@ -2653,7 +2653,7 @@
 8	سری	سری	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=srī|LTranslit=srī
 9	اول	اول	ADJ	ADJ	Degree=Pos	8	amod	_	Translit=aol|LTranslit=aol
 10	توقیف	توقیف	NOUN	N_SING	Number=Sing	31	advcl	_	Translit=toqīf|LTranslit=toqīf
-11	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	10	cop	_	OrigLemma=گردید#گرد|Translit=grdīd|LTranslit=grdīd
+11	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	10	aux:pass	_	OrigLemma=گردید#گرد|Translit=grdīd|LTranslit=grdīd
 12	و	و	CCONJ	CON	_	10	cc	_	Translit=o|LTranslit=o
 13	اولین	_	ADJ	ADJ_SUP	Degree=Sup	14	amod	_	Translit=aolīn
 14	اطلاعیه	اطلاعیه	NOUN	N_SING	Number=Sing	22	nsubj	_	Translit=aţlaʿīh|LTranslit=aţlaʿīh
@@ -10363,7 +10363,7 @@
 22	شدن	شدن	NOUN	N_SING	Number=Sing	19	nmod	_	Translit=shdn|LTranslit=shdn
 23	۲۱۷	_	NUM	NUM	NumType=Card	24	nummod	_	Translit=217
 24	تن	تن	NOUN	N_SING	Number=Sing	22	nmod:poss	_	Translit=tn|LTranslit=tn
-25	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	19	cop	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=grdīd|LTranslit=grdīd
+25	گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	19	aux:pass	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=grdīd|LTranslit=grdīd
 26	،	،	PUNCT	DELM	_	14	punct	_	Translit=,|LTranslit=,
 27	برندارد	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	ccomp	_	SpaceAfter=No|Translit=brndard
 28	.	.	PUNCT	DELM	_	5	punct	_	Translit=.|LTranslit=.
@@ -18117,7 +18117,7 @@
 10	ربع	_	NUM	NUM	NumType=Card	11	nummod	_	Translit=rbʿ
 11	نیشابور	نیشابور	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=nīshabor|LTranslit=nīshabor
 12	محسوب	محسوب	ADJ	ADJ	Degree=Pos	2	ccomp	_	Translit=mhsob|LTranslit=mhsob
-13	می‌گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	12	cop	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=mīgrdīd|LTranslit=grdīd
+13	می‌گردید	گردید	AUX	V_PA	Number=Sing|Person=3|Tense=Past	12	aux:pass	_	OrigLemma=گردید#گرد|SpaceAfter=No|Translit=mīgrdīd|LTranslit=grdīd
 14	.	.	PUNCT	DELM	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s594
