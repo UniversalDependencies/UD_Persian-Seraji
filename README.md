@@ -54,7 +54,7 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 # CHANGELOG
 
-* From v2.8 to v2.11, fixed some other validation errors.
+* From v2.8 to v2.11, fixed some other validation errors. Removed # from verbal lemmas. Kept the first (i.e., past) stem.
 * From v2.2 to v2.8, fixed non-projective punctuation with Udapi ud.FixPunct.
 * From v2.1 to v2.2, repository renamed from UD_Persian to UD_Persian-Seraji.
 * From v1.3 to v1.4, a number of annotation errors are fixed. More lemmas are added.
