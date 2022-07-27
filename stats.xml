@@ -74,7 +74,7 @@
     <dep name="amod">9272</dep>
     <dep name="appos">584</dep>
     <dep name="aux">2287</dep>
-    <dep name="aux:pass">217</dep>
+    <dep name="aux:pass">259</dep>
     <dep name="case">19241</dep>
     <dep name="cc">7654</dep>
     <dep name="cc:preconj">48</dep>
@@ -83,7 +83,7 @@
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
     <dep name="conj">8767</dep>
-    <dep name="cop">2562</dep>
+    <dep name="cop">2520</dep>
     <dep name="dep">380</dep>
     <dep name="det">3810</dep>
     <dep name="det:predet">52</dep>

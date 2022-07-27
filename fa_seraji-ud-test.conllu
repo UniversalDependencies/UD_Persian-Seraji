@@ -696,7 +696,7 @@
 8	از	از	ADP	P	_	9	case	_	Translit=az|LTranslit=az
 9	ادب	ادب	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=adb|LTranslit=adb
 10	فارسی	فارسی	NOUN	N_SING	Number=Sing	9	nmod:poss	_	Translit=farsī|LTranslit=farsī
-11	می‌گردد	گشت#گرد	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	6	cop	_	Translit=mīgrdd|LTranslit=gsht#grd
+11	می‌گردد	گشت#گرد	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	6	aux:pass	_	Translit=mīgrdd|LTranslit=gsht#grd
 12	-	-	PUNCT	DELM	_	14	punct	_	Translit=-|LTranslit=-
 13	و	و	CCONJ	CON	_	14	cc	_	Translit=o|LTranslit=o
 14	کسانی	کس	NOUN	N_PL	Number=Plur	3	conj	_	Translit=ksanī|LTranslit=ks
@@ -823,7 +823,7 @@
 8	،	،	PUNCT	DELM	_	10	punct	_	Translit=,|LTranslit=,
 9	همی	همی	ADV	ADV	_	10	advmod	_	Translit=hmī|LTranslit=hmī
 10	شاد	شاد	ADJ	ADJ	Degree=Pos	1	ccomp	_	Translit=shad|LTranslit=shad
-11	گردد	گشت#گرد	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	10	cop	_	Translit=grdd|LTranslit=gsht#grd
+11	گردد	گشت#گرد	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	10	aux:pass	_	Translit=grdd|LTranslit=gsht#grd
 12	ز	از	ADP	P	_	13	case	_	Translit=z|LTranslit=az
 13-14	بویش	_	_	_	_	_	_	_	Translit=boīsh
 13	بوی	بو	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=boī|LTranslit=bo
@@ -7888,7 +7888,7 @@
 6	سطح	سطح	NOUN	N_SING	Number=Sing	8	nmod	_	Translit=sţh|LTranslit=sţh
 7	جامعه	جامعه	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=jamʿh|LTranslit=jamʿh
 8	منتشر	منتشر	ADJ	ADJ	Degree=Pos	2	acl:relcl	_	Translit=mntshr|LTranslit=mntshr
-9	گردیده	گشت#گرد	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	8	cop	_	Translit=grdīdh|LTranslit=gsht#grd
+9	گردیده	گشت#گرد	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	8	aux:pass	_	Translit=grdīdh|LTranslit=gsht#grd
 10	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No|Translit=ast|LTranslit=ast
 11	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 12	مأید	مأید	NOUN	N_SING	Number=Sing	0	root	_	Translit=mÁīd|LTranslit=mÁīd
@@ -16331,7 +16331,7 @@
 36	با	با	ADP	P	_	37	case	_	Translit=ba|LTranslit=ba
 37	شرایط	شرایط	NOUN	N_PL	Number=Plur	35	nmod	_	Translit=shraīţ|LTranslit=shraīţ
 38	اتخاذ	اتخاذ	NOUN	N_SING	Number=Sing	30	conj	_	Translit=atxað|LTranslit=atxað
-39	گردد	گشت#گرد	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	38	cop	_	SpaceAfter=No|Translit=grdd|LTranslit=gsht#grd
+39	گردد	گشت#گرد	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	38	aux:pass	_	SpaceAfter=No|Translit=grdd|LTranslit=gsht#grd
 40	؟	؟	PUNCT	DELM	_	4	punct	_	Translit=?|LTranslit=?
 
 # sent_id = test-s545
