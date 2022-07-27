@@ -18,7 +18,7 @@
     <tag name="ADJ">13674</tag><!-- _, دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند -->
     <tag name="ADP">17415</tag><!-- در, به, از, با, برای, بر, تا, درباره, مورد, رو -->
     <tag name="ADV">3885</tag><!-- _, پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل -->
-    <tag name="AUX">3272</tag><!-- است, بود, بایست, خواست, _, توان, گشت, داشت, توانست, گردید -->
+    <tag name="AUX">3265</tag><!-- است, بود, بایست, خواست, _, توان, گشت, داشت, توانست, گردید -->
     <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, _ -->
     <tag name="DET">3759</tag><!-- این, آن, هر, هیچ, همان, همین, چه, تمام, برخی, همه -->
     <tag name="INTJ">69</tag><!-- ای, _, بله, خیر, آری, هی, نه, خب, فر, هیچ -->
@@ -28,7 +28,7 @@
     <tag name="PRON">5807</tag><!-- آن, او, خود, این, من, ما, وی, تو, همه, شما -->
     <tag name="PUNCT">13442</tag><!-- ., ،, :, ؛, ؟, (, ), !, -, … -->
     <tag name="SCONJ">5160</tag><!-- که, هم, نیز, اگر, تا, یعنی, وقتی, چون, آیا, همچنین -->
-    <tag name="VERB">14408</tag><!-- کرد, _, داشت, است, گفت, هست, داد, بود, گرفت, آمد -->
+    <tag name="VERB">14415</tag><!-- کرد, _, داشت, است, گفت, هست, داد, بود, گرفت, آمد -->
     <tag name="X">254</tag><!-- _, بن, ابن, و, من, الله, علی, احنف, فی, ابی -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -83,7 +83,7 @@
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
     <dep name="conj">8767</dep>
-    <dep name="cop">2477</dep>
+    <dep name="cop">2470</dep>
     <dep name="dep">380</dep>
     <dep name="det">3810</dep>
     <dep name="det:predet">52</dep>
@@ -105,6 +105,6 @@
     <dep name="punct">13442</dep>
     <dep name="root">5997</dep>
     <dep name="vocative">66</dep>
-    <dep name="xcomp">983</dep>
+    <dep name="xcomp">990</dep>
   </deps>
 </treebank>
