@@ -93,7 +93,7 @@
 13	قلب	قلب	NOUN	N_SING	Number=Sing	12	nmod:poss	_	Translit=qlb|LTranslit=qlb
 14	و	و	CCONJ	CON	_	15	cc	_	Translit=o|LTranslit=o
 15	عروق	_	NOUN	N_PL	Number=Plur	13	conj	_	Translit=ʿroq
-16	بتواند	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	Translit=btoand
+16	بتواند	توانست	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	Translit=btoand|LTranslit=toanst
 17	به	به	ADP	P	_	18	case	_	Translit=bh|LTranslit=bh
 18	بحث	بحث	NOUN	N_SING	Number=Sing	44	obl	_	Translit=bhþ|LTranslit=bhþ
 19	و	و	CCONJ	CON	_	20	cc	_	Translit=o|LTranslit=o
@@ -2188,7 +2188,7 @@
 2	جناح	جناح	NOUN	N_SING	Number=Sing	1	nmod:poss	_	Translit=jnah|LTranslit=jnah
 3	راست	راست	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=rast|LTranslit=rast
 4	هنوز	هنوز	ADV	ADV	_	13	advmod	_	Translit=hnoz|LTranslit=hnoz
-5	نتوانسته‌اند	_	VERB	V_PP	Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	13	aux	_	Translit=ntoansthand
+5	نتوانسته‌اند	توانست	AUX	V_PP	Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	13	aux	_	Translit=ntoansthand|LTranslit=toanst
 6	موافقت	موافقت	NOUN	N_SING	Number=Sing	13	obj	_	Translit=moafqt|LTranslit=moafqt
 7	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	nmod:poss	_	Translit=xod|LTranslit=xod
 8	را	را	PART	CLITIC	_	6	case	_	Translit=ra|LTranslit=ra
@@ -3894,7 +3894,7 @@
 6	افراد	فرد	NOUN	N_PL	Number=Plur	4	conj	_	Translit=afrad|LTranslit=frd
 7	مورد	مورد	ADP	P	_	8	case	_	Translit=mord|LTranslit=mord
 8	نیاز	نیاز	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=nīaz|LTranslit=nīaz
-9	نمی‌توانم	_	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	11	aux	_	Translit=nmītoanm
+9	نمی‌توانم	توانست	AUX	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	11	aux	_	Translit=nmītoanm|LTranslit=toanst
 10	کاری	کار	NOUN	N_SING	Number=Sing	11	compound:lvc	_	Translit=karī|LTranslit=kar
 11	بکنم	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No|Translit=bknm
 12	.	.	PUNCT	DELM	_	11	punct	_	Translit=.|LTranslit=.
@@ -5112,7 +5112,7 @@
 # text = اگر بتوانم با تو جهاد کنم، جهاد با تو بهترین عبادت برای من خواهد بود.
 # translit = agr btoanm ba to jhad knm, jhad ba to bhtrīn ʿbadt braī mn xoahd bod.
 1	اگر	اگر	SCONJ	CON	_	6	mark	_	Translit=agr|LTranslit=agr
-2	بتوانم	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	Translit=btoanm
+2	بتوانم	توانست	AUX	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	Translit=btoanm|LTranslit=toanst
 3	با	با	ADP	P	_	4	case	_	Translit=ba|LTranslit=ba
 4	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	6	obl	_	Translit=to|LTranslit=to
 5	جهاد	جهاد	NOUN	N_SING	Number=Sing	6	compound:lvc	_	Translit=jhad|LTranslit=jhad
@@ -6405,7 +6405,7 @@
 32	که	که	SCONJ	CON	_	45	mark	_	Translit=kh|LTranslit=kh
 33	دستگاه	دستگاه	NOUN	N_SING	Number=Sing	45	nsubj	_	Translit=dstgah|LTranslit=dstgah
 34	قضایی	_	ADJ	ADJ	Degree=Pos	33	amod	_	Translit=qḑaīī
-35	بتواند	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	Translit=btoand
+35	بتواند	توانست	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	Translit=btoand|LTranslit=toanst
 36	مشکلات	مشکل	NOUN	N_PL	Number=Plur	45	obj	_	Translit=mshklat|LTranslit=mshkl
 37	ساختاری	ساختاری	ADJ	ADJ	Degree=Pos	36	amod	_	Translit=saxtarī|LTranslit=saxtarī
 38	و	و	CCONJ	CON	_	39	cc	_	Translit=o|LTranslit=o
@@ -10503,7 +10503,7 @@
 19	کاوشگری	_	NOUN	N_SING	Number=Sing	18	nmod:poss	_	Translit=kaoshgrī
 20	است	است	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=ast|LTranslit=ast
 21	که	که	SCONJ	CON	_	28	mark	_	Translit=kh|LTranslit=kh
-22	بتواند	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	Translit=btoand
+22	بتواند	توانست	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	Translit=btoand|LTranslit=toanst
 23	روی	رو	ADP	P	_	25	case	_	Translit=roī|LTranslit=ro
 24	یک	یک	NUM	NUM	NumType=Card	25	nummod	_	Translit=īk|LTranslit=īk
 25	کیسه	کیسه	NOUN	N_SING	Number=Sing	28	obl	_	Translit=kīsh|LTranslit=kīsh
@@ -11180,7 +11180,7 @@
 17	گل	گل	NOUN	N_SING	Number=Sing	18	obl	_	Translit=gl|LTranslit=gl
 18	ببرد	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=bbrd
 19	تا	تا	SCONJ	CON	_	26	mark	_	Translit=ta|LTranslit=ta
-20	بتواند	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	Translit=btoand
+20	بتواند	توانست	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	Translit=btoand|LTranslit=toanst
 21	در	در	ADP	P	_	22	case	_	Translit=dr|LTranslit=dr
 22	لیگ	_	NOUN	N_SING	Number=Sing	26	obl	_	Translit=līg
 23	دست	دست	NOUN	N_SING	Number=Sing	22	nmod:poss	_	Translit=dst|LTranslit=dst
