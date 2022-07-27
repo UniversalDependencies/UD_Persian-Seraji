@@ -17442,7 +17442,7 @@
 3	صورت	صورت	NOUN	N_SING	Number=Sing	28	obl	_	Translit=şort|LTranslit=şort
 4	اگر	اگر	SCONJ	CON	_	13	mark	_	Translit=agr|LTranslit=agr
 5	هم	هم	SCONJ	CON	_	13	mark	_	Translit=hm|LTranslit=hm
-6	می‌خواستیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	13	aux	_	Translit=mīxoastīm
+6	می‌خواستیم	خواست	AUX	V_PA	Number=Plur|Person=1|Tense=Past	13	aux	_	Translit=mīxoastīm|LTranslit=xoast
 7	بنایی	بنا	NOUN	N_SING	Number=Sing	13	obj	_	Translit=bnaīī|LTranslit=bna
 8	ویژه	ویژه	ADJ	ADJ	Degree=Pos	7	amod	_	Translit=oīzhh|LTranslit=oīzhh
 9	خیام	خیام	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=xīam|LTranslit=xīam

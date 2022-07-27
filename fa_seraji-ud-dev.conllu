@@ -4626,7 +4626,7 @@
 11	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	12	obl	_	Translit=to|LTranslit=to
 12	رسانده‌اند	_	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	0	root	_	Translit=rsandhand
 13	که	که	SCONJ	CON	_	19	mark	_	Translit=kh|LTranslit=kh
-14	می‌خواهند	_	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	19	aux	_	Translit=mīxoahnd
+14	می‌خواهند	خواست	AUX	V_PRS	Number=Plur|Person=3|Tense=Pres	19	aux	_	Translit=mīxoahnd|LTranslit=xoast
 15	جامعه	جامعه	NOUN	N_SING	Number=Sing	19	obj	_	Translit=jamʿh|LTranslit=jamʿh
 16	را	را	PART	CLITIC	_	15	case	_	Translit=ra|LTranslit=ra
 17	دچار	دچار	ADJ	ADJ	Degree=Pos	19	compound:lvc	_	Translit=dchar|LTranslit=dchar
