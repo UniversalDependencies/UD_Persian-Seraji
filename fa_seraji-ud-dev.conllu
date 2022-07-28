@@ -12231,7 +12231,7 @@
 79	نیاز	نیاز	NOUN	N_SING	Number=Sing	80	compound:lvc	_	Translit=nīāz|LTranslit=nīāz
 80	دارد	داشت	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	62	ccomp	_	OrigLemma=داشت#دار|Translit=dārd|LTranslit=dāšt
 81	و	و	CCONJ	CON	_	91	cc	_	Translit=ū|LTranslit=ū
-82	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	91	aux	_	Translit=mībāīd|LTranslit=mībāīd
+82	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	91	aux	_	Translit=mībāīd|LTranslit=bāīst
 83	مألفه‌های	مألفه	NOUN	N_PL	Number=Plur	91	nsubj	_	Translit=mʾalfhhāī|LTranslit=mʾalfh
 84	انقلاب	انقلاب	NOUN	N_SING	Number=Sing	83	nmod:poss	_	Translit=ānqlāb|LTranslit=ānqlāb
 85	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	84	amod	_	Translit=āslāmī|LTranslit=āslāmī
@@ -12440,14 +12440,14 @@
 1	همان	همان	DET	DET	_	5	mark	_	Translit=hmān|LTranslit=hmān
 2	طور	طور	NOUN	N_SING	Number=Sing	1	fixed	_	Translit=ṭūr|LTranslit=ṭūr
 3	که	که	CCONJ	CON	_	1	fixed	_	Translit=kh|LTranslit=kh
-4	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	5	aux	_	Translit=mībāīd|LTranslit=mībāīd
+4	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	5	aux	_	Translit=mībāīd|LTranslit=bāīst
 5	نگران	نگران	ADJ	ADJ	Degree=Pos	20	advcl	_	Translit=ngrān|LTranslit=ngrān
 6	تقلید	تقلید	NOUN	N_SING	Number=Sing	5	nmod:poss	_	Translit=tqlīd|LTranslit=tqlīd
 7	از	از	ADP	P	_	8	case	_	Translit=āz|LTranslit=āz
 8	غرب	غرب	NOUN	N_SING	Number=Sing	6	nmod	_	Translit=ġrb|LTranslit=ġrb
 9	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	SpaceAfter=No|Translit=būd|LTranslit=būd
 10	،	،	PUNCT	DELM	_	5	punct	_	Translit=,|LTranslit=,
-11	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	20	aux	_	Translit=mībāīd|LTranslit=mībāīd
+11	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	20	aux	_	Translit=mībāīd|LTranslit=bāīst
 12	از	از	ADP	P	_	15	case	_	Translit=āz|LTranslit=āz
 13	سر	سر	NOUN	N_SING	Number=Sing	14	compound:lvc	_	Translit=sr|LTranslit=sr
 14	فرود	فرود	NOUN	N_SING	Number=Sing	15	compound:lvc	_	Translit=frūd|LTranslit=frūd
@@ -12579,7 +12579,7 @@
 96	سکولاریزم	سکولاریزم	NOUN	N_SING	Number=Sing	95	nmod:poss	_	Translit=skūlārīzm|LTranslit=skūlārīzm
 97	می‌دانند	دانست	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	81	acl:relcl	_	OrigLemma=دانست#دان|Translit=mīdānnd|LTranslit=dānst
 98	که	که	SCONJ	CON	_	114	mark	_	Translit=kh|LTranslit=kh
-99	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	114	aux	_	Translit=mībāīd|LTranslit=mībāīd
+99	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	114	aux	_	Translit=mībāīd|LTranslit=bāīst
 100	با	با	ADP	P	_	101	case	_	Translit=bā|LTranslit=bā
 101	شدت	شدت	NOUN	N_SING	Number=Sing	114	nmod	_	Translit=šdt|LTranslit=šdt
 102	و	و	CCONJ	CON	_	103	cc	_	Translit=ū|LTranslit=ū
