@@ -10,26 +10,26 @@
     <dev><sentences>599</sentences><tokens>15755</tokens><words>15832</words><fused>77</fused></dev>
     <test><sentences>600</sentences><tokens>15925</tokens><words>16024</words><fused>98</fused></test>
   </size>
-  <lemmas unique="7583" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
+  <lemmas unique="10573" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
   <forms unique="15186" /><!-- و, ., در, ،, به, که, از, این, را, است, با, :, آن, یک, خود -->
   <fusions unique="715" /><!-- خودش, خودشان, خودم, مرا, معتقدند, بدین, برایش, خودت, دلم, اوست, چیست, کشورمان, ماست, پیداست, خودمان -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">13674</tag><!-- _, دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند -->
+    <tag name="ADJ">13674</tag><!-- دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند, ملی -->
     <tag name="ADP">17415</tag><!-- در, به, از, با, برای, بر, تا, درباره, مورد, رو -->
-    <tag name="ADV">3885</tag><!-- _, پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل -->
-    <tag name="AUX">5021</tag><!-- است, بود, خواست, بایست, توانست, کرد, _, توان, گشت, داشت -->
-    <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, _ -->
+    <tag name="ADV">3885</tag><!-- پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل, البته -->
+    <tag name="AUX">5028</tag><!-- است, بود, خواست, بایست, توانست, کرد, _, توان, گشت, داشت -->
+    <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, بخصوص -->
     <tag name="DET">3759</tag><!-- این, آن, هر, هیچ, همان, همین, چه, تمام, برخی, همه -->
-    <tag name="INTJ">69</tag><!-- ای, _, بله, خیر, آری, هی, نه, خب, فر, هیچ -->
+    <tag name="INTJ">69</tag><!-- ای, بله, خیر, آره, آری, ا, هی, نه, وای, آ -->
     <tag name="NOUN">57578</tag><!-- _, کشور, سال, ایران, مردم, کار, روز, قرار, دست, برنامه -->
-    <tag name="NUM">3409</tag><!-- یک, دو, _, هزار, سه, میلیون, ۲, چهار, ۵, ۳ -->
+    <tag name="NUM">3409</tag><!-- یک, دو, هزار, سه, میلیون, ۲, چهار, ۵, ۳, پنج -->
     <tag name="PART">2570</tag><!-- را, رو -->
     <tag name="PRON">5807</tag><!-- آن, او, خود, این, من, ما, وی, تو, همه, شما -->
     <tag name="PUNCT">13442</tag><!-- ., ،, :, ؛, ؟, (, ), !, -, … -->
     <tag name="SCONJ">5160</tag><!-- که, هم, نیز, اگر, تا, یعنی, وقتی, چون, آیا, همچنین -->
-    <tag name="VERB">12659</tag><!-- کرد, _, داشت, گفت, هست, داد, گرفت, آمد, بود, است -->
-    <tag name="X">254</tag><!-- _, بن, ابن, و, من, الله, علی, احنف, فی, ابی -->
+    <tag name="VERB">12652</tag><!-- کرد, _, داشت, گفت, هست, داد, گرفت, آمد, بود, است -->
+    <tag name="X">254</tag><!-- بن, ابن, و, من, الله, علی, فی, احنف, ابی, المؤمنین -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="31">
@@ -73,7 +73,7 @@
     <dep name="advmod">3181</dep>
     <dep name="amod">9272</dep>
     <dep name="appos">584</dep>
-    <dep name="aux">2285</dep>
+    <dep name="aux">2282</dep>
     <dep name="aux:pass">270</dep>
     <dep name="case">19241</dep>
     <dep name="cc">7654</dep>
@@ -105,6 +105,6 @@
     <dep name="punct">13442</dep>
     <dep name="root">5997</dep>
     <dep name="vocative">66</dep>
-    <dep name="xcomp">992</dep>
+    <dep name="xcomp">995</dep>
   </deps>
 </treebank>

@@ -884,7 +884,7 @@
 29	بهشت	بهشت	NOUN	N_SING	Number=Sing	26	obl	_	SpaceAfter=No|Translit=bhšt|LTranslit=bhšt
 30	،	،	PUNCT	DELM	_	38	punct	_	Translit=,|LTranslit=,
 31	به	به	ADP	P	_	32	case	_	Translit=bh|LTranslit=bh
-32	هامون	_	NOUN	N_SING	Number=Sing	38	obl	_	Translit=hāmūn
+32	هامون	هامون	NOUN	N_SING	Number=Sing	38	obl	_	Translit=hāmūn|LTranslit=hāmūn
 33	گل	گل	NOUN	N_SING	Number=Sing	38	obj	_	Translit=gl|LTranslit=gl
 34	و	و	CCONJ	CON	_	35	cc	_	Translit=ū|LTranslit=ū
 35	سنبل	سنبل	NOUN	N_SING	Number=Sing	33	conj	_	Translit=snbl|LTranslit=snbl
@@ -1667,7 +1667,7 @@
 6	حمله	حمله	NOUN	N_SING	Number=Sing	4	conj	_	Translit=ḥmlh|LTranslit=ḥmlh
 7	امریکا	امریکا	NOUN	N_SING	Number=Sing	6	nmod:poss	_	Translit=āmrīkā|LTranslit=āmrīkā
 8	به	به	ADP	P	_	9	case	_	Translit=bh|LTranslit=bh
-9	عراق	_	NOUN	N_SING	Number=Sing	7	nmod	_	SpaceAfter=No|Translit=ʿrāq
+9	عراق	عراق	NOUN	N_SING	Number=Sing	7	nmod	_	SpaceAfter=No|Translit=ʿrāq|LTranslit=ʿrāq
 10	،	،	PUNCT	DELM	_	2	punct	_	Translit=,|LTranslit=,
 11	تحلیلی	تحلیل	NOUN	N_SING	Number=Sing	12	nsubj	_	Translit=tḥlīlī|LTranslit=tḥlīl
 12	مطرح	مطرح	ADJ	ADJ	Degree=Pos	0	root	_	Translit=mṭrḥ|LTranslit=mṭrḥ
@@ -1992,7 +1992,7 @@
 23	را	را	PART	CLITIC	_	22	case	_	Translit=rā|LTranslit=rā
 24	به	به	ADP	P	_	25	case	_	Translit=bh|LTranslit=bh
 25	کلی	کلی	ADJ	ADJ	Degree=Pos	28	advcl	_	Translit=klī|LTranslit=klī
-26	معلق	_	ADJ	ADJ	Degree=Pos	28	xcomp	_	Translit=mʿlq
+26	معلق	معلق	ADJ	ADJ	Degree=Pos	28	xcomp	_	Translit=mʿlq|LTranslit=mʿlq
 27	نگاه	نگاه	NOUN	N_SING	Number=Sing	28	compound:lvc	_	Translit=ngāh|LTranslit=ngāh
 28	دارد	داشت	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	20	ccomp	_	OrigLemma=داشت#دار|SpaceAfter=No|Translit=dārd|LTranslit=dāšt
 29	.	.	PUNCT	DELM	_	12	punct	_	Translit=.|LTranslit=.
@@ -7382,7 +7382,7 @@
 7	چون	چون	SCONJ	CON	_	24	mark	_	Translit=čūn|LTranslit=čūn
 8	بی‌تردید	بی‌تردید	ADV	ADV	_	24	advmod	_	Translit=bītrdīd|LTranslit=bītrdīd
 9	در	در	ADP	P	_	10	case	_	Translit=dr|LTranslit=dr
-10	شکل‌گیری	_	NOUN	N_SING	Number=Sing	24	obl	_	Translit=šklgīrī
+10	شکل‌گیری	شکل‌گیری	NOUN	N_SING	Number=Sing	24	obl	_	Translit=šklgīrī|LTranslit=šklgīrī
 11	نتایج	نتیجه	NOUN	N_PL	Number=Plur	10	nmod:poss	_	Translit=ntāīj|LTranslit=ntījh
 12	انتخابات	انتخابات	NOUN	N_PL	Number=Plur	11	nmod:poss	_	Translit=āntḫābāt|LTranslit=āntḫābāt
 13	مجلس	مجلس	NOUN	N_SING	Number=Sing	12	nmod:poss	_	Translit=mjls|LTranslit=mjls
@@ -10728,7 +10728,7 @@
 # translit = tū amr zūdgḏr rā br Āīndh bīnī, dnīā rā br Āḫrt trjīḥ dādhāī.
 1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	Translit=tū|LTranslit=tū
 2	امر	امر	NOUN	N_SING	Number=Sing	7	obj	_	Translit=āmr|LTranslit=āmr
-3	زودگذر	_	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=zūdgḏr
+3	زودگذر	زودگذر	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=zūdgḏr|LTranslit=zūdgḏr
 4	را	را	PART	CLITIC	_	2	case	_	Translit=rā|LTranslit=rā
 5	بر	بر	ADP	P	_	6	case	_	Translit=br|LTranslit=br
 6	آینده	آینده	NOUN	N_SING	Number=Sing	7	obl	_	Translit=Āīndh|LTranslit=Āīndh
@@ -11264,7 +11264,7 @@
 1	معاویه	معاویه	NOUN	N_SING	Number=Sing	2	nsubj	_	Translit=mʿāūīh|LTranslit=mʿāūīh
 2	گفت	گفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	OrigLemma=گفت#گو|SpaceAfter=No|Translit=gft|LTranslit=gft
 3	:	:	PUNCT	DELM	_	4	punct	_	Translit=:|LTranslit=:
-4	سبحان‌الله	_	INTJ	INT	_	2	dep	_	SpaceAfter=No|Translit=sbḥānāllh
+4	سبحان‌الله	سبحان‌الله	INTJ	INT	_	2	dep	_	SpaceAfter=No|Translit=sbḥānāllh|LTranslit=sbḥānāllh
 5	!	!	PUNCT	DELM	_	2	punct	_	Translit=!|LTranslit=!
 
 # sent_id = test-s379
@@ -12212,9 +12212,9 @@
 10	زیربنا	زیربنا	NOUN	N_SING	Number=Sing	4	nmod:poss	_	Translit=zīrbnā|LTranslit=zīrbnā
 11	ست	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	10	cop	_	Translit=st|LTranslit=āst
 12	در	در	ADP	P	_	13	case	_	Translit=dr|LTranslit=dr
-13	زمینی	_	NOUN	N_SING	Number=Sing	26	nmod	_	Translit=zmīnī
+13	زمینی	زمینی	NOUN	N_SING	Number=Sing	26	nmod	_	Translit=zmīnī|LTranslit=zmīnī
 14	به	به	ADP	P	_	15	case	_	Translit=bh|LTranslit=bh
-15	مساحت	_	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=msāḥt
+15	مساحت	مساحت	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=msāḥt|LTranslit=msāḥt
 16	۱۸	۱۸	NUM	NUM	NumType=Card	17	nummod	_	Translit=18|LTranslit=18
 17	هزار	هزار	NUM	NUM	NumType=Card	20	compound	_	Translit=hzār|LTranslit=hzār
 18	و	و	CCONJ	CON	_	19	cc	_	Translit=ū|LTranslit=ū
@@ -12463,7 +12463,7 @@
 9	هر	هر	DET	DET	_	10	det	_	Translit=hr|LTranslit=hr
 10	مترمکعب	مترمکعب	NOUN	N_SING	Number=Sing	11	nmod	_	Translit=mtrmkʿb|LTranslit=mtrmkʿb
 11	گاز	گاز	NOUN	N_SING	Number=Sing	8	nmod:poss	_	Translit=gāz|LTranslit=gāz
-12	فروخته‌شده	_	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	11	amod	_	SpaceAfter=No|Translit=frūḫthšdh
+12	فروخته‌شده	فروخته‌شده	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	11	amod	_	SpaceAfter=No|Translit=frūḫthšdh|LTranslit=frūḫthšdh
 13	،	،	PUNCT	DELM	_	8	punct	_	Translit=,|LTranslit=,
 14	۱	۱	NUM	NUM	NumType=Card	17	nummod	_	Translit=1|LTranslit=1
 15	/	/	PUNCT	DELM	_	16	punct	_	Translit=/|LTranslit=/
@@ -13458,7 +13458,7 @@
 9	رودبار	رودبار	NOUN	N_SING	Number=Sing	8	flat	_	Translit=rūdbār|LTranslit=rūdbār
 10	و	و	CCONJ	CON	_	12	cc	_	Translit=ū|LTranslit=ū
 11	بر	بر	ADP	P	_	12	case	_	Translit=br|LTranslit=br
-12	فراز	_	NOUN	N_SING	Number=Sing	4	conj	_	Translit=frāz
+12	فراز	فراز	NOUN	N_SING	Number=Sing	4	conj	_	Translit=frāz|LTranslit=frāz
 13	تپه‌ای	تپه	NOUN	N_SING	Number=Sing	12	nmod:poss	_	Translit=tphāī|LTranslit=tph
 14	باستانی	باستانی	ADJ	ADJ	Degree=Pos	13	amod	_	Translit=bāstānī|LTranslit=bāstānī
 15	واقع	واقع	ADJ	ADJ	Degree=Pos	2	acl:relcl	_	Translit=ūāqʿ|LTranslit=ūāqʿ
@@ -16280,7 +16280,7 @@
 # text = زمان اغاز رقابتهای دور نخست متعاقباً اعلام خواهد شد.
 # translit = zmān aġāz rqābthāī dūr nḫst mtʿāqbāan aʿlām ḫūāhd šd.
 1	زمان	زمان	NOUN	N_SING	Number=Sing	7	nsubj	_	Translit=zmān|LTranslit=zmān
-2	اغاز	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	Translit=āġāz
+2	اغاز	اغاز	NOUN	N_SING	Number=Sing	1	nmod:poss	_	Translit=āġāz|LTranslit=āġāz
 3	رقابتهای	رقابت	NOUN	N_PL	Number=Plur	2	nmod:poss	_	Translit=rqābthāī|LTranslit=rqābt
 4	دور	دور	NOUN	N_SING	Number=Sing	3	nmod:poss	_	Translit=dūr|LTranslit=dūr
 5	نخست	نخست	ADJ	ADJ	Degree=Pos	4	amod	_	Translit=nḫst|LTranslit=nḫst
@@ -16341,7 +16341,7 @@
 2	شایعات	شایعه	NOUN	N_PL	Number=Plur	18	nsubj	_	Translit=šāīʿāt|LTranslit=šāīʿh
 3	جسته	جسته	ADJ	ADJ	Degree=Pos	2	amod	_	Translit=jsth|LTranslit=jsth
 4	و	و	CCONJ	CON	_	5	cc	_	Translit=ū|LTranslit=ū
-5	گریخته‌ای	_	ADJ	ADJ	Degree=Pos	3	conj	_	Translit=grīḫthāī
+5	گریخته‌ای	گریخته‌ای	ADJ	ADJ	Degree=Pos	3	conj	_	Translit=grīḫthāī|LTranslit=grīḫthāī
 6	که	که	SCONJ	CON	_	13	mark	_	Translit=kh|LTranslit=kh
 7	در	در	ADP	P	_	8	case	_	Translit=dr|LTranslit=dr
 8	هفته‌های	هفته	NOUN	N_PL	Number=Plur	13	obl	_	Translit=hfthhāī|LTranslit=hfth
@@ -17812,7 +17812,7 @@
 10	کتاب	کتاب	NOUN	N_SING	Number=Sing	27	nmod	_	Translit=ktāb|LTranslit=ktāb
 11	"	"	PUNCT	DELM	_	13	punct	_	SpaceAfter=No|Translit="|LTranslit="
 12	از	از	ADP	P	_	13	case	_	Translit=āz|LTranslit=āz
-13	قسطنطنیه	_	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=qsṭnṭnīh
+13	قسطنطنیه	قسطنطنیه	NOUN	N_SING	Number=Sing	10	nmod	_	Translit=qsṭnṭnīh|LTranslit=qsṭnṭnīh
 14	تا	تا	ADP	P	_	15	case	_	Translit=tā|LTranslit=tā
 15	زادگاه	زادگاه	NOUN	N_SING	Number=Sing	13	nmod	_	Translit=zādgāh|LTranslit=zādgāh
 16	عمر	عمر	NOUN	N_SING	Number=Sing	15	nmod:poss	_	Translit=ʿmr|LTranslit=ʿmr
