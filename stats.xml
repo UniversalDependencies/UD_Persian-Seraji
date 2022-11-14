@@ -10,7 +10,7 @@
     <dev><sentences>599</sentences><tokens>15755</tokens><words>15832</words><fused>77</fused></dev>
     <test><sentences>600</sentences><tokens>15925</tokens><words>16024</words><fused>98</fused></test>
   </size>
-  <lemmas unique="10573" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
+  <lemmas unique="10570" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
   <forms unique="15186" /><!-- و, ., در, ،, به, که, از, این, را, است, با, :, آن, یک, خود -->
   <fusions unique="715" /><!-- خودش, خودشان, خودم, مرا, معتقدند, بدین, برایش, خودت, دلم, اوست, چیست, کشورمان, ماست, پیداست, خودمان -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -48,7 +48,7 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2389</feat><!-- ما, من, م, می‌کنم, کنیم, مان, کردیم, کنم, کردم, دارم -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1031</feat><!-- تو, شما, ت, کنید, کن, تان, گو, ات, بگو, دارید -->
     <feat name="Person" value="3" upos="ADJ,AUX,PRON,VERB">17659</feat><!-- است, خود, بود, او, کرد, شد, گفت, شده, می‌شود, ش -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">1240</feat><!-- نیست, نه, نداشته, نباید, نشده, ندارند, غیر, نکرده, نیستند, نباشد -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">1241</feat><!-- نیست, نه, نداشته, نباید, نشده, ندارند, غیر, نکرده, نیستند, نباشد -->
     <feat name="PronType" value="Dem" upos="PRON">1624</feat><!-- آن, این, آن‌ها, آنان, این‌ها, همین, آنرا, همان, اینان, دان -->
     <feat name="PronType" value="Ind" upos="PRON">169</feat><!-- بعضی, برخی, دیگران, هرکس, یک, بعضی‌ها, دیگری, بسیاری, بعضیهای, تک‌تک -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">348</feat><!-- چه, چرا, چی, چگونه, کجا, مگر, چقدر, چطور, کی, چه‌طور -->
@@ -61,8 +61,8 @@
     <feat name="Tense" value="Fut" upos="AUX">272</feat><!-- خواهد, خواهند, نخواهد, خواهم, خواهیم, نخواهم, نخواهند, خواهی, خواهید, نخواهی -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5275</feat><!-- بود, کرد, شد, گفت, داشت, بودند, کردند, داد, افزود, گرفت -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">9152</feat><!-- است, می‌شود, دارد, می‌کند, کنند, باشد, نیست, کند, می‌کنند, دارند -->
-    <feat name="VerbForm" value="Fin" upos="AUX">346</feat><!-- خواهد, خواهند, نخواهد, بتواند, دارد, بتوانند, داریم, دارند, خواهم, دارم -->
-    <feat name="VerbForm" value="Inf" upos="AUX">335</feat><!-- باید, نباید, بایستی, می‌باید, می‌بایست, بباید, می‌شود, نبایستی, نمی‌باید, نمی‌بایست -->
+    <feat name="VerbForm" value="Fin" upos="AUX">353</feat><!-- خواهد, خواهند, نخواهد, بتواند, دارد, بتوانند, داریم, دارند, خواهم, دارم -->
+    <feat name="VerbForm" value="Inf" upos="AUX">328</feat><!-- باید, نباید, بایستی, می‌بایست, می‌باید, بباید, می‌شود, نبایستی, نمی‌بایست, نمی‌شود -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">2595</feat><!-- شده, کرده, داشته, بوده, گرفته, داده, آمده, کرده‌اند, نوشته, ساخته -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
