@@ -74,7 +74,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim; Popel, Martin; Zeman, Dan
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim; Popel, Martin; Zeman, Daniel
 Contributing: elsewhere
 Contact: mojgan.seraji96@gmail.com
 ===============================================================================
