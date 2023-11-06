@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Persian-Seraji:
-commit 5a3b2fd62be84ed4ff64d36f561ad9f5eac87cc9
-Merge: b0a5a8c 32e1ed5
+commit 42cb5358355dec7f2272aea0dc1c111623c941b4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:45:55 2023 +0200
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -45,6 +45,7 @@ Syntax errors: 7
 *** FAILED *** with 7 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
+[Line 1182 Sent train-s46 Node 28]: [L3 Warning fixed-gap] Gaps in fixed expression [28, 35] 'از * * * * * * گرفته'
 [Line 2528 Sent train-s128 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [13, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 2837 Sent train-s149 Node 24]: [L3 Syntax too-many-subjects] Multiple subjects [1, 18] not subtyped as ':outer'.
 [Line 3565 Sent train-s201 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [9, 14] not subtyped as ':outer'.
@@ -53,9 +54,19 @@ Exit code: 1
 [Line 4322 Sent train-s252 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] not subtyped as ':outer'.
 [Line 4395 Sent train-s257 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
 [Line 5660 Sent train-s333 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [1, 7] not subtyped as ':outer'.
+[Line 6570 Sent train-s393 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 12] 'دست * * * دراز'
 [Line 6884 Sent train-s407 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 23] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 8073 Sent train-s447 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 25] 'مواد * * گرفته'
+[Line 9559 Sent train-s507 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'و * هم'
+[Line 21879 Sent train-s983 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'از * جایی که'
+[Line 26077 Sent train-s1168 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 22] 'از * * * * گرفته'
+[Line 26398 Sent train-s1175 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 28] 'از * * * * گرفته'
+[Line 26444 Sent train-s1176 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 50] 'از * * * * * * * * * * * * * * * * * * گرفته'
+[Line 27120 Sent train-s1194 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 18] 'تهیه‌کننده * * * * * * گرفته'
+...suppressing further errors regarding Warning
 Syntax errors: 85
+Warnings: 14
 *** FAILED *** with 85 errors
 Exit code: 1
 Validity: 0.01
