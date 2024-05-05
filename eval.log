@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit 42cb5358355dec7f2272aea0dc1c111623c941b4
+commit c6837457c6497a6d16d615642f49b47bc6dfed65
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 11:45:55 2023 +0200
+Date:   Mon Nov 6 12:48:36 2023 +0100
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,23 +25,40 @@ Udapi: found 15169 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 152920 words.
 Genres: found 7 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
+[Line 3663 Sent dev-s115 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3662 Sent dev-s115 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3664 Sent dev-s115 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3663 Sent dev-s115 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3665 Sent dev-s115 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3664 Sent dev-s115 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3715 Sent dev-s118 Node 28]: [L3 Syntax too-many-subjects] Multiple subjects [23, 27] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4288 Sent dev-s145 Node 39]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4287 Sent dev-s145 Node 38]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4289 Sent dev-s145 Node 40]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4288 Sent dev-s145 Node 39]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
 [Line 8461 Sent dev-s280 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [1, 21] not subtyped as ':outer'.
 [Line 9041 Sent dev-s296 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] not subtyped as ':outer'.
 [Line 9318 Sent dev-s305 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [1, 11] not subtyped as ':outer'.
 [Line 14801 Sent dev-s479 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] not subtyped as ':outer'.
 Syntax errors: 5
+Warnings: 100
 *** FAILED *** with 5 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 433 Sent test-s16 Node 2]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 6059 Sent test-s188 Node 35]: [L3 Syntax too-many-subjects] Multiple subjects [19, 28] not subtyped as ':outer'.
 [Line 6090 Sent test-s189 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [4, 18] not subtyped as ':outer'.
+[Line 11352 Sent test-s383 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11351 Sent test-s383 Node 17]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11353 Sent test-s383 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11352 Sent test-s383 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12228 Sent test-s411 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [2, 22] not subtyped as ':outer'.
 [Line 14003 Sent test-s466 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [6, 19] not subtyped as ':outer'.
 [Line 17208 Sent test-s565 Node 19]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'.
 [Line 18315 Sent test-s595 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'.
 Syntax errors: 7
+Warnings: 4
 *** FAILED *** with 7 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
@@ -56,6 +73,7 @@ Exit code: 1
 [Line 5660 Sent train-s333 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [1, 7] not subtyped as ':outer'.
 [Line 6570 Sent train-s393 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 12] 'دست * * * دراز'
 [Line 6884 Sent train-s407 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 23] not subtyped as ':outer'.
+[Line 7362 Sent train-s420 Node 48]: [L3 Syntax too-many-subjects] Multiple subjects [32, 42, 43] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 [Line 8073 Sent train-s447 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 25] 'مواد * * گرفته'
 [Line 9559 Sent train-s507 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'و * هم'
@@ -64,9 +82,10 @@ Exit code: 1
 [Line 26398 Sent train-s1175 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 28] 'از * * * * گرفته'
 [Line 26444 Sent train-s1176 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 50] 'از * * * * * * * * * * * * * * * * * * گرفته'
 [Line 27120 Sent train-s1194 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 18] 'تهیه‌کننده * * * * * * گرفته'
+[Line 27726 Sent train-s1209 Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 23] 'از * * گرفته'
 ...suppressing further errors regarding Warning
 Syntax errors: 85
-Warnings: 14
+Warnings: 246
 *** FAILED *** with 85 errors
 Exit code: 1
 Validity: 0.01
