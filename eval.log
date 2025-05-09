@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit 53dd96a491ba2f01bfae8f8433fa3692ce7d9dc3
+commit 57b0448d01d757ac0c19040ef39207a15a25038c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:12:58 2024 +0200
+Date:   Mon Nov 11 16:21:59 2024 +0100
 Size: counted 152920 of 152920 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0598298176564.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,83 +20,95 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL      15169
-Udapi: found 15169 bugs.
+               TOTAL      14608
+Udapi: found 14608 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 152920 words.
-Genres: found 7 out of 17 known.
+Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
-[Line 3663 Sent dev-s115 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3662 Sent dev-s115 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3664 Sent dev-s115 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3663 Sent dev-s115 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3665 Sent dev-s115 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3664 Sent dev-s115 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3715 Sent dev-s118 Node 28]: [L3 Syntax too-many-subjects] Multiple subjects [23, 27] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 4288 Sent dev-s145 Node 39]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4287 Sent dev-s145 Node 38]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4289 Sent dev-s145 Node 40]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4288 Sent dev-s145 Node 39]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 31 Sent dev-s1 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'به خارج از' does not have the 'ExtPos' feature
+[Line 49 Sent dev-s2 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
+[Line 146 Sent dev-s4 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'خرداد ماه' does not have the 'ExtPos' feature
+[Line 328 Sent dev-s9 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'و یا' does not have the 'ExtPos' feature
+[Line 623 Sent dev-s18 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 762 Sent dev-s21 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'جامه عمل' does not have the 'ExtPos' feature
+[Line 831 Sent dev-s23 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'به دنبال' does not have the 'ExtPos' feature
+[Line 1111 Sent dev-s32 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'گفت و گو' does not have the 'ExtPos' feature
+[Line 1132 Sent dev-s33 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'در مقابل' does not have the 'ExtPos' feature
+[Line 1262 Sent dev-s39 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'در مقابل' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
+[Line 3715 Sent dev-s118 Node 28]: [L3 Syntax too-many-subjects] Multiple subjects [23, 27] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6349 Sent dev-s217 Node 11]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'همان'
 [Line 8461 Sent dev-s280 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [1, 21] not subtyped as ':outer'.
 [Line 9041 Sent dev-s296 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] not subtyped as ':outer'.
 [Line 9318 Sent dev-s305 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [1, 11] not subtyped as ':outer'.
+[Line 12440 Sent dev-s403 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'همان'
 [Line 14801 Sent dev-s479 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] not subtyped as ':outer'.
-Syntax errors: 5
-Warnings: 100
-*** FAILED *** with 5 errors
+[Line 15085 Sent dev-s491 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'نزدیک'
+[Line 17918 Sent dev-s586 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'ADJ' word 'چند'
+[Line 18030 Sent dev-s589 Node 29]: [L3 Syntax rel-upos-mark] 'mark' should not be 'ADJ' word 'چند'
+Syntax errors: 10
+Warnings: 243
+*** FAILED *** with 10 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 433 Sent test-s16 Node 2]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 553 Sent test-s22 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'به زیر' does not have the 'ExtPos' feature
+[Line 636 Sent test-s25 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'متصل به هم' does not have the 'ExtPos' feature
+[Line 985 Sent test-s38 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 1072 Sent test-s41 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'گفت و گو' does not have the 'ExtPos' feature
+[Line 1098 Sent test-s42 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'بر روی' does not have the 'ExtPos' feature
+[Line 1122 Sent test-s43 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'به‌طوری که' does not have the 'ExtPos' feature
+[Line 1156 Sent test-s44 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'در پی' does not have the 'ExtPos' feature
+[Line 1224 Sent test-s46 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'به‌طوری که' does not have the 'ExtPos' feature
+[Line 1449 Sent test-s55 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'به دلیل این که' does not have the 'ExtPos' feature
+[Line 1476 Sent test-s55 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
 [Line 6059 Sent test-s188 Node 35]: [L3 Syntax too-many-subjects] Multiple subjects [19, 28] not subtyped as ':outer'.
 [Line 6090 Sent test-s189 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [4, 18] not subtyped as ':outer'.
-[Line 11352 Sent test-s383 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 11351 Sent test-s383 Node 17]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 11353 Sent test-s383 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 11352 Sent test-s383 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12228 Sent test-s411 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [2, 22] not subtyped as ':outer'.
 [Line 14003 Sent test-s466 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [6, 19] not subtyped as ':outer'.
 [Line 17208 Sent test-s565 Node 19]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'.
 [Line 18315 Sent test-s595 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'.
 Syntax errors: 7
-Warnings: 4
+Warnings: 121
 *** FAILED *** with 7 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
-[Line 1182 Sent train-s46 Node 28]: [L3 Warning fixed-gap] Gaps in fixed expression [28, 35] 'از * * * * * * گرفته'
-[Line 2528 Sent train-s128 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [13, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6 Sent train-s1 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 33 Sent train-s3 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 49 Sent train-s4 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 159 Sent train-s8 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'بنا بر' does not have the 'ExtPos' feature
+[Line 514 Sent train-s23 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'برای این که' does not have the 'ExtPos' feature
+[Line 836 Sent train-s36 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 967 Sent train-s39 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'منحصر به فرد' does not have the 'ExtPos' feature
+[Line 1124 Sent train-s44 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'در عین حال' does not have the 'ExtPos' feature
+[Line 1124 Sent train-s44 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'در'
+[Line 1171 Sent train-s46 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'در بین' does not have the 'ExtPos' feature
+[Line 1182 Sent train-s46 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'از گرفته' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 2176 Sent train-s105 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'به'
+[Line 2528 Sent train-s128 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [13, 19] not subtyped as ':outer'.
 [Line 2837 Sent train-s149 Node 24]: [L3 Syntax too-many-subjects] Multiple subjects [1, 18] not subtyped as ':outer'.
+[Line 3556 Sent train-s201 Node 12]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'این'
 [Line 3565 Sent train-s201 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [9, 14] not subtyped as ':outer'.
+[Line 3600 Sent train-s203 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'به'
 [Line 3987 Sent train-s226 Node 1]: [L3 Syntax too-many-subjects] Multiple subjects [2, 4] not subtyped as ':outer'.
 [Line 4260 Sent train-s247 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [1, 13] not subtyped as ':outer'.
 [Line 4322 Sent train-s252 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] not subtyped as ':outer'.
-[Line 4395 Sent train-s257 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
-[Line 5660 Sent train-s333 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [1, 7] not subtyped as ':outer'.
-[Line 6570 Sent train-s393 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 12] 'دست * * * دراز'
-[Line 6884 Sent train-s407 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 23] not subtyped as ':outer'.
-[Line 7362 Sent train-s420 Node 48]: [L3 Syntax too-many-subjects] Multiple subjects [32, 42, 43] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
-[Line 8073 Sent train-s447 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 25] 'مواد * * گرفته'
-[Line 9559 Sent train-s507 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'و * هم'
-[Line 14806 Sent train-s705 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:این:det --> 4:معروفترین:amod)
-[Line 21879 Sent train-s983 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'از * جایی که'
-[Line 26077 Sent train-s1168 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 22] 'از * * * * گرفته'
-[Line 26398 Sent train-s1175 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 28] 'از * * * * گرفته'
-[Line 26444 Sent train-s1176 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 50] 'از * * * * * * * * * * * * * * * * * * گرفته'
-[Line 27120 Sent train-s1194 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 18] 'تهیه‌کننده * * * * * * گرفته'
-...suppressing further errors regarding Warning
-Syntax errors: 85
-Warnings: 247
-*** FAILED *** with 85 errors
+Syntax errors: 116
+Warnings: 1312
+*** FAILED *** with 116 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
+(weight=0.0769230769230769) * (score{genres}=0.388888888888889) = 0.0299145299145299
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.728154763115663) = 0.186706349516837
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.307692307692308) * (score{udapi}=0.044729270206644) = 0.0137628523712751
 (weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
-(TOTAL score=0.541175388691758) * (availability=1) * (validity=0.01) = 0.00541175388691758
+(TOTAL score=0.550101639755844) * (availability=1) * (validity=0.01) = 0.00550101639755844
 STARS = 0
-UD_Persian-Seraji	0.00541175388691758	0
+UD_Persian-Seraji	0.00550101639755844	0
