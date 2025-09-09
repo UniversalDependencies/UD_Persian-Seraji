@@ -68,6 +68,7 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction medical legal social spoken nonfiction
 Lemmas: manual native
 UPOS: converted from manual
