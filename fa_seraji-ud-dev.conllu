@@ -722,7 +722,7 @@
 37	جنجالی	جنجالی	ADJ	ADJ	Degree=Pos	36	amod	_	Translit=jnjālī|LTranslit=jnjālī
 38-39	آفریده‌اند	_	_	_	_	_	_	_	Translit=Āfrīdhānd
 38	آفریده‌	آفریده‌	NOUN	N_SING	Number=Sing	34	conj	_	Translit=Āfrīdh|LTranslit=Āfrīdh
-39	اند	اند	AUX	V_PRS	Number=Plur|Person=3|Tense=Pres	38	cop	_	Translit=ānd
+39	اند	است	AUX	V_PRS	Number=Plur|Person=3|Tense=Pres	38	cop	_	Translit=ānd
 40	که	که	SCONJ	CON	_	49	mark	_	Translit=kh|LTranslit=kh
 41	جو	جو	NOUN	N_SING	Number=Sing	49	obj	_	Translit=jū|LTranslit=jū
 42	مسمومی	مسمومی	ADJ	ADJ	Degree=Pos	41	amod	_	Translit=msmūmī|LTranslit=msmūmī
@@ -16861,7 +16861,7 @@
 6	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=mn|LTranslit=mn
 7-8	زنده‌ام	_	_	_	_	_	_	_	SpaceAfter=No|Translit=zndhām
 7	زنده‌	زنده‌	ADJ	ADJ	Degree=Pos	4	ccomp	_	Translit=zndh|LTranslit=zndh
-8	ام	ام	AUX	V_PRS	_	7	cop	_	Translit=ām
+8	ام	است	AUX	V_PRS	Person=1	7	cop	_	Translit=ām
 9	،	،	PUNCT	DELM	_	14	punct	_	Translit=,|LTranslit=,
 10	که	که	SCONJ	CON	_	14	mark	_	Translit=kh|LTranslit=kh
 11	تخم	تخم	NOUN	N_SING	Number=Sing	14	nsubj	_	Translit=tḫm|LTranslit=tḫm
