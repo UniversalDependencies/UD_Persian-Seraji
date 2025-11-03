@@ -53,7 +53,7 @@
     <feat name="PronType" value="Ind" upos="PRON">169</feat><!-- بعضی, برخی, دیگران, هرکس, یک, بعضی‌ها, دیگری, بسیاری, بعضیهای, تک‌تک -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">348</feat><!-- چه, چرا, چی, چگونه, کجا, مگر, چقدر, چطور, کی, چه‌طور -->
     <feat name="PronType" value="Neg" upos="DET,PRON">141</feat><!-- هیچ, غیر, هیچکدام, هیچکس, هیچیک, هیچ‌یک -->
-    <feat name="PronType" value="Prs" upos="PRON">3615</feat><!-- خود, او, ما, ش, من, وی, تو, شان, م, شما -->
+    <feat name="PronType" value="Prs" upos="PRON">3622</feat><!-- خود, او, ما, ش, من, وی, تو, شان, م, شما -->
     <feat name="PronType" value="Rcp" upos="PRON">102</feat><!-- هم, یکدیگر, همدیگر -->
     <feat name="PronType" value="Rel" upos="PRON">47</feat><!-- آنچه -->
     <feat name="PronType" value="Tot" upos="PRON">230</feat><!-- همه, همهٔ, همگی, همگان, همه‌, تمام, هرکدام -->
