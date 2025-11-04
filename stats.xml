@@ -93,14 +93,14 @@
     <dep name="flat">3363</dep>
     <dep name="flat:foreign">168</dep>
     <dep name="mark">5311</dep>
-    <dep name="nmod">7988</dep>
+    <dep name="nmod">7997</dep>
     <dep name="nmod:poss">17357</dep>
     <dep name="nsubj">8839</dep>
     <dep name="nsubj:nc">22</dep>
     <dep name="nsubj:pass">149</dep>
     <dep name="nummod">2796</dep>
     <dep name="obj">3870</dep>
-    <dep name="obl">8560</dep>
+    <dep name="obl">8551</dep>
     <dep name="parataxis">207</dep>
     <dep name="punct">13444</dep>
     <dep name="root">5997</dep>
