@@ -32,7 +32,7 @@
     <tag name="X">254</tag><!-- بن, ابن, و, من, الله, علی, فی, احنف, ابی, المؤمنین -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="31">
+  <feats unique="32">
     <feat name="Case" value="Loc" upos="ADV">167</feat><!-- بالا, اینجا, آنجا, پیش, بیرون, پایین, آن‌جا, زیر -->
     <feat name="Case" value="Tem" upos="ADV">941</feat><!-- بعد, پس, پیش, حالا, امروز, قبل, اکنون, کنون, همیشه, دیروز -->
     <feat name="Case" value="Voc" upos="INTJ,NOUN">30</feat><!-- ای, پروردگارا, الهی, حافظا -->
@@ -40,6 +40,7 @@
     <feat name="Degree" value="Pos" upos="ADJ">12602</feat><!-- اسلامی, دیگر, سیاسی, دوم, گذشته, فرهنگی, جدید, چند, ملی, پیدا -->
     <feat name="Degree" value="Sup" upos="ADJ">379</feat><!-- نخستین, بهترین, اولین, آخرین, بزرگترین, دومین, مهمترین, بیشترین, سومین, بالاترین -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">163</feat><!-- کن, گو, بگو, بگیر, باش, بده, ببین, برو, بیا, بدانید -->
+    <feat name="Mood" value="Ind" upos="AUX">319</feat><!-- خواهد, خواهند, نخواهد, دارد, داریم, دارند, خواهم, دارم, خواهیم, می‌باید -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2408</feat><!-- کنند, باشد, کند, شود, باشند, کنیم, کنم, بشود, دهد, کنید -->
     <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">14117</feat><!-- ما, آن‌ها, کنند, می‌کنند, دارند, هستند, بودند, کردند, شان, شما -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,VERB">66166</feat><!-- است, خود, بود, آن, او, کرد, این, شد, گفت, شده -->

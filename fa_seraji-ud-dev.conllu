@@ -254,7 +254,7 @@
 37	مخابرات	مخابرات	NOUN	N_SING	Number=Sing	35	conj	_	LTranslit=mḫābrāt|Translit=mḫābrāt
 38	کشور	کشور	NOUN	N_SING	Number=Sing	37	nmod:poss	_	LTranslit=kšūr|Translit=kšūr
 39	منجر	منجر	ADJ	ADJ	Degree=Pos	12	ccomp	_	LTranslit=mnjr|Translit=mnjr
-40	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+40	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 41	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	39	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 42	.	.	PUNCT	DELM	_	12	punct	_	LTranslit=.|Translit=.
 
@@ -312,7 +312,7 @@
 13	تلفن	تلفن	NOUN	N_SING	Number=Sing	12	nmod:poss	_	LTranslit=tlfn|Translit=tlfn
 14	همراه	همراه	NOUN	N_SING	Number=Sing	13	flat	_	LTranslit=hmrāh|Translit=hmrāh
 15	چگونه	چگونه	ADV	ADV_I	PronType=Int	17	advmod	_	LTranslit=čgūnh|Translit=čgūnh
-16	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+16	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 17	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	LTranslit=būd|Translit=būd
 18	گفت	گفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=gft|OrigLemma=گفت#گو|SpaceAfter=No|Translit=gft
 19	:	:	PUNCT	DELM	_	42	punct	_	LTranslit=:|Translit=:
@@ -341,7 +341,7 @@
 42	تدوین	تدوین	NOUN	N_SING	Number=Sing	18	ccomp	_	LTranslit=tdūīn|Translit=tdūīn
 43	و	و	CCONJ	CON	_	44	cc	_	LTranslit=ū|Translit=ū
 44	ابلاغ	ابلاغ	NOUN	N_SING	Number=Sing	42	conj	_	LTranslit=āblāġ|Translit=āblāġ
-45	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	42	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+45	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	42	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 46	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	42	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 47	.	.	PUNCT	DELM	_	18	punct	_	LTranslit=.|Translit=.
 
@@ -510,7 +510,7 @@
 26	مجلس	مجلس	NOUN	N_SING	Number=Sing	25	nmod:poss	_	LTranslit=mjls|Translit=mjls
 27	ششم	ششم	ADJ	ADJ	Degree=Pos	26	amod	_	LTranslit=ššm|Translit=ššm
 28	صبر	صبر	NOUN	N_SING	Number=Sing	30	compound:lvc	_	LTranslit=ṣbr|Translit=ṣbr
-29	خواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
+29	خواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
 30	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	16	ccomp	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 31	.	.	PUNCT	DELM	_	16	punct	_	LTranslit=.|Translit=.
 
@@ -772,7 +772,7 @@
 3	طرف	طرف	NOUN	N_SING	Number=Sing	28	obl	_	LTranslit=ṭrf|Translit=ṭrf
 4	هم	هم	SCONJ	CON	_	28	mark	_	LTranslit=hm|Translit=hm
 5	کسانی	کس	NOUN	N_PL	Number=Plur	28	nsubj	_	LTranslit=ks|Translit=ksānī
-6	نخواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	28	aux	_	LTranslit=ḫūāst|Translit=nḫūāhnd
+6	نخواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	28	aux	_	LTranslit=ḫūāst|Translit=nḫūāhnd
 7	توانست	توانست	AUX	V_PA	Number=Sing|Person=3|Tense=Past	28	aux	_	LTranslit=tūānst|OrigLemma=توانست#توان|Translit=tūānst
 8	در	در	ADP	P	_	9	case	_	LTranslit=dr|Translit=dr
 9	پوشش	پوشش	NOUN	N_SING	Number=Sing	28	obl	_	LTranslit=pūšš|Translit=pūšš
@@ -1286,7 +1286,7 @@
 # sent_id = dev-s41
 # text = بایستی گامی به پیش نهاد.
 # translit = bāīstī gāmī bh pīš nhād.
-1	بایستی	بایست	AUX	V_AUX	VerbForm=Fin	5	aux	_	LTranslit=bāīst|Translit=bāīstī
+1	بایستی	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	5	aux	_	LTranslit=bāīst|Translit=bāīstī
 2	گامی	گام	NOUN	N_SING	Number=Sing	5	obj	_	LTranslit=gām|Translit=gāmī
 3	به	به	ADP	P	_	4	case	_	LTranslit=bh|Translit=bh
 4	پیش	پیش	ADV	ADV_LOC	Case=Loc	5	advcl	_	LTranslit=pīš|Translit=pīš
@@ -1303,7 +1303,7 @@
 5	مؤثر	مؤثر	ADJ	ADJ	Degree=Pos	4	amod	_	LTranslit=mŪṯr|Translit=mŪṯr
 6	در	در	ADP	P	_	7	case	_	LTranslit=dr|Translit=dr
 7	کشور	کشور	NOUN	N_SING	Number=Sing	4	nmod	_	LTranslit=kšūr|Translit=kšūr
-8	بایستی	بایست	AUX	V_AUX	VerbForm=Fin	19	aux	_	LTranslit=bāīst|Translit=bāīstī
+8	بایستی	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	19	aux	_	LTranslit=bāīst|Translit=bāīstī
 9	به	به	ADP	P	_	10	case	_	LTranslit=bh|Translit=bh
 10	طور	طور	NOUN	N_SING	Number=Sing	19	obl	_	LTranslit=ṭūr|Translit=ṭūr
 11	صریح	صریح	ADJ	ADJ	Degree=Pos	10	amod	_	LTranslit=ṣrīḥ|Translit=ṣrīḥ
@@ -1692,7 +1692,7 @@
 12	حامی	حامی	NOUN	N_SING	Number=Sing	9	conj	_	LTranslit=ḥāmī|Translit=ḥāmī
 13	ولایت	ولایت	NOUN	N_SING	Number=Sing	12	nmod:poss	_	LTranslit=ūlāīt|Translit=ūlāīt
 14	فقیه	فقیه	NOUN	N_SING	Number=Sing	13	nmod:poss	_	LTranslit=fqīh|Translit=fqīh
-15	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+15	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 16	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 17	.	.	PUNCT	DELM	_	2	punct	_	LTranslit=.|Translit=.
 
@@ -2481,7 +2481,7 @@
 37	نفوذی	نفوذی	ADJ	ADJ	Degree=Pos	35	conj	_	LTranslit=nfūḏī|Translit=nfūḏī
 38	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	37	nmod:poss	_	LTranslit=ḫūd|Translit=ḫūd
 39	نیز	نیز	SCONJ	CON	_	41	mark	_	LTranslit=nīz|Translit=nīz
-40	نخواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	41	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=nḫūāhd
+40	نخواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	41	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=nḫūāhd
 41	رفت	رفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	22	advcl	_	LTranslit=rft|OrigLemma=رفت#رو|SpaceAfter=No|Translit=rft
 42	.	.	PUNCT	DELM	_	4	punct	_	LTranslit=.|Translit=.
 
@@ -2814,7 +2814,7 @@
 36	هاشمی	هاشمی	NOUN	N_SING	Number=Sing	35	flat	_	LTranslit=hāšmī|Translit=hāšmī
 37	را	را	PART	CLITIC	_	21	case	_	LTranslit=rā|Translit=rā
 38	فراموش	فراموش	ADJ	ADJ	Degree=Pos	40	compound:lvc	_	LTranslit=frāmūš|Translit=frāmūš
-39	نخواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	40	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=nḫūāhd
+39	نخواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	40	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=nḫūāhd
 40	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	6	parataxis	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 41	.	.	PUNCT	DELM	_	6	punct	_	LTranslit=.|Translit=.
 
@@ -3359,7 +3359,7 @@
 45	۷۰	۷۰	NUM	NUM	NumType=Card	46	nummod	_	LTranslit=70|Translit=70
 46	ریالی	ریالی	NOUN	N_SING	Number=Sing	44	nmod:poss	_	LTranslit=rīālī|Translit=rīālī
 47	محاسبه	محاسبه	NOUN	N_SING	Number=Sing	15	ccomp	_	LTranslit=mḥāsbh|Translit=mḥāsbh
-48	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	47	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+48	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	47	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 49	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	47	compound	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=šd
 50	و	و	CCONJ	CON	_	64	cc	_	LTranslit=ū|Translit=ū
 51	چنانچه	چنانچه	SCONJ	CON	_	56	mark	_	LTranslit=čnānčh|Translit=čnānčh
@@ -3404,7 +3404,7 @@
 20	۵۰	۵۰	NUM	NUM	NumType=Card	21	nummod	_	LTranslit=50|Translit=50
 21	درصد	درصد	NOUN	N_SING	Number=Sing	24	obl	_	LTranslit=drṣd|Translit=drṣd
 22	افزایش	افزایش	NOUN	N_SING	Number=Sing	24	compound:lvc	_	LTranslit=āfzāīš|Translit=āfzāīš
-23	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+23	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 24	داد	داد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=dād|OrigLemma=داد#ده|SpaceAfter=No|Translit=dād
 25	.	.	PUNCT	DELM	_	24	punct	_	LTranslit=.|Translit=.
 
@@ -3443,7 +3443,7 @@
 30	و	و	CCONJ	CON	_	31	cc	_	LTranslit=ū|Translit=ū
 31	غیردولتی	غیردولتی	NOUN	N_SING	Number=Sing	29	conj	_	LTranslit=ġīrdūltī|Translit=ġīrdūltī
 32	یکسان	یکسان	ADJ	ADJ	Degree=Pos	19	conj	_	LTranslit=īksān|Translit=īksān
-33	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+33	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 34	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	32	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 35	.	.	PUNCT	DELM	_	3	punct	_	LTranslit=.|Translit=.
 
@@ -4174,7 +4174,7 @@
 3	کنی	کرد	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=knī
 4	موجب	موجب	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=mūjb|Translit=mūjb
 5	سپاس	سپاس	NOUN	N_SING	Number=Sing	4	nmod:poss	_	LTranslit=spās|Translit=spās
-6	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+6	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 7	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 8	.	.	PUNCT	DELM	_	4	punct	_	LTranslit=.|Translit=.
 
@@ -4191,7 +4191,7 @@
 7	ب	به	ADP	P	_	8	case	_	LTranslit=bh|Translit=b
 8	دان	آن	PRON	PRO	Number=Sing|PronType=Dem	9	nmod	_	LTranslit=Ān|Translit=dān
 9	مجبور	مجبور	ADJ	ADJ	Degree=Pos	0	root	_	LTranslit=mjbūr|Translit=mjbūr
-10	خواهی	خواست	AUX	V_AUX	Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhī
+10	خواهی	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhī
 11	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	9	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 12	!	!	PUNCT	DELM	_	9	punct	_	LTranslit=!|Translit=!
 
@@ -5125,7 +5125,7 @@
 12	عبادت	عبادت	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=ʿbādt|Translit=ʿbādt
 13	برای	برای	ADP	P	_	14	case	_	LTranslit=brāī|Translit=brāī
 14	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	12	nmod	_	LTranslit=mn|Translit=mn
-15	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+15	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 16	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	12	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 17	.	.	PUNCT	DELM	_	12	punct	_	LTranslit=.|Translit=.
 
@@ -7063,7 +7063,7 @@
 19	کامل	کامل	ADJ	ADJ	Degree=Pos	18	amod	_	LTranslit=kāml|Translit=kāml
 20	قلعه	قلعه	NOUN	N_SING	Number=Sing	18	nmod:poss	_	LTranslit=qlʿh|Translit=qlʿh
 21	ادامه	ادامه	NOUN	N_SING	Number=Sing	23	compound:lvc	_	LTranslit=ādāmh|Translit=ādāmh
-22	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+22	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 23	داد	داد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	ccomp	_	LTranslit=dād|OrigLemma=داد#ده|SpaceAfter=No|Translit=dād
 24	.	.	PUNCT	DELM	_	3	punct	_	LTranslit=.|Translit=.
 
@@ -7089,7 +7089,7 @@
 17	دوره	دوره	NOUN	N_SING	Number=Sing	15	nmod	_	LTranslit=dūrh|Translit=dūrh
 18	صفویان	صفوی	NOUN	N_PL	Number=Plur	17	nmod:poss	_	LTranslit=ṣfūī|Translit=ṣfūīān
 19	آغاز	آغاز	NOUN	N_SING	Number=Sing	2	ccomp	_	LTranslit=Āġāz|Translit=Āġāz
-20	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+20	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 21	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	19	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 22	.	.	PUNCT	DELM	_	2	punct	_	LTranslit=.|Translit=.
 
@@ -7864,7 +7864,7 @@
 5	یک	یک	NUM	NUM	NumType=Card	6	nummod	_	LTranslit=īk|Translit=īk
 6	هفته	هفته	NOUN	N_SING	Number=Sing	4	nmod:poss	_	LTranslit=hfth|Translit=hfth
 7	دایر	دایر	ADJ	ADJ	Degree=Pos	0	root	_	LTranslit=dāīr|Translit=dāīr
-8	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+8	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 9	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	7	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 10	.	.	PUNCT	DELM	_	7	punct	_	LTranslit=.|Translit=.
 
@@ -7894,7 +7894,7 @@
 21	مخابراتی	مخابراتی	ADJ	ADJ	Degree=Pos	20	amod	_	LTranslit=mḫābrātī|Translit=mḫābrātī
 22	این	این	DET	DET	_	23	det	_	LTranslit=āīn|Translit=āīn
 23	شهرستان	شهرستان	NOUN	N_SING	Number=Sing	20	nmod:poss	_	LTranslit=šhrstān|Translit=šhrstān
-24	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+24	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 25	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	16	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 26	.	.	PUNCT	DELM	_	5	punct	_	LTranslit=.|Translit=.
 
@@ -7934,7 +7934,7 @@
 31	شبکه	شبکه	NOUN	N_SING	Number=Sing	35	obl	_	LTranslit=šbkh|Translit=šbkh
 32	مخابراتی	مخابراتی	ADJ	ADJ	Degree=Pos	31	amod	_	LTranslit=mḫābrātī|Translit=mḫābrātī
 33	کشور	کشور	NOUN	N_SING	Number=Sing	31	nmod:poss	_	LTranslit=kšūr|Translit=kšūr
-34	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+34	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 35	پیوست	پیوست	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	ccomp	_	LTranslit=pīūst|OrigLemma=پیوست#پیوند|SpaceAfter=No|Translit=pīūst
 36	.	.	PUNCT	DELM	_	3	punct	_	LTranslit=.|Translit=.
 
@@ -8010,7 +8010,7 @@
 35	یک	یک	NUM	NUM	NumType=Card	36	nummod	_	LTranslit=īk|Translit=īk
 36	خط	خط	NOUN	N_SING	Number=Sing	34	nmod	_	LTranslit=ḫṭ|Translit=ḫṭ
 37	تلفن	تلفن	NOUN	N_SING	Number=Sing	36	nmod:poss	_	LTranslit=tlfn|Translit=tlfn
-38	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+38	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 39	رسید	رسید	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	ccomp	_	LTranslit=rsīd|OrigLemma=رسید#رس|SpaceAfter=No|Translit=rsīd
 40	.	.	PUNCT	DELM	_	2	punct	_	LTranslit=.|Translit=.
 
@@ -8168,7 +8168,7 @@
 38	عمر	عمر	NOUN	N_SING	Number=Sing	37	flat	_	LTranslit=ʿmr|Translit=ʿmr
 39	خیام	خیام	NOUN	N_SING	Number=Sing	38	flat	_	LTranslit=ḫīām|Translit=ḫīām
 40	ارائه	ارائه	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=ārāʾih|Translit=ārāʾih
-41	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+41	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 42	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	40	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 43	.	.	PUNCT	DELM	_	40	punct	_	LTranslit=.|Translit=.
 
@@ -8277,7 +8277,7 @@
 42	و	و	CCONJ	CON	_	43	cc	_	LTranslit=ū|Translit=ū
 43	ادبیات	ادبیات	NOUN	N_SING	Number=Sing	41	conj	_	LTranslit=ādbīāt|Translit=ādbīāt
 44	ارائه	ارائه	NOUN	N_SING	Number=Sing	2	ccomp	_	LTranslit=ārāʾih|Translit=ārāʾih
-45	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+45	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 46	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	44	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 47	.	.	PUNCT	DELM	_	2	punct	_	LTranslit=.|Translit=.
 
@@ -8338,7 +8338,7 @@
 8	در	در	ADP	P	_	9	case	_	LTranslit=dr|Translit=dr
 9	خرمشهر	خرمشهر	NOUN	N_SING	Number=Sing	10	nmod	_	LTranslit=ḫrmšhr|Translit=ḫrmšhr
 10	برگزار	برگزار	ADJ	ADJ	Degree=Pos	0	root	_	LTranslit=brgzār|Translit=brgzār
-11	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+11	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 12	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	10	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 13	.	.	PUNCT	DELM	_	10	punct	_	LTranslit=.|Translit=.
 
@@ -8369,7 +8369,7 @@
 22	محمد	محمد	NOUN	N_SING	Number=Sing	21	flat	_	LTranslit=mḥmd|Translit=mḥmd
 23	خاتمی	خاتمی	NOUN	N_SING	Number=Sing	22	flat	_	LTranslit=ḫātmī|Translit=ḫātmī
 24	دریافت	دریافت	NOUN	N_SING	Number=Sing	26	compound:lvc	_	LTranslit=drīāft|Translit=drīāft
-25	خواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
+25	خواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
 26	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=krd
 27	و	و	CCONJ	CON	_	47	cc	_	LTranslit=ū|Translit=ū
 28	سپس	سپس	ADV	ADV	_	47	advmod	_	LTranslit=sps|Translit=sps
@@ -8390,7 +8390,7 @@
 43	نیز	نیز	CCONJ	CON	_	42	fixed	_	LTranslit=nīz|Translit=nīz
 44	شلمچه	شلمچه	NOUN	N_SING	Number=Sing	41	conj	_	LTranslit=šlmčh|Translit=šlmčh
 45	دیدار	دیدار	NOUN	N_SING	Number=Sing	47	compound:lvc	_	LTranslit=dīdār|Translit=dīdār
-46	خواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	47	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
+46	خواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	47	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
 47	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	26	conj	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 48	.	.	PUNCT	DELM	_	26	punct	_	LTranslit=.|Translit=.
 
@@ -9566,7 +9566,7 @@
 7	تیم	تیم	NOUN	N_SING	Number=Sing	11	obl	_	LTranslit=tīm|Translit=tīm
 8	سپاهان	سپاهان	NOUN	N_SING	Number=Sing	7	flat	_	LTranslit=spāhān|Translit=spāhān
 9	مسابقه	مسابقه	NOUN	N_SING	Number=Sing	11	compound:lvc	_	LTranslit=msābqh|Translit=msābqh
-10	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+10	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 11	داد	داد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=dād|OrigLemma=داد#ده|SpaceAfter=No|Translit=dād
 12	.	.	PUNCT	DELM	_	11	punct	_	LTranslit=.|Translit=.
 
@@ -9586,7 +9586,7 @@
 11	مرحله	مرحله	NOUN	N_SING	Number=Sing	15	obl	_	LTranslit=mrḥlh|Translit=mrḥlh
 12	نیمه‌نهایی	نیمه‌نهایی	ADJ	ADJ	Degree=Pos	11	amod	_	LTranslit=nīmhnhāīī|Translit=nīmhnhāīī
 13	بازی	بازی	NOUN	N_SING	Number=Sing	15	compound:lvc	_	LTranslit=bāzī|Translit=bāzī
-14	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+14	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 15	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 16	.	.	PUNCT	DELM	_	15	punct	_	LTranslit=.|Translit=.
 
@@ -10246,7 +10246,7 @@
 23	اعتراض	اعتراض	NOUN	N_SING	Number=Sing	27	obl	_	LTranslit=āʿtrāḍ|Translit=āʿtrāḍ
 24	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	23	nmod:poss	_	LTranslit=ḫūd|Translit=ḫūd
 25	ادامه	ادامه	NOUN	N_SING	Number=Sing	27	compound:lvc	_	LTranslit=ādāmh|Translit=ādāmh
-26	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+26	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 27	داد	داد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	8	ccomp	_	LTranslit=dād|OrigLemma=داد#ده|SpaceAfter=No|Translit=dād
 28	.	.	PUNCT	DELM	_	8	punct	_	LTranslit=.|Translit=.
 
@@ -10332,7 +10332,7 @@
 33	مصری	مصری	ADJ	ADJ	Degree=Pos	32	amod	_	LTranslit=mṣrī|SpaceAfter=No|Translit=mṣrī
 34	،	،	PUNCT	DELM	_	24	punct	_	LTranslit=,|Translit=,
 35	ارائه	ارائه	NOUN	N_SING	Number=Sing	37	compound:lvc	_	LTranslit=ārāʾih|Translit=ārāʾih
-36	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+36	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 37	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	22	ccomp	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 38	.	.	PUNCT	DELM	_	5	punct	_	LTranslit=.|Translit=.
 
@@ -10553,7 +10553,7 @@
 9	مدار	مدار	NOUN	N_SING	Number=Sing	13	obl	_	LTranslit=mdār|Translit=mdār
 10	مریخ	مریخ	NOUN	N_SING	Number=Sing	9	nmod:poss	_	LTranslit=mrīḫ|Translit=mrīḫ
 11	قرار	قرار	NOUN	N_SING	Number=Sing	13	compound:lvc	_	LTranslit=qrār|Translit=qrār
-12	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+12	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 13	گرفت	گرفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	ccomp	_	LTranslit=grft|OrigLemma=گرفت#گیر|SpaceAfter=No|Translit=grft
 14	.	.	PUNCT	DELM	_	3	punct	_	LTranslit=.|Translit=.
 
@@ -10587,7 +10587,7 @@
 25	کیسه	کیسه	NOUN	N_SING	Number=Sing	22	nmod	_	LTranslit=kīsh|Translit=kīsh
 26	هوا	هوا	NOUN	N_SING	Number=Sing	25	nmod:poss	_	LTranslit=hūā|Translit=hūā
 27	استفاده	استفاده	NOUN	N_SING	Number=Sing	29	compound:lvc	_	LTranslit=āstfādh|Translit=āstfādh
-28	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+28	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 29	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	4	ccomp	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 30	.	.	PUNCT	DELM	_	4	punct	_	LTranslit=.|Translit=.
 
@@ -10609,7 +10609,7 @@
 13	به	به	ADP	P	_	14	case	_	LTranslit=bh|Translit=bh
 14	تحقیقات	تحقیق	NOUN	N_PL	Number=Plur	17	obl	_	LTranslit=tḥqīq|Translit=tḥqīqāt
 15	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	nmod:poss	_	LTranslit=ḫūd|Translit=ḫūd
-16	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+16	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 17	پرداخت	پرداخت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	8	conj	_	LTranslit=prdāḫt|SpaceAfter=No|Translit=prdāḫt
 18	.	.	PUNCT	DELM	_	8	punct	_	LTranslit=.|Translit=.
 
@@ -11148,7 +11148,7 @@
 44	از	از	ADP	P	_	45	case	_	LTranslit=āz|Translit=āz
 45	گردونه	گردونه	NOUN	N_SING	Number=Sing	46	nmod	_	LTranslit=grdūnh|Translit=grdūnh
 46	خارج	خارج	NOUN	N_SING	Number=Sing	27	conj	_	LTranslit=ḫārj|Translit=ḫārj
-47	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	46	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+47	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	46	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 48	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	46	compound	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=šd
 49	و	و	CCONJ	CON	_	53	cc	_	LTranslit=ū|Translit=ū
 50	ابومسلم	ابومسلم	NOUN	N_SING	Number=Sing	53	nsubj	_	LTranslit=ābūmslm|Translit=ābūmslm
@@ -11202,7 +11202,7 @@
 8	جدول	جدول	NOUN	N_SING	Number=Sing	7	nmod:poss	_	LTranslit=jdūl|Translit=jdūl
 9	همچنان	همچنان	ADV	ADV	_	12	advmod	_	LTranslit=hmčnān|Translit=hmčnān
 10	باقی	باقی	NOUN	N_SING	Number=Sing	12	compound:lvc	_	LTranslit=bāqī|Translit=bāqī
-11	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+11	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 12	ماند	ماند	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=mānd|OrigLemma=ماند#مان|SpaceAfter=No|Translit=mānd
 13	.	.	PUNCT	DELM	_	12	punct	_	LTranslit=.|Translit=.
 
@@ -11420,7 +11420,7 @@
 35	در	در	ADP	P	_	36	case	_	LTranslit=dr|Translit=dr
 36	تهران	تهران	NOUN	N_SING	Number=Sing	37	nmod	_	LTranslit=thrān|Translit=thrān
 37	برگزار	برگزار	ADJ	ADJ	Degree=Pos	21	acl:relcl	_	LTranslit=brgzār|Translit=brgzār
-38	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+38	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 39	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	37	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 40	،	،	PUNCT	DELM	_	16	punct	_	LTranslit=,|Translit=,
 41	انجام	انجام	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=ānjām|Translit=ānjām
@@ -11898,7 +11898,7 @@
 22	در	در	ADP	P	_	23	case	_	LTranslit=dr|Translit=dr
 23	مرحله	مرحله	NOUN	N_SING	Number=Sing	26	obl	_	LTranslit=mrḥlh|Translit=mrḥlh
 24	دوم	دوم	ADJ	ADJ	Degree=Pos	23	amod	_	LTranslit=dūm|Translit=dūm
-25	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+25	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 26	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	5	ccomp	_	LTranslit=būd|Translit=būd
 27	یا	یا	CCONJ	CON	_	28	cc	_	LTranslit=īā|Translit=īā
 28	میان‌دوره‌ای	میان‌دوره‌ای	ADJ	ADJ	Degree=Pos	26	conj	_	LTranslit=mīāndūrhāī|SpaceAfter=No|Translit=mīāndūrhāī
@@ -12231,7 +12231,7 @@
 79	نیاز	نیاز	NOUN	N_SING	Number=Sing	80	compound:lvc	_	LTranslit=nīāz|Translit=nīāz
 80	دارد	داشت	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	62	ccomp	_	LTranslit=dāšt|OrigLemma=داشت#دار|Translit=dārd
 81	و	و	CCONJ	CON	_	91	cc	_	LTranslit=ū|Translit=ū
-82	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	91	aux	_	LTranslit=bāīst|Translit=mībāīd
+82	می‌باید	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	91	aux	_	LTranslit=bāīst|Translit=mībāīd
 83	مألفه‌های	مألفه	NOUN	N_PL	Number=Plur	91	nsubj	_	LTranslit=mʾalfh|Translit=mʾalfhhāī
 84	انقلاب	انقلاب	NOUN	N_SING	Number=Sing	83	nmod:poss	_	LTranslit=ānqlāb|Translit=ānqlāb
 85	اسلامی	اسلامی	ADJ	ADJ	Degree=Pos	84	amod	_	LTranslit=āslāmī|Translit=āslāmī
@@ -12440,14 +12440,14 @@
 1	همان	همان	DET	DET	_	5	mark	_	LTranslit=hmān|Translit=hmān
 2	طور	طور	NOUN	N_SING	Number=Sing	1	fixed	_	LTranslit=ṭūr|Translit=ṭūr
 3	که	که	CCONJ	CON	_	1	fixed	_	LTranslit=kh|Translit=kh
-4	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	5	aux	_	LTranslit=bāīst|Translit=mībāīd
+4	می‌باید	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	5	aux	_	LTranslit=bāīst|Translit=mībāīd
 5	نگران	نگران	ADJ	ADJ	Degree=Pos	20	advcl	_	LTranslit=ngrān|Translit=ngrān
 6	تقلید	تقلید	NOUN	N_SING	Number=Sing	5	nmod:poss	_	LTranslit=tqlīd|Translit=tqlīd
 7	از	از	ADP	P	_	8	case	_	LTranslit=āz|Translit=āz
 8	غرب	غرب	NOUN	N_SING	Number=Sing	6	nmod	_	LTranslit=ġrb|Translit=ġrb
 9	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 10	،	،	PUNCT	DELM	_	5	punct	_	LTranslit=,|Translit=,
-11	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	20	aux	_	LTranslit=bāīst|Translit=mībāīd
+11	می‌باید	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	20	aux	_	LTranslit=bāīst|Translit=mībāīd
 12	از	از	ADP	P	_	15	case	_	LTranslit=āz|Translit=āz
 13	سر	سر	NOUN	N_SING	Number=Sing	14	compound:lvc	_	LTranslit=sr|Translit=sr
 14	فرود	فرود	NOUN	N_SING	Number=Sing	15	compound:lvc	_	LTranslit=frūd|Translit=frūd
@@ -12579,7 +12579,7 @@
 96	سکولاریزم	سکولاریزم	NOUN	N_SING	Number=Sing	95	nmod:poss	_	LTranslit=skūlārīzm|Translit=skūlārīzm
 97	می‌دانند	دانست	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	81	acl:relcl	_	LTranslit=dānst|OrigLemma=دانست#دان|Translit=mīdānnd
 98	که	که	SCONJ	CON	_	114	mark	_	LTranslit=kh|Translit=kh
-99	می‌باید	بایست	AUX	V_AUX	VerbForm=Fin	114	aux	_	LTranslit=bāīst|Translit=mībāīd
+99	می‌باید	بایست	AUX	V_AUX	Mood=Ind|VerbForm=Fin	114	aux	_	LTranslit=bāīst|Translit=mībāīd
 100	با	با	ADP	P	_	101	case	_	LTranslit=bā|Translit=bā
 101	شدت	شدت	NOUN	N_SING	Number=Sing	114	nmod	_	LTranslit=šdt|Translit=šdt
 102	و	و	CCONJ	CON	_	103	cc	_	LTranslit=ū|Translit=ū
@@ -14636,7 +14636,7 @@
 9	به	به	ADP	P	_	10	case	_	LTranslit=bh|Translit=bh
 10	اوت‌لوک	اوت‌لوک	NOUN	N_SING	Number=Sing	11	nmod	_	LTranslit=āūtlūk|Translit=āūtlūk
 11	عرضه	عرضه	NOUN	N_SING	Number=Sing	1	acl:relcl	_	LTranslit=ʿrḍh|Translit=ʿrḍh
-12	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+12	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 13	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	11	compound	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=šd
 14	از	از	ADP	P	_	15	case	_	LTranslit=āz|Translit=āz
 15	دوشنبه	دوشنبه	NOUN	N_SING	Number=Sing	23	obl	_	LTranslit=dūšnbh|Translit=dūšnbh
@@ -14648,7 +14648,7 @@
 21	شبکه	شبکه	NOUN	N_SING	Number=Sing	19	nmod	_	LTranslit=šbkh|Translit=šbkh
 22	اینترنت	اینترنت	NOUN	N_SING	Number=Sing	21	nmod:poss	_	LTranslit=āīntrnt|Translit=āīntrnt
 23	گذاشته	گذاشت	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	LTranslit=gḏāšt|OrigLemma=گذاشت#گذار|Translit=gḏāšth
-24	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+24	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 25	شد	کرد	AUX	V_PA	Number=Sing|Person=3|Tense=Past	23	aux:pass	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=šd
 26	تا	تا	SCONJ	CON	_	37	mark	_	LTranslit=tā|Translit=tā
 27	علاقمندان	علاقمند	NOUN	N_PL	Number=Plur	37	nsubj	_	LTranslit=ʿlāqmnd|Translit=ʿlāqmndān
@@ -16164,7 +16164,7 @@
 12	،	،	PUNCT	DELM	_	1	punct	_	LTranslit=,|Translit=,
 13	به‌زودی	به‌زودی	ADV	ADV_TIME	Case=Tem	16	advmod	_	LTranslit=bhzūdī|Translit=bhzūdī
 14	کاهش	کاهش	NOUN	N_SING	Number=Sing	16	compound:lvc	_	LTranslit=kāhš|Translit=kāhš
-15	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+15	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 16	یافت	یافت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=īāft|OrigLemma=یافت#یاب|SpaceAfter=No|Translit=īāft
 17	.	.	PUNCT	DELM	_	16	punct	_	LTranslit=.|Translit=.
 
@@ -16292,7 +16292,7 @@
 14	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	nmod:poss	_	LTranslit=ḫūd|Translit=ḫūd
 15	را	را	PART	CLITIC	_	13	case	_	LTranslit=rā|Translit=rā
 16	دریافت	دریافت	NOUN	N_SING	Number=Sing	18	compound:lvc	_	LTranslit=drīāft|Translit=drīāft
-17	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+17	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 18	کرد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	11	conj	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=krd
 19	.	.	PUNCT	DELM	_	11	punct	_	LTranslit=.|Translit=.
 
@@ -17011,7 +17011,7 @@
 2	فردوسی	فردوسی	NOUN	N_SING	Number=Sing	1	nmod:poss	_	LTranslit=frdūsī|Translit=frdūsī
 3	چگونه	چگونه	ADV	ADV_I	PronType=Int	4	advmod	_	LTranslit=čgūnh|Translit=čgūnh
 4	جایی	جا	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=jā|Translit=jāīī
-5	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+5	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 6	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 7	؟	؟	PUNCT	DELM	_	4	punct	_	LTranslit=?|Translit=?
 
@@ -17156,12 +17156,12 @@
 4	را	را	PART	CLITIC	_	3	case	_	LTranslit=rā|Translit=rā
 5	در	در	ADP	P	_	6	case	_	LTranslit=dr|Translit=dr
 6	بر	بر	NOUN	N_SING	Number=Sing	8	compound:lvc	_	LTranslit=br|Translit=br
-7	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+7	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 8	گرفت	گرفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	LTranslit=grft|OrigLemma=گرفت#گیر|Translit=grft
 9	و	و	CCONJ	CON	_	10	cc	_	LTranslit=ū|Translit=ū
 10	باغ	باغ	NOUN	N_SING	Number=Sing	8	conj	_	LTranslit=bāġ|Translit=bāġ
 11	ایران	ایران	NOUN	N_SING	Number=Sing	10	nmod:poss	_	LTranslit=āīrān|Translit=āīrān
-12	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+12	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 13	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	10	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 14	،	،	PUNCT	DELM	_	1	punct	_	LTranslit=,|Translit=,
 15	لااقل	لااقل	ADV	ADV	_	22	advmod	_	LTranslit=lāāql|Translit=lāāql
@@ -17207,7 +17207,7 @@
 55	به	به	ADP	P	_	56	case	_	LTranslit=bh|Translit=bh
 56	کار	کار	NOUN	N_SING	Number=Sing	57	compound:lvc	_	LTranslit=kār|Translit=kār
 57	برده	برد	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	22	conj	_	LTranslit=brd|Translit=brdh
-58	خواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	57	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
+58	خواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	57	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
 59	شد	کرد	AUX	V_PA	Number=Sing|Person=3|Tense=Past	57	aux:pass	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=šd
 60	.	.	PUNCT	DELM	_	22	punct	_	LTranslit=.|Translit=.
 
@@ -17217,7 +17217,7 @@
 1	هم‌چنین	هم‌چنین	SCONJ	CON	_	5	mark	_	LTranslit=hmčnīn|Translit=hmčnīn
 2	در	در	ADP	P	_	3	case	_	LTranslit=dr|Translit=dr
 3	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	5	obl	_	LTranslit=Ān|Translit=Ān
-4	خواهند	خواست	AUX	V_AUX	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
+4	خواهند	خواست	AUX	V_AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhnd
 5	بود	بود	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=būd|Translit=būd
 6	مرغانی	مرغ	NOUN	N_PL	Number=Plur	5	nsubj	_	LTranslit=mrġ|Translit=mrġānī
 7	که	که	SCONJ	CON	_	13	mark	_	LTranslit=kh|Translit=kh
@@ -17528,7 +17528,7 @@
 6	و	و	CCONJ	CON	_	7	cc	_	LTranslit=ū|Translit=ū
 7	تالارهای	تالار	NOUN	N_PL	Number=Plur	5	conj	_	LTranslit=tālār|Translit=tālārhāī
 8	اجتماعات	اجتماع	NOUN	N_PL	Number=Plur	7	nmod:poss	_	LTranslit=ājtmāʿ|Translit=ājtmāʿāt
-9	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+9	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 10	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 11	،	،	PUNCT	DELM	_	16	punct	_	LTranslit=,|Translit=,
 12	در	در	ADP	P	_	13	case	_	LTranslit=dr|Translit=dr
@@ -17579,7 +17579,7 @@
 2	مجموع	مجموع	NOUN	N_SING	Number=Sing	4	nmod	_	LTranslit=mjmūʿ|SpaceAfter=No|Translit=mjmūʿ
 3	،	،	PUNCT	DELM	_	2	punct	_	LTranslit=,|Translit=,
 4	خزانه‌ای	خزانه‌ای	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=ḫzānhāī|Translit=ḫzānhāī
-5	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+5	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 6	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	LTranslit=būd|Translit=būd
 7	از	از	ADP	P	_	8	case	_	LTranslit=āz|Translit=āz
 8	کارنامهٔ	کارنامه	NOUN	N_SING	Number=Sing	4	nmod	_	LTranslit=kārnāmh|Translit=kārnāmhٔ
@@ -17740,7 +17740,7 @@
 8	و	و	CCONJ	CON	_	9	cc	_	LTranslit=ū|Translit=ū
 9	دلبستگی	دلبستگی	NOUN	N_SING	Number=Sing	7	conj	_	LTranslit=dlbstgī|Translit=dlbstgī
 10	گسترده‌تری	گسترده	ADJ	ADJ_CMPR	Degree=Cmp	9	amod	_	LTranslit=gstrdh|Translit=gstrdhtrī
-11	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+11	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 12	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	LTranslit=būd|SpaceAfter=No|Translit=būd
 13	،	،	PUNCT	DELM	_	15	punct	_	LTranslit=,|Translit=,
 14	و	و	CCONJ	CON	_	15	cc	_	LTranslit=ū|Translit=ū
@@ -17753,7 +17753,7 @@
 21	پایهٔ	پایهٔ	NOUN	N_SING	Number=Sing	25	obl	_	LTranslit=pāīhٔ|Translit=pāīhٔ
 22	محکم‌تری	محکم	ADJ	ADJ_CMPR	Degree=Cmp	21	amod	_	LTranslit=mḥkm|Translit=mḥkmtrī
 23	قرار	قرار	NOUN	N_SING	Number=Sing	25	compound:lvc	_	LTranslit=qrār|Translit=qrār
-24	خواهد	خواست	AUX	V_AUX	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
+24	خواهد	خواست	AUX	V_AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāhd
 25	داشت	داشت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	16	acl:relcl	_	LTranslit=dāšt|OrigLemma=داشت#دار|SpaceAfter=No|Translit=dāšt
 26	.	.	PUNCT	DELM	_	3	punct	_	LTranslit=.|Translit=.
 
