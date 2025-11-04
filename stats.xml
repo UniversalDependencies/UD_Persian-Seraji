@@ -61,7 +61,7 @@
     <feat name="Tense" value="Fut" upos="AUX">272</feat><!-- خواهد, خواهند, نخواهد, خواهم, خواهیم, نخواهم, نخواهند, خواهی, خواهید, نخواهی -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5275</feat><!-- بود, کرد, شد, گفت, داشت, بودند, کردند, داد, افزود, گرفت -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">9152</feat><!-- است, می‌شود, دارد, می‌کند, کنند, باشد, نیست, کند, می‌کنند, دارند -->
-    <feat name="VerbForm" value="Fin" upos="AUX">353</feat><!-- خواهد, خواهند, نخواهد, بتواند, دارد, بتوانند, داریم, دارند, خواهم, دارم -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2890</feat><!-- کنند, باشد, خواهد, کند, شود, باشند, کنیم, کنم, بشود, دهد -->
     <feat name="VerbForm" value="Inf" upos="AUX">328</feat><!-- باید, نباید, بایستی, می‌بایست, می‌باید, بباید, می‌شود, نبایستی, نمی‌بایست, نمی‌شود -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">2595</feat><!-- شده, کرده, داشته, بوده, گرفته, داده, آمده, کرده‌اند, نوشته, ساخته -->
   </feats>
