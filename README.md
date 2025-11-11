@@ -54,6 +54,7 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 
 # CHANGELOG
 
+* From v2.11 to v2.17, added more lemmas.
 * From v2.8 to v2.11, fixed some other validation errors. Removed # from verbal lemmas. Kept the first (i.e., past) stem.
 * From v2.2 to v2.8, fixed non-projective punctuation with Udapi ud.FixPunct.
 * From v2.1 to v2.2, repository renamed from UD_Persian to UD_Persian-Seraji.
@@ -68,13 +69,14 @@ Please contact mojgan.seraji96@gmail.com for feedback and bug reports.
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction medical legal social spoken nonfiction
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim; Popel, Martin; Zeman, Daniel
+Contributors: Seraji, Mojgan; Ginter, Filip; Nivre, Joakim; Popel, Martin; Zeman, Daniel; Nassajian, Minoo
 Contributing: elsewhere
 Contact: mojgan.seraji96@gmail.com
 ===============================================================================

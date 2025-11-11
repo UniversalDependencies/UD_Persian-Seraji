@@ -5,34 +5,34 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>5997</sentences><tokens>151625</tokens><words>152920</words><fused>1291</fused></total>
-    <train><sentences>4798</sentences><tokens>119945</tokens><words>121064</words><fused>1116</fused></train>
+    <total><sentences>5997</sentences><tokens>151627</tokens><words>152923</words><fused>1292</fused></total>
+    <train><sentences>4798</sentences><tokens>119947</tokens><words>121067</words><fused>1117</fused></train>
     <dev><sentences>599</sentences><tokens>15755</tokens><words>15832</words><fused>77</fused></dev>
     <test><sentences>600</sentences><tokens>15925</tokens><words>16024</words><fused>98</fused></test>
   </size>
-  <lemmas unique="10570" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
-  <forms unique="15186" /><!-- و, ., در, ،, به, که, از, این, را, است, با, :, آن, یک, خود -->
+  <lemmas unique="10838" /><!-- و, ., در, ،, کرد, به, که, از, این, را, است, بود, با, آن, داشت -->
+  <forms unique="15183" /><!-- و, ., در, ،, به, که, از, این, را, است, با, :, آن, یک, خود -->
   <fusions unique="715" /><!-- خودش, خودشان, خودم, مرا, معتقدند, بدین, برایش, خودت, دلم, اوست, چیست, کشورمان, ماست, پیداست, خودمان -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
     <tag name="ADJ">13674</tag><!-- دیگر, اسلامی, بیش, سیاسی, دوم, جدید, گذشته, فرهنگی, چند, ملی -->
     <tag name="ADP">17415</tag><!-- در, به, از, با, برای, بر, تا, درباره, مورد, رو -->
-    <tag name="ADV">3885</tag><!-- پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل, البته -->
-    <tag name="AUX">5028</tag><!-- است, بود, خواست, بایست, توانست, کرد, _, توان, گشت, داشت -->
+    <tag name="ADV">3886</tag><!-- پس, خیلی, پیش, بعد, نه, حتی, بسیار, چه, مثل, البته -->
+    <tag name="AUX">5027</tag><!-- است, بود, خواست, بایست, توانست, کرد, توان, شد, گشت, داشت -->
     <tag name="CCONJ">8218</tag><!-- و, که, یا, اما, ولی, هم, بلکه, همچنین, نیز, بخصوص -->
     <tag name="DET">3759</tag><!-- این, آن, هر, هیچ, همان, همین, چه, تمام, برخی, همه -->
     <tag name="INTJ">69</tag><!-- ای, بله, خیر, آره, آری, ا, هی, نه, وای, آ -->
-    <tag name="NOUN">57578</tag><!-- _, کشور, سال, ایران, مردم, کار, روز, قرار, دست, برنامه -->
+    <tag name="NOUN">57579</tag><!-- کشور, سال, ایران, مردم, کار, روز, قرار, دست, برنامه, حال -->
     <tag name="NUM">3409</tag><!-- یک, دو, هزار, سه, میلیون, ۲, چهار, ۵, ۳, پنج -->
     <tag name="PART">2570</tag><!-- را, رو -->
     <tag name="PRON">5807</tag><!-- آن, او, خود, این, من, ما, وی, تو, همه, شما -->
-    <tag name="PUNCT">13442</tag><!-- ., ،, :, ؛, ؟, (, ), !, -, … -->
-    <tag name="SCONJ">5160</tag><!-- که, هم, نیز, اگر, تا, یعنی, وقتی, چون, آیا, همچنین -->
-    <tag name="VERB">12652</tag><!-- کرد, _, داشت, گفت, هست, داد, گرفت, آمد, بود, است -->
+    <tag name="PUNCT">13444</tag><!-- ., ،, :, ؛, ؟, (, ), !, -, … -->
+    <tag name="SCONJ">5159</tag><!-- که, هم, نیز, اگر, تا, یعنی, وقتی, چون, آیا, همچنین -->
+    <tag name="VERB">12653</tag><!-- کرد, داشت, گفت, داد, هست, گرفت, آمد, رفت, بود, رسید -->
     <tag name="X">254</tag><!-- بن, ابن, و, من, الله, علی, فی, احنف, ابی, المؤمنین -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="31">
+  <feats unique="32">
     <feat name="Case" value="Loc" upos="ADV">167</feat><!-- بالا, اینجا, آنجا, پیش, بیرون, پایین, آن‌جا, زیر -->
     <feat name="Case" value="Tem" upos="ADV">941</feat><!-- بعد, پس, پیش, حالا, امروز, قبل, اکنون, کنون, همیشه, دیروز -->
     <feat name="Case" value="Voc" upos="INTJ,NOUN">30</feat><!-- ای, پروردگارا, الهی, حافظا -->
@@ -40,12 +40,13 @@
     <feat name="Degree" value="Pos" upos="ADJ">12602</feat><!-- اسلامی, دیگر, سیاسی, دوم, گذشته, فرهنگی, جدید, چند, ملی, پیدا -->
     <feat name="Degree" value="Sup" upos="ADJ">379</feat><!-- نخستین, بهترین, اولین, آخرین, بزرگترین, دومین, مهمترین, بیشترین, سومین, بالاترین -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">163</feat><!-- کن, گو, بگو, بگیر, باش, بده, ببین, برو, بیا, بدانید -->
+    <feat name="Mood" value="Ind" upos="AUX">319</feat><!-- خواهد, خواهند, نخواهد, دارد, داریم, دارند, خواهم, دارم, خواهیم, می‌باید -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2408</feat><!-- کنند, باشد, کند, شود, باشند, کنیم, کنم, بشود, دهد, کنید -->
     <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">14117</feat><!-- ما, آن‌ها, کنند, می‌کنند, دارند, هستند, بودند, کردند, شان, شما -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,VERB">66165</feat><!-- است, خود, بود, آن, او, کرد, این, شد, گفت, شده -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,VERB">66166</feat><!-- است, خود, بود, آن, او, کرد, این, شد, گفت, شده -->
     <feat name="NumType" value="Card" upos="NUM">3409</feat><!-- یک, دو, یکی, هزار, سه, میلیون, ۲, چهار, ۵, ۳ -->
     <feat name="NumType" value="Ord" upos="ADJ">79</feat><!-- دوم, هفتم, اول, سوم, شانزدهم, هشتم, پنجمین, چهاردهم -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">2389</feat><!-- ما, من, م, می‌کنم, کنیم, مان, کردیم, کنم, کردم, دارم -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">2390</feat><!-- ما, من, م, می‌کنم, کنیم, مان, کردیم, کنم, کردم, دارم -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1031</feat><!-- تو, شما, ت, کنید, کن, تان, گو, ات, بگو, دارید -->
     <feat name="Person" value="3" upos="ADJ,AUX,PRON,VERB">17659</feat><!-- است, خود, بود, او, کرد, شد, گفت, شده, می‌شود, ش -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">1241</feat><!-- نیست, نه, نداشته, نباید, نشده, ندارند, غیر, نکرده, نیستند, نباشد -->
@@ -53,7 +54,7 @@
     <feat name="PronType" value="Ind" upos="PRON">169</feat><!-- بعضی, برخی, دیگران, هرکس, یک, بعضی‌ها, دیگری, بسیاری, بعضیهای, تک‌تک -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">348</feat><!-- چه, چرا, چی, چگونه, کجا, مگر, چقدر, چطور, کی, چه‌طور -->
     <feat name="PronType" value="Neg" upos="DET,PRON">141</feat><!-- هیچ, غیر, هیچکدام, هیچکس, هیچیک, هیچ‌یک -->
-    <feat name="PronType" value="Prs" upos="PRON">3615</feat><!-- خود, او, ما, ش, من, وی, تو, شان, م, شما -->
+    <feat name="PronType" value="Prs" upos="PRON">3622</feat><!-- خود, او, ما, ش, من, وی, تو, شان, م, شما -->
     <feat name="PronType" value="Rcp" upos="PRON">102</feat><!-- هم, یکدیگر, همدیگر -->
     <feat name="PronType" value="Rel" upos="PRON">47</feat><!-- آنچه -->
     <feat name="PronType" value="Tot" upos="PRON">230</feat><!-- همه, همهٔ, همگی, همگان, همه‌, تمام, هرکدام -->
@@ -61,7 +62,7 @@
     <feat name="Tense" value="Fut" upos="AUX">272</feat><!-- خواهد, خواهند, نخواهد, خواهم, خواهیم, نخواهم, نخواهند, خواهی, خواهید, نخواهی -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5275</feat><!-- بود, کرد, شد, گفت, داشت, بودند, کردند, داد, افزود, گرفت -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">9152</feat><!-- است, می‌شود, دارد, می‌کند, کنند, باشد, نیست, کند, می‌کنند, دارند -->
-    <feat name="VerbForm" value="Fin" upos="AUX">353</feat><!-- خواهد, خواهند, نخواهد, بتواند, دارد, بتوانند, داریم, دارند, خواهم, دارم -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2890</feat><!-- کنند, باشد, خواهد, کند, شود, باشند, کنیم, کنم, بشود, دهد -->
     <feat name="VerbForm" value="Inf" upos="AUX">328</feat><!-- باید, نباید, بایستی, می‌بایست, می‌باید, بباید, می‌شود, نبایستی, نمی‌بایست, نمی‌شود -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">2595</feat><!-- شده, کرده, داشته, بوده, گرفته, داده, آمده, کرده‌اند, نوشته, ساخته -->
   </feats>
@@ -70,20 +71,20 @@
     <dep name="acl">1</dep>
     <dep name="acl:relcl">1424</dep>
     <dep name="advcl">959</dep>
-    <dep name="advmod">3181</dep>
-    <dep name="amod">9272</dep>
+    <dep name="advmod">3182</dep>
+    <dep name="amod">9273</dep>
     <dep name="appos">584</dep>
     <dep name="aux">2282</dep>
     <dep name="aux:pass">270</dep>
     <dep name="case">19241</dep>
     <dep name="cc">7654</dep>
     <dep name="cc:preconj">48</dep>
-    <dep name="ccomp">4113</dep>
+    <dep name="ccomp">4114</dep>
     <dep name="compound">1951</dep>
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
     <dep name="conj">8767</dep>
-    <dep name="cop">2470</dep>
+    <dep name="cop">2469</dep>
     <dep name="dep">380</dep>
     <dep name="det">3810</dep>
     <dep name="det:predet">52</dep>
@@ -93,18 +94,18 @@
     <dep name="flat">3363</dep>
     <dep name="flat:foreign">168</dep>
     <dep name="mark">5311</dep>
-    <dep name="nmod">7990</dep>
-    <dep name="nmod:poss">17358</dep>
+    <dep name="nmod">7997</dep>
+    <dep name="nmod:poss">17357</dep>
     <dep name="nsubj">8839</dep>
     <dep name="nsubj:nc">22</dep>
     <dep name="nsubj:pass">149</dep>
     <dep name="nummod">2796</dep>
     <dep name="obj">3870</dep>
-    <dep name="obl">8558</dep>
-    <dep name="parataxis">208</dep>
-    <dep name="punct">13442</dep>
+    <dep name="obl">8551</dep>
+    <dep name="parataxis">207</dep>
+    <dep name="punct">13444</dep>
     <dep name="root">5997</dep>
-    <dep name="vocative">66</dep>
+    <dep name="vocative">67</dep>
     <dep name="xcomp">995</dep>
   </deps>
 </treebank>
