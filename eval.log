@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Persian-Seraji:
-commit 143bdfb1630e450ad6092ab981b65e855b50f8af
-Merge: 5f3682b f993cdd
+commit e53af38f4adc0edcdc056b8a2378cad791dc322a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:27:33 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fa_seraji'
 Language code (from CoNLL-U file name) = 'fa'
@@ -25,91 +25,124 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
-[Line 12 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'کلیه klīh' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 31 Sent dev-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'به خارج از' does not have the 'ExtPos' feature
-[Line 49 Sent dev-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
-[Line 120 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 146 Sent dev-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'خرداد ماه' does not have the 'ExtPos' feature
-[Line 201 Sent dev-s6]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 225 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 268 Sent dev-s8]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 304 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 328 Sent dev-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'و یا' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1949 Sent dev-s65]: [L3 Syntax too-many-objects] Multiple direct objects [21, 25] ('ضد\u200cانقلاب ḍdānqlāb', 'مرزهای mrzhāī') under the predicate 'کنید knīd'.
-[Line 3715 Sent dev-s118]: [L3 Syntax too-many-subjects] Multiple subjects [23, 27] ('امور āmūr', 'او āū') under the predicate 'می‌خواهد mīḫūāhd' not subtyped as ':outer'.
+[Line 12 Sent dev-s1]: [L3 WARNING pron-det-without-prontype] The word 'کلیه klīh' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 31 Sent dev-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'به خارج از' does not have the 'ExtPos' feature
+[Line 49 Sent dev-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
+[Line 120 Sent dev-s3]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 146 Sent dev-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'خرداد ماه' does not have the 'ExtPos' feature
+[Line 201 Sent dev-s6]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 225 Sent dev-s7]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 268 Sent dev-s8]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 304 Sent dev-s9]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 328 Sent dev-s9]: [L3 WARNING fixed-without-extpos] Fixed expression 'و یا' does not have the 'ExtPos' feature
+[Line 361 Sent dev-s10]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 393 Sent dev-s11]: [L3 WARNING pron-det-without-prontype] The word 'هر hr' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 455 Sent dev-s14]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 492 Sent dev-s15]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 623 Sent dev-s18]: [L3 WARNING fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 762 Sent dev-s21]: [L3 WARNING fixed-without-extpos] Fixed expression 'جامه عمل' does not have the 'ExtPos' feature
+[Line 831 Sent dev-s23]: [L3 WARNING fixed-without-extpos] Fixed expression 'به دنبال' does not have the 'ExtPos' feature
+[Line 1111 Sent dev-s32]: [L3 WARNING fixed-without-extpos] Fixed expression 'گفت و گو' does not have the 'ExtPos' feature
+[Line 1132 Sent dev-s33]: [L3 WARNING fixed-without-extpos] Fixed expression 'در مقابل' does not have the 'ExtPos' feature
+[Line 1262 Sent dev-s39]: [L3 WARNING fixed-without-extpos] Fixed expression 'در مقابل' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1949 Sent dev-s65]: [L3 SYNTAX too-many-objects] Multiple direct objects [21, 25] ('ضد\u200cانقلاب ḍdānqlāb', 'مرزهای mrzhāī') under the predicate 'کنید knīd'.
+[Line 3715 Sent dev-s118]: [L3 SYNTAX too-many-subjects] Multiple subjects [23, 27] ('امور āmūr', 'او āū') under the predicate 'می‌خواهد mīḫūāhd' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 6349 Sent dev-s217]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
-[Line 8461 Sent dev-s280]: [L3 Syntax too-many-subjects] Multiple subjects [1, 21] ('بسیاری bsīārī', 'گروهی grūhī') under the predicate 'می‌کنند mīknnd' not subtyped as ':outer'.
-[Line 8461 Sent dev-s280]: [L3 Syntax too-many-objects] Multiple direct objects [17, 25] ('جایزه jāīzh', 'یکی īkī') under the predicate 'می‌کنند mīknnd'.
-[Line 9041 Sent dev-s296]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] ('تکرار tkrār', 'تیم tīm') under the predicate 'یافت īāft' not subtyped as ':outer'.
-[Line 9318 Sent dev-s305]: [L3 Syntax too-many-subjects] Multiple subjects [1, 11] ('بهمن bhmn', 'امیدرضا āmīdrḍā') under the predicate 'کردند krdnd' not subtyped as ':outer'.
-[Line 12440 Sent dev-s403]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
-[Line 14478 Sent dev-s469]: [L3 Syntax too-many-objects] Multiple direct objects [3, 9] ('زیبایی zībāīī', 'ملاحت mlāḥt') under the predicate 'آموخت Āmūḫt'.
-[Line 14801 Sent dev-s479]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] ('وصله ūṣlh', 'فایل fāīl') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
-Syntax errors: 13
+[Line 6349 Sent dev-s217]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
+[Line 8461 Sent dev-s280]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 21] ('بسیاری bsīārī', 'گروهی grūhī') under the predicate 'می‌کنند mīknnd' not subtyped as ':outer'.
+[Line 8461 Sent dev-s280]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 25] ('جایزه jāīzh', 'یکی īkī') under the predicate 'می‌کنند mīknnd'.
+[Line 9041 Sent dev-s296]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 9] ('تکرار tkrār', 'تیم tīm') under the predicate 'یافت īāft' not subtyped as ':outer'.
+[Line 9318 Sent dev-s305]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 11] ('بهمن bhmn', 'امیدرضا āmīdrḍā') under the predicate 'کردند krdnd' not subtyped as ':outer'.
+[Line 12440 Sent dev-s403]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
+[Line 14478 Sent dev-s469]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 9] ('زیبایی zībāīī', 'ملاحت mlāḥt') under the predicate 'آموخت Āmūḫt'.
+[Line 14801 Sent dev-s479]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 6] ('وصله ūṣlh', 'فایل fāīl') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
+...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 570
+SYNTAX errors: 13
 *** FAILED *** with 13 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
-[Line 26 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 31 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'همین hmīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 115 Sent test-s5]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 138 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 173 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 195 Sent test-s7]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 246 Sent test-s8]: [L3 Warning pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 337 Sent test-s11]: [L3 Warning pron-det-without-prontype] The word 'همین hmīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 433 Sent test-s16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] ('هوا hūā', 'زمین zmīn') under the predicate 'پرخروش prḫrūš' not subtyped as ':outer'.
+[Line 26 Sent test-s2]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 31 Sent test-s2]: [L3 WARNING pron-det-without-prontype] The word 'همین hmīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 115 Sent test-s5]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 138 Sent test-s6]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 173 Sent test-s6]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 195 Sent test-s7]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 246 Sent test-s8]: [L3 WARNING pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 337 Sent test-s11]: [L3 WARNING pron-det-without-prontype] The word 'همین hmīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 433 Sent test-s16]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 4] ('هوا hūā', 'زمین zmīn') under the predicate 'پرخروش prḫrūš' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 553 Sent test-s22]: [L3 Warning fixed-without-extpos] Fixed expression 'به زیر' does not have the 'ExtPos' feature
-[Line 591 Sent test-s24]: [L3 Warning pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 6059 Sent test-s188]: [L3 Syntax too-many-subjects] Multiple subjects [19, 28] ('صادرات ṣādrāt', 'واردات ūārdāt') under the predicate 'بالغ bālġ' not subtyped as ':outer'.
-[Line 6090 Sent test-s189]: [L3 Syntax too-many-subjects] Multiple subjects [4, 18] ('ارزش ārzš', 'واردات ūārdāt') under the predicate 'برآورد brĀūrd' not subtyped as ':outer'.
-[Line 11500 Sent test-s388]: [L3 Syntax too-many-objects] Multiple direct objects [15, 18] ('دین dīn', 'اطاعت āṭāʿt') under the predicate 'می‌دانستند mīdānstnd'.
-[Line 12228 Sent test-s411]: [L3 Syntax too-many-subjects] Multiple subjects [2, 22] ('مرکز mrkz', 'اهدایی āhdāīī') under the predicate 'احداث āḥdāṯ' not subtyped as ':outer'.
-[Line 13758 Sent test-s458]: [L3 Syntax too-many-objects] Multiple direct objects [2, 14] ('تحصیلات tḥṣīlāt', 'دوره dūrh') under the predicate 'رساند rsānd'.
-[Line 14003 Sent test-s466]: [L3 Syntax too-many-subjects] Multiple subjects [6, 19] ('نقش nqš', 'نقش nqš') under the predicate 'حک ḥk' not subtyped as ':outer'.
-[Line 17208 Sent test-s565]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] ('تیم tīm', 'نمایندهٔ nmāīndhٔ') under the predicate 'داد dād' not subtyped as ':outer'.
-[Line 18315 Sent test-s595]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] ('استاد āstād', 'کتاب ktāb') under the predicate 'کرد krd' not subtyped as ':outer'.
-Syntax errors: 9
+[Line 553 Sent test-s22]: [L3 WARNING fixed-without-extpos] Fixed expression 'به زیر' does not have the 'ExtPos' feature
+[Line 591 Sent test-s24]: [L3 WARNING pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 636 Sent test-s25]: [L3 WARNING fixed-without-extpos] Fixed expression 'متصل به هم' does not have the 'ExtPos' feature
+[Line 666 Sent test-s27]: [L3 WARNING pron-det-without-prontype] The word 'همهٔ hmhٔ' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 985 Sent test-s38]: [L3 WARNING fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 1072 Sent test-s41]: [L3 WARNING fixed-without-extpos] Fixed expression 'گفت و گو' does not have the 'ExtPos' feature
+[Line 1098 Sent test-s42]: [L3 WARNING fixed-without-extpos] Fixed expression 'بر روی' does not have the 'ExtPos' feature
+[Line 1122 Sent test-s43]: [L3 WARNING fixed-without-extpos] Fixed expression 'به‌طوری که' does not have the 'ExtPos' feature
+[Line 1156 Sent test-s44]: [L3 WARNING fixed-without-extpos] Fixed expression 'در پی' does not have the 'ExtPos' feature
+[Line 1224 Sent test-s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'به‌طوری که' does not have the 'ExtPos' feature
+[Line 1449 Sent test-s55]: [L3 WARNING fixed-without-extpos] Fixed expression 'به دلیل این که' does not have the 'ExtPos' feature
+[Line 1476 Sent test-s55]: [L3 WARNING fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 6059 Sent test-s188]: [L3 SYNTAX too-many-subjects] Multiple subjects [19, 28] ('صادرات ṣādrāt', 'واردات ūārdāt') under the predicate 'بالغ bālġ' not subtyped as ':outer'.
+[Line 6090 Sent test-s189]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 18] ('ارزش ārzš', 'واردات ūārdāt') under the predicate 'برآورد brĀūrd' not subtyped as ':outer'.
+[Line 11500 Sent test-s388]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 18] ('دین dīn', 'اطاعت āṭāʿt') under the predicate 'می‌دانستند mīdānstnd'.
+[Line 12228 Sent test-s411]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 22] ('مرکز mrkz', 'اهدایی āhdāīī') under the predicate 'احداث āḥdāṯ' not subtyped as ':outer'.
+[Line 13758 Sent test-s458]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 14] ('تحصیلات tḥṣīlāt', 'دوره dūrh') under the predicate 'رساند rsānd'.
+[Line 14003 Sent test-s466]: [L3 SYNTAX too-many-subjects] Multiple subjects [6, 19] ('نقش nqš', 'نقش nqš') under the predicate 'حک ḥk' not subtyped as ':outer'.
+[Line 17208 Sent test-s565]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 4] ('تیم tīm', 'نمایندهٔ nmāīndhٔ') under the predicate 'داد dād' not subtyped as ':outer'.
+[Line 18315 Sent test-s595]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 5] ('استاد āstād', 'کتاب ktāb') under the predicate 'کرد krd' not subtyped as ':outer'.
 Warnings: 432
+SYNTAX errors: 9
 *** FAILED *** with 9 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
-[Line 6 Sent train-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
-[Line 33 Sent train-s3]: [L3 Warning fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
-[Line 49 Sent train-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
-[Line 68 Sent train-s5]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 94 Sent train-s5]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 107 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 159 Sent train-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'بنا بر' does not have the 'ExtPos' feature
-[Line 161 Sent train-s8]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 166 Sent train-s8]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 180 Sent train-s9]: [L3 Warning pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 307 Sent train-s14]: [L3 Syntax too-many-objects] Multiple direct objects [10, 19] ('کالری kālrī', 'انرژی ānržī') under the predicate 'بیشتر bīštr'.
-[Line 880 Sent train-s37]: [L3 Syntax too-many-objects] Multiple direct objects [5, 16] ('سنت\u200cها snthā', 'دستمایه dstmāīh') under the predicate 'می‌دهد mīdhd'.
-[Line 1124 Sent train-s44]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('در dr')
-[Line 2176 Sent train-s105]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
-[Line 2528 Sent train-s128]: [L3 Syntax too-many-subjects] Multiple subjects [13, 19] ('ساعت sāʿt', 'ساعت sāʿt') under the predicate 'می‌دهد mīdhd' not subtyped as ':outer'.
+[Line 6 Sent train-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 33 Sent train-s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
+[Line 49 Sent train-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 68 Sent train-s5]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 94 Sent train-s5]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 107 Sent train-s6]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 159 Sent train-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'بنا بر' does not have the 'ExtPos' feature
+[Line 161 Sent train-s8]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 166 Sent train-s8]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 180 Sent train-s9]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 208 Sent train-s10]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 281 Sent train-s13]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 294 Sent train-s14]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 298 Sent train-s14]: [L3 WARNING pron-det-without-prontype] The word 'هر hr' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 307 Sent train-s14]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 19] ('کالری kālrī', 'انرژی ānržī') under the predicate 'بیشتر bīštr'.
+...suppressing further messages regarding WARNING/MORPHO
+[Line 514 Sent train-s23]: [L3 WARNING fixed-without-extpos] Fixed expression 'برای این که' does not have the 'ExtPos' feature
+[Line 836 Sent train-s36]: [L3 WARNING fixed-without-extpos] Fixed expression 'بیش از' does not have the 'ExtPos' feature
+[Line 880 Sent train-s37]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 16] ('سنت\u200cها snthā', 'دستمایه dstmāīh') under the predicate 'می‌دهد mīdhd'.
+[Line 967 Sent train-s39]: [L3 WARNING fixed-without-extpos] Fixed expression 'منحصر به فرد' does not have the 'ExtPos' feature
+[Line 1124 Sent train-s44]: [L3 WARNING fixed-without-extpos] Fixed expression 'در عین حال' does not have the 'ExtPos' feature
+[Line 1124 Sent train-s44]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('در dr')
+[Line 1171 Sent train-s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'در بین' does not have the 'ExtPos' feature
+[Line 1182 Sent train-s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'از گرفته' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 2176 Sent train-s105]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
+[Line 2528 Sent train-s128]: [L3 SYNTAX too-many-subjects] Multiple subjects [13, 19] ('ساعت sāʿt', 'ساعت sāʿt') under the predicate 'می‌دهد mīdhd' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 2837 Sent train-s149]: [L3 Syntax too-many-subjects] Multiple subjects [1, 18] ('دستی dstī', 'احمد āḥmd') under the predicate 'برمی‌دارد brmīdārd' not subtyped as ':outer'.
-[Line 3556 Sent train-s201]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' ('این āīn')
-[Line 3565 Sent train-s201]: [L3 Syntax too-many-subjects] Multiple subjects [9, 14] ('این\u200cها āīnhā', 'روزه\u200cدار rūzhdār') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
-[Line 3600 Sent train-s203]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
-[Line 3987 Sent train-s226]: [L3 Syntax too-many-subjects] Multiple subjects [2, 4] ('حسینی ḥsīnī', 'تو tū') under the predicate 'ببینم bbīnm' not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
-Syntax errors: 156
+[Line 2837 Sent train-s149]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 18] ('دستی dstī', 'احمد āḥmd') under the predicate 'برمی‌دارد brmīdārd' not subtyped as ':outer'.
+[Line 3556 Sent train-s201]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'PRON' ('این āīn')
+[Line 3565 Sent train-s201]: [L3 SYNTAX too-many-subjects] Multiple subjects [9, 14] ('این\u200cها āīnhā', 'روزه\u200cدار rūzhdār') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
+[Line 3600 Sent train-s203]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
+[Line 3987 Sent train-s226]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 4] ('حسینی ḥsīnī', 'تو tū') under the predicate 'ببینم bbīnm' not subtyped as ':outer'.
+...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 4217
+SYNTAX errors: 156
 *** FAILED *** with 156 errors
 Exit code: 1
 Validity: 0.01
