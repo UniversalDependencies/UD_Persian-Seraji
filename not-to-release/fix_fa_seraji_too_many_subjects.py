@@ -675,7 +675,7 @@ FIXES = {
     # TRANSLIT: wī afzūd: arzaš-e wāredāt-e naftī-ye Hend az Īrān dar sāl-e 99-e mīlādī 250 mīlīyon dolār wa wāredāt-e ġayrnaftī az Īrān 722 mīlīyon dolār barāward šodah ast.
     # ENGLISH:  He added: the value of India's oil imports from Iran in year 99 was estimated at 250 million dollars and non-oil imports from Iran 722 million dollars.
     # Node 4 ارزش (first conjoined subject) stays nsubj; node 18 واردات (second conjoined subject) → conj of node 4
-    'test-s189': [ ('reparent', 18, 4, 'conj'), ('reparent', 17, 18, 'cc') ,
+    'test-s189': [ ('reparent', 18, 4, 'conj'), ('reparent', 17, 18, 'cc')],
 
     # test-s411
     # TEXT:    این مرکز که دارای ۲ هزار و ۷۴۰ متر زیربناست در زمینی به مساحت ۱۸ هزار و ۴۶ متر، اهدایی اهالی روستای خوزنین احداث شده است.
