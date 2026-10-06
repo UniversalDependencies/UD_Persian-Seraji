@@ -11486,8 +11486,8 @@
 12	خواستم	خواست	AUX	V_PA	Number=Sing|Person=1|Tense=Past	15	aux	_	LTranslit=ḫūāst|OrigLemma=خواست#خواه|Translit=ḫūāstm
 13	این	این	DET	DET	_	14	det	_	LTranslit=āīn|Translit=āīn
 14	تضاد	تضاد	NOUN	N_SING	Number=Sing	15	obj	_	LTranslit=tḍād|Translit=tḍād
-15	دربیاید	آمد	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	LTranslit=Āmd|SpaceAfter=No|Translit=drbīāīd
-16	.	.	PUNCT	DELM	_	15	punct	_	LTranslit=.|Translit=.
+15	دربیاید	آمد	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	LTranslit=Āmd|SpaceAfter=No|Translit=drbīāīd
+16	.	.	PUNCT	DELM	_	2	punct	_	LTranslit=.|Translit=.
 
 # sent_id = train-s585
 # text = از هر کی می‌دیدیم می‌پرسیدیم چه حسی دارید، می‌گفت کاشکی آن ور مصاحبه می‌کردم.
