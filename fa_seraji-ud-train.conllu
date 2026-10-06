@@ -10947,9 +10947,9 @@
 # sent_id = train-s564
 # text = یکی از مشکلاتی که ما داشتیم در دعوت از عزیزان - حالا من از ایشان ایراد نمی‌گیرم - و این به خاطر برخورد بد برنامه‌سازهاست، این است که به این عزیزان وقتی می‌گویید بفرمایید فلان برنامه صحبت کنید، سریع می‌گویند می‌خواهیم برویم آنجا بگویند چند سالته؟
 # translit = īkī az mšklātī kh mā dāštīm dr dʿūt az ʿzīzān - ḥālā mn az aīšān aīrād nmīgīrm - w aīn bh ḫāṭr brḫūrd bd brnāmhsāzhāst, aīn ast kh bh aīn ʿzīzān wqtī mīgūīīd bfrmāīīd flān brnāmh ṣḥbt knīd, srīʿ mīgūīnd mīḫūāhīm brūīm Ānjā bgūīnd čnd sālth?
-1	یکی	یک	NUM	NUM	NumType=Card	17	nsubj	_	LTranslit=īk|Translit=īkī
+1	یکی	یک	NUM	NUM	NumType=Card	6	nsubj	_	LTranslit=īk|Translit=īkī
 2	از	از	ADP	P	_	3	case	_	LTranslit=āz|Translit=āz
-3	مشکلاتی	مشکل	NOUN	N_PL	Number=Plur	1	nmod	_	LTranslit=mškl|Translit=mšklātī
+3	مشکلاتی	مشکل	NOUN	N_PL	Number=Plur	17	obl	_	LTranslit=mškl|Translit=mšklātī
 4	که	که	SCONJ	CON	_	6	mark	_	LTranslit=kh|Translit=kh
 5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	LTranslit=mā|Translit=mā
 6	داشتیم	داشت	VERB	V_PA	Number=Plur|Person=1|Tense=Past	3	acl:relcl	_	LTranslit=dāšt|OrigLemma=داشت#دار|Translit=dāštīm
