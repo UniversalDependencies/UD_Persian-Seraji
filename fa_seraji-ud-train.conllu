@@ -8265,10 +8265,10 @@
 11	باید	بایست	AUX	V_AUX	VerbForm=Inf	12	aux	_	LTranslit=bāīst|OrigLemma=بایست#باید|Translit=bāīd
 12	بگویم	گفت	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	LTranslit=gft|OrigLemma=گفت#گو|SpaceAfter=No|Translit=bgūīm
 13	،	،	PUNCT	DELM	_	14	punct	_	LTranslit=,|Translit=,
-14	تحصیلاتی	تحصیل	NOUN	N_PL	Number=Plur	12	nsubj	_	LTranslit=tḥṣīl|Translit=tḥṣīlātī
+14	تحصیلاتی	تحصیل	NOUN	N_PL	Number=Plur	17	nsubj	_	LTranslit=tḥṣīl|Translit=tḥṣīlātī
 15	که	که	SCONJ	CON	_	16	mark	_	LTranslit=kh|Translit=kh
 16	دارم	داشت	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	14	acl:relcl	_	LTranslit=dāšt|OrigLemma=داشت#دار|Translit=dārm
-17	هنری	هنری	ADJ	ADJ	Degree=Pos	16	ccomp	_	LTranslit=hnrī|Translit=hnrī
+17	هنری	هنری	ADJ	ADJ	Degree=Pos	12	ccomp	_	LTranslit=hnrī|Translit=hnrī
 18	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	17	cop	_	LTranslit=āst|Translit=āst
 19	و	و	CCONJ	CON	_	32	cc	_	LTranslit=ū|Translit=ū
 20	در	در	ADP	P	_	21	case	_	LTranslit=dr|Translit=dr

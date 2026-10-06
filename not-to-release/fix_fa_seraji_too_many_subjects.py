@@ -102,13 +102,6 @@ FIXES = {
     # Node 1 مشاجره (fronted outer topic) → nsubj:outer; node 5 بچه (real subject) stays nsubj
     'train-s445': [('deprel', 1, 'dislocated')],
 
-    # train-s455
-    # TEXT:    من به عنوان تهیه‌کننده و کارگردان ۲۶ قسمت اول، باید بگویم، تحصیلاتی که دارم هنری است و در مورد معضلات اجتماعی فقط می‌توانم به دیده‌ها و تجربه‌هایم اکتفا کنم.
-    # TRANSLIT: man bah ʿunwān tahiyyahkonandah wa kārgardān 26 qismat awwal, bāyad begūyam, taḥṣīlātī kah dāram hunarī ast…
-    # ENGLISH:  I, as producer and director of the first 26 episodes, must say: the education I have is in the arts…
-    # Node 14 تحصیلاتی (outer topic of embedded content clause) → nsubj:outer; node 1 من (real matrix subject) stays nsubj
-    'train-s455': [('reparent', 14, 17, 'nsubj')],
-
     # train-s459
     # TEXT:    شما هم هر چیزی که از دانشگاه، کالج و یا از توی کتاب و هر جای دیگر در‌آوردید، مثل مرجع از آن استفاده کنید.
     # TRANSLIT: šomā ham har čīzī kah az dānišgāh, kālij wa yā az tūy kitāb wa har jāy dīgar darāwardīd, misl marjaʿ az ān istifādah konīd.
