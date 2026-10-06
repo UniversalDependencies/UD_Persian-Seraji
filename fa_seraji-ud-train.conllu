@@ -11472,7 +11472,7 @@
 # sent_id = train-s584
 # text = درست جایگاهی که انسان باید در آنجا باشد؛ یعنی من خواستم این تضاد دربیاید.
 # translit = drst jāīgāhī kh ansān bāīd dr Ānjā bāšd; yʿnī mn ḫūāstm aīn tḍād drbīāīd.
-1	درست	درست	ADJ	ADJ	Degree=Pos	15	advmod	_	LTranslit=drst|Translit=drst
+1	درست	درست	ADJ	ADJ	Degree=Pos	2	amod	_	LTranslit=drst|Translit=drst
 2	جایگاهی	جایگاه	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=jāīgāh|Translit=jāīgāhī
 3	که	که	SCONJ	CON	_	8	mark	_	LTranslit=kh|Translit=kh
 4	انسان	انسان	NOUN	N_SING	Number=Sing	8	nsubj	_	LTranslit=ānsān|Translit=ānsān
@@ -16931,7 +16931,7 @@
 17	بودن	بودن	NOUN	N_SING	Number=Sing	14	ccomp	_	LTranslit=būdn|Translit=būdn
 18	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	LTranslit=āū|Translit=š
 19	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	17	cop	_	LTranslit=būd|OrigLemma=بود#باش|SpaceAfter=No|Translit=būd
-20	،	،	PUNCT	DELM	_	1	punct	_	LTranslit=,|Translit=,
+20	،	،	PUNCT	DELM	_	6	punct	_	LTranslit=,|Translit=,
 21	یعنی	یعنی	SCONJ	CON	_	26	mark	_	LTranslit=īʿnī|Translit=īʿnī
 22	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	LTranslit=mā|Translit=mā
 23	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	26	xcomp	_	LTranslit=bīš|Translit=bīštr
@@ -18730,7 +18730,7 @@
 3	راه	راه	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=rāh|Translit=rāh
 4	اشتباهی	اشتباه	ADJ	ADJ	Degree=Pos	3	amod	_	LTranslit=āštbāh|Translit=āštbāhī
 5	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	3	cop	_	LTranslit=āst|SpaceAfter=No|Translit=āst
-6	؟	؟	PUNCT	DELM	_	4	punct	_	LTranslit=?|Translit=?
+6	؟	؟	PUNCT	DELM	_	3	punct	_	LTranslit=?|Translit=?
 
 # sent_id = train-s846
 # text = وقتی من شروع کردم به نوشتن، برای هر کدام از آن‌ها یک داستان نو در نظر گرفتم که در ۲۶ قسمت و یا ۲۲ قسمت به سر می‌رسید.
@@ -77819,7 +77819,7 @@
 6	و	و	CCONJ	CON	_	7	cc	_	LTranslit=ū|Translit=ū
 7	جدا	جدا	ADJ	ADJ	Degree=Pos	5	conj	_	LTranslit=jdā|Translit=jdā
 8	می‌شود	کرد	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	7	compound	_	LTranslit=krd|OrigLemma=کرد#کن|SpaceAfter=No|Translit=mīšūd
-9	،	،	PUNCT	DELM	_	2	punct	_	LTranslit=,|Translit=,
+9	،	،	PUNCT	DELM	_	5	punct	_	LTranslit=,|Translit=,
 10	شخصیت	شخصیت	NOUN	N_SING	Number=Sing	14	nsubj	_	LTranslit=šḫṣīt|Translit=šḫṣīt
 11	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	LTranslit=āū|Translit=āū
 12	معنا	معنا	NOUN	N_SING	Number=Sing	14	obj	_	LTranslit=mʿnā|Translit=mʿnā
