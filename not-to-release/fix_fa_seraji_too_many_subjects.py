@@ -270,13 +270,6 @@ FIXES = {
     # Node 3 درصد (outer topic "that percentage of them") → nsubj:outer; node 8 خیلی (real subject of advcl) stays nsubj
     'train-s814': [('deprel', 3, 'nsubj:outer')],
 
-    # train-s821
-    # TEXT:    یادم است هفت - هشت قسمت آن کار که رفت، یک نگرانی به ما دست داد که این بچه‌ها با بچه‌های «روزگار جوانی» مقایسه می‌شدند.
-    # TRANSLIT: yādam ast haft - hašt qismat ān kār kah raft, yak negarānī bah mā dast dād kah īn baččahā bā baččahāy «Rūzgār-e Javānī» moqāyasah mīšodand.
-    # ENGLISH:  I remember that after seven-eight episodes of that work aired, a worry came to us that these children were being compared with children of Roozgar-e Javani.
-    # Node 6 قسمت (temporal frame "seven-eight episodes", NOUN head → obl); node 13 نگرانی (real subject) stays nsubj
-    'train-s821': [('reparent', 6, 10, 'nsubj')],
-
     # train-s845
     # TEXT:    این چرا راه اشتباهی است؟
     # TRANSLIT: īn čarā rāh eštebāhī ast?
@@ -709,6 +702,7 @@ def apply_fixes(doc, fixes):
                 continue
             print(sid, fixes[sid])
             nodes = {n.ord: n for n in tree.descendants}
+            nodes[0] = tree
             for op in fixes[sid]:
                 if op[0] == 'deprel':
                     _, nid, new_deprel = op

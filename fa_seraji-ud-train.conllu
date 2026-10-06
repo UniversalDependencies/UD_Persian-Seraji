@@ -16911,12 +16911,12 @@
 # sent_id = train-s778
 # text = اتفاقی که در سری قبل افتاد و باعث شد سریال خیلی تماشاگر پیدا کند همین ملودرام بودنش بود، یعنی ما بیشتر طرف این می‌رفتیم که در احساسات تماشاگر هم تأثیر بگذاریم و هم بخندانیم و هم بگریانیم.
 # translit = ātfāqī kh dr srī qbl aftād w bāʿṯ šd srīāl ḫīlī tmāšāgr pīdā knd hmīn mlūdrām būdnš būd, yʿnī mā bīštr ṭrf aīn mīrftīm kh dr aḥsāsāt tmāšāgr hm tʾaṯīr bgḏārīm w hm bḫndānīm w hm bgrīānīm.
-1	اتفاقی	اتفاق	NOUN	N_SING	Number=Sing	26	nsubj	_	LTranslit=ātfāq|Translit=ātfāqī
+1	اتفاقی	اتفاق	NOUN	N_SING	Number=Sing	6	nsubj	_	LTranslit=ātfāq|Translit=ātfāqī
 2	که	که	SCONJ	CON	_	6	mark	_	LTranslit=kh|Translit=kh
 3	در	در	ADP	P	_	4	case	_	LTranslit=dr|Translit=dr
 4	سری	سری	NOUN	N_SING	Number=Sing	6	obl	_	LTranslit=srī|Translit=srī
 5	قبل	قبل	ADJ	ADJ	Degree=Pos	4	amod	_	LTranslit=qbl|Translit=qbl
-6	افتاد	افتاد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	LTranslit=āftād|OrigLemma=افتاد#افت|Translit=āftād
+6	افتاد	افتاد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	26	ccomp	_	LTranslit=āftād|OrigLemma=افتاد#افت|Translit=āftād
 7	و	و	CCONJ	CON	_	8	cc	_	LTranslit=ū|Translit=ū
 8	باعث	باعث	NOUN	N_SING	Number=Sing	6	conj	_	LTranslit=bāʿṯ|Translit=bāʿṯ
 9	شد	کرد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	8	compound	_	LTranslit=krd|OrigLemma=کرد#کن|Translit=šd
@@ -18099,7 +18099,7 @@
 10	رفت	رفت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	8	acl:relcl	_	LTranslit=rft|OrigLemma=رفت#رو|SpaceAfter=No|Translit=rft
 11	،	،	PUNCT	DELM	_	6	punct	_	LTranslit=,|Translit=,
 12	یک	یک	NUM	NUM	NumType=Card	13	nummod	_	LTranslit=īk|Translit=īk
-13	نگرانی	نگرانی	NOUN	N_SING	Number=Sing	17	nsubj	_	LTranslit=ngrānī|Translit=ngrānī
+13	نگرانی	نگرانی	NOUN	N_SING	Number=Sing	17	obj	_	LTranslit=ngrānī|Translit=ngrānī
 14	به	به	ADP	P	_	15	case	_	LTranslit=bh|Translit=bh
 15	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	17	obl	_	LTranslit=mā|Translit=mā
 16	دست	دست	NOUN	N_SING	Number=Sing	17	compound:lvc	_	LTranslit=dst|Translit=dst
@@ -56816,10 +56816,10 @@
 # sent_id = train-s2148
 # text = نویسندگان بیانیه با تاسف عمیق از این که دو تفسیر غلط از دوم خرداد وجود دارد، این نعمت ارزشمند را آماج حمله و طعن ساخته است.
 # translit = nūīsndgān bīānīh bā tāsf ʿmīq az aīn kh dū tfsīr ġlṭ az dūm ḫrdād wjūd dārd, aīn nʿmt arzšmnd rā Āmāj ḥmlh w ṭʿn sāḫth ast.
-1	نویسندگان	نویسنده	NOUN	N_PL	Number=Plur	16	nsubj	_	LTranslit=nūīsndh|Translit=nūīsndgān
+1	نویسندگان	نویسنده	NOUN	N_PL	Number=Plur	26	nsubj	_	LTranslit=nūīsndh|Translit=nūīsndgān
 2	بیانیه	بیانیه	NOUN	N_SING	Number=Sing	1	nmod:poss	_	LTranslit=bīānīh|Translit=bīānīh
 3	با	با	ADP	P	_	4	case	_	LTranslit=bā|Translit=bā
-4	تاسف	تاسف	NOUN	N_SING	Number=Sing	2	nmod	_	LTranslit=tāsf|Translit=tāsf
+4	تاسف	تاسف	NOUN	N_SING	Number=Sing	26	obl	_	LTranslit=tāsf|Translit=tāsf
 5	عمیق	عمیق	ADJ	ADJ	Degree=Pos	4	amod	_	LTranslit=ʿmīq|Translit=ʿmīq
 6	از	از	ADP	P	_	7	case	_	LTranslit=āz|Translit=āz
 7	این	این	PRON	PRO	Number=Sing|PronType=Dem	4	nmod	_	LTranslit=āīn|Translit=āīn
@@ -56831,19 +56831,19 @@
 13	دوم	دوم	ADJ	ADJ	Degree=Pos|NumType=Ord	14	amod	_	LTranslit=dūm|Translit=dūm
 14	خرداد	خرداد	NOUN	N_SING	Number=Sing	10	nmod	_	LTranslit=ḫrdād|Translit=ḫrdād
 15	وجود	وجود	NOUN	N_SING	Number=Sing	16	compound:lvc	_	LTranslit=ūjūd|Translit=ūjūd
-16	دارد	داشت	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	LTranslit=dāšt|OrigLemma=داشت#دار|SpaceAfter=No|Translit=dārd
+16	دارد	داشت	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	7	acl	_	LTranslit=dāšt|OrigLemma=داشت#دار|SpaceAfter=No|Translit=dārd
 17	،	،	PUNCT	DELM	_	26	punct	_	LTranslit=,|Translit=,
 18	این	این	DET	DET	_	19	det	_	LTranslit=āīn|Translit=āīn
-19	نعمت	نعمت	NOUN	N_SING	Number=Sing	22	nsubj	_	LTranslit=nʿmt|Translit=nʿmt
+19	نعمت	نعمت	NOUN	N_SING	Number=Sing	26	obj	_	LTranslit=nʿmt|Translit=nʿmt
 20	ارزشمند	ارزشمند	ADJ	ADJ	Degree=Pos	19	amod	_	LTranslit=ārzšmnd|Translit=ārzšmnd
 21	را	را	PART	CLITIC	_	19	case	_	LTranslit=rā|Translit=rā
 22	آماج	آماج	NOUN	N_SING	Number=Sing	26	xcomp	_	LTranslit=Āmāj|Translit=Āmāj
 23	حمله	حمله	NOUN	N_SING	Number=Sing	22	nmod:poss	_	LTranslit=ḥmlh|Translit=ḥmlh
 24	و	و	CCONJ	CON	_	25	cc	_	LTranslit=ū|Translit=ū
 25	طعن	طعن	NOUN	N_SING	Number=Sing	23	conj	_	LTranslit=ṭʿn|Translit=ṭʿn
-26	ساخته	ساخت	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	16	ccomp	_	LTranslit=sāḫt|OrigLemma=ساخت#ساز|Translit=sāḫth
+26	ساخته	ساخت	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	LTranslit=sāḫt|OrigLemma=ساخت#ساز|Translit=sāḫth
 27	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	26	aux	_	LTranslit=āst|SpaceAfter=No|Translit=āst
-28	.	.	PUNCT	DELM	_	16	punct	_	LTranslit=.|Translit=.
+28	.	.	PUNCT	DELM	_	26	punct	_	LTranslit=.|Translit=.
 
 # sent_id = train-s2149
 # text = این دو تفسیر را این گونه معرفی کرده است: گروهی که نه انقلاب را قبول دارند و نه دوم خرداد را و آن را انقلابی در جهت مخالفت با انقلاب اسلامی و حرکتی برای نفی دستاوردهای انقلاب شکوهمند اسلامی می‌خوانند و می‌خواهند، و گروه دیگر که مع‌الاسف با شعار دین‌خواهی و پاسداری ارزشها به میدان آمده‌اند و تصریحاً یا تلویحاً به مخالفت با دوم خرداد می‌پردازند و این حادثه عظیم را حرکتی ضد دینی و حاصل توطئه دشمنان و مخالف ارزشها تلقی می‌کنند.
