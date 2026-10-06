@@ -76155,7 +76155,7 @@
 # sent_id = train-s2824
 # text = سالهای ۱۵ و ۲۵ و ۳۵ یزید از طرف معاویه مسئول حج بود.
 # translit = sālhāī 15 w 25 w 35 yzīd az ṭrf mʿāūīh msʾiūl ḥj būd.
-1	سالهای	سال	NOUN	N_PL	Number=Plur	11	obl:tmod	_	LTranslit=sāl|Translit=sālhāī
+1	سالهای	سال	NOUN	N_PL	Number=Plur	11	obl	_	LTranslit=sāl|Translit=sālhāī
 2	۱۵	۱۵	NUM	NUM	NumType=Card	1	nummod	_	LTranslit=15|Translit=15
 3	و	و	CCONJ	CON	_	4	cc	_	LTranslit=ū|Translit=ū
 4	۲۵	۲۵	NUM	NUM	NumType=Card	1	conj	_	LTranslit=25|Translit=25
@@ -113400,7 +113400,7 @@
 12	گزیده	گزیده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	5	acl:relcl	_	LTranslit=gzīdh|Translit=gzīdh
 13	بودیم	بود	AUX	V_PA	Number=Plur|Person=1|Tense=Past	12	aux	_	LTranslit=būd|OrigLemma=بود#باش|SpaceAfter=No|Translit=būdīm
 14	،	،	PUNCT	DELM	_	5	punct	_	LTranslit=,|Translit=,
-15	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	30	nsjb	_	LTranslit=mn|Translit=mn
+15	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	30	nsubj	_	LTranslit=mn|Translit=mn
 16	هرروز	هرروز	ADV	ADV_TIME	Case=Tem	17	advmod	_	LTranslit=hrrūz|Translit=hrrūz
 17	صبح	صبح	NOUN	N_SING	Number=Sing	38	obl	_	LTranslit=ṣbḥ|Translit=ṣbḥ
 18	که	که	SCONJ	CON	_	30	mark	_	LTranslit=kh|Translit=kh
