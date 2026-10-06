@@ -707,6 +707,7 @@ def apply_fixes(doc, fixes):
             sid = tree.sent_id
             if sid not in fixes:
                 continue
+            print(sid, fixes[sid])
             nodes = {n.ord: n for n in tree.descendants}
             for op in fixes[sid]:
                 if op[0] == 'deprel':
