@@ -6885,7 +6885,7 @@
 20	معضلات	معضل	NOUN	N_PL	Number=Plur	11	advcl	_	LTranslit=mʿḍl|Translit=mʿḍlāt
 21	است	است	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	20	cop	_	LTranslit=āst|SpaceAfter=No|Translit=āst
 22	،	،	PUNCT	DELM	_	23	punct	_	LTranslit=,|Translit=,
-23	آن	آن	PRON	PRO	Number=Sing|PronType=Dem	26	advmod:emph	_	LTranslit=Ān|Translit=Ān
+23	آن	آن	PRON	PRO	ExtPos=ADV|Number=Sing|PronType=Dem	26	advmod	_	LTranslit=Ān|Translit=Ān
 24	هم	هم	SCONJ	CON	_	23	fixed	_	LTranslit=hm|Translit=hm
 25	از	از	ADP	P	_	26	case	_	LTranslit=āz|Translit=āz
 26	نوع	نوع	NOUN	N_SING	Number=Sing	20	nmod	_	LTranslit=nūʿ|Translit=nūʿ
@@ -10947,9 +10947,9 @@
 # sent_id = train-s564
 # text = یکی از مشکلاتی که ما داشتیم در دعوت از عزیزان - حالا من از ایشان ایراد نمی‌گیرم - و این به خاطر برخورد بد برنامه‌سازهاست، این است که به این عزیزان وقتی می‌گویید بفرمایید فلان برنامه صحبت کنید، سریع می‌گویند می‌خواهیم برویم آنجا بگویند چند سالته؟
 # translit = īkī az mšklātī kh mā dāštīm dr dʿūt az ʿzīzān - ḥālā mn az aīšān aīrād nmīgīrm - w aīn bh ḫāṭr brḫūrd bd brnāmhsāzhāst, aīn ast kh bh aīn ʿzīzān wqtī mīgūīīd bfrmāīīd flān brnāmh ṣḥbt knīd, srīʿ mīgūīnd mīḫūāhīm brūīm Ānjā bgūīnd čnd sālth?
-1	یکی	یک	NUM	NUM	NumType=Card	6	nsubj	_	LTranslit=īk|Translit=īkī
+1	یکی	یک	NUM	NUM	NumType=Card	17	obl	_	LTranslit=īk|Translit=īkī
 2	از	از	ADP	P	_	3	case	_	LTranslit=āz|Translit=āz
-3	مشکلاتی	مشکل	NOUN	N_PL	Number=Plur	17	obl	_	LTranslit=mškl|Translit=mšklātī
+3	مشکلاتی	مشکل	NOUN	N_PL	Number=Plur	1	nmod	_	LTranslit=mškl|Translit=mšklātī
 4	که	که	SCONJ	CON	_	6	mark	_	LTranslit=kh|Translit=kh
 5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	LTranslit=mā|Translit=mā
 6	داشتیم	داشت	VERB	V_PA	Number=Plur|Person=1|Tense=Past	3	acl:relcl	_	LTranslit=dāšt|OrigLemma=داشت#دار|Translit=dāštīm
@@ -11473,13 +11473,13 @@
 # text = درست جایگاهی که انسان باید در آنجا باشد؛ یعنی من خواستم این تضاد دربیاید.
 # translit = drst jāīgāhī kh ansān bāīd dr Ānjā bāšd; yʿnī mn ḫūāstm aīn tḍād drbīāīd.
 1	درست	درست	ADJ	ADJ	Degree=Pos	15	advmod	_	LTranslit=drst|Translit=drst
-2	جایگاهی	جایگاه	NOUN	N_SING	Number=Sing	8	nsubj	_	LTranslit=jāīgāh|Translit=jāīgāhī
+2	جایگاهی	جایگاه	NOUN	N_SING	Number=Sing	0	root	_	LTranslit=jāīgāh|Translit=jāīgāhī
 3	که	که	SCONJ	CON	_	8	mark	_	LTranslit=kh|Translit=kh
 4	انسان	انسان	NOUN	N_SING	Number=Sing	8	nsubj	_	LTranslit=ānsān|Translit=ānsān
 5	باید	بایست	AUX	V_AUX	VerbForm=Inf	8	aux	_	LTranslit=bāīst|OrigLemma=بایست#باید|Translit=bāīd
 6	در	در	ADP	P	_	7	case	_	LTranslit=dr|Translit=dr
 7	آنجا	آنجا	ADV	ADV_LOC	Case=Loc	8	obl	_	LTranslit=Ānjā|Translit=Ānjā
-8	باشد	بود	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LTranslit=būd|OrigLemma=بود#باش|SpaceAfter=No|Translit=bāšd
+8	باشد	بود	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	LTranslit=būd|OrigLemma=بود#باش|SpaceAfter=No|Translit=bāšd
 9	؛	؛	PUNCT	DELM	_	2	punct	_	LTranslit=;|Translit=;
 10	یعنی	یعنی	SCONJ	CON	_	15	mark	_	LTranslit=īʿnī|Translit=īʿnī
 11	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	LTranslit=mn|Translit=mn
@@ -24778,7 +24778,7 @@
 9	بود	بود	AUX	V_PA	Number=Sing|Person=3|Tense=Past	8	cop	_	LTranslit=būd|OrigLemma=بود#باش|Translit=būd
 10	که	که	SCONJ	CON	_	31	mark	_	LTranslit=kh|Translit=kh
 11	این	این	DET	DET	_	12	det	_	LTranslit=āīn|Translit=āīn
-12	آدم	آدم	NOUN	N_SING	Number=Sing	31	nsubj	_	LTranslit=Ādm|Translit=Ādm
+12	آدم	آدم	NOUN	N_SING	Number=Sing	31	dep	_	LTranslit=Ādm|Translit=Ādm
 13	یک	یک	NUM	NUM	NumType=Card	15	nummod	_	LTranslit=īk|Translit=īk
 14	سری	سری	NOUN	N_SING	Number=Sing	15	nmod	_	LTranslit=srī|Translit=srī
 15-16	چیزهایش	_	_	_	_	_	_	_	Translit=čīzhāīš
