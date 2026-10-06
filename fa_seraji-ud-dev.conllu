@@ -3707,7 +3707,7 @@
 20	بزرگ	بزرگ	NOUN	N_SING	Number=Sing	18	conj	_	LTranslit=bzrg|Translit=bzrg
 21	بنی‌هاشم	بنی‌هاشم	NOUN	N_SING	Number=Sing	20	nmod:poss	_	LTranslit=bnīhāšm|Translit=bnīhāšm
 22	نداند	دانست	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	conj	_	LTranslit=dānst|Translit=ndānd
-23	امور	امر	NOUN	N_PL	Number=Plur	28	nsubj	_	LTranslit=āmr|Translit=āmūr
+23	امور	امر	NOUN	N_PL	Number=Plur	30	nsubj	_	LTranslit=āmr|Translit=āmūr
 24	واقع	واقع	ADJ	ADJ	Degree=Pos	23	amod	_	LTranslit=ūāqʿ|Translit=ūāqʿ
 25	چنان	چنان	ADV	ADV	_	28	advmod	_	LTranslit=čnān|Translit=čnān
 26	که	که	CCONJ	CON	_	25	fixed	_	LTranslit=kh|Translit=kh
@@ -8446,8 +8446,8 @@
 17	جایزه	جایزه	NOUN	N_SING	Number=Sing	32	obj	_	LTranslit=jāīzh|Translit=jāīzh
 18	نخل	نخل	NOUN	N_SING	Number=Sing	17	flat	_	LTranslit=nḫl|Translit=nḫl
 19	طلا	طلا	NOUN	N_SING	Number=Sing	18	flat	_	LTranslit=ṭlā|Translit=ṭlā
-20	و	و	CCONJ	CON	_	32	cc	_	LTranslit=ū|Translit=ū
-21	گروهی	گروه	NOUN	N_SING	Number=Sing	32	nsubj	_	LTranslit=grūh|Translit=grūhī
+20	و	و	CCONJ	CON	_	21	cc	_	LTranslit=ū|Translit=ū
+21	گروهی	گروه	NOUN	N_SING	Number=Sing	1	conj	_	LTranslit=grūh|Translit=grūhī
 22	دیگر	دیگر	ADJ	ADJ	Degree=Pos	21	amod	_	LTranslit=dīgr|SpaceAfter=No|Translit=dīgr
 23	،	،	PUNCT	DELM	_	21	punct	_	LTranslit=,|Translit=,
 24	دست‌کم	دست‌کم	ADV	ADV	_	32	advmod	_	LTranslit=dstkm|Translit=dstkm
@@ -9009,7 +9009,7 @@
 # sent_id = dev-s296
 # text = تکرار مقام چهارمی، بازهم با ۳ مدال تیم ایران به مقام چهارمی چهاردهمین دوره مسابقه‌های تکواندو قهرمانی آسیا - اقیانوسیه که در هنگ‌کنگ چین جریان داشت، دست یافت.
 # translit = tkrār mqām čhārmī, bāzhm bā 3 mdāl tīm aīrān bh mqām čhārmī čhārdhmīn dūrh msābqhhāī tkūāndū qhrmānī Āsīā - aqīānūsīh kh dr hngkng čīn jrīān dāšt, dst yāft.
-1	تکرار	تکرار	NOUN	N_SING	Number=Sing	30	nsubj	_	LTranslit=tkrār|Translit=tkrār
+1	تکرار	تکرار	NOUN	N_SING	Number=Sing	30	dislocated	_	LTranslit=tkrār|Translit=tkrār
 2	مقام	مقام	NOUN	N_SING	Number=Sing	1	nmod:poss	_	LTranslit=mqām|Translit=mqām
 3	چهارمی	چهارم	ADJ	ADJ	Degree=Pos	2	amod	_	LTranslit=čhārm|SpaceAfter=No|Translit=čhārmī
 4	،	،	PUNCT	DELM	_	1	punct	_	LTranslit=,|Translit=,
@@ -9302,8 +9302,8 @@
 7	تیم	تیم	NOUN	N_SING	Number=Sing	23	obl	_	LTranslit=tīm|Translit=tīm
 8	استقلال	استقلال	NOUN	N_SING	Number=Sing	7	flat	_	LTranslit=āstqlāl|Translit=āstqlāl
 9	تهران	تهران	NOUN	N_SING	Number=Sing	8	flat	_	LTranslit=thrān|Translit=thrān
-10	و	و	CCONJ	CON	_	23	cc	_	LTranslit=ū|Translit=ū
-11	امیدرضا	امیدرضا	NOUN	N_SING	Number=Sing	23	nsubj	_	LTranslit=āmīdrḍā|Translit=āmīdrḍā
+10	و	و	CCONJ	CON	_	11	cc	_	LTranslit=ū|Translit=ū
+11	امیدرضا	امیدرضا	NOUN	N_SING	Number=Sing	1	conj	_	LTranslit=āmīdrḍā|Translit=āmīdrḍā
 12	رمضانی	رمضانی	NOUN	N_SING	Number=Sing	11	flat	_	LTranslit=rmḍānī|Translit=rmḍānī
 13	در	در	ADP	P	_	14	case	_	LTranslit=dr|Translit=dr
 14	دقیقه	دقیقه	NOUN	N_SING	Number=Sing	23	obl	_	LTranslit=dqīqh|Translit=dqīqh
@@ -14787,7 +14787,7 @@
 3	،	،	PUNCT	DELM	_	1	punct	_	LTranslit=,|Translit=,
 4	هر	هر	DET	DET	_	6	det:predet	_	LTranslit=hr|Translit=hr
 5	گونه	گونه	NOUN	N_SING	Number=Sing	6	nmod	_	LTranslit=gūnh|Translit=gūnh
-6	فایل	فایل	NOUN	N_SING	Number=Sing	17	nsubj	_	LTranslit=fāīl|Translit=fāīl
+6	فایل	فایل	NOUN	N_SING	Number=Sing	17	obj	_	LTranslit=fāīl|Translit=fāīl
 7	ضمیمه‌ای	ضمیمه‌ای	ADJ	ADJ	Degree=Pos	6	amod	_	LTranslit=ḍmīmhāī|Translit=ḍmīmhāī
 8	میل	میل	NOUN	N_SING	Number=Sing	6	nmod:poss	_	LTranslit=mīl|Translit=mīl
 9	را	را	PART	CLITIC	_	6	case	_	LTranslit=rā|Translit=rā
