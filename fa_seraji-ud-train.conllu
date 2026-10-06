@@ -14804,7 +14804,7 @@
 1	دو	دو	NUM	NUM	NumType=Card	2	nummod	_	LTranslit=dū|Translit=dū
 2	نمونه	نمونه	NOUN	N_SING	Number=Sing	7	nsubj	_	LTranslit=nmūnh|Translit=nmūnh
 3	از	از	ADP	P	_	6	case	_	LTranslit=āz|Translit=āz
-4	معروفترین	معروف	ADJ	ADJ_SUP	Degree=Sup	5	amod	_	LTranslit=mʿrūf|Translit=mʿrūftrīn
+4	معروفترین	معروف	ADJ	ADJ_SUP	Degree=Sup	6	amod	_	LTranslit=mʿrūf|Translit=mʿrūftrīn
 5	این	این	DET	DET	_	6	det	_	LTranslit=āīn|Translit=āīn
 6	برنامه‌ها	برنامه	NOUN	N_PL	Number=Plur	2	nmod	_	LTranslit=brnāmh|Translit=brnāmhhā
 7	عبارتند	_	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	Translit=ʿbārtnd
