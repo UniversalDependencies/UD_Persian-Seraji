@@ -23,7 +23,7 @@ FIXES = {
     # TRANSLIT: ṣāḥib maġāzah: [dar ḥālī kah bah sāʿat išārah mīkonad] sāʿatam, haft wa… sāʿat ḥudūd dah daqīqah bah zang rā nišān mīdahad.
     # ENGLISH:  Shop owner: [while pointing at the clock] My watch, seven and… the watch shows about ten minutes to the bell.
     # Node 13 ساعتم (outer topic from stage direction) → nsubj:outer; node 19 ساعت (inner subject) stays nsubj
-    'train-s128': [('deprel', 13, 'nsubj:outer')],
+    'train-s128': [('reparent', 13, 19, 'reparandum')],
 
     # train-s149
     # TEXT:    دستی که یازده ساعت را پاک می‌کند و می‌نویسد: «ده ساعت به افطار مانده» احمد کیف را از روی زمین برمی‌دارد.
@@ -51,77 +51,77 @@ FIXES = {
     # TRANSLIT: baʿḍī az baččahā kah qablan dīdahʾīm bah ham zabān nišān mīdahand, yak bah yak sar furū mīandāzand.
     # ENGLISH:  Some of the children we have seen before show their tongues at each other, one by one they lower their heads.
     # Node 13 یک (head of fixed "یک به یک" = one by one) → obl; node 1 بعضی (real subject) stays nsubj
-    'train-s247': [('deprel', 13, 'obl')],
+    'train-s247': [('deprel', 13, 'advmod')],
 
     # train-s252
     # TEXT:    مکث روی چهره احمد، صدای زنگ روی چهره وی به گوش می‌رسد.
     # TRANSLIT: mokṯ rūy čahrah Aḥmad, ṣadāy zang rūy čahrah wī bah gūš mīrasad.
     # ENGLISH:  Pause on Ahmad's face, the sound of the bell on his face reaches the ears.
     # Node 1 مکث (cinematic stage direction, outer topic) → nsubj:outer; node 6 صدای (real subject) stays nsubj
-    'train-s252': [('deprel', 1, 'nsubj:outer')],
+    'train-s252': [('deprel', 1, 'parataxis')],
 
     # train-s257
     # TEXT:    احمد تمام حواسش متوجه احمد حسینی است که تنها آن سوی خیابان در حال رفتن است.
     # TRANSLIT: Aḥmad tamām ḥawāssaš mutawajjih Aḥmad Ḥusaynī ast kah tanhā ān sūy xīyābān dar ḥāl raftan ast.
     # ENGLISH:  Ahmad — all his attention is focused on Ahmad Hosseini who is alone on the other side of the street walking away.
     # Node 1 احمد (outer topic) → nsubj:outer; node 3 حواس (inner subject "his attention") stays nsubj
-    'train-s257': [('deprel', 1, 'nsubj:outer')],
+    'train-s257': [('deprel', 1, 'dislocated')],
 
     # train-s333
     # TEXT:    احمد که کمی سر برمی‌دارد، چهره‌اش برای اولین بار، از نزدیک، مادر را متوجه خود می‌کند.
     # TRANSLIT: Aḥmad kah kamī sar bar mīdārad, čahrahʾaš barāy awwalīn bār, az nazdīk, mādar rā mutawajjih xud mīkonad.
     # ENGLISH:  Ahmad who raises his head a little, his face for the first time, from close up, makes the mother notice him.
     # Node 1 احمد (outer topic) → nsubj:outer; node 7 چهره (inner subject "his face") stays nsubj
-    'train-s333': [('deprel', 1, 'nsubj:outer')],
+    'train-s333': [('deprel', 1, 'dislocated')],
 
     # train-s407
     # TEXT:    وقتی کار سفارش شد، ابتدا خیلی آسان به نظر می‌آمد؛ چون چیزی که در جامعه زیاد است معضلات است، آن هم از نوع اجتماعی.
     # TRANSLIT: waqtī kār sufāriš šud, ibtidā xaylī āsān bah naẓar mīʾāmad; čun čīzī kah dar jāmiʿah ziyād ast muʿḍalāt ast, ān ham az nawʿ ijtimāʿī.
     # ENGLISH:  When the work was commissioned, it initially seemed very easy; because what is abundant in society is problems, and those too of social type.
     # Node 23 آن (appositive "those too" referring to node 20 معضلات) → appos; node 14 چیزی (real subject) stays nsubj
-    'train-s407': [('deprel', 23, 'appos')],
+    'train-s407': [('reparent', 23, 26, 'advmod:emph'), ('reparent', 24, 23, 'fixed')],
 
     # train-s420
     # TEXT:    وقتی وارد این زندانها می‌شدیم... زندگیهای متفاوت و معضلات متفاوت و بدبختی‌های متفاوت، که این‌ها همه ما را به فکر وامی‌داشت که واقعا آینده چطور می‌شود.
     # TRANSLIT: waqtī wārid īn zandānhā mīšudīm… zindagīhāy mutafāwit wa muʿḍalāt mutafāwit wa badbaxtīhāy mutafāwit, kah īnhā hamah mā rā bah fikr wāmīdāšt kah wāqiʿan āyandah čiṭūr mīšawad.
     # ENGLISH:  When we entered these prisons… Different lives and different problems and different miseries, all of which made us think about what will really happen in the future.
     # Node 32 زندگیهای (fronted outer topic list) → nsubj:outer; node 43 همه (quantifier) → det of node 42 این‌ها; node 42 این‌ها stays nsubj
-    'train-s420': [('deprel', 32, 'nsubj:outer'), ('deprel', 43, 'det')],
+    'train-s420': [('deprel', 32, 'nsubj:outer'), ('reparent', 43, 42, 'det')],
 
     # train-s424
     # TEXT:    ...که همه این‌ها به یک چیز برمی‌گردد: بنیان سست خانواده.
     # TRANSLIT: …kah hamah īnhā bah yak čīz bar mīgaradad: bunyān sust xānawadat.
     # ENGLISH:  …that all these trace back to one thing: the unstable foundation of the family.
     # Node 57 همه (quantifier "all") → det of node 58 این‌ها; node 58 این‌ها stays nsubj
-    'train-s424': [('deprel', 57, 'det')],
+    'train-s424': [('reparent', 57, 58, 'det')],
 
     # train-s445
     # TEXT:    مشاجره و دعوا، بچه تا این‌ها را می‌بیند می‌زند بیرون…
     # TRANSLIT: mušājirih wa daʿwā, baččah tā īnhā rā mībīnad mīzanad bīrūn…
     # ENGLISH:  Quarrel and fight — as soon as the child sees these, [the child] runs away…
     # Node 1 مشاجره (fronted outer topic) → nsubj:outer; node 5 بچه (real subject) stays nsubj
-    'train-s445': [('deprel', 1, 'nsubj:outer')],
+    'train-s445': [('deprel', 1, 'dislocated')],
 
     # train-s455
     # TEXT:    من به عنوان تهیه‌کننده و کارگردان ۲۶ قسمت اول، باید بگویم، تحصیلاتی که دارم هنری است و در مورد معضلات اجتماعی فقط می‌توانم به دیده‌ها و تجربه‌هایم اکتفا کنم.
     # TRANSLIT: man bah ʿunwān tahiyyahkonandah wa kārgardān 26 qismat awwal, bāyad begūyam, taḥṣīlātī kah dāram hunarī ast…
     # ENGLISH:  I, as producer and director of the first 26 episodes, must say: the education I have is in the arts…
     # Node 14 تحصیلاتی (outer topic of embedded content clause) → nsubj:outer; node 1 من (real matrix subject) stays nsubj
-    'train-s455': [('deprel', 14, 'nsubj:outer')],
+    'train-s455': [('reparent', 14, 17, 'nsubj')],
 
     # train-s459
     # TEXT:    شما هم هر چیزی که از دانشگاه، کالج و یا از توی کتاب و هر جای دیگر در‌آوردید، مثل مرجع از آن استفاده کنید.
     # TRANSLIT: šomā ham har čīzī kah az dānišgāh, kālij wa yā az tūy kitāb wa har jāy dīgar darāwardīd, misl marjaʿ az ān istifādah konīd.
     # ENGLISH:  You too, whatever you got from university, college, or from inside books, use it as a reference.
     # Node 4 چیزی (topicalized object with resumptive pronoun آن) → obj; node 1 شما (real subject) stays nsubj
-    'train-s459': [('deprel', 4, 'obj')],
+    'train-s459': [('deprel', 4, 'dislocated')],
 
     # train-s475
     # TEXT:    وقتی کارشناس گروه می‌گوید مردی که با زنش می‌نشست و تریاک می‌کشید...
     # TRANSLIT: waqtī kāršenās gorūh mīgūyad mardī kah bā zannaš mīnišast wa taryāk mīkašīd…
     # ENGLISH:  When the group expert says [about] a man who used to sit with his wife and smoke opium…
     # Node 5 مردی (outer topic of reported speech) → nsubj:outer; node 2 کارشناس (real speaker subject) stays nsubj
-    'train-s475': [('deprel', 5, 'nsubj:outer')],
+    'train-s475': [('reparent', 34, 4, 'ccomp'), ('reparent', 5, 34, 'nsubj')],
 
     # train-s503
     # TEXT:    این همان چیزی است که ما توی برنامه‌های معقول اجتماعی می‌بینیم کارشناسی می‌آید و حکم می‌دهد.
@@ -142,14 +142,14 @@ FIXES = {
     # TRANSLIT: āqāy ʿAqīlī, āqāy Rāyānī, dar īn barnāmah yak baxšī dārīd bah ʿunwān baxš goft wa gū bā hunarmandān.
     # ENGLISH:  Mr. Aghili, Mr. Rayani, in this program you have a section called dialogue with artists.
     # Node 1 آقای (vocative address) → vocative; node 11 بخشی (object "a section" of "have") → obj
-    'train-s547': [('deprel', 1, 'vocative'), ('deprel', 11, 'obj')],
+    'train-s547': [('deprel', 11, 'obj')],
 
     # train-s548
     # TEXT:    زمانی که من این بخش را دیدم احساس جالبی داشتم.
     # TRANSLIT: zamānī kah man īn baxš rā dīdam iḥsās jālebī dāštam.
     # ENGLISH:  When I saw this section, I had an interesting feeling.
     # Node 1 زمانی (temporal clause head "when I saw this section", NOUN head → obl); node 8 احساس (real subject) stays nsubj
-    'train-s548': [('deprel', 1, 'obl')],
+    'train-s548': [('reparent', 7, 10, 'advcl'), ('reparent', 1, 7, 'mark'), ('reparent', 2, 1, 'fixed'), ('deprel', 8, 'obj')],
 
     # train-s553
     # TEXT:    برنامه ما حتی مجری هم ندارد.
@@ -163,14 +163,14 @@ FIXES = {
     # TRANSLIT: šomā mīdānīd hunarmandān mā ʿumūman giriftārand wa hamāhangī bā īnhā wa ḥużūršān dar yak maqṭaʿ zamānī xāṣ dar barnāmah yak meqdār barāy mā moškel būd.
     # ENGLISH:  You know our artists are generally busy and coordinating with them and their attendance at a specific time in the program was somewhat difficult for us.
     # Node 23 مقدار (degree modifier "somewhat", NOUN head → obl); node 9 هماهنگی (real subject) stays nsubj
-    'train-s558': [('deprel', 23, 'obl')],
+    'train-s558': [('deprel', 23, 'advmod')],
 
     # train-s564
     # TEXT:    یکی از مشکلاتی که ما داشتیم در دعوت از عزیزان - حالا من از ایشان ایراد نمی‌گیرم - و این به خاطر برخورد بد برنامه‌سازهاست، این است که...
     # TRANSLIT: yakī az moškılātī kah mā dāštīm dar daʿwat az ʿazīzān - ḥālā man az īšān īrād namīgiram - wa īn bah xāṭir barxord bad barnāmasāzahāst, īn ast kah…
     # ENGLISH:  One of the problems we had in inviting the dear guests — now I don't criticize them — and this is because of the bad behavior of program-makers, this is that…
     # Node 1 یکی (outer topic "one of the problems") → nsubj:outer; node 13 من (subject of parenthetical) stays nsubj
-    'train-s564': [('deprel', 1, 'nsubj:outer')],
+    'train-s564': [('reparent', 1, 6, 'nsubj')],
 
     # train-s574
     # TEXT:    شما در طراحی صحنه پلاتو، یک در زندان گذاشته بودید که بافت فلز رویش خورده بود و درواقع گل‌میخ بود.
@@ -184,7 +184,7 @@ FIXES = {
     # TRANSLIT: dorost jāygāhī kah insān bāyad dar ānjā bāšad; yaʿnī man xāstam īn tażādd dar biyāyad.
     # ENGLISH:  Exactly the position that a human being should be in; meaning I wanted this contrast to emerge.
     # Node 2 جایگاهی (outer topic from first clause) → nsubj:outer; node 11 من (real subject of second clause) stays nsubj
-    'train-s584': [('deprel', 2, 'nsubj:outer')],
+    'train-s584': [('reparent', 8, 0, 'root'), ('reparent', 2, 8, 'nsubj'), ('reparent', 15, 8, 'parataxis')],
 
     # train-s598
     # TEXT:    یک جاهایی وله‌ها عالی بود، بخصوص در قسمتهای سری اول که وله‌ها مخاطب را با یک کار متفاوت روبه‌رو می‌کرد.
@@ -205,21 +205,21 @@ FIXES = {
     # TRANSLIT: āqāy Bāqirī bah ʿunwān bāzbīn wa āqāy Maʾmanī īnhā hamah komak kardand.
     # ENGLISH:  Mr. Bagheri as reviewer and Mr. Mameni — all of these helped.
     # Node 1 آقای (outer topic: named persons as outer list) → nsubj:outer; node 10 همه (quantifier "all") → det of node 9 این‌ها; node 9 این‌ها (resumptive, real subject) stays nsubj
-    'train-s655': [('deprel', 1, 'nsubj:outer'), ('deprel', 10, 'det')],
+    'train-s655': [('reparent', 9, 10, 'det'), ('deprel', 10, 'advmod')],
 
     # train-s663
     # TEXT:    بیشترین برآوردها در مورد تماشاگران از نظرسنجی‌های عادی به دست آمده است؛ زمانی که هیچ کنترل مستقلی وجود نداشته است.
     # TRANSLIT: bīšterīn barāwardha dar mawrid tamāšāgarān az naẓarsanjīhāy ʿādī bah dast āmadah ast; zamānī kah hīč kontrol mostaqellī wujūd nadāšta ast.
     # ENGLISH:  Most estimates about viewers come from ordinary polls; at a time when there was no independent control.
     # Node 14 زمانی (temporal adverbial clause head, NOUN head → obl); node 2 برآوردها (real subject) stays nsubj
-    'train-s663': [('deprel', 14, 'obl')],
+    'train-s663': [('reparent', 38, 11, 'advcl'), ('reparent', 14, 38, 'mark'), ('reparent', 15, 14, 'fixed')],
 
     # train-s689
     # TEXT:    بدین ترتیب، گروه سوم بینندگان برنامه‌های مذهبی «جویندگان کنجکاو» معرفی شدند.
     # TRANSLIT: badīn tartīb, gorūh sowwom bīnandagān barnāmahāy mazhabī «jūyandagān konjkāw» moʿarrafī šodand.
     # ENGLISH:  In this way, the third group of viewers of religious programs, "curious seekers," were introduced.
     # Node 7 بینندگان (viewers, should modify گروه not be sister nsubj) → reparent to node 5 گروه, deprel nmod:poss
-    'train-s689': [('reparent', 7, 5, 'nmod:poss')],
+    'train-s689': [('reparent', 7, 5, 'nmod')],
 
     # train-s699
     # TEXT:    برنامه‌های مذهبی صبح یکشنبه بیننده بسیار کمی دارند؛ چیزی حدود چهار صد هزار تا ششصد هزار بیننده.
@@ -233,7 +233,7 @@ FIXES = {
     # TRANSLIT: banābirayn bā tawajjoh bah rūykard jadīd bah mazhab dar sṭūḥ moxtalef, ṣāḥibnażarān ʿolūm ijtimāʿī wa raftārī, baxuṣūṣ motaxaṣṣeṣān behdāšt rawānī, bah resānehā wa moxāṭabān ān tawṣīya mīkonand…
     # ENGLISH:  Therefore, social and behavioral science experts, especially mental health specialists, recommend to the media and their audiences to make religion the cornerstone of their activities.
     # Node 20 متخصصان (second coordinated subject "specialists") → conj of node 13 صاحب‌نظران; node 13 stays nsubj
-    'train-s727': [('deprel', 20, 'conj')],
+    'train-s727': [('reparent', 20, 13, 'appos')],
 
     # train-s748
     # TEXT:    ۹ - آگهی‌های رادیویی - تلویزیونی که بند ۳ / ۱۰ آن‌ها را مجاز بداند، می‌توانند نشریات مجانی برای تماشاگران ارسال دارند.
@@ -254,7 +254,7 @@ FIXES = {
     # TRANSLIT: ettifāqī kah dar sarī qabl oftād wa bāʿeṯ šod sarīyāl xaylī tamāšāgar pīdā konad hamīn melodrām bodanaš būd, yaʿnī mā bīštar ṭaraf īn mīraftīm kah…
     # ENGLISH:  The event that happened in the previous series and caused the serial to gain many viewers was this melodrama quality, meaning we went more toward affecting the viewer's emotions.
     # Node 1 اتفاقی (outer topic "the event that happened") → nsubj:outer; node 22 ما (real subject) stays nsubj
-    'train-s778': [('deprel', 1, 'nsubj:outer')],
+    'train-s778': [('reparent', 1, 6, 'nsubj')],
 
     # train-s779
     # TEXT:    این دفعه من سعی کردم همه توانم را روی سوژه‌ها بگذارم و یک نگاه تازه اجتماعی داشته باشم.
@@ -268,7 +268,7 @@ FIXES = {
     # TRANSLIT: axlāqīyāt xāṣī hast kah har lahje'ī ān rā borūz mīdahad; masalan dar «Rūzgār-e Javānī» mīdīdīm kah šaxṣīyyat Aḥad… yak jāhāyī sādah wa dīrfahm mīšod.
     # ENGLISH:  There are specific ethics that each dialect expresses; for example in Roozgar-e Javani we saw that the character of Ahmad in some places became simple and slow-to-understand.
     # Node 30 جاهایی (locative frame "in some places", NOUN head → obl); node 20 شخصیت (subject) stays nsubj
-    'train-s805': [('deprel', 30, 'obl')],
+    'train-s805': [('reparent', 30, 31, 'obl')],
 
     # train-s814
     # TEXT:    ولی آن درصد زرنگشان، چون خیلی از آن‌ها آمدند تهران و رفتند به شهرهای دیگر، مردم شهرهای دیگر اصفهانی‌ها را از روی این تعداد می‌شناسند.
@@ -282,21 +282,21 @@ FIXES = {
     # TRANSLIT: yādam ast haft - hašt qismat ān kār kah raft, yak negarānī bah mā dast dād kah īn baččahā bā baččahāy «Rūzgār-e Javānī» moqāyasah mīšodand.
     # ENGLISH:  I remember that after seven-eight episodes of that work aired, a worry came to us that these children were being compared with children of Roozgar-e Javani.
     # Node 6 قسمت (temporal frame "seven-eight episodes", NOUN head → obl); node 13 نگرانی (real subject) stays nsubj
-    'train-s821': [('deprel', 6, 'obl')],
+    'train-s821': [('reparent', 6, 10, 'nsubj')],
 
     # train-s845
     # TEXT:    این چرا راه اشتباهی است؟
     # TRANSLIT: īn čarā rāh eštebāhī ast?
     # ENGLISH:  Why is this the wrong way?
     # Node 1 این (demonstrative pronoun modifying راه "this way") → reparent to node 3 راه, deprel det; node 3 راه stays nsubj
-    'train-s845': [('reparent', 1, 3, 'det')],
+    'train-s845': [('reparent', 3, 0, 'root'), ('reparent', 1, 3, 'nsubj'), ('reparent', 4, 3, 'amod'), ('reparent', 2, 3, 'advmod'), ('reparent', 5, 3, 'cop')],
 
     # train-s850
     # TEXT:    پس من نباید آن‌ها را می‌آوردم، یک جور نارو زدن به تماشاگر بود، اگر من همان آدمها را می‌آوردم، چون داستان آن‌ها تمام شده بود.
     # TRANSLIT: pas man nabāyad ānhā rā mīāwardam, yak jūr nārū zadan bah tamāšāgar būd, agar man hamān ādamhā rā mīāwardam, čon dāstān ānhā tamām šodah būd.
     # ENGLISH:  So I shouldn't have brought them — it was a kind of cheating the viewer, if I had brought the same people, since their story had ended.
     # Node 11 زدن (head of paratactic clause "was a kind of cheating") → parataxis; node 2 من (real subject of ROOT) stays nsubj
-    'train-s850': [('deprel', 11, 'parataxis')],
+    'train-s850': [('reparent', 11, 6, 'parataxis')],
 
     # train-s851
     # TEXT:    تصور کن که اگر ما مثلا بعد از این که مونس و رفیع دیگر قضیه‌شان حل شد و به جایی نرسیدند، می‌خواستیم داستان را ادامه بدهیم، باید یک داستان جدید برای رفیع می‌ساختیم.
@@ -317,7 +317,7 @@ FIXES = {
     # TRANSLIT: sowwom īn kah īn ādam agarčah filmmāy defāʿ moqaddas xaylī bāzī kardah būd, wallī dar īn tayyep klīšeh nabūd.
     # ENGLISH:  Third: this person, although he had acted a lot in holy defense films, was not a cliché in this role.
     # Node 2 این (outer clausal topic "this fact that…") → nsubj:outer; node 5 آدم (inner subject) stays nsubj
-    'train-s900': [('deprel', 2, 'nsubj:outer')],
+    'train-s900': [('deprel', 2, 'mark')],
 
     # train-s905
     # TEXT:    نه، به خاطر این است که ایرانمنش در واقع یک کارهایی در شخصیتش انجام می‌دهد.
@@ -345,7 +345,7 @@ FIXES = {
     # TRANSLIT: wallī moṭmaʾennam kah ādam barjastah, īn kār Nīmā Raʾīs ast; wa bāz hanūz namītawānam begūyam čī mīšawad.
     # ENGLISH:  But I'm certain that the outstanding person — this work — is Nima Raees; and I still can't say what will happen.
     # Node 5 آدم (outer topic "the outstanding person") → nsubj:outer; node 9 کار (inner subject "this work") stays nsubj
-    'train-s947': [('deprel', 5, 'nsubj:outer')],
+    'train-s947': [('reparent', 9, 3, 'ccomp'), ('reparent', 5, 9, 'nsubj'), ('reparent', 10, 9, 'nmod:poss'), ('reparent', 12, 9, 'cop'), ('reparent', 4, 9, 'mark')],
 
     # train-s977
     # TEXT:    همه این‌ها خیلی خوب بود، تا آخر تماشاگر را می‌گرفت.
@@ -366,7 +366,7 @@ FIXES = {
     # TRANSLIT: īn kah īn pīrmard qahwečī ast wa hīč čīz namīdānad wa jegar xord mīkonad wa yak baččah ham dārad, xub mīdānad ʿešq yaʿnī čah.
     # ENGLISH:  The fact that this old coffee-house keeper is what he is and knows nothing… he well knows what love means.
     # Node 1 این (outer clausal topic "the fact that…") → nsubj:outer; node 4 پیرمرد (inner subject) stays nsubj
-    'train-s999': [('deprel', 1, 'nsubj:outer')],
+    'train-s999': [('deprel', 1, 'mark')],
 
     # train-s1063
     # TEXT:    همیشه در سریالها پدرها مثبت بوده‌اند و پسرها خام و نپخته.
@@ -380,28 +380,28 @@ FIXES = {
     # TRANSLIT: ettifāqī kah dar ān sarī oftād, īn būd kah īn ādam yak sarī čīzhāyaš - masalan, īn ādam az qismat awwal tā pānzdahom bā xodaš ḥarf mīzad; az pānzdahom tā hijdahom xaylī kam, wa az hijdahom bah baʿd aṣlan īn kār rā namīkard.
     # ENGLISH:  The event that happened in that series was that this person's various things — for example, this person from episode 1 to 15 used to talk to himself; from 15 to 18 very little, and after 18 not at all.
     # Node 12 آدم (first mention, real subject) stays nsubj; node 21 آدم (second parenthetical/resumptive mention) → nsubj:outer
-    'train-s1108': [('deprel', 21, 'nsubj:outer')],
+    'train-s1108': [('deprel', 49, 'nsubj')],
 
     # train-s1288
     # TEXT:    روزنامه ابرار با عنوان "قوه قضائیه و بلاتکلیفی مطبوعات توقیف‌شده" نوشته است: اظهارات سخنگوی قوه قضائیه در خصوص سرنوشت روزنامه‌های توقیف‌شده و تعامل آتی محاکم قضایی با دست‌اندرکاران آن‌ها، راه را برای اظهارنظرهای متعدد هموار ساخت.
     # TRANSLIT: rūznāmah Abrār bā ʿonwān "quwwah qażāʾīyyah wa belātaklīfī maṭbūʿāt towqīfšodah" nevešta ast: eẓhārāt soxangūy quwwah qażāʾīyyah dar xoṣūṣ sarnewešt rūznāmahāy towqīfšodah wa taʿāmol āyandah maḥākem qażāʾī bā dastandardakārān ānhā, rāh rā barāy eẓhārnaẓarhāy motaʿadded hamwār sāxt.
     # ENGLISH:  The Abrar newspaper under the headline "Judiciary and the limbo of seized publications" has written: the statements of the judiciary spokesperson regarding the fate of seized newspapers and future court interactions paved the way for numerous opinions.
     # Node 1 روزنامه (outer topic "the Abrar newspaper") → nsubj:outer; node 16 اظهارات (inner subject "statements") stays nsubj
-    'train-s1288': [('deprel', 1, 'nsubj:outer')],
+    'train-s1288': [('reparent', 1, 13, 'nsubj')],
 
     # train-s1324
     # TEXT:    ما همه می‌آییم و می‌رویم و ان‌شاأالله نظام و انقلاب باقی می‌ماند.
     # TRANSLIT: mā hamah mīāyīm wa mīrawīm wa inšāʾallāh neẓām wa enqelāb bāqī mīmānad.
     # ENGLISH:  We all come and go, and God willing the system and the revolution will remain.
     # Node 2 همه (quantifier "all", appositive of ما) → appos of node 1 ما; node 1 ما stays nsubj
-    'train-s1324': [('deprel', 2, 'appos')],
+    'train-s1324': [('reparent', 2, 1, 'det')],
 
     # train-s1371
     # TEXT:    ما دیگر حوصله‌مان سر رفت.
     # TRANSLIT: mā dīgar ḥawṣelamān sar raft.
     # ENGLISH:  We have run out of patience (lit. our patience has gone to its head).
     # Node 1 ما (outer topic possessor "we/our") → nsubj:outer; node 3 حوصله (inner subject "patience") stays nsubj
-    'train-s1371': [('deprel', 1, 'nsubj:outer')],
+    'train-s1371': [('deprel', 1, 'dislocated')],
 
     # train-s1462
     # TEXT:    مروان گفت: شما ای بنی‌هاشم بر ما ستم کردید.
@@ -415,63 +415,63 @@ FIXES = {
     # TRANSLIT: Mohr wa Dāġ dar Mūzah Bābol hamzamān bā Rūz Jahānī Mūzah wa Haftah Mīrāṯ Farhangi, namāyešgāhī az 30 nemūnah mohr wa dāġ dar Mūzah Bābol bargozār mīšawad.
     # ENGLISH:  "Stamp and brand at Babylon Museum" — coinciding with World Museum Day and Cultural Heritage Week, an exhibition of 30 specimens is being held.
     # Node 1 مهر (outer topic, headline-style title phrase) → nsubj:outer; node 17 نمایشگاهی (real subject) stays nsubj
-    'train-s1501': [('deprel', 1, 'nsubj:outer')],
+    'train-s1501': [('deprel', 1, 'parataxis')],
 
     # train-s1502
     # TEXT:    به گزارش روابط عمومی سازمان میراث فرهنگی کشور، مهر خرمن و داغ که دو نمونه از اشیاء موزه‌ای مردم‌شناسی است، هر دو از نشانه‌های مالکیت در زندگی مبتنی بر تولید کشاورزی و دامداری است.
     # TRANSLIT: bah gozāreš rawābeṭ ʿomūmī sāzmān mīrāṯ farhangī kešwar, Mohr Xarman wa Dāġ kah do nemūnah az ašyāʾ mūzahʾī mardomšenāsī ast, har do az nešānahāy mālikīyyat dar zandagī mobtanī bar towlīd kešāwarzī wa dāmdārī ast.
     # ENGLISH:  According to the Cultural Heritage Organization's PR, the mhr-kherman and dag, which are two ethnographic museum specimens, are both among signs of ownership in agricultural and livestock-based life.
     # Node 10 مهر (outer topic NP with relative clause) → nsubj:outer; node 24 دو (inner subject "both") stays nsubj
-    'train-s1502': [('deprel', 10, 'nsubj:outer')],
+    'train-s1502': [('deprel', 10, 'dislocated')],
 
     # train-s1613
     # TEXT:    این زندان تحت تدابیر شدید امنیتی اداره می‌شود و به‌شدت در کنترل پلیس و مقامات امنیتی است، اما مقامات و مأموران هیچ یک متوجه نشدند که زندانیان مدتی طولانی وقت صرف کردند تا تونل را حفر و سپس نقشه فرار خود را عملی کنند.
     # TRANSLIT: īn zandān taḥt tadābīr šadīd amnīyyatī edārah mīšawad wa bah šeddat dar kontrol polīs wa maqāmāt amnīyyatī ast, ammā maqāmāt wa maʾmūrān hīč yak motawajjeh našodand kah zandānīyān moddatī ṭawlānī waqt ṣarf kardand…
     # ENGLISH:  This prison is managed under strict security measures… but officials and agents — not a single one noticed that the prisoners spent a long time digging a tunnel.
     # Node 20 مقامات (outer topic, conjoined list) → nsubj:outer; node 24 یک (هیچ یک "not one", real subject) stays nsubj
-    'train-s1613': [('deprel', 20, 'nsubj:outer')],
+    'train-s1613': [('deprel', 20, 'dislocated')],
 
     # train-s1618
     # TEXT:    افرادی که تمبرهای شخصی سفارش دادند همگی کسانی بودند که میل داشتند طرف مکاتبه خود را غافلگیر کنند.
     # TRANSLIT: afrādī kah tambarhāy šaxṣī sefāreš dādand hamgī kasānī bodand kah meyl dāštand ṭaraf mokātabah xod rā ġāfelgīr konand.
     # ENGLISH:  All of those who ordered personal stamps were people who wanted to surprise their correspondents.
     # Node 1 افرادی (outer topic with relative clause "people who ordered…") → nsubj:outer; node 7 همگی (inner subject "all of them") stays nsubj
-    'train-s1618': [('deprel', 1, 'nsubj:outer')],
+    'train-s1618': [('reparent', 7, 1, 'det')],
 
     # train-s1946
     # TEXT:    آقای بهزاد نبوی می‌گوید: بخشی از مخالفان آقای خاتمی می‌گویند حاکمیت از آن خدا است و نماینده خدا هم ما هستیم و بقیه نمی‌فهمند.
     # TRANSLIT: āqāy Behzād Nabawī mīgūyad: baxšī az moxāleān āqāy Xātamī mīgūyand ḥākemīyyat az ān Xodā ast wa namāyandeye Xodā ham mā hastīm wa baqīyah namīfahmand.
     # ENGLISH:  Mr. Behzad Nabavi says: some of the opponents of Mr. Khatami say that sovereignty belongs to God and we are the representatives of God, and the rest don't understand.
     # Node 6 بخشی (real subject of می‌گویند) stays nsubj; node 12 حاکمیت (subject of copular clause inside reported speech) → nsubj:outer
-    'train-s1946': [('deprel', 12, 'nsubj:outer')],
+    'train-s1946': [('reparent', 14, 11, 'ccomp'), ('reparent', 12, 14, 'nsubj'), ('reparent', 16, 14, 'cop')],
 
     # train-s2083
     # TEXT:    امام حسین) ع (گفت: بدهی‌ات بر عهدهٔ من.
     # TRANSLIT: Emām Ḥosayn (ʿalayh al-salām) goft: bedahīyāt bar ʿohdahye man.
     # ENGLISH:  Imam Husayn (peace be upon him) said: Your debt is upon me.
     # Node 1 امام (real speaker subject of گفت) stays nsubj; node 8 بدهی‌ات (subject of reported copular clause) → nsubj:outer
-    'train-s2083': [('deprel', 8, 'nsubj:outer')],
+    'train-s2083': [('reparent', 11, 6, 'ccomp'), ('reparent', 8, 11, 'nsubj')],
 
     # train-s2108
     # TEXT:    کینه‌ای کهنه، در جنگ احد وقتی پیکر پاک حمزه سیدالشهداأ بر خاک افتاده بود، همسر ابوسفیان، هند گفت: شکم حمزه را پاره پاره کردند و جگرش را بیرون آوردند.
     # TRANSLIT: kīnahʾī kohanah, dar jang-e Oḥod waqtī peykar pāk-e Ḥamzah Sayyid al-šohadāʾ bar xāk oftādah būd, hamsar-e Abū Sofyān, Hend goft: šekam-e Ḥamzah rā pāreh pāreh kardand wa jegaraš rā bīron āwardand.
     # ENGLISH:  An old grudge — in the Battle of Uhud when the pure body of Hamza had fallen to the ground, Abu Sufyan's wife Hind said: they cut open Hamza's belly and took out his liver.
     # Node 1 کینه‌ای (outer topic/framing device "an old grudge") → nsubj:outer; node 8 پیکر (subject of temporal clause) stays nsubj
-    'train-s2108': [('deprel', 1, 'nsubj:outer')],
+    'train-s2108': [('deprel', 1, 'dislocated')],
 
     # train-s2132
     # TEXT:    هنگامی که زیاد بن امیه از طرف معاویه به عنوان حاکم بصره و کوفه تعیین شد و برای ایراد خطبه بر منبر مسجد جامع کوفه قرار گرفت، و به سوی او سنگ پرتاب شد، زیاد بلافاصله دستور داد درهای مسجد را بستند.
     # TRANSLIT: hangāmī kah Zīyād ebn Amīyyah az ṭaraf Moʿāwīyyah bah ʿonwān ḥākem Baṣrah wa Kūfah taʿyīn šod… Zīyād belāfāṣelah dastūr dād darhāy masjed rā bastand.
     # ENGLISH:  When Ziad ibn Amiya was appointed by Muawiyah as governor of Basra and Kufa… Ziad immediately ordered the mosque doors to be closed.
     # Node 15 تعیین (head of temporal adverbial clause "when he was appointed") → advcl; node 37 زیاد (real subject of main clause) stays nsubj
-    'train-s2132': [('deprel', 15, 'advcl')],
+    'train-s2132': [('reparent', 15, 40, 'advcl')],
 
     # train-s2148
     # TEXT:    نویسندگان بیانیه با تاسف عمیق از این که دو تفسیر غلط از دوم خرداد وجود دارد، این نعمت ارزشمند را آماج حمله و طعن ساخته است.
     # TRANSLIT: nawīsandagān bayānīyyah bā taʾassof ʿamīq az īn kah do tafsīr ġalaṭ az dovvom-e Xordād wujūd dārad, īn neʿmat arzešmand rā āmāj-e ḥomlah wa ṭaʿn sāxtah ast.
     # ENGLISH:  The writers of the declaration, with deep regret at the fact that two wrong interpretations of the Second of Khordad exist, have made this valuable gift the target of attack and taunt.
     # Node 1 نویسندگان (real agent, outer nsubj re inner clause subject) → nsubj:outer; node 10 تفسیر (subject of embedded existence clause) stays nsubj
-    'train-s2148': [('deprel', 1, 'nsubj:outer')],
+    'train-s2148': [('reparent', 26, 0, 'root'), ('reparent', 16, 7, 'acl'), ('reparent', 1, 26, 'nsubj'), ('reparent', 4, 26, 'obl'), ('reparent', 19, 26, 'obj'),],
 
     # train-s2284
     # TEXT:    پژوهشگران می‌گویند جراحی‌های قلبی که تا کنون با کمک روبات انجام گرفته، همگی نتایج موفقیت‌آمیز داشته‌اند.
@@ -506,35 +506,35 @@ FIXES = {
     # TRANSLIT: sālhāy 15 wa 25 wa 35 Yazīd az ṭaraf-e Moʿāwīyyah masʾūl-e ḥajj būd.
     # ENGLISH:  In the years 15, 25 and 35, Yazid was in charge of the Hajj on behalf of Muawiyah.
     # Node 1 سالهای (temporal frame "in the years 15, 25 and 35", NOUN head → obl); node 7 یزید (real subject) stays nsubj
-    'train-s2824': [('deprel', 1, 'obl')],
+    'train-s2824': [('deprel', 1, 'obl:tmod')],
 
     # train-s2871
     # TEXT:    فقط زمانی که طلاق می‌گیرد و جدا می‌شود، شخصیت او معنا پیدا می‌کند…
     # TRANSLIT: faqaṭ zamānī kah ṭalāq mīgerad wa jodā mīšawad, šaxṣīyyat-e ū maʿnā pīdā mīkonad…
     # ENGLISH:  Only when [she] gets a divorce and separates, does her personality find meaning…
     # Node 2 زمانی (temporal clause head "when…", NOUN head → obl); node 10 شخصیت (real subject) stays nsubj
-    'train-s2871': [('deprel', 2, 'obl')],
+    'train-s2871': [('reparent', 5, 14, 'advcl'), ('reparent', 2, 5, 'advmod')],
 
     # train-s3165
     # TEXT:    کاسبرگ خارجی‌ترین بخش است و در داخل آن گلبرگ‌ها و پس از آن پرچم‌ها یا ساختار مذکر تولید مثل و در مرکز نیز مادگی یا ساختار مونت تولید مثل وجود دارد.
     # TRANSLIT: kāsebarg xārejītarīn baxš ast wa dar dāxel-e ān golbargāhā wa pas az ān parčamāhā yā sāxtar-e mozakkar-e towlīd meṯl wa dar markaz nīz mādegī yā sāxtar-e moʾannaṯ-e towlīd meṯl wujūd dārad.
     # ENGLISH:  The sepal is the outermost part and inside it are the petals, and after them the stamens or male reproductive structure, and in the center the pistil or female reproductive structure.
     # Node 9 گلبرگ‌ها (first conjoined subject) stays nsubj; node 24 مادگی (second major conjoined subject) → conj of node 9
-    'train-s3165': [('deprel', 24, 'conj')],
+    'train-s3165': [('reparent', 24, 9, 'conj')],
 
     # train-s3288
     # TEXT:    آن کسانی که در جامعه به ارزشها اهمیت می‌دهند، این‌ها مکمل آن کسانی هستند که به تحول و پیشرفت اهمیت می‌دهند.
     # TRANSLIT: ān kasānī kah dar jāmeʿah bah arzešhā ahmīyyat mīdahand, īnhā mokammel-e ān kasānī hastand kah bah taḥawwol wa pīšraft ahmīyyat mīdahand.
     # ENGLISH:  Those who value traditions in society are complementary to those who value change and progress.
     # Node 2 کسانی (outer topic with relative clause) → nsubj:outer; node 11 این‌ها (resumptive pronoun, inner subject) stays nsubj
-    'train-s3288': [('deprel', 2, 'nsubj:outer')],
+    'train-s3288': [('deprel', 2, 'dislocated')],
 
     # train-s3289
     # TEXT:    آن کسانی که به تحول و پیشرفت اهمیت می‌دهند، مکمل آن کسانی بشوند که به ارزشها توجه پیدا می‌کنند.
     # TRANSLIT: ān kasānī kah bah taḥawwol wa pīšraft ahmīyyat mīdahand, mokammel-e ān kasānī bešawand kah bah arzešhā tawajjoh pīdā mīkonand.
     # ENGLISH:  Those who value change and progress should become complementary to those who pay attention to values.
     # Node 2 کسانی (nsubj, the outer topic subject) stays nsubj; node 13 کسانی (genitive/object of مکمل) → reparent to node 11 مکمل, deprel nmod
-    'train-s3289': [('reparent', 13, 11, 'nmod')],
+    'train-s3289': [('deprel', 13, 'nmod'), ('reparent', 20, 13, 'acl:relcl')],
 
     # train-s3321
     # TEXT:    ...این همان چیزی است که بنده چند سال قبل از این، نشانه‌های آن را در گوشه و کنار مشاهده کردم و تهاجم فرهنگی را گفتم...
@@ -562,14 +562,14 @@ FIXES = {
     # TRANSLIT: ān xabarnagār kah dāstān-e Lavāsān ū rā harāsān kardah, dalīllaš čah bodah?
     # ENGLISH:  That reporter who was frightened by the Lavasan story — what has been the reason?
     # Node 2 خبرنگار (outer topic "that reporter who…") → nsubj:outer; node 11 دلیل (inner subject "the reason") stays nsubj
-    'train-s3828': [('deprel', 2, 'nsubj:outer')],
+    'train-s3828': [('deprel', 2, 'dislocated')],
 
     # train-s3895
     # TEXT:    این اخترشناسان گفتند که آلبرت ۹۱۷ که از فاصله ۶ / ۳۰ میلیون کیلومتری زمین می‌گذرد، هیچ خطری برای زمین ایجاد نمی‌کند.
     # TRANSLIT: īn axteršenāsān goftand kah Ālbert 917 kah az fāṣelah-ye 30.6 mīlīyon kīlometri-ye zamīn mīgozarad, hīč xaṭarī barāy zamīn ījād namīkonad.
     # ENGLISH:  These astronomers said that asteroid Albert 917, which passes at a distance of 30.6 million kilometers from Earth, poses no danger to Earth.
     # Node 5 آلبرت (outer topic with relative clause "which passes at…") → nsubj:outer; node 19 خطری (inner subject "any danger") stays nsubj
-    'train-s3895': [('deprel', 5, 'nsubj:outer')],
+    'train-s3895': [('deprel', 19, 'obj')],
 
     # train-s3925
     # TEXT:    ای سرزمین آسمانی فردوسی، آیا این روس خیال‌پرداز را که دیدگانی ساده و پر‌رویا داشت و مدتی مهمان تو بود، فراموش خواهی کرد؟
@@ -583,14 +583,14 @@ FIXES = {
     # TRANSLIT: bārī īn rūzhā, mā kah dar hotel-e Ṣafāʾīyyah-ye Yazd jā gozīdah bōdīm, man hārrūz ṣobḥ kah barāy nāšetāʾī dar sālon-e češmandāz, češm bah kājhāy-e boland-e bāġ mīandāxtam, dar hamān laḥẓah yakī az dustān wāred mīšod wa mīgoft: āqāy Bāstānī, rūznāmah-ye Eṭṭelāʿāt-e dīrūz rā dīdī?
     # ENGLISH:  Well, in those days, we who were staying at the Safaiyeh hotel in Yazd, I every morning when I cast my eyes on the tall pines of the garden, at that very moment one of my friends would come in and say: Mr. Bastani, did you see yesterday's Ettela'at?
     # Node 15 من (subject of advcl clause می‌انداختم) → nsubj:outer; node 35 یکی (real subject of main clause وارد می‌شد) stays nsubj
-    'train-s3981': [('deprel', 15, 'nsubj:outer')],
+    'train-s3981': [('reparent', 15, 30, 'nsjb')],
 
     # train-s4314
     # TEXT:    وی اهم فعالیت خود را نظارت بر مطبوعات و سایر فعالیت‌های فرهنگی قرار داده است.
     # TRANSLIT: wī ahamm faʿālīyyat-e xod rā neẓārat bar maṭbūʿāt wa sāyer faʿālīyyathāy farhangī qarār dādah ast.
     # ENGLISH:  He/She has designated their primary activity as oversight of the press and other cultural activities.
     # Node 1 وی (real subject) stays nsubj; node 6 نظارت (predicate complement of قرار داده) → xcomp
-    'train-s4314': [('deprel', 6, 'xcomp')],
+    'train-s4314': [('deprel', 6, 'iobj')],
 
     # train-s4500
     # TEXT:    دکتر گود، مسئول مطالعه از دانشگاه کلمبیا، در همایش پیشگیری از خودکشی به رواج پدیده خودکشی به‌خصوص در بین نوجوانان اشاره کرد و افزود: رسانه‌ها نقش مهمی در انتقال انگیزه خودکشی به افراد مستعد دارند.
@@ -604,14 +604,14 @@ FIXES = {
     # TRANSLIT: az moṭāleʿah-ye Tazkerah-ye Šām Gharībān wa dīgar tazkerehā maʿlūm mīgardad kah dar kārawān-e Hend baʿḍī az šoʿarāy wāredšodah bah Hend zekr našodahānd wa az jomlah kasānī kah dar ʿaṣr-e Gurkānīyān az Āsyāy-e Markazī āmadand mītawān afrādī hamčon Qāsem Kāhī… nām bord…
     # ENGLISH:  From studying the Sham-e Ghariban tazkirah, it becomes clear that some of the poets who entered India are not mentioned, and among those who came from Central Asia in the Gurkani era one can name individuals such as Qasim Kahi…
     # Node 15 بعضی (outer topic, first conjoined subject of first clause) → nsubj:outer; node 26 کسانی (subject of second coordinated clause) stays nsubj
-    'train-s4620': [('deprel', 15, 'nsubj:outer')],
+    'train-s4620': [('reparent', 15, 21, 'nsubj')],
 
     # train-s4687
     # TEXT:    خلاصه این که موضوع فیضی تربتی روشن نیست و سخن نفایس و غیره در چشم‌پوشی از او انکار ورود وی به هند و ارتباطش با دربار اکبر درست نیست.
     # TRANSLIT: xolāṣah īn kah mowżūʿ-e Fayżī Torbatī rowšan nīst wa soxan-e Nafāyes wa ġayrah dar češmpūšī az ū enkār-e worūd-e wī bah Hend wa ertebāṭaš bā darbār-e Akbar dorost nīst.
     # ENGLISH:  In summary, the matter of Faizi Torbati is not clear, and the speech of Nafayis and others regarding ignoring him — denying his entry to India and his relationship with the court of Akbar — is not correct.
     # Node 10 سخن (first conjoined subject "the speech") stays nsubj; node 18 انکار (second conjoined subject "the denial") → conj of node 10
-    'train-s4687': [('deprel', 18, 'conj')],
+    'train-s4687': [('reparent', 18, 10, 'conj')],
 
     # ══════════════════════════════════════════════════════════════════════
     # DEV SPLIT
@@ -629,21 +629,21 @@ FIXES = {
     # TRANSLIT: besyārī az ṣāḥibnażarān wa montaqedān, barāy film-e Taxteye-Sīyāh kah bā estiqbāl-e farāwānī rūbahrū šodah, jāyezah-ye Naxl-e Ṭalā wa gorūhī dīgar, dast-kam yakī az jawāyez-e baxš-e mosābaqah rā pīšbīnī mīkonand.
     # ENGLISH:  Many critics and analysts predict the Palme d'Or for the film Blackboard, and another group predict at least one of the competition prizes.
     # Node 1 بسیاری (first conjoined subject) stays nsubj; node 21 گروهی (second conjoined subject "another group") → conj of node 1
-    'dev-s280': [('deprel', 21, 'conj')],
+    'dev-s280': [('reparent', 21, 1, 'conj'), ('reparent', 20, 21, 'cc')],
 
     # dev-s296
     # TEXT:    تکرار مقام چهارمی، بازهم با ۳ مدال تیم ایران به مقام چهارمی چهاردهمین دوره مسابقه‌های تکواندو قهرمانی آسیا - اقیانوسیه که در هنگ‌کنگ چین جریان داشت، دست یافت.
     # TRANSLIT: tekrār-e maqām-e čahāromī, bāzham bā 3 medāl tīm-e Īrān bah maqām-e čahāromī-ye čahārdahomīn dawrah-ye mosābaqahāy-e takkwāndū-ye qahramānī-ye Āsyā-Oqyānūsīyyah kah dar Hong Kong-e Čīn jareyān dāšt, dast yāft.
     # ENGLISH:  Repeating 4th place — again with 3 medals the Iranian team achieved 4th place in the 14th Asia-Oceania Taekwondo Championships held in Hong Kong, China.
     # Node 1 تکرار (outer topic, headline-style summary phrase) → nsubj:outer; node 9 تیم (real subject) stays nsubj
-    'dev-s296': [('deprel', 1, 'nsubj:outer')],
+    'dev-s296': [('deprel', 1, 'dislocated')],
 
     # dev-s305
     # TEXT:    بهمن طهماسبی در دقیقه ۲ برای تیم استقلال تهران و امیدرضا رمضانی در دقیقه ۷۱ برای تیم ایرسوتر در این دیدار گلزنی کردند.
     # TRANSLIT: Bahman Ṭahmāsebī dar daqīqah-ye 2 barāy tīm-e Esteqlāl-e Tehrān wa Omīdreżā Ramaẓānī dar daqīqah-ye 71 barāy tīm-e Eyrsūter dar īn dīdār golzanī kardand.
     # ENGLISH:  Bahman Tahmasbi in minute 2 for Esteghlal Tehran and Omidreza Ramzani in minute 71 for Airsoter scored goals in this match.
     # Node 1 بهمن (first conjoined subject) stays nsubj; node 11 امیدرضا (second conjoined subject) → conj of node 1
-    'dev-s305': [('deprel', 11, 'conj')],
+    'dev-s305': [('reparent', 11, 1, 'conj'), ('reparent', 10, 11, 'cc')],
 
     # dev-s479
     # TEXT:    وصله الحاقی، هر گونه فایل ضمیمه‌ای میل را که کد ویژوال‌بیسیک داشته باشد، مسدود می‌کند.
@@ -661,42 +661,42 @@ FIXES = {
     # TRANSLIT: hawā por-xorūš wa zamīn por ze jūš, xonak ān kah del-e šād dārad bah nūš.
     # ENGLISH:  The air is stormy and the earth is full of turmoil, lucky is one who keeps a merry heart at drinking.
     # Node 1 هوا (subject of first conjunct) stays nsubj; node 4 زمین (subject of second conjunct, parallel) → reparent to node 1, deprel conj
-    'test-s16': [('reparent', 4, 1, 'conj')],
+    'test-s16': [('reparent', 4, 1, 'conj'), ('reparent', 3, 4, 'cc')],
 
     # test-s188
     # TEXT:    وی روابط بازرگانی هند و ایران را در حال گسترش توصیف کرد و افزود: در سال ۱۹۹۹ صادرات هند به ایران به ۷۵۱ میلیون دلار و واردات از ایران به ۱۸۴ میلیون دلار بالغ شد.
     # TRANSLIT: wī rawābeṭ-e bāzargānī-ye Hend wa Īrān rā dar ḥāl-e gostareš towṣīf kard wa afzūd: dar sāl-e 1999 ṣāderāt-e Hend bah Īrān bah 751 mīlīyon dolār wa wāredāt az Īrān bah 184 mīlīyon dolār bāleġ šod.
     # ENGLISH:  He described India-Iran trade relations as expanding and added: in 1999 India's exports to Iran amounted to 751 million dollars and imports from Iran to 184 million dollars.
     # Node 19 صادرات (first conjoined subject) stays nsubj; node 28 واردات (second conjoined subject) → conj of node 19
-    'test-s188': [('deprel', 28, 'conj')],
+    'test-s188': [('reparent', 28, 19, 'conj'), ('reparent', 27, 28, 'cc')],
 
     # test-s189
     # TEXT:    وی افزود: ارزش واردات نفتی هند از ایران در سال ۹۹ میلادی ۲۵۰ میلیون دلار و واردات غیرنفتی از ایران ۷۲۲ میلیون دلار برآورد شده است.
     # TRANSLIT: wī afzūd: arzaš-e wāredāt-e naftī-ye Hend az Īrān dar sāl-e 99-e mīlādī 250 mīlīyon dolār wa wāredāt-e ġayrnaftī az Īrān 722 mīlīyon dolār barāward šodah ast.
     # ENGLISH:  He added: the value of India's oil imports from Iran in year 99 was estimated at 250 million dollars and non-oil imports from Iran 722 million dollars.
     # Node 4 ارزش (first conjoined subject) stays nsubj; node 18 واردات (second conjoined subject) → conj of node 4
-    'test-s189': [('deprel', 18, 'conj')],
+    'test-s189': [ ('reparent', 18, 4, 'conj'), ('reparent', 17, 18, 'cc') ,
 
     # test-s411
     # TEXT:    این مرکز که دارای ۲ هزار و ۷۴۰ متر زیربناست در زمینی به مساحت ۱۸ هزار و ۴۶ متر، اهدایی اهالی روستای خوزنین احداث شده است.
     # TRANSLIT: īn markaz kah dārāy 2 hezār wa 740 metr-e zīrbanāst dar zamīnī bah masāḥat-e 18 hezār wa 46 metr, ehdāyī-ye ahālī-ye rowstāy-e Xooznīn eḥdāṯ šodah ast.
     # ENGLISH:  This center, which has 2740 square meters of floor space, in a land of 18046 square meters, donated by the residents of Khoznin village, has been constructed.
     # Node 2 مرکز (real subject) stays nsubj:pass; node 22 اهدایی (appositive modifier "donated by the residents") → appos of node 2
-    'test-s411': [('deprel', 22, 'appos')],
+    'test-s411': [('reparent', 22, 13, 'appos')],
 
     # test-s466
     # TEXT:    در یک طرف این سنگ‌نگاره نقش سه سرباز جاویدان با سپر و نیزه و در طرف دیگر آن نقش دو سرباز پارسی با نیزه حک شده است.
     # TRANSLIT: dar yak ṭaraf-e īn sangnegārah naqš-e seh sarbāz-e jāwīdān bā separ wa neyza wa dar ṭaraf-e dīgar-e ān naqš-e do sarbāz-e Pārsī bā neyza ḥakk šodah ast.
     # ENGLISH:  On one side of this relief is the design of three Immortal soldiers with shield and spear and on the other side the design of two Persian soldiers with a spear has been carved.
     # Node 6 نقش (first conjoined subject) stays nsubj; node 19 نقش (second conjoined subject) → conj of node 6
-    'test-s466': [('deprel', 19, 'conj')],
+    'test-s466': [('reparent', 19, 6, 'conj'), ('reparent', 14, 19, 'cc')],
 
     # test-s565
     # TEXT:    تیم ذوب‌آهن اصفهان نمایندهٔ ایران در این مسابقه‌ها آخرین بازی خود را مقابل تیم الوحده سوریه انجام خواهد داد.
     # TRANSLIT: tīm-e Zob-Āhan-e Eṣfahān namāyandeye Īrān dar īn mosābaqahā āxerīn bāzī-ye xod rā moqābel-e tīm-e Al-Waḥdah-ye Surīyyah anjām xāhad dād.
     # ENGLISH:  The Zob Ahan Isfahan team, Iran's representative in these competitions, will play their last match against Al-Wahda Syria team.
     # Node 1 تیم (real subject) stays nsubj; node 4 نمایندهٔ (appositive "Iran's representative") → appos of node 1
-    'test-s565': [('deprel', 4, 'appos')],
+    'test-s565': [('reparent', 4, 1, 'appos')],
 
     # test-s595
     # TEXT:    استاد جلال‌الدین همایی نیز کتاب شرح‌ما‌اشکل را که تا زمان او به صورتهای نامنقح به چاپ رسیده بود، تصحیح و به فارسی ترجمه و جزء کتاب خیامی‌نامه خود منتشر کرد ۶.
