@@ -32,13 +32,14 @@
     <tag name="X">254</tag><!-- بن, ابن, و, من, الله, علی, فی, احنف, ابی, المؤمنین -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="32">
+  <feats unique="33">
     <feat name="Case" value="Loc" upos="ADV">167</feat><!-- بالا, اینجا, آنجا, پیش, بیرون, پایین, آن‌جا, زیر -->
     <feat name="Case" value="Tem" upos="ADV">941</feat><!-- بعد, پس, پیش, حالا, امروز, قبل, اکنون, کنون, همیشه, دیروز -->
     <feat name="Case" value="Voc" upos="INTJ,NOUN">30</feat><!-- ای, پروردگارا, الهی, حافظا -->
     <feat name="Degree" value="Cmp" upos="ADJ">452</feat><!-- بیشتر, بیش, کمتر, بیشتری, بهتر, بالاتر, برتر, بزرگتر, فراتر, نزدیکتر -->
     <feat name="Degree" value="Pos" upos="ADJ">12602</feat><!-- اسلامی, دیگر, سیاسی, دوم, گذشته, فرهنگی, جدید, چند, ملی, پیدا -->
     <feat name="Degree" value="Sup" upos="ADJ">379</feat><!-- نخستین, بهترین, اولین, آخرین, بزرگترین, دومین, مهمترین, بیشترین, سومین, بالاترین -->
+    <feat name="ExtPos" value="ADV" upos="PRON">1</feat><!-- آن -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">163</feat><!-- کن, گو, بگو, بگیر, باش, بده, ببین, برو, بیا, بدانید -->
     <feat name="Mood" value="Ind" upos="AUX">319</feat><!-- خواهد, خواهند, نخواهد, دارد, داریم, دارند, خواهم, دارم, خواهیم, می‌باید -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2408</feat><!-- کنند, باشد, کند, شود, باشند, کنیم, کنم, بشود, دهد, کنید -->
@@ -67,45 +68,48 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">2595</feat><!-- شده, کرده, داشته, بوده, گرفته, داده, آمده, کرده‌اند, نوشته, ساخته -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
-    <dep name="acl">1</dep>
-    <dep name="acl:relcl">1424</dep>
-    <dep name="advcl">959</dep>
-    <dep name="advmod">3182</dep>
-    <dep name="amod">9273</dep>
-    <dep name="appos">584</dep>
+  <deps unique="42">
+    <dep name="acl">2</dep>
+    <dep name="acl:relcl">1421</dep>
+    <dep name="advcl">963</dep>
+    <dep name="advmod">3186</dep>
+    <dep name="amod">9275</dep>
+    <dep name="appos">588</dep>
     <dep name="aux">2282</dep>
     <dep name="aux:pass">270</dep>
     <dep name="case">19241</dep>
     <dep name="cc">7654</dep>
     <dep name="cc:preconj">48</dep>
-    <dep name="ccomp">4114</dep>
+    <dep name="ccomp">4116</dep>
     <dep name="compound">1951</dep>
     <dep name="compound:lvc">5476</dep>
     <dep name="compound:prt">103</dep>
-    <dep name="conj">8767</dep>
+    <dep name="conj">8775</dep>
     <dep name="cop">2469</dep>
-    <dep name="dep">380</dep>
-    <dep name="det">3810</dep>
+    <dep name="dep">381</dep>
+    <dep name="det">3818</dep>
     <dep name="det:predet">52</dep>
     <dep name="discourse">2</dep>
-    <dep name="dislocated">70</dep>
-    <dep name="fixed">1678</dep>
+    <dep name="dislocated">81</dep>
+    <dep name="fixed">1681</dep>
     <dep name="flat">3363</dep>
     <dep name="flat:foreign">168</dep>
-    <dep name="mark">5311</dep>
-    <dep name="nmod">7997</dep>
-    <dep name="nmod:poss">17357</dep>
-    <dep name="nsubj">8839</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">5312</dep>
+    <dep name="nmod">7998</dep>
+    <dep name="nmod:poss">17358</dep>
+    <dep name="nsubj">8749</dep>
     <dep name="nsubj:nc">22</dep>
+    <dep name="nsubj:outer">7</dep>
     <dep name="nsubj:pass">149</dep>
     <dep name="nummod">2796</dep>
-    <dep name="obj">3870</dep>
-    <dep name="obl">8551</dep>
-    <dep name="parataxis">207</dep>
+    <dep name="obj">3889</dep>
+    <dep name="obl">8558</dep>
+    <dep name="parataxis">211</dep>
     <dep name="punct">13444</dep>
+    <dep name="reparandum">1</dep>
     <dep name="root">5997</dep>
-    <dep name="vocative">67</dep>
+    <dep name="vocative">70</dep>
     <dep name="xcomp">995</dep>
   </deps>
 </treebank>
