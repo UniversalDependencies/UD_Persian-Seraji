@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Persian-Seraji:
-commit e53af38f4adc0edcdc056b8a2378cad791dc322a
+commit 4900de74525c602901f5ac68170d5e71e5ee1ef3
+Merge: b702956 7dfc5e0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:27:33 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fa_seraji'
 Language code (from CoNLL-U file name) = 'fa'
@@ -21,7 +21,7 @@ Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 99846 out of 152923 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 29 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-dev.conllu
@@ -48,22 +48,16 @@ Genres: found 7 out of 18 known.
 [Line 1262 Sent dev-s39]: [L3 WARNING fixed-without-extpos] Fixed expression 'در مقابل' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
 [Line 1949 Sent dev-s65]: [L3 SYNTAX too-many-objects] Multiple direct objects [21, 25] ('ضد\u200cانقلاب ḍdānqlāb', 'مرزهای mrzhāī') under the predicate 'کنید knīd'.
-[Line 3715 Sent dev-s118]: [L3 SYNTAX too-many-subjects] Multiple subjects [23, 27] ('امور āmūr', 'او āū') under the predicate 'می‌خواهد mīḫūāhd' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
 [Line 6349 Sent dev-s217]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
-[Line 8461 Sent dev-s280]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 21] ('بسیاری bsīārī', 'گروهی grūhī') under the predicate 'می‌کنند mīknnd' not subtyped as ':outer'.
 [Line 8461 Sent dev-s280]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 25] ('جایزه jāīzh', 'یکی īkī') under the predicate 'می‌کنند mīknnd'.
-[Line 9041 Sent dev-s296]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 9] ('تکرار tkrār', 'تیم tīm') under the predicate 'یافت īāft' not subtyped as ':outer'.
-[Line 9318 Sent dev-s305]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 11] ('بهمن bhmn', 'امیدرضا āmīdrḍā') under the predicate 'کردند krdnd' not subtyped as ':outer'.
 [Line 12440 Sent dev-s403]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('همان hmān')
 [Line 14478 Sent dev-s469]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 9] ('زیبایی zībāīī', 'ملاحت mlāḥt') under the predicate 'آموخت Āmūḫt'.
-[Line 14801 Sent dev-s479]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 6] ('وصله ūṣlh', 'فایل fāīl') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
-...suppressing further messages regarding ERROR/SYNTAX
+[Line 15085 Sent dev-s491]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('نزدیک nzdīk')
+[Line 17918 Sent dev-s586]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'ADJ' ('چند čnd')
+[Line 18030 Sent dev-s589]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'ADJ' ('چند čnd')
 Warnings: 570
-SYNTAX errors: 13
-*** FAILED *** with 13 errors
+SYNTAX errors: 8
+*** FAILED *** with 8 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-test.conllu
 [Line 26 Sent test-s2]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
@@ -74,10 +68,6 @@ Exit code: 1
 [Line 195 Sent test-s7]: [L3 WARNING pron-det-without-prontype] The word 'این āīn' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 246 Sent test-s8]: [L3 WARNING pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 337 Sent test-s11]: [L3 WARNING pron-det-without-prontype] The word 'همین hmīn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 433 Sent test-s16]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 4] ('هوا hūā', 'زمین zmīn') under the predicate 'پرخروش prḫrūš' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
 [Line 553 Sent test-s22]: [L3 WARNING fixed-without-extpos] Fixed expression 'به زیر' does not have the 'ExtPos' feature
 [Line 591 Sent test-s24]: [L3 WARNING pron-det-without-prontype] The word 'همان hmān' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 636 Sent test-s25]: [L3 WARNING fixed-without-extpos] Fixed expression 'متصل به هم' does not have the 'ExtPos' feature
@@ -92,17 +82,12 @@ Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 1449 Sent test-s55]: [L3 WARNING fixed-without-extpos] Fixed expression 'به دلیل این که' does not have the 'ExtPos' feature
 [Line 1476 Sent test-s55]: [L3 WARNING fixed-without-extpos] Fixed expression 'نسبت به' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
-[Line 6059 Sent test-s188]: [L3 SYNTAX too-many-subjects] Multiple subjects [19, 28] ('صادرات ṣādrāt', 'واردات ūārdāt') under the predicate 'بالغ bālġ' not subtyped as ':outer'.
-[Line 6090 Sent test-s189]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 18] ('ارزش ārzš', 'واردات ūārdāt') under the predicate 'برآورد brĀūrd' not subtyped as ':outer'.
 [Line 11500 Sent test-s388]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 18] ('دین dīn', 'اطاعت āṭāʿt') under the predicate 'می‌دانستند mīdānstnd'.
-[Line 12228 Sent test-s411]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 22] ('مرکز mrkz', 'اهدایی āhdāīī') under the predicate 'احداث āḥdāṯ' not subtyped as ':outer'.
 [Line 13758 Sent test-s458]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 14] ('تحصیلات tḥṣīlāt', 'دوره dūrh') under the predicate 'رساند rsānd'.
-[Line 14003 Sent test-s466]: [L3 SYNTAX too-many-subjects] Multiple subjects [6, 19] ('نقش nqš', 'نقش nqš') under the predicate 'حک ḥk' not subtyped as ':outer'.
-[Line 17208 Sent test-s565]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 4] ('تیم tīm', 'نمایندهٔ nmāīndhٔ') under the predicate 'داد dād' not subtyped as ':outer'.
-[Line 18315 Sent test-s595]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 5] ('استاد āstād', 'کتاب ktāb') under the predicate 'کرد krd' not subtyped as ':outer'.
+[Line 18315 Sent test-s595]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 26] ('کتاب ktāb', 'جزء jzʾ') under the predicate 'کرد krd'.
 Warnings: 432
-SYNTAX errors: 9
-*** FAILED *** with 9 errors
+SYNTAX errors: 3
+*** FAILED *** with 3 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang fa --max-err=10 UD_Persian-Seraji/fa_seraji-ud-train.conllu
 [Line 6 Sent train-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'خارج از' does not have the 'ExtPos' feature
@@ -131,19 +116,16 @@ Exit code: 1
 [Line 1182 Sent train-s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'از گرفته' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
 [Line 2176 Sent train-s105]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
-[Line 2528 Sent train-s128]: [L3 SYNTAX too-many-subjects] Multiple subjects [13, 19] ('ساعت sāʿt', 'ساعت sāʿt') under the predicate 'می‌دهد mīdhd' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
-[Line 2837 Sent train-s149]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 18] ('دستی dstī', 'احمد āḥmd') under the predicate 'برمی‌دارد brmīdārd' not subtyped as ':outer'.
 [Line 3556 Sent train-s201]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'PRON' ('این āīn')
-[Line 3565 Sent train-s201]: [L3 SYNTAX too-many-subjects] Multiple subjects [9, 14] ('این\u200cها āīnhā', 'روزه\u200cدار rūzhdār') under the predicate 'می‌کند mīknd' not subtyped as ':outer'.
 [Line 3600 Sent train-s203]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('به bh')
-[Line 3987 Sent train-s226]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 4] ('حسینی ḥsīnī', 'تو tū') under the predicate 'ببینم bbīnm' not subtyped as ':outer'.
+[Line 4256 Sent train-s247]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM' ('یک īk')
+[Line 4471 Sent train-s263]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('در dr')
+[Line 6514 Sent train-s389]: [L3 SYNTAX too-many-objects] Multiple direct objects [12, 14] ('روزه\u200cمو rūzhmū', 'روزه\u200cمو rūzhmū') under the predicate 'خوردم ḫūrdm'.
+[Line 6531 Sent train-s390]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 10] ('ه\u200cق\u200cه\u200cق hqhq', 'ش š') under the predicate 'زده zdh'.
 ...suppressing further messages regarding ERROR/SYNTAX
-Warnings: 4217
-SYNTAX errors: 156
-*** FAILED *** with 156 errors
+Warnings: 4219
+SYNTAX errors: 78
+*** FAILED *** with 78 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
@@ -152,7 +134,7 @@ Validity: 0.01
 (weight=0.37037037037037) * (score{size}=0.728157603098805) = 0.269688001147705
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
-(weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.774712633623318) * (availability=1) * (validity=0.01) = 0.00774712633623318
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.780718639629324) * (availability=1) * (validity=0.01) = 0.00780718639629324
 STARS = 0
-UD_Persian-Seraji	0.00774712633623318	0
+UD_Persian-Seraji	0.00780718639629324	0
